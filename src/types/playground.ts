@@ -62,11 +62,30 @@ export interface WeatherData {
   uvIndex: number;
 }
 
+export type TimeBlock = 'morning' | 'afternoon' | 'evening';
+
+export interface TimeBlockForecast {
+  timeBlock: TimeBlock;
+  label: string; // "Morning (6am-12pm)"
+  temperature: number;
+  uvIndex: number;
+  weathercode: number;
+  windSpeed: number;
+  feelsLike: number; // wind chill adjusted
+}
+
+export interface WeatherWithForecast extends WeatherData {
+  feelsLike: number; // wind chill for current conditions
+  timeBlocks: TimeBlockForecast[];
+}
+
 export interface GoNowScore {
   score: number;
   status: 'go' | 'caution' | 'avoid';
-  message: string;
+  message: string; // contextual, not generic
   tips: string[];
+  bestTimeBlock?: TimeBlock; // "try afternoon instead"
+  bestTimeBlockScore?: number;
 }
 
 export interface PlaygroundWithScore extends Playground {
