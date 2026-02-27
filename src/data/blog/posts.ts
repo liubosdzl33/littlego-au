@@ -15,6 +15,70 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'weekend-planner-melbourne-families-feb-28-mar-1-2026',
+    title: 'Weekend Planner: Melbourne Family Fun for February 28 – March 1',
+    excerpt: 'Warm weather, colourful festivals, and plenty of outdoor play — here\'s your family weekend sorted with playground picks, events, and a backup plan if the clouds roll in.',
+    content: `
+      <p>Late February in Melbourne is that golden sweet spot: the scorching days have eased off, the evenings are longer, and the city is buzzing with end-of-summer energy. This weekend looks ideal for getting outdoors with the kids — here's how to make the most of it.</p>
+
+      <h2>🌤️ Weekend Weather at a Glance</h2>
+      <p><strong>Saturday:</strong> Around 22°C with partly cloudy skies — genuinely perfect playground weather. UV will still be moderate, so hats and sunscreen are non-negotiable.<br>
+      <strong>Sunday:</strong> Slightly cooler at 20°C with a chance of light showers in the afternoon. Plan your outdoor adventures for the morning and have an indoor backup ready.</p>
+
+      <h2>🎪 What's On This Weekend</h2>
+
+      <h3>Antipodes Festival — Lonsdale Street, CBD</h3>
+      <p>Melbourne's beloved Greek festival is back for its 38th year, transforming Lonsdale Street into a vibrant celebration of Greek-Australian culture. For families, this means incredible street food (the loukoumades alone are worth the trip), live music, and dancing. Kids love the atmosphere, and there's usually face painting and activities scattered along the route. It's free to wander, and the CBD location means easy access via the free tram zone.</p>
+
+      <h3>Holi Festival — Docklands</h3>
+      <p>If your kids have never experienced a Holi colour festival, this is the one. Docklands lights up with music, dance performances, and of course, clouds of colourful powder. A few tips from parents who've done this before: dress everyone in white (it looks amazing in photos), bring a change of clothes, and leave the pram at home — a carrier works better in the crowds. Kids absolutely love it.</p>
+
+      <h3>Sydney Road Street Party — Brunswick</h3>
+      <p>Kicking off the Brunswick Music Festival, this is Melbourne's biggest and longest-running street party. Sydney Road closes to traffic and fills with live music stages, food stalls, craft vendors, and community groups. It's wonderfully chaotic in the best way. For families with younger kids, arrive earlier in the day when it's less crowded — by mid-afternoon it gets pretty packed.</p>
+
+      <h3>Tinkertown — Scienceworks (Ongoing)</h3>
+      <p>If Sunday's showers arrive, Scienceworks has you covered. Their hands-on Tinkertown exhibition is designed for budding engineers and creators aged 3–8. Kids can build, design, and problem-solve their way through an interactive village. It's included with general admission and genuinely engaging — not one of those exhibits where parents do all the work.</p>
+
+      <h2>🛝 Playground Picks for This Weekend</h2>
+
+      <h3>Saturday: Royal Park Nature Play, Parkville</h3>
+      <p>With mild conditions and partial cloud cover, Saturday is made for a nature playground. Royal Park's nature play area is one of Melbourne's best — fallen logs to climb, rocks to scramble over, sand play, and a water pump area that toddlers find endlessly fascinating. There's decent shade from mature trees, and you're right next to the Royal Park train station. Pack a picnic and claim a spot under the elms.</p>
+      <p><strong>Nearby bonus:</strong> Melbourne Zoo is just across the road if the kids want more adventure.</p>
+
+      <h3>Sunday Morning: Flagstaff Gardens, West Melbourne</h3>
+      <p>If you want to beat any afternoon rain, Flagstaff Gardens is a smart Sunday morning pick. The recently upgraded playground has excellent equipment for toddlers and older kids, with good shade coverage and clean facilities. It's in the free tram zone, there are cafés nearby on William Street for your coffee fix, and if rain does start, you can duck into the State Library or Melbourne Central in minutes.</p>
+
+      <h2>🎒 What to Pack This Weekend</h2>
+      <ul>
+        <li><strong>Saturday:</strong> Sunscreen, hats, water bottles, a picnic blanket, and snacks (always more snacks than you think you need)</li>
+        <li><strong>Sunday:</strong> Everything above plus a lightweight rain jacket for each kid and a spare set of clothes in the car</li>
+        <li><strong>If heading to Holi Festival:</strong> Old white clothes, wet wipes (so many wet wipes), and a plastic bag for colourful clothes afterwards</li>
+      </ul>
+
+      <h2>🍦 Family-Friendly Eating</h2>
+      <p>If you're in the city for the Antipodes Festival, grab lunch from the street food stalls — souvlaki, spanakopita, and baklava are all toddler-approved in our experience. For something sit-down, <strong>Brunetti</strong> on Lonsdale Street is right in the thick of the festival and has high chairs and a kids' menu.</p>
+      <p>Near Royal Park, <strong>Pidapipó Laboratorio</strong> in Carlton is a short drive for what might be Melbourne's best gelato. Yes, it's worth the detour.</p>
+
+      <h2>📋 Your Weekend Game Plan</h2>
+
+      <h4>Saturday</h4>
+      <p>Morning at Royal Park playground → picnic lunch → afternoon wander through the Antipodes Festival or Holi Festival in Docklands.</p>
+
+      <h4>Sunday</h4>
+      <p>Early playground session at Flagstaff Gardens → brunch on William Street → if rain arrives, head to Scienceworks for Tinkertown or the State Library's kids' section.</p>
+
+      <p>Whatever you end up doing, the last weekend of February is one of those Melbourne moments worth savouring. Summer's not quite done with us yet — get out there and enjoy it with your little ones.</p>
+
+      <p>Need more playground ideas? Use our <a href="/search?category=playground">playground finder</a> to discover spots near you, filtered by age group and facilities.</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-02-28T07:00:00+11:00',
+    category: 'activities',
+    tags: ['weekend planner', 'melbourne events', 'family activities', 'playgrounds', 'february 2026', 'antipodes festival', 'holi festival'],
+    seoTitle: 'Melbourne Family Weekend Planner Feb 28 – Mar 1, 2026 | Playgrounds, Events & Activities',
+    seoDescription: 'Plan your family weekend in Melbourne with our guide to the best playgrounds, festivals like Antipodes and Holi, and rainy day backup plans. Perfect for families with toddlers and young kids.'
+  },
+  {
     slug: 'best-shaded-playgrounds-south-east-melbourne',
     title: 'Best Shaded Playgrounds in South East Melbourne',
     excerpt: 'Discover the top family-friendly playgrounds with excellent shade coverage in South East Melbourne, perfect for protecting your little ones from Australia\'s harsh UV rays.',
