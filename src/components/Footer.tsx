@@ -97,8 +97,6 @@ export default function Footer() {
                 <EmailIcon />
                 Contact Us
               </a>
-              <a href="#" className="footer-link">Privacy Policy</a>
-              <a href="#" className="footer-link">Terms of Service</a>
             </div>
           </div>
 

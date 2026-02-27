@@ -244,6 +244,17 @@ export default function SearchResults() {
                   onChange={(e) => setSearchPostcode(e.target.value)}
                   placeholder="e.g. 3000, 3163, 3204"
                   className="form-input"
+                  style={{
+                    height: '52px',
+                    fontSize: '18px',
+                    color: '#1b1b1e',
+                    backgroundColor: '#ffffff',
+                    border: '2px solid #dddddd',
+                    borderRadius: '12px',
+                    boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+                    padding: 'var(--space-md)',
+                    transition: 'all 0.2s ease'
+                  }}
                 />
               </div>
               <div className="pure-u-1 pure-u-sm-1-4">
@@ -652,22 +663,25 @@ export default function SearchResults() {
                   overflow: 'hidden',
                   transition: 'all 0.2s ease'
                 }}>
-                  <div className="playground-card" style={{ display: 'flex', minHeight: '200px' }}>
+                  <div className="playground-card" style={{ display: 'flex', minHeight: '160px', position: 'relative' }}>
                     
-                    {/* Left Side - Image */}
+                    {/* Left Side - Square Image */}
                     <div className="playground-image" style={{ 
                       width: '160px', 
+                      height: '160px',
                       flexShrink: 0,
-                      position: 'relative'
+                      position: 'relative',
+                      aspectRatio: '1/1'
                     }}>
                       <img
-                        src={getPlaygroundImage(playground)}
+                        src={`${getPlaygroundImage(playground)}?w=400&h=400&fit=crop`}
                         alt={`${playground.name} playground`}
                         style={{
                           width: '100%',
                           height: '100%',
                           objectFit: 'cover',
-                          display: 'block'
+                          display: 'block',
+                          aspectRatio: '1/1'
                         }}
                       />
                       {/* Go Now Score Badge */}
@@ -685,197 +699,71 @@ export default function SearchResults() {
                           color: 'white',
                           boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
                         }}>
-                          {playground.goNowScore.status === 'go' ? '🟢' :
-                           playground.goNowScore.status === 'caution' ? '🟡' : '🔴'} 
                           {playground.goNowScore.score}/10
                         </div>
                       )}
                     </div>
 
-                    {/* Right Side - Info */}
+                    {/* Right Side - Simplified Info */}
                     <div style={{ 
                       flex: 1, 
                       padding: 'var(--space-lg)',
                       display: 'flex',
-                      flexDirection: 'column',
-                      justifyContent: 'space-between'
+                      flexDirection: 'column'
                     }}>
-                      <div>
-                        {/* Title and Address */}
-                        <div style={{ marginBottom: 'var(--space-sm)' }}>
-                          <h3 style={{ 
-                            fontSize: 'var(--text-xl)', 
-                            fontWeight: '700', 
-                            color: 'var(--color-text-dark)', 
-                            marginBottom: 'var(--space-xs)',
-                            lineHeight: '1.3'
-                          }}>
-                            {playground.name}
-                          </h3>
-                          <p style={{ 
-                            color: 'var(--color-text-medium)', 
-                            fontSize: 'var(--text-sm)',
-                            margin: 0
-                          }}>
-                            {playground.address}
-                            {playground.distance && (
-                              <span style={{ color: 'var(--color-text-light)' }}>
-                                {' • '}{playground.distance.toFixed(1)} km
-                              </span>
-                            )}
-                          </p>
-                        </div>
-
-                        {/* Age Tags */}
-                        <div style={{ 
-                          display: 'flex', 
-                          flexWrap: 'wrap', 
-                          alignItems: 'center',
-                          gap: 'var(--space-xs)', 
-                          marginBottom: 'var(--space-sm)' 
-                        }}>
-                          {playground.ageTags.slice(0, 2).map((tag) => {
-                            const tagInfo = getAgeTagInfo(tag);
-                            return (
-                              <span key={tag} style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: 'var(--space-xs)',
-                                padding: 'var(--space-xs) var(--space-sm)',
-                                borderRadius: 'var(--radius-full)',
-                                fontSize: 'var(--text-xs)',
-                                fontWeight: '500',
-                                backgroundColor: tagInfo.color.includes('pink') ? '#fce7f3' :
-                                  tagInfo.color.includes('blue') ? '#dbeafe' :
-                                  tagInfo.color.includes('green') ? '#dcfce7' : '#f3e8ff',
-                                color: tagInfo.color.includes('pink') ? '#be185d' :
-                                  tagInfo.color.includes('blue') ? '#1d4ed8' :
-                                  tagInfo.color.includes('green') ? '#166534' : '#7c3aed'
-                              }}>
-                                <span>{tagInfo.emoji}</span>
-                                <span>{tagInfo.label.split(' ')[0]}</span>
-                              </span>
-                            );
-                          })}
-                        </div>
-
-                        {/* Facility Chips */}
-                        <div style={{ 
-                          display: 'flex', 
-                          flexWrap: 'wrap', 
-                          alignItems: 'center',
-                          gap: 'var(--space-xs)', 
-                          marginBottom: 'var(--space-sm)' 
-                        }}>
-                          {/* Shade Level */}
-                          <span style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: 'var(--space-xs)',
-                            padding: 'var(--space-xs) var(--space-sm)',
-                            borderRadius: 'var(--radius-full)',
-                            fontSize: 'var(--text-xs)',
-                            fontWeight: '500',
-                            backgroundColor: playground.shadeLevel === 'minimal' ? '#fef2f2' :
-                              playground.shadeLevel === 'partial' ? '#fefce8' : '#f0fdf4',
-                            color: playground.shadeLevel === 'minimal' ? '#dc2626' :
-                              playground.shadeLevel === 'partial' ? '#d97706' : '#059669'
-                          }}>
-                            <span>{getShadeInfo(playground.shadeLevel).emoji}</span>
-                            <span>{getShadeInfo(playground.shadeLevel).label.replace(' Shade', '')}</span>
-                          </span>
-
-                          {/* Key Facilities */}
-                          {['fenced', 'toilets', 'parking', 'water_fountain', 'bbq'].filter(facility => 
-                            playground.facilities.includes(facility as any)
-                          ).slice(0, 4).map(facility => {
-                            const facilityInfo = getFacilityInfo(facility as any);
-                            return (
-                              <span key={facility} style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: 'var(--space-xs)',
-                                padding: 'var(--space-xs) var(--space-sm)',
-                                borderRadius: 'var(--radius-full)',
-                                fontSize: 'var(--text-xs)',
-                                fontWeight: '500',
-                                backgroundColor: '#f1f5f9',
-                                color: '#475569'
-                              }}>
-                                <span>{facilityInfo.emoji}</span>
-                                <span>{facilityInfo.label}</span>
-                              </span>
-                            );
-                          })}
-
-                          {/* Surface Type */}
-                          <span style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: 'var(--space-xs)',
-                            padding: 'var(--space-xs) var(--space-sm)',
-                            borderRadius: 'var(--radius-full)',
-                            fontSize: 'var(--text-xs)',
-                            fontWeight: '500',
-                            backgroundColor: playground.surface === 'rubber' ? '#ecfdf5' : '#f8fafc',
-                            color: playground.surface === 'rubber' ? '#059669' : '#64748b'
-                          }}>
-                            <span>{playground.surface === 'rubber' ? '🛡️' : playground.surface === 'sand' ? '🏖️' : playground.surface === 'mulch' ? '🌰' : '🌱'}</span>
-                            <span style={{ textTransform: 'capitalize' }}>{playground.surface}</span>
-                          </span>
-                        </div>
-
-                        {/* Equipment */}
-                        <div style={{ 
-                          fontSize: 'var(--text-sm)', 
-                          color: 'var(--color-text-medium)',
-                          marginBottom: 'var(--space-sm)'
-                        }}>
-                          {playground.equipment.slice(0, 4).map((item, index) => {
-                            const equipmentInfo = getEquipmentInfo ? getEquipmentInfo(item) : { label: item, emoji: '🎪' };
-                            return (
-                              <span key={item}>
-                                {index > 0 && ', '}
-                                {equipmentInfo.label}
-                              </span>
-                            );
-                          })}
-                          {playground.equipment.length > 4 && (
-                            <span style={{ color: 'var(--color-text-light)' }}>
-                              {', +'}{playground.equipment.length - 4} more
-                            </span>
-                          )}
-                        </div>
-
-                        {/* Nearby Facilities */}
-                        {playground.nearbyFacilities && playground.nearbyFacilities.length > 0 && (
-                          <div style={{ 
-                            fontSize: 'var(--text-xs)', 
-                            color: 'var(--color-text-light)',
-                            fontStyle: 'italic',
-                            marginBottom: 'var(--space-sm)'
-                          }}>
-                            📍 {playground.nearbyFacilities.slice(0, 2).join(' • ')}
-                            {playground.nearbyFacilities.length > 2 && ` • +${playground.nearbyFacilities.length - 2} more`}
-                          </div>
-                        )}
-                      </div>
-
-                      {/* Bottom - Go Now Message */}
-                      {playground.goNowScore && (
-                        <div style={{
-                          backgroundColor: playground.goNowScore.status === 'go' ? '#f0f9ff' :
-                            playground.goNowScore.status === 'caution' ? '#fefce8' : '#fef2f2',
-                          borderRadius: 'var(--radius-lg)',
-                          padding: 'var(--space-sm)',
+                      {/* Title and Address */}
+                      <h3 style={{ 
+                        fontSize: 'var(--text-lg)', 
+                        fontWeight: '700', 
+                        color: 'var(--color-text-dark)', 
+                        marginBottom: 'var(--space-xs)',
+                        lineHeight: '1.3'
+                      }}>
+                        {playground.name}
+                      </h3>
+                      <p style={{ 
+                        color: 'var(--color-text-medium)', 
+                        fontSize: 'var(--text-sm)',
+                        marginBottom: 'var(--space-sm)'
+                      }}>
+                        {playground.address}
+                      </p>
+                      
+                      {/* Distance */}
+                      {playground.distance && (
+                        <p style={{ 
+                          color: 'var(--color-text-light)', 
                           fontSize: 'var(--text-sm)',
-                          fontStyle: 'italic',
-                          color: playground.goNowScore.status === 'go' ? '#1e40af' :
-                            playground.goNowScore.status === 'caution' ? '#92400e' : '#991b1b'
+                          marginBottom: 'var(--space-md)'
                         }}>
-                          "{playground.goNowScore.message}"
-                        </div>
+                          {playground.distance.toFixed(1)} km away
+                        </p>
                       )}
+
+                      {/* Top Facility Icons - Small and Inline */}
+                      <div style={{ 
+                        display: 'flex', 
+                        alignItems: 'center',
+                        gap: 'var(--space-sm)', 
+                        fontSize: '16px'
+                      }}>
+                        {/* Shade Level Icon */}
+                        <span title={`${getShadeInfo(playground.shadeLevel).label}`}>
+                          {getShadeInfo(playground.shadeLevel).emoji}
+                        </span>
+
+                        {/* Top 3-4 Facility Icons */}
+                        {['fenced', 'toilets', 'parking', 'water_fountain'].filter(facility => 
+                          playground.facilities.includes(facility as any)
+                        ).slice(0, 3).map(facility => {
+                          const facilityInfo = getFacilityInfo(facility as any);
+                          return (
+                            <span key={facility} title={facilityInfo.label}>
+                              {facilityInfo.emoji}
+                            </span>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -997,14 +885,26 @@ export default function SearchResults() {
           position: relative;
         }
         
+        /* Search input focus styling */
+        input[type="text"]:focus {
+          border-color: #52b788 !important;
+          box-shadow: 0 2px 12px rgba(82,183,136,0.2) !important;
+          outline: none;
+        }
+        input[type="text"]::placeholder {
+          color: #9ca3af;
+        }
+        
         /* Mobile responsiveness for playground cards */
         @media (max-width: 768px) {
           .playground-card {
             flex-direction: column !important;
+            min-height: auto !important;
           }
           .playground-image {
             width: 100% !important;
-            height: 150px !important;
+            height: 200px !important;
+            aspect-ratio: auto !important;
           }
         }
       `}</style>
