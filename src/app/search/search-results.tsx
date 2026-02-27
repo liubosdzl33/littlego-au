@@ -3,9 +3,9 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { PlaygroundWithScore, WeatherData, AgeTag, Facility } from '@/types/playground';
-import { fetchWeatherData, calculateGoNowScore, getWeatherEmoji, getWindDescription } from '@/lib/weather';
-import { getPostcodeCoordinates, getPlaygroundsByLocation, getAgeTagInfo, getFacilityInfo, getShadeInfo } from '@/lib/playgrounds';
+import { PlaygroundWithScore, WeatherData, WeatherWithForecast, AgeTag, Facility } from '@/types/playground';
+import { fetchWeatherData, fetchWeatherWithForecast, calculateGoNowScore, getWeatherEmoji, getWindDescription } from '@/lib/weather';
+import { getPostcodeCoordinates, getPlaygroundsByLocation, getAgeTagInfo, getFacilityInfo, getShadeInfo, getPlaygroundImage, getEquipmentInfo } from '@/lib/playgrounds';
 
 // SVG Icons
 const SearchIcon = () => (
@@ -43,7 +43,7 @@ const LightbulbIcon = () => (
 
 export default function SearchResults() {
   const [playgrounds, setPlaygrounds] = useState<PlaygroundWithScore[]>([]);
-  const [weather, setWeather] = useState<WeatherData | null>(null);
+  const [weather, setWeather] = useState<WeatherWithForecast | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   
@@ -51,9 +51,17 @@ export default function SearchResults() {
   const [selectedAgeGroup, setSelectedAgeGroup] = useState<AgeTag | ''>('');
   const [selectedShadeLevel, setSelectedShadeLevel] = useState<string>('');
   const [selectedFacilities, setSelectedFacilities] = useState<Facility[]>([]);
+  const [showFilters, setShowFilters] = useState(false);
+  
+  // Planning ahead state
+  const [selectedTimeSlot, setSelectedTimeSlot] = useState<string>('now');
   
   // Search state
   const [searchPostcode, setSearchPostcode] = useState('');
+  
+  // Time awareness
+  const currentHour = new Date().getHours();
+  const isEvening = currentHour >= 19 || currentHour < 6;
   
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -83,8 +91,8 @@ export default function SearchResults() {
           return;
         }
 
-        // Fetch weather data
-        const weatherData = await fetchWeatherData(coords.lat, coords.lng);
+        // Fetch weather data with forecast
+        const weatherData = await fetchWeatherWithForecast(coords.lat, coords.lng);
         setWeather(weatherData);
 
         // Get nearby playgrounds
@@ -257,6 +265,74 @@ export default function SearchResults() {
           </form>
         </div>
 
+        {/* Evening Planning Banner */}
+        {isEvening && (
+          <div className="card mb-lg" style={{ 
+            padding: 'var(--space-lg)',
+            background: 'linear-gradient(90deg, #f0f9ff 0%, #e0f2fe 100%)',
+            border: '1px solid #0ea5e9'
+          }}>
+            <div style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: 'var(--space-md)',
+              fontSize: 'var(--text-lg)',
+              color: '#0c4a6e',
+              fontWeight: '600'
+            }}>
+              <span style={{ fontSize: '2rem' }}>🌆</span>
+              <span>It's evening — showing recommendations for tomorrow morning ☀️</span>
+            </div>
+          </div>
+        )}
+
+        {/* Plan Ahead Selector */}
+        <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
+          <h3 style={{ 
+            fontWeight: '600', 
+            color: 'var(--color-text-dark)', 
+            marginBottom: 'var(--space-md)',
+            fontSize: 'var(--text-lg)'
+          }}>
+            When are you planning to go?
+          </h3>
+          <div style={{ 
+            display: 'flex', 
+            flexWrap: 'wrap', 
+            gap: 'var(--space-xs)',
+            marginBottom: 'var(--space-sm)'
+          }}>
+            {[
+              { value: 'now', label: 'Right now' },
+              { value: 'tomorrow-morning', label: 'Tomorrow morning' },
+              { value: 'tomorrow-afternoon', label: 'Tomorrow afternoon' },
+              { value: 'saturday-morning', label: 'This Saturday morning' },
+              { value: 'saturday-afternoon', label: 'This Saturday afternoon' },
+              { value: 'sunday-morning', label: 'This Sunday morning' },
+              { value: 'sunday-afternoon', label: 'This Sunday afternoon' }
+            ].map(option => (
+              <button
+                key={option.value}
+                onClick={() => setSelectedTimeSlot(option.value)}
+                style={{
+                  padding: 'var(--space-sm) var(--space-md)',
+                  borderRadius: 'var(--radius-full)',
+                  fontSize: 'var(--text-sm)',
+                  fontWeight: '500',
+                  transition: 'all 0.2s ease',
+                  border: '1px solid',
+                  cursor: 'pointer',
+                  backgroundColor: selectedTimeSlot === option.value ? 'var(--color-coral)' : 'var(--color-white)',
+                  color: selectedTimeSlot === option.value ? 'var(--color-white)' : 'var(--color-text-medium)',
+                  borderColor: selectedTimeSlot === option.value ? 'var(--color-coral)' : '#e5e7eb'
+                }}
+              >
+                {option.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Weather & Location Info */}
         {weather && (
           <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
@@ -274,7 +350,7 @@ export default function SearchResults() {
                   {filteredPlaygrounds.length !== playgrounds.length && (
                     <span>Filtered from {playgrounds.length} total • </span>
                   )}
-                  Current conditions below
+                  {selectedTimeSlot === 'now' ? 'Current conditions below' : 'Forecast conditions below'}
                 </p>
               </div>
               
@@ -326,196 +402,239 @@ export default function SearchResults() {
           </div>
         )}
 
-        {/* Filters Section */}
-        <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
-          <h3 style={{ 
-            fontWeight: '600', 
-            color: 'var(--color-text-dark)', 
+        {/* Collapsible Filters */}
+        <div className="mb-lg">
+          {/* Filter Button */}
+          <div style={{ 
+            display: 'flex', 
+            justifyContent: 'space-between', 
+            alignItems: 'center',
             marginBottom: 'var(--space-md)' 
           }}>
-            Filter playgrounds
-          </h3>
-          
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-md)' }}>
-            {/* Age Group Filter */}
-            <div>
-              <label style={{ 
-                display: 'block', 
-                fontSize: 'var(--text-sm)', 
-                fontWeight: '500', 
-                color: 'var(--color-text-medium)', 
-                marginBottom: 'var(--space-xs)' 
-              }}>
-                Age Group
-              </label>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
-                <button
-                  onClick={() => setSelectedAgeGroup('')}
-                  style={{
-                    padding: 'var(--space-xs) var(--space-sm)',
-                    borderRadius: 'var(--radius-full)',
-                    fontSize: 'var(--text-sm)',
-                    fontWeight: '500',
-                    transition: 'all 0.2s ease',
-                    border: 'none',
-                    cursor: 'pointer',
-                    backgroundColor: selectedAgeGroup === '' ? 'var(--color-coral)' : 'var(--color-cream-light)',
-                    color: selectedAgeGroup === '' ? 'var(--color-white)' : 'var(--color-text-medium)'
-                  }}
-                >
-                  All Ages
-                </button>
-                {(['toddler', 'kinder', 'primary', 'older'] as AgeTag[]).map(age => {
-                  const ageInfo = getAgeTagInfo(age);
-                  const isSelected = selectedAgeGroup === age;
-                  return (
-                    <button
-                      key={age}
-                      onClick={() => setSelectedAgeGroup(age === selectedAgeGroup ? '' : age)}
-                      style={{
-                        padding: 'var(--space-xs) var(--space-sm)',
-                        borderRadius: 'var(--radius-full)',
-                        fontSize: 'var(--text-sm)',
-                        fontWeight: '500',
-                        transition: 'all 0.2s ease',
-                        border: 'none',
-                        cursor: 'pointer',
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: 'var(--space-xs)',
-                        backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
-                        color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
-                      }}
-                    >
-                      <span>{ageInfo.emoji}</span>
-                      <span>{ageInfo.label}</span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Shade Level Filter */}
-            <div>
-              <label style={{ 
-                display: 'block', 
-                fontSize: 'var(--text-sm)', 
-                fontWeight: '500', 
-                color: 'var(--color-text-medium)', 
-                marginBottom: 'var(--space-xs)' 
-              }}>
-                Shade Level
-              </label>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
-                <button
-                  onClick={() => setSelectedShadeLevel('')}
-                  style={{
-                    padding: 'var(--space-xs) var(--space-sm)',
-                    borderRadius: 'var(--radius-full)',
-                    fontSize: 'var(--text-sm)',
-                    fontWeight: '500',
-                    transition: 'all 0.2s ease',
-                    border: 'none',
-                    cursor: 'pointer',
-                    backgroundColor: selectedShadeLevel === '' ? 'var(--color-coral)' : 'var(--color-cream-light)',
-                    color: selectedShadeLevel === '' ? 'var(--color-white)' : 'var(--color-text-medium)'
-                  }}
-                >
-                  Any Shade
-                </button>
-                {['minimal', 'partial', 'full'].map(shade => {
-                  const shadeInfo = getShadeInfo(shade);
-                  const isSelected = selectedShadeLevel === shade;
-                  return (
-                    <button
-                      key={shade}
-                      onClick={() => setSelectedShadeLevel(shade === selectedShadeLevel ? '' : shade)}
-                      style={{
-                        padding: 'var(--space-xs) var(--space-sm)',
-                        borderRadius: 'var(--radius-full)',
-                        fontSize: 'var(--text-sm)',
-                        fontWeight: '500',
-                        transition: 'all 0.2s ease',
-                        border: 'none',
-                        cursor: 'pointer',
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: 'var(--space-xs)',
-                        backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
-                        color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
-                      }}
-                    >
-                      <span>{shadeInfo.emoji}</span>
-                      <span>{shadeInfo.label}</span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Facilities Filter */}
-            <div>
-              <label style={{ 
-                display: 'block', 
-                fontSize: 'var(--text-sm)', 
-                fontWeight: '500', 
-                color: 'var(--color-text-medium)', 
-                marginBottom: 'var(--space-xs)' 
-              }}>
-                Must Have Facilities
-              </label>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
-                {(['fenced', 'toilets'] as Facility[]).map(facility => {
-                  const facilityInfo = getFacilityInfo(facility);
-                  const isSelected = selectedFacilities.includes(facility);
-                  return (
-                    <button
-                      key={facility}
-                      onClick={() => toggleFacility(facility)}
-                      style={{
-                        padding: 'var(--space-xs) var(--space-sm)',
-                        borderRadius: 'var(--radius-full)',
-                        fontSize: 'var(--text-sm)',
-                        fontWeight: '500',
-                        transition: 'all 0.2s ease',
-                        border: 'none',
-                        cursor: 'pointer',
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: 'var(--space-xs)',
-                        backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
-                        color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
-                      }}
-                    >
-                      <span>{facilityInfo.emoji}</span>
-                      <span>{facilityInfo.label}</span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              style={{
+                padding: 'var(--space-sm) var(--space-md)',
+                borderRadius: 'var(--radius-lg)',
+                fontSize: 'var(--text-sm)',
+                fontWeight: '500',
+                transition: 'all 0.2s ease',
+                border: '1px solid #e5e7eb',
+                cursor: 'pointer',
+                backgroundColor: 'var(--color-white)',
+                color: 'var(--color-text-dark)',
+                display: 'flex',
+                alignItems: 'center',
+                gap: 'var(--space-xs)'
+              }}
+            >
+              <span>🔽</span>
+              <span>
+                Filters
+                {(selectedAgeGroup || selectedShadeLevel || selectedFacilities.length > 0) && (
+                  <span style={{ 
+                    marginLeft: 'var(--space-xs)',
+                    backgroundColor: 'var(--color-coral)',
+                    color: 'var(--color-white)',
+                    borderRadius: '50%',
+                    padding: '2px 6px',
+                    fontSize: 'var(--text-xs)'
+                  }}>
+                    {[selectedAgeGroup, selectedShadeLevel, ...selectedFacilities].filter(Boolean).length}
+                  </span>
+                )}
+              </span>
+            </button>
           </div>
-          
-          {/* Clear Filters */}
-          {(selectedAgeGroup || selectedShadeLevel || selectedFacilities.length > 0) && (
-            <div style={{ marginTop: 'var(--space-md)' }}>
-              <button
-                onClick={() => {
-                  setSelectedAgeGroup('');
-                  setSelectedShadeLevel('');
-                  setSelectedFacilities([]);
-                }}
-                style={{
-                  fontSize: 'var(--text-sm)',
-                  color: 'var(--color-text-medium)',
-                  textDecoration: 'underline',
-                  background: 'none',
-                  border: 'none',
-                  cursor: 'pointer'
-                }}
-              >
-                Clear all filters
-              </button>
+
+          {/* Collapsible Filter Panel */}
+          {showFilters && (
+            <div className="card" style={{ 
+              padding: 'var(--space-lg)',
+              animation: 'slideDown 0.2s ease-out'
+            }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-md)' }}>
+                {/* Age Group Filter */}
+                <div>
+                  <label style={{ 
+                    display: 'block', 
+                    fontSize: 'var(--text-sm)', 
+                    fontWeight: '500', 
+                    color: 'var(--color-text-medium)', 
+                    marginBottom: 'var(--space-xs)' 
+                  }}>
+                    Age Group
+                  </label>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
+                    <button
+                      onClick={() => setSelectedAgeGroup('')}
+                      style={{
+                        padding: 'var(--space-xs) var(--space-sm)',
+                        borderRadius: 'var(--radius-full)',
+                        fontSize: 'var(--text-sm)',
+                        fontWeight: '500',
+                        transition: 'all 0.2s ease',
+                        border: 'none',
+                        cursor: 'pointer',
+                        backgroundColor: selectedAgeGroup === '' ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                        color: selectedAgeGroup === '' ? 'var(--color-white)' : 'var(--color-text-medium)'
+                      }}
+                    >
+                      All Ages
+                    </button>
+                    {(['toddler', 'kinder', 'primary', 'older'] as AgeTag[]).map(age => {
+                      const ageInfo = getAgeTagInfo(age);
+                      const isSelected = selectedAgeGroup === age;
+                      return (
+                        <button
+                          key={age}
+                          onClick={() => setSelectedAgeGroup(age === selectedAgeGroup ? '' : age)}
+                          style={{
+                            padding: 'var(--space-xs) var(--space-sm)',
+                            borderRadius: 'var(--radius-full)',
+                            fontSize: 'var(--text-sm)',
+                            fontWeight: '500',
+                            transition: 'all 0.2s ease',
+                            border: 'none',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: 'var(--space-xs)',
+                            backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                            color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
+                          }}
+                        >
+                          <span>{ageInfo.emoji}</span>
+                          <span>{ageInfo.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Shade Level Filter */}
+                <div>
+                  <label style={{ 
+                    display: 'block', 
+                    fontSize: 'var(--text-sm)', 
+                    fontWeight: '500', 
+                    color: 'var(--color-text-medium)', 
+                    marginBottom: 'var(--space-xs)' 
+                  }}>
+                    Shade Level
+                  </label>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
+                    <button
+                      onClick={() => setSelectedShadeLevel('')}
+                      style={{
+                        padding: 'var(--space-xs) var(--space-sm)',
+                        borderRadius: 'var(--radius-full)',
+                        fontSize: 'var(--text-sm)',
+                        fontWeight: '500',
+                        transition: 'all 0.2s ease',
+                        border: 'none',
+                        cursor: 'pointer',
+                        backgroundColor: selectedShadeLevel === '' ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                        color: selectedShadeLevel === '' ? 'var(--color-white)' : 'var(--color-text-medium)'
+                      }}
+                    >
+                      Any Shade
+                    </button>
+                    {['minimal', 'partial', 'full'].map(shade => {
+                      const shadeInfo = getShadeInfo(shade);
+                      const isSelected = selectedShadeLevel === shade;
+                      return (
+                        <button
+                          key={shade}
+                          onClick={() => setSelectedShadeLevel(shade === selectedShadeLevel ? '' : shade)}
+                          style={{
+                            padding: 'var(--space-xs) var(--space-sm)',
+                            borderRadius: 'var(--radius-full)',
+                            fontSize: 'var(--text-sm)',
+                            fontWeight: '500',
+                            transition: 'all 0.2s ease',
+                            border: 'none',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: 'var(--space-xs)',
+                            backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                            color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
+                          }}
+                        >
+                          <span>{shadeInfo.emoji}</span>
+                          <span>{shadeInfo.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Facilities Filter */}
+                <div>
+                  <label style={{ 
+                    display: 'block', 
+                    fontSize: 'var(--text-sm)', 
+                    fontWeight: '500', 
+                    color: 'var(--color-text-medium)', 
+                    marginBottom: 'var(--space-xs)' 
+                  }}>
+                    Must Have Facilities
+                  </label>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
+                    {(['fenced', 'toilets'] as Facility[]).map(facility => {
+                      const facilityInfo = getFacilityInfo(facility);
+                      const isSelected = selectedFacilities.includes(facility);
+                      return (
+                        <button
+                          key={facility}
+                          onClick={() => toggleFacility(facility)}
+                          style={{
+                            padding: 'var(--space-xs) var(--space-sm)',
+                            borderRadius: 'var(--radius-full)',
+                            fontSize: 'var(--text-sm)',
+                            fontWeight: '500',
+                            transition: 'all 0.2s ease',
+                            border: 'none',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: 'var(--space-xs)',
+                            backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                            color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
+                          }}
+                        >
+                          <span>{facilityInfo.emoji}</span>
+                          <span>{facilityInfo.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+              
+              {/* Clear Filters */}
+              {(selectedAgeGroup || selectedShadeLevel || selectedFacilities.length > 0) && (
+                <div style={{ marginTop: 'var(--space-md)' }}>
+                  <button
+                    onClick={() => {
+                      setSelectedAgeGroup('');
+                      setSelectedShadeLevel('');
+                      setSelectedFacilities([]);
+                    }}
+                    style={{
+                      fontSize: 'var(--text-sm)',
+                      color: 'var(--color-text-medium)',
+                      textDecoration: 'underline',
+                      background: 'none',
+                      border: 'none',
+                      cursor: 'pointer'
+                    }}
+                  >
+                    Clear all filters
+                  </button>
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -529,169 +648,158 @@ export default function SearchResults() {
                 style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}
               >
                 <div className="card" style={{ 
-                  padding: 'var(--space-lg)',
+                  padding: '0',
+                  overflow: 'hidden',
                   transition: 'all 0.2s ease'
                 }}>
-                  <div className="pure-g" style={{ alignItems: 'center', justifyContent: 'space-between' }}>
+                  <div className="playground-card" style={{ display: 'flex', minHeight: '200px' }}>
                     
-                    {/* Left Side - Playground Info */}
-                    <div className="pure-u-1 pure-u-lg-2-3" style={{ paddingRight: 'var(--space-md)' }}>
-                      <div style={{ 
-                        display: 'flex', 
-                        alignItems: 'flex-start', 
-                        justifyContent: 'space-between', 
-                        marginBottom: 'var(--space-sm)' 
-                      }}>
-                        <div>
+                    {/* Left Side - Image */}
+                    <div className="playground-image" style={{ 
+                      width: '160px', 
+                      flexShrink: 0,
+                      position: 'relative'
+                    }}>
+                      <img
+                        src={getPlaygroundImage(playground)}
+                        alt={`${playground.name} playground`}
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          objectFit: 'cover',
+                          display: 'block'
+                        }}
+                      />
+                      {/* Go Now Score Badge */}
+                      {playground.goNowScore && (
+                        <div style={{
+                          position: 'absolute',
+                          top: 'var(--space-sm)',
+                          right: 'var(--space-sm)',
+                          padding: 'var(--space-xs) var(--space-sm)',
+                          borderRadius: 'var(--radius-full)',
+                          fontSize: 'var(--text-xs)',
+                          fontWeight: '600',
+                          backgroundColor: playground.goNowScore.status === 'go' ? '#15803d' :
+                            playground.goNowScore.status === 'caution' ? '#ca8a04' : '#dc2626',
+                          color: 'white',
+                          boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
+                        }}>
+                          {playground.goNowScore.status === 'go' ? '🟢' :
+                           playground.goNowScore.status === 'caution' ? '🟡' : '🔴'} 
+                          {playground.goNowScore.score}/10
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Right Side - Info */}
+                    <div style={{ 
+                      flex: 1, 
+                      padding: 'var(--space-lg)',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      justifyContent: 'space-between'
+                    }}>
+                      <div>
+                        {/* Title and Address */}
+                        <div style={{ marginBottom: 'var(--space-sm)' }}>
                           <h3 style={{ 
                             fontSize: 'var(--text-xl)', 
                             fontWeight: '700', 
                             color: 'var(--color-text-dark)', 
-                            marginBottom: 'var(--space-xs)' 
+                            marginBottom: 'var(--space-xs)',
+                            lineHeight: '1.3'
                           }}>
                             {playground.name}
                           </h3>
                           <p style={{ 
                             color: 'var(--color-text-medium)', 
-                            fontSize: 'var(--text-sm)', 
-                            marginBottom: 'var(--space-xs)' 
+                            fontSize: 'var(--text-sm)',
+                            margin: 0
                           }}>
                             {playground.address}
+                            {playground.distance && (
+                              <span style={{ color: 'var(--color-text-light)' }}>
+                                {' • '}{playground.distance.toFixed(1)} km
+                              </span>
+                            )}
                           </p>
-                          {playground.distance && (
-                            <p style={{ color: 'var(--color-text-light)', fontSize: 'var(--text-sm)' }}>
-                              {playground.distance.toFixed(1)} km away
-                            </p>
+                        </div>
+
+                        {/* Age Tags and Shade */}
+                        <div style={{ 
+                          display: 'flex', 
+                          flexWrap: 'wrap', 
+                          alignItems: 'center',
+                          gap: 'var(--space-sm)', 
+                          marginBottom: 'var(--space-sm)' 
+                        }}>
+                          {playground.ageTags.slice(0, 2).map((tag) => {
+                            const tagInfo = getAgeTagInfo(tag);
+                            return (
+                              <span key={tag} style={{
+                                display: 'inline-flex',
+                                alignItems: 'center',
+                                gap: 'var(--space-xs)',
+                                fontSize: 'var(--text-sm)',
+                                color: 'var(--color-text-medium)'
+                              }}>
+                                <span>{tagInfo.emoji}</span>
+                                <span>{tagInfo.label.split(' ')[0]}</span>
+                              </span>
+                            );
+                          })}
+                          <span style={{
+                            display: 'inline-flex',
+                            alignItems: 'center',
+                            gap: 'var(--space-xs)',
+                            fontSize: 'var(--text-sm)',
+                            color: getShadeInfo(playground.shadeLevel).color === 'text-red-600' ? '#dc2626' :
+                              getShadeInfo(playground.shadeLevel).color === 'text-yellow-600' ? '#d97706' : '#059669'
+                          }}>
+                            <span>{getShadeInfo(playground.shadeLevel).emoji}</span>
+                            <span>{getShadeInfo(playground.shadeLevel).label}</span>
+                          </span>
+                        </div>
+
+                        {/* Equipment */}
+                        <div style={{ 
+                          fontSize: 'var(--text-sm)', 
+                          color: 'var(--color-text-medium)',
+                          marginBottom: 'var(--space-sm)'
+                        }}>
+                          {playground.equipment.slice(0, 4).map((item, index) => {
+                            const equipmentInfo = getEquipmentInfo ? getEquipmentInfo(item) : { label: item, emoji: '🎪' };
+                            return (
+                              <span key={item}>
+                                {index > 0 && ', '}
+                                {equipmentInfo.label}
+                              </span>
+                            );
+                          })}
+                          {playground.equipment.length > 4 && (
+                            <span style={{ color: 'var(--color-text-light)' }}>
+                              {', +'}{playground.equipment.length - 4} more
+                            </span>
                           )}
                         </div>
-                        
-                        {/* Go Now Score */}
-                        {playground.goNowScore && (
-                          <div style={{
-                            padding: 'var(--space-xs) var(--space-sm)',
-                            borderRadius: 'var(--radius-full)',
-                            fontSize: 'var(--text-sm)',
-                            fontWeight: '600',
-                            border: '1px solid',
-                            backgroundColor: playground.goNowScore.status === 'go' ? '#dcfce7' :
-                              playground.goNowScore.status === 'caution' ? '#fef3c7' : '#fecaca',
-                            color: playground.goNowScore.status === 'go' ? '#166534' :
-                              playground.goNowScore.status === 'caution' ? '#92400e' : '#991b1b',
-                            borderColor: playground.goNowScore.status === 'go' ? '#bbf7d0' :
-                              playground.goNowScore.status === 'caution' ? '#fde68a' : '#fca5a5'
-                          }}>
-                            {playground.goNowScore.status === 'go' ? '🟢' :
-                             playground.goNowScore.status === 'caution' ? '🟡' : '🔴'} 
-                            {playground.goNowScore.score}/10
-                          </div>
-                        )}
                       </div>
 
-                      {/* Age Tags */}
-                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)', marginBottom: 'var(--space-sm)' }}>
-                        {playground.ageTags.map((tag) => {
-                          const tagInfo = getAgeTagInfo(tag);
-                          return (
-                            <span key={tag} style={{
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: 'var(--space-xs)',
-                              padding: 'var(--space-xs) var(--space-sm)',
-                              borderRadius: 'var(--radius-full)',
-                              fontSize: 'var(--text-xs)',
-                              fontWeight: '500',
-                              backgroundColor: tagInfo.color === 'bg-blue-100 text-blue-800' ? '#dbeafe' :
-                                tagInfo.color === 'bg-green-100 text-green-800' ? '#dcfce7' :
-                                tagInfo.color === 'bg-yellow-100 text-yellow-800' ? '#fef3c7' : '#f3e8ff',
-                              color: tagInfo.color === 'bg-blue-100 text-blue-800' ? '#1e40af' :
-                                tagInfo.color === 'bg-green-100 text-green-800' ? '#166534' :
-                                tagInfo.color === 'bg-yellow-100 text-yellow-800' ? '#92400e' : '#6b21a8'
-                            }}>
-                              <span>{tagInfo.emoji}</span>
-                              <span>{tagInfo.label}</span>
-                            </span>
-                          );
-                        })}
-                      </div>
-
-                      {/* Facilities */}
-                      <div style={{ 
-                        display: 'flex', 
-                        flexWrap: 'wrap', 
-                        alignItems: 'center', 
-                        gap: 'var(--space-sm)', 
-                        fontSize: 'var(--text-sm)', 
-                        color: 'var(--color-text-medium)' 
-                      }}>
-                        {playground.facilities.slice(0, 6).map((facility) => {
-                          const facilityInfo = getFacilityInfo(facility);
-                          return (
-                            <span key={facility} style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-xs)' }}>
-                              <span>{facilityInfo.emoji}</span>
-                              <span>{facilityInfo.label}</span>
-                            </span>
-                          );
-                        })}
-                        {playground.facilities.length > 6 && (
-                          <span style={{ color: 'var(--color-text-light)' }}>
-                            +{playground.facilities.length - 6} more
-                          </span>
-                        )}
-                      </div>
-                    </div>
-
-                    {/* Right Side - Shade & Recommendation */}
-                    <div className="pure-u-1 pure-u-lg-1-3" style={{ minWidth: '16rem' }}>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-sm)' }}>
-                        {/* Shade Level */}
-                        <div>
-                          <div style={{ 
-                            display: 'flex', 
-                            alignItems: 'center', 
-                            justifyContent: 'space-between', 
-                            fontSize: 'var(--text-sm)', 
-                            marginBottom: 'var(--space-xs)' 
-                          }}>
-                            <span style={{ fontWeight: '500', color: 'var(--color-text-medium)' }}>Shade Level</span>
-                            <span style={{ 
-                              fontWeight: '500',
-                              color: getShadeInfo(playground.shadeLevel).color === 'text-red-600' ? '#dc2626' :
-                                getShadeInfo(playground.shadeLevel).color === 'text-yellow-600' ? '#d97706' : '#059669'
-                            }}>
-                              {getShadeInfo(playground.shadeLevel).emoji} {getShadeInfo(playground.shadeLevel).label}
-                            </span>
-                          </div>
-                          <div className={`shade-bar shade-${playground.shadeLevel}`}>
-                            <div className="shade-bar-fill"></div>
-                          </div>
+                      {/* Bottom - Go Now Message */}
+                      {playground.goNowScore && (
+                        <div style={{
+                          backgroundColor: playground.goNowScore.status === 'go' ? '#f0f9ff' :
+                            playground.goNowScore.status === 'caution' ? '#fefce8' : '#fef2f2',
+                          borderRadius: 'var(--radius-lg)',
+                          padding: 'var(--space-sm)',
+                          fontSize: 'var(--text-sm)',
+                          fontStyle: 'italic',
+                          color: playground.goNowScore.status === 'go' ? '#1e40af' :
+                            playground.goNowScore.status === 'caution' ? '#92400e' : '#991b1b'
+                        }}>
+                          "{playground.goNowScore.message}"
                         </div>
-
-                        {/* Go Now Recommendation */}
-                        {playground.goNowScore && (
-                          <div style={{
-                            backgroundColor: 'var(--color-cream-light)',
-                            borderRadius: 'var(--radius-lg)',
-                            padding: 'var(--space-sm)'
-                          }}>
-                            <div style={{ 
-                              fontWeight: '600', 
-                              fontSize: 'var(--text-sm)', 
-                              color: 'var(--color-text-dark)', 
-                              marginBottom: 'var(--space-xs)' 
-                            }}>
-                              {playground.goNowScore.message}
-                            </div>
-                            {playground.goNowScore.tips.length > 0 && (
-                              <div style={{ 
-                                fontSize: 'var(--text-xs)', 
-                                color: 'var(--color-text-medium)' 
-                              }}>
-                                {playground.goNowScore.tips[0]}
-                              </div>
-                            )}
-                          </div>
-                        )}
-                      </div>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -793,6 +901,37 @@ export default function SearchResults() {
           </div>
         )}
       </main>
+
+      {/* CSS Animations */}
+      <style jsx global>{`
+        @keyframes slideDown {
+          from {
+            opacity: 0;
+            max-height: 0;
+            transform: translateY(-10px);
+          }
+          to {
+            opacity: 1;
+            max-height: 500px;
+            transform: translateY(0);
+          }
+        }
+        
+        .card {
+          position: relative;
+        }
+        
+        /* Mobile responsiveness for playground cards */
+        @media (max-width: 768px) {
+          .playground-card {
+            flex-direction: column !important;
+          }
+          .playground-image {
+            width: 100% !important;
+            height: 150px !important;
+          }
+        }
+      `}</style>
     </div>
   );
 }

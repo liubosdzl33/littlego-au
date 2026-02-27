@@ -291,3 +291,52 @@ export function getShadeInfo(shadeLevel: string): { label: string; color: string
   };
   return shadeMap[shadeLevel] || shadeMap['minimal'];
 }
+
+// Get playground image based on characteristics
+export function getPlaygroundImage(playground: Playground): string {
+  // Available Unsplash images themed to playground types
+  const images = {
+    playground: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=400&h=300&fit=crop',
+    park: 'https://images.unsplash.com/photo-1564429238961-bf8ecf6b6d77?w=400&h=300&fit=crop',
+    kidsPlaying: 'https://images.unsplash.com/photo-1566041510394-cf7ad71006c1?w=400&h=300&fit=crop',
+    nature: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop',
+    swing: 'https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?w=400&h=300&fit=crop',
+    family: 'https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=400&h=300&fit=crop'
+  };
+
+  // Priority-based image selection
+  const { equipment, facilities, shadeLevel, name, address } = playground;
+
+  // Check for swing equipment first (very specific)
+  if (equipment.includes('swing') || equipment.includes('baby_swing') || equipment.includes('toddler_swing')) {
+    return images.swing;
+  }
+
+  // Check if it's more nature/park focused
+  if (shadeLevel === 'full' || facilities.includes('oval') || facilities.includes('bbq') || 
+      name.toLowerCase().includes('park') || address.toLowerCase().includes('park') ||
+      facilities.includes('picnic_tables')) {
+    return images.park;
+  }
+
+  // Check for family/outdoor activities
+  if (facilities.includes('beach_nearby') || facilities.includes('cafe_nearby') || 
+      equipment.includes('flying_fox') || equipment.includes('balance_beam')) {
+    return images.family;
+  }
+
+  // Check for toddler/kids focused equipment
+  if (equipment.includes('sandpit') || equipment.includes('toddler_slide') || 
+      equipment.includes('sensory_play') || playground.ageTags.includes('toddler')) {
+    return images.kidsPlaying;
+  }
+
+  // Check for nature/trees (good shade indicators)
+  if (shadeLevel === 'partial' || equipment.includes('climbing') || 
+      name.toLowerCase().includes('tree') || name.toLowerCase().includes('wood')) {
+    return images.nature;
+  }
+
+  // Default to general playground image
+  return images.playground;
+}

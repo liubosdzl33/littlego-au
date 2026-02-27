@@ -76,7 +76,7 @@ export async function fetchWeatherData(lat: number, lng: number): Promise<Weathe
  * Fetch current weather + hourly forecast for time block recommendations
  */
 export async function fetchWeatherWithForecast(lat: number, lng: number): Promise<WeatherWithForecast> {
-  const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current=temperature_2m,weathercode,wind_speed_10m,uv_index&hourly=temperature_2m,weathercode,wind_speed_10m,uv_index&timezone=Australia/Melbourne&forecast_days=1`;
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current=temperature_2m,weathercode,wind_speed_10m,uv_index&hourly=temperature_2m,weathercode,wind_speed_10m,uv_index&timezone=Australia/Melbourne&forecast_days=2`;
 
   try {
     const response = await fetch(url);
