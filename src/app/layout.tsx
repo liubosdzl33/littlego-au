@@ -14,7 +14,7 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   title: "LittleGo - Discover Amazing Places for Kids in Australia",
-  description: "The ultimate platform for parents to discover playgrounds, parks, indoor play centres, kid-friendly cafes and activities. Weather-aware suggestions, reviews, and smart filtering for 1-4 year olds across Australia.",
+  description: "The ultimate platform for parents to discover playgrounds, parks, indoor play centres, kid-friendly cafes and activities. Weather-aware suggestions, reviews, and smart filtering for families with kids of all ages across Australia.",
   keywords: "kids activities Australia, playground finder, indoor play centres, kid-friendly cafes, family activities Melbourne, weather-aware suggestions, parent reviews",
   authors: [{ name: "LittleGo Team" }],
   metadataBase: new URL('https://littlego.com.au'),

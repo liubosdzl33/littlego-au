@@ -243,7 +243,7 @@ export default function AboutPage() {
               margin: '0 auto var(--space-2xl)'
             }}>
               Like Yelp for parents! Find playgrounds, cafes, indoor play centres and activities 
-              perfect for 1-4 year olds across Australia. Weather-aware suggestions included!
+              perfect for parents and kids of all ages across Australia. Weather-aware suggestions included!
             </p>
           </div>
         </div>
@@ -399,7 +399,7 @@ export default function AboutPage() {
                   </div>
                   <h4 className="mb-sm">Age-Perfect Filtering</h4>
                   <p style={{ color: 'var(--color-text-medium)' }}>
-                    Find spots specifically suited for your toddler's developmental stage (1-4 years). No more guessing!
+                    Find spots specifically suited for your child's age and developmental stage. No more guessing!
                   </p>
                 </div>
               </div>
@@ -647,10 +647,10 @@ export default function AboutPage() {
                     color: 'var(--color-green-medium)', 
                     marginBottom: 'var(--space-xs)' 
                   }}>
-                    Ages 1-4 Focus
+                    Family Focus
                   </div>
                   <p style={{ color: 'var(--color-text-medium)' }}>
-                    Specifically designed for the unique needs of toddlers
+                    Specifically designed for families with children of all ages
                   </p>
                 </div>
               </div>

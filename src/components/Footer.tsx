@@ -62,7 +62,7 @@ export default function Footer() {
               lineHeight: '1.6',
               marginBottom: 'var(--space-md)'
             }}>
-              Discover amazing places for your little ones across Australia. Weather-aware suggestions, parent reviews, and age-perfect filtering for 1-4 year olds.
+              Discover amazing places for families across Australia. Weather-aware suggestions, parent reviews, and age-perfect filtering for kids of all ages.
             </p>
             <p style={{ 
               color: '#6b7280', 
@@ -141,7 +141,7 @@ export default function Footer() {
                 Place data is community-contributed
               </p>
               <p>
-                Ages 1-4 focus · Parent reviews · Melbourne first
+                All ages welcome · Parent reviews · Melbourne first
               </p>
             </div>
           </div>

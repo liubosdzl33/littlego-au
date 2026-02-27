@@ -14,6 +14,7 @@ export interface Playground {
   facilities: Facility[];
   equipment: Equipment[];
   surface: SurfaceType;
+  nearbyFacilities?: string[];
   bestTimes: {
     summer: string;
     winter: string;
@@ -34,7 +35,12 @@ export type Facility =
   | 'oval'
   | 'tennis_courts'
   | 'beach_nearby'
-  | 'cafe_nearby';
+  | 'cafe_nearby'
+  | 'footy_oval'
+  | 'dog_park'
+  | 'basketball'
+  | 'skate_park'
+  | 'bike_path';
 
 export type Equipment = 
   | 'baby_swing'

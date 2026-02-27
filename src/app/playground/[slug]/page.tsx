@@ -270,7 +270,7 @@ export default function PlaygroundDetailPage() {
         {/* Playground Header */}
         <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
           <div className="pure-g" style={{ alignItems: 'flex-start', justifyContent: 'space-between' }}>
-            <div className="pure-u-1 pure-u-lg-2-3" style={{ paddingRight: 'var(--space-lg)' }}>
+            <div className="pure-u-1 pure-u-lg-2-3" style={{ paddingRight: 'var(--space-md)' }}>
               <h1 style={{ 
                 fontSize: 'var(--text-3xl)', 
                 fontWeight: '700', 
@@ -431,7 +431,7 @@ export default function PlaygroundDetailPage() {
             Shade & Weather Protection
           </h2>
           <div className="pure-g">
-            <div className="pure-u-1 pure-u-md-1-2" style={{ paddingRight: 'var(--space-lg)' }}>
+            <div className="pure-u-1 pure-u-md-1-2" style={{ paddingRight: 'var(--space-md)' }}>
               <div style={{ 
                 display: 'flex', 
                 alignItems: 'center', 
@@ -720,6 +720,24 @@ export default function PlaygroundDetailPage() {
           </div>
         </div>
       </main>
+
+      {/* Responsive Styles */}
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .pure-u-1.pure-u-lg-2-3,
+          .pure-u-1.pure-u-lg-1-3,
+          .pure-u-1.pure-u-md-1-2 {
+            padding-right: 0 !important;
+            margin-bottom: var(--space-md);
+          }
+        }
+        
+        .container {
+          max-width: 80rem;
+          margin: 0 auto;
+          padding: 0 var(--space-md);
+        }
+      `}</style>
     </div>
   );
 }

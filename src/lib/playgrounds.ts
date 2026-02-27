@@ -118,16 +118,15 @@ export function getPostcodeCoordinates(postcode: string): { lat: number; lng: nu
     '3071': { lat: -37.7550, lng: 145.0350 }, // Thornbury
     '3072': { lat: -37.7420, lng: 145.0020 }, // Preston
     '3073': { lat: -37.7200, lng: 145.0150 }, // Reservoir
-    '3074': { lat: -37.7100, lng: 145.0300 }, // Bundoora
+    '3083': { lat: -37.7100, lng: 145.0300 }, // Bundoora
     '3075': { lat: -37.6950, lng: 145.0500 }, // Lalor
     '3076': { lat: -37.6800, lng: 145.0450 }, // Epping
-    '3977': { lat: -37.6650, lng: 145.0650 }, // Thomastown
+    '3074': { lat: -37.6650, lng: 145.0650 }, // Thomastown
     '3078': { lat: -37.7050, lng: 145.0750 }, // West Heidelberg
     '3079': { lat: -37.6900, lng: 145.0900 }, // Ivanhoe East
     '3080': { lat: -37.7200, lng: 145.1000 }, // Heidelberg
     '3081': { lat: -37.7400, lng: 145.1100 }, // Heidelberg Heights
     '3082': { lat: -37.7100, lng: 145.1200 }, // Banyule
-    '3083': { lat: -37.6950, lng: 145.1350 }, // Bundoora
     '3084': { lat: -37.6800, lng: 145.1500 }, // Viewbank
 
     // Inner South
@@ -227,6 +226,12 @@ export function getPostcodeCoordinates(postcode: string): { lat: number; lng: nu
     '3208': { lat: -38.0200, lng: 145.1350 }, // Waterways
     '3802': { lat: -37.9670, lng: 145.2520 }, // Endeavour Hills  
     '3805': { lat: -38.0420, lng: 145.3050 }, // Narre Warren South
+    '3806': { lat: -38.0350, lng: 145.3350 }, // Berwick
+    '3777': { lat: -37.6650, lng: 145.5350 }, // Healesville
+    '3782': { lat: -37.9350, lng: 145.4550 }, // Emerald
+    '3936': { lat: -38.3550, lng: 145.0150 }, // Arthurs Seat / Safety Beach
+    '3939': { lat: -38.3650, lng: 144.9150 }, // Rosebud / Fingal
+    '3977': { lat: -38.1250, lng: 145.2850 }, // Cranbourne
   };
   
   return postcodeMap[postcode] || null;
@@ -255,7 +260,12 @@ export function getFacilityInfo(facility: Facility): { label: string; emoji: str
     'oval': { label: 'Oval', emoji: '⚽' },
     'tennis_courts': { label: 'Tennis', emoji: '🎾' },
     'beach_nearby': { label: 'Beach Nearby', emoji: '🏖️' },
-    'cafe_nearby': { label: 'Cafe Nearby', emoji: '☕' }
+    'cafe_nearby': { label: 'Cafe Nearby', emoji: '☕' },
+    'footy_oval': { label: 'Football Oval', emoji: '🏈' },
+    'dog_park': { label: 'Dog Park', emoji: '🐕' },
+    'basketball': { label: 'Basketball Court', emoji: '🏀' },
+    'skate_park': { label: 'Skate Park', emoji: '🛹' },
+    'bike_path': { label: 'Bike Path', emoji: '🚴' }
   };
   return facilityMap[facility];
 }
@@ -292,51 +302,35 @@ export function getShadeInfo(shadeLevel: string): { label: string; color: string
   return shadeMap[shadeLevel] || shadeMap['minimal'];
 }
 
-// Get playground image based on characteristics
+// Get playground image based on deterministic hash of name
 export function getPlaygroundImage(playground: Playground): string {
-  // Available Unsplash images themed to playground types
-  const images = {
-    playground: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=400&h=300&fit=crop',
-    park: 'https://images.unsplash.com/photo-1564429238961-bf8ecf6b6d77?w=400&h=300&fit=crop',
-    kidsPlaying: 'https://images.unsplash.com/photo-1566041510394-cf7ad71006c1?w=400&h=300&fit=crop',
-    nature: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop',
-    swing: 'https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?w=400&h=300&fit=crop',
-    family: 'https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=400&h=300&fit=crop'
-  };
+  // Diverse pool of 20+ Unsplash playground/park photos
+  const images = [
+    'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=400&h=300&fit=crop', // playground equipment
+    'https://images.unsplash.com/photo-1564429238961-bf8ecf6b6d77?w=400&h=300&fit=crop', // garden park
+    'https://images.unsplash.com/photo-1566041510394-cf7ad71006c1?w=400&h=300&fit=crop', // kids playing
+    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop', // trees nature
+    'https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=400&h=300&fit=crop', // family outdoor
+    'https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?w=400&h=300&fit=crop', // swing
+    'https://images.unsplash.com/photo-1597524678053-5e6fef52d8a3?w=400&h=300&fit=crop', // park path
+    'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop', // green landscape
+    'https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=400&h=300&fit=crop', // slide
+    'https://images.unsplash.com/photo-1595241728498-41af5e2d7ced?w=400&h=300&fit=crop', // open field
+    'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=300&fit=crop', // sunset park
+    'https://images.unsplash.com/photo-1509600110300-21b9d5fedeb7?w=400&h=300&fit=crop', // green park
+    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop', // beach
+    'https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=400&h=300&fit=crop', // garden
+    'https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=300&fit=crop', // playground slide
+    'https://images.unsplash.com/photo-1617713964959-d9a36bbc7b52?w=400&h=300&fit=crop', // sandbox
+    'https://images.unsplash.com/photo-1526679516767-9f3bfb3d7dcb?w=400&h=300&fit=crop', // nature walk
+    'https://images.unsplash.com/photo-1595007553330-3eb5c9e61e1e?w=400&h=300&fit=crop', // outdoor play
+    'https://images.unsplash.com/photo-1504173010664-32509aeebb62?w=400&h=300&fit=crop', // kids park
+    'https://images.unsplash.com/photo-1605152276897-4f618f831968?w=400&h=300&fit=crop'  // climbing frame
+  ];
 
-  // Priority-based image selection
-  const { equipment, facilities, shadeLevel, name, address } = playground;
-
-  // Check for swing equipment first (very specific)
-  if (equipment.includes('swing') || equipment.includes('baby_swing') || equipment.includes('toddler_swing')) {
-    return images.swing;
-  }
-
-  // Check if it's more nature/park focused
-  if (shadeLevel === 'full' || facilities.includes('oval') || facilities.includes('bbq') || 
-      name.toLowerCase().includes('park') || address.toLowerCase().includes('park') ||
-      facilities.includes('picnic_tables')) {
-    return images.park;
-  }
-
-  // Check for family/outdoor activities
-  if (facilities.includes('beach_nearby') || facilities.includes('cafe_nearby') || 
-      equipment.includes('flying_fox') || equipment.includes('balance_beam')) {
-    return images.family;
-  }
-
-  // Check for toddler/kids focused equipment
-  if (equipment.includes('sandpit') || equipment.includes('toddler_slide') || 
-      equipment.includes('sensory_play') || playground.ageTags.includes('toddler')) {
-    return images.kidsPlaying;
-  }
-
-  // Check for nature/trees (good shade indicators)
-  if (shadeLevel === 'partial' || equipment.includes('climbing') || 
-      name.toLowerCase().includes('tree') || name.toLowerCase().includes('wood')) {
-    return images.nature;
-  }
-
-  // Default to general playground image
-  return images.playground;
+  // Create deterministic hash based on playground name
+  const hash = playground.name.charCodeAt(0) + playground.name.length;
+  const imageIndex = hash % images.length;
+  
+  return images[imageIndex];
 }

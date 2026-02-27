@@ -68,7 +68,15 @@ export async function fetchWeatherData(lat: number, lng: number): Promise<Weathe
     };
   } catch (error) {
     console.error('Failed to fetch weather data:', error);
-    return { temperature: 20, weathercode: 0, windSpeed: 10, uvIndex: 5 };
+    // More realistic fallback based on time of day
+    const currentHour = new Date().getHours();
+    const isNight = currentHour >= 19 || currentHour < 6;
+    return { 
+      temperature: isNight ? 15 : 20, 
+      weathercode: 0, 
+      windSpeed: isNight ? 15 : 10, 
+      uvIndex: isNight ? 0 : 5 
+    };
   }
 }
 
@@ -127,10 +135,18 @@ export async function fetchWeatherWithForecast(lat: number, lng: number): Promis
     return { ...current, feelsLike, timeBlocks };
   } catch (error) {
     console.error('Failed to fetch weather forecast:', error);
-    const fallback: WeatherData = { temperature: 20, weathercode: 0, windSpeed: 10, uvIndex: 5 };
+    // More realistic fallback based on time of day
+    const currentHour = new Date().getHours();
+    const isNight = currentHour >= 19 || currentHour < 6;
+    const fallback: WeatherData = { 
+      temperature: isNight ? 15 : 20, 
+      weathercode: 0, 
+      windSpeed: isNight ? 15 : 10, 
+      uvIndex: isNight ? 0 : 5 
+    };
     return {
       ...fallback,
-      feelsLike: 20,
+      feelsLike: calculateFeelsLike(fallback.temperature, fallback.windSpeed),
       timeBlocks: []
     };
   }
@@ -140,11 +156,11 @@ export async function fetchWeatherWithForecast(lat: number, lng: number): Promis
 // GO NOW SCORE CALCULATION (Enhanced)
 // ============================================
 
-export function calculateGoNowScore(playground: Playground, weather: WeatherData | WeatherWithForecast): GoNowScore {
+export function calculateGoNowScore(playground: Playground & { distance?: number }, weather: WeatherData | WeatherWithForecast): GoNowScore {
   let score = 10;
   const tips: string[] = [];
   const { uvIndex, temperature, windSpeed, weathercode } = weather;
-  const { shadeLevel, hasMetalEquipment, hasCoveredStructure } = playground;
+  const { shadeLevel, hasMetalEquipment, hasCoveredStructure, surface, facilities } = playground;
 
   // Wind chill / feels like
   const feelsLike = 'feelsLike' in weather ? weather.feelsLike : calculateFeelsLike(temperature, windSpeed);
@@ -235,6 +251,37 @@ export function calculateGoNowScore(playground: Playground, weather: WeatherData
   // ========== HOT EQUIPMENT WARNING ==========
   if (temperature >= 30 && uvIndex >= 6 && shadeLevel === 'minimal' && hasMetalEquipment) {
     tips.push('⚠️ Metal slides and surfaces in direct sun — likely too hot to touch safely');
+  }
+
+  // ========== PLAYGROUND-SPECIFIC FACTORS ==========
+  // Surface bonus: rubber is safer
+  if (surface === 'rubber') {
+    score += 0.5;
+  }
+
+  // Facility bonuses: fenced playground scores higher for toddlers
+  if (facilities.includes('fenced')) {
+    score += 0.3;
+  }
+
+  // Distance penalty (if available)
+  if ('distance' in playground && playground.distance && typeof playground.distance === 'number') {
+    const distancePenalty = Math.min(playground.distance * 0.1, 1.5); // Up to -1.5 points for far distances
+    score -= distancePenalty;
+    if (playground.distance > 10) {
+      tips.push(`📍 ${playground.distance.toFixed(1)}km away — factor in travel time`);
+    }
+  }
+
+  // ========== EVENING/NIGHT ADJUSTMENTS ==========
+  const currentHour = new Date().getHours();
+  const isEvening = currentHour >= 19 || currentHour < 6;
+  
+  // If it's evening/night and this looks like default fallback data, reconsider
+  if (isEvening && temperature === 20 && windSpeed === 10 && uvIndex === 5) {
+    // This might be fallback data - apply evening conditions
+    score = Math.max(score - 2, 6); // Cap evening scores reasonably
+    tips.push('🌆 Evening conditions - UV is low but consider lighting and temperature');
   }
 
   // ========== CONTEXTUAL MESSAGE (not generic!) ==========
