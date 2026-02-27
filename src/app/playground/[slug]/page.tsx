@@ -226,45 +226,27 @@ export default function PlaygroundDetailPage() {
       minHeight: '100vh',
       background: 'linear-gradient(to bottom, var(--color-cream), var(--color-green-light))'
     }}>
-      {/* Header */}
-      <header className="header">
-        <div className="container">
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: 'var(--space-md) 0' }}>
-            <Link href="/" style={{ 
-              display: 'flex', 
-              alignItems: 'center', 
-              gap: 'var(--space-xs)', 
-              textDecoration: 'none',
-              color: 'inherit' 
-            }}>
-              <LogoIcon />
-              <span style={{ fontSize: 'var(--text-xl)', fontWeight: '700', color: 'var(--color-text-dark)' }}>
-                LittleGo
-              </span>
-            </Link>
-            <button 
-              onClick={() => router.back()}
-              className="back-btn"
-              style={{
-                fontSize: 'var(--text-sm)',
-                backgroundColor: 'var(--color-cream)',
-                color: 'var(--color-text-dark)',
-                padding: 'var(--space-xs) var(--space-md)',
-                borderRadius: 'var(--radius-full)',
-                transition: 'background-color 0.2s ease',
-                border: 'none',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                gap: 'var(--space-xs)'
-              }}
-            >
-              <ArrowLeftIcon />
-              Back to Results
-            </button>
-          </div>
-        </div>
-      </header>
+      {/* Back button */}
+      <div className="container" style={{ paddingTop: 'var(--space-md)' }}>
+        <button 
+          onClick={() => router.back()}
+          style={{
+            fontSize: 'var(--text-sm)',
+            backgroundColor: 'var(--color-cream)',
+            color: 'var(--color-text-dark)',
+            padding: 'var(--space-xs) var(--space-md)',
+            borderRadius: 'var(--radius-full)',
+            border: 'none',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 'var(--space-xs)'
+          }}
+        >
+          <ArrowLeftIcon />
+          Back to Results
+        </button>
+      </div>
 
       <main className="container py-lg">
         {/* Playground Header */}

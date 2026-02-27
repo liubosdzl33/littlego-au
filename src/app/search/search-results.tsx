@@ -163,32 +163,26 @@ export default function SearchResults() {
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: 'var(--color-white)' }}>
-      <header className="site-header">
-        <div className="container">
-          <div className="header-content">
-            <Link href="/" className="logo">LittleGo</Link>
-            
-            {/* Airbnb-style Search Bar */}
-            <form onSubmit={handleNewSearch} style={{ flex: 1, maxWidth: '480px', margin: '0 var(--spacing-xl)' }}>
-              <div className="search-bar">
-                <div className="search-section">
-                  <label className="search-label">Where</label>
-                  <input
-                    type="text"
-                    value={searchPostcode}
-                    onChange={(e) => setSearchPostcode(e.target.value)}
-                    placeholder="Search postcodes"
-                    className="search-input"
-                  />
-                </div>
-                <button type="submit" className="search-button">
-                  <SearchIcon />
-                </button>
-              </div>
-            </form>
+      {/* Inline Search Bar */}
+      <div className="container" style={{ paddingTop: 'var(--spacing-md)', paddingBottom: 'var(--spacing-md)' }}>
+        <form onSubmit={handleNewSearch} style={{ maxWidth: '480px', margin: '0 auto' }}>
+          <div className="search-bar">
+            <div className="search-section">
+              <label className="search-label">Where</label>
+              <input
+                type="text"
+                value={searchPostcode}
+                onChange={(e) => setSearchPostcode(e.target.value)}
+                placeholder="Search postcodes"
+                className="search-input"
+              />
+            </div>
+            <button type="submit" className="search-button">
+              <SearchIcon />
+            </button>
           </div>
-        </div>
-      </header>
+        </form>
+      </div>
 
       <main className="container" style={{ paddingTop: 'var(--spacing-xl)', paddingBottom: 'var(--spacing-3xl)' }}>
         

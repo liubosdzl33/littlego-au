@@ -49,15 +49,6 @@ export default function Homepage() {
 
   return (
     <main style={{ backgroundColor: 'var(--color-white)' }}>
-      {/* Header */}
-      <header className="site-header">
-        <div className="container">
-          <div className="header-content">
-            <Link href="/" className="logo">LittleGo</Link>
-          </div>
-        </div>
-      </header>
-
       {/* Hero Section */}
       <section style={{ 
         padding: 'var(--spacing-3xl) 0',
