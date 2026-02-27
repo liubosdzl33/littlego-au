@@ -1,35 +1,44 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const nunito = Nunito({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-nunito",
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
-  title: "LittleGo - Smart Playground Finder",
-  description: "Find the best playground for your kids right now — based on age, shade, weather & UV. Australia's smartest playground finder for parents.",
-  keywords: "playground finder, kids activities, family fun, outdoor play, Australia, weather, UV safety",
+  title: "LittleGo - Discover Amazing Places for Kids in Australia",
+  description: "The ultimate platform for parents to discover playgrounds, parks, indoor play centres, kid-friendly cafes and activities. Weather-aware suggestions, reviews, and smart filtering for 1-4 year olds across Australia.",
+  keywords: "kids activities Australia, playground finder, indoor play centres, kid-friendly cafes, family activities Melbourne, weather-aware suggestions, parent reviews",
   authors: [{ name: "LittleGo Team" }],
   openGraph: {
-    title: "LittleGo - Smart Playground Finder",
-    description: "Find the best playground for your kids right now — based on age, shade, weather & UV",
+    title: "LittleGo - Discover Amazing Places for Kids in Australia",
+    description: "The ultimate platform for parents to discover playgrounds, parks, indoor play centres, kid-friendly cafes and activities. Melbourne first, expanding nationally.",
     url: "https://littlego.com.au",
     siteName: "LittleGo",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "LittleGo - Discover Amazing Places for Kids in Australia",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "LittleGo - Smart Playground Finder", 
-    description: "Find the best playground for your kids right now",
+    title: "LittleGo - Discover Amazing Places for Kids in Australia", 
+    description: "Weather-aware suggestions for kid-friendly places across Australia",
   },
 };
 
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#FFD93D',
+  themeColor: '#10b981',
 };
 
 export default function RootLayout({
@@ -39,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-sans antialiased bg-gray-50 text-gray-900`}>
+      <body className={`${nunito.variable} font-sans antialiased bg-white text-gray-900`}>
         <div className="min-h-screen">
           {children}
         </div>
