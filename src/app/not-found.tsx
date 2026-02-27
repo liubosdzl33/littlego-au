@@ -1,35 +1,82 @@
 import Link from 'next/link';
 
+const SearchIcon = () => (
+  <svg className="icon" viewBox="0 0 24 24">
+    <circle cx="11" cy="11" r="8"/>
+    <path d="m21 21-4.35-4.35"/>
+  </svg>
+);
+
+const PlaygroundIcon = () => (
+  <svg className="icon icon-2xl" viewBox="0 0 24 24" fill="currentColor">
+    <rect x="4" y="16" width="16" height="4" rx="2"/>
+    <path d="M8 16V8a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v8"/>
+    <circle cx="12" cy="4" r="2"/>
+  </svg>
+);
+
 export default function NotFound() {
   return (
-    <div className="min-h-[60vh] bg-gray-50 flex items-center justify-center px-4">
-      <div className="text-center max-w-lg">
+    <div style={{
+      minHeight: '60vh',
+      backgroundColor: 'var(--color-cream-light)',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '0 var(--space-md)'
+    }}>
+      <div className="text-center" style={{ maxWidth: '32rem' }}>
         {/* Fun illustration */}
-        <div className="text-6xl mb-6">🏞️</div>
+        <div style={{ 
+          fontSize: '4rem', 
+          marginBottom: 'var(--space-lg)', 
+          color: 'var(--color-green-medium)',
+          display: 'flex',
+          justifyContent: 'center'
+        }}>
+          <PlaygroundIcon />
+        </div>
         
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h1 style={{ 
+          fontSize: 'var(--text-3xl)', 
+          fontWeight: '700', 
+          color: 'var(--color-text-dark)', 
+          marginBottom: 'var(--space-md)',
+          lineHeight: '1.2'
+        }}>
           Oops! This playground doesn't exist
         </h1>
         
-        <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+        <p style={{ 
+          fontSize: 'var(--text-lg)', 
+          color: 'var(--color-text-medium)', 
+          marginBottom: 'var(--space-2xl)',
+          lineHeight: '1.6'
+        }}>
           Looks like this page wandered off to play somewhere else. 
           Let's find you a real playground instead!
         </p>
         
         <Link 
           href="/"
-          className="inline-flex items-center px-6 py-3 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold rounded-lg transition-colors"
+          className="btn-coral"
+          style={{ display: 'inline-flex', alignItems: 'center', gap: 'var(--space-xs)' }}
         >
-          <svg className="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-          </svg>
+          <SearchIcon />
           Find Playgrounds Near Me
         </Link>
         
-        <div className="mt-6">
-          <p className="text-sm text-gray-500">
+        <div style={{ marginTop: 'var(--space-lg)' }}>
+          <p style={{ fontSize: 'var(--text-sm)', color: 'var(--color-text-light)' }}>
             Or{' '}
-            <Link href="/about" className="text-yellow-600 hover:text-yellow-700 font-medium">
+            <Link 
+              href="/about" 
+              style={{ 
+                color: 'var(--color-coral)', 
+                fontWeight: '500',
+                textDecoration: 'none'
+              }}
+            >
               learn more about LittleGo
             </Link>
           </p>

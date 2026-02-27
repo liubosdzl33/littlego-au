@@ -63,10 +63,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nunito.variable} font-sans antialiased bg-white text-gray-900`}>
-        <div className="min-h-screen flex flex-col">
+      <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+      </head>
+      <body className={`${nunito.variable}`}>
+        <div className="site-wrapper">
           <Header />
-          <main className="flex-grow">
+          <main className="main-content">
             {children}
           </main>
           <Footer />

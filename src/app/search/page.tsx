@@ -3,13 +3,35 @@
 import { Suspense } from 'react';
 import SearchResults from './search-results';
 
+const LoadingSpinner = () => (
+  <div className="loading-spinner" style={{ 
+    width: '4rem', 
+    height: '4rem',
+    borderWidth: '4px',
+    borderColor: 'var(--color-green-medium)',
+    borderTopColor: 'transparent',
+    margin: '0 auto var(--space-md)'
+  }}></div>
+);
+
 export default function SearchPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-green-50 flex items-center justify-center">
+      <div style={{
+        minHeight: '100vh',
+        background: 'linear-gradient(to bottom, var(--color-cream), var(--color-green-light))',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}>
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600">Loading search...</p>
+          <LoadingSpinner />
+          <p style={{ 
+            fontSize: 'var(--text-lg)', 
+            color: 'var(--color-text-medium)' 
+          }}>
+            Loading search...
+          </p>
         </div>
       </div>
     }>

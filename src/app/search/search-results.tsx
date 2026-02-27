@@ -7,6 +7,40 @@ import { PlaygroundWithScore, WeatherData, AgeTag, Facility } from '@/types/play
 import { fetchWeatherData, calculateGoNowScore, getWeatherEmoji, getWindDescription } from '@/lib/weather';
 import { getPostcodeCoordinates, getPlaygroundsByLocation, getAgeTagInfo, getFacilityInfo, getShadeInfo } from '@/lib/playgrounds';
 
+// SVG Icons
+const SearchIcon = () => (
+  <svg className="icon" viewBox="0 0 24 24">
+    <circle cx="11" cy="11" r="8"/>
+    <path d="m21 21-4.35-4.35"/>
+  </svg>
+);
+
+const LoadingSpinner = () => (
+  <div className="loading-spinner" style={{ 
+    width: '4rem', 
+    height: '4rem',
+    borderWidth: '4px',
+    borderColor: 'var(--color-green-medium)',
+    borderTopColor: 'transparent'
+  }}></div>
+);
+
+const SadFaceIcon = () => (
+  <svg className="icon icon-2xl" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10"/>
+    <circle cx="9" cy="9" r="1.5" fill="currentColor"/>
+    <circle cx="15" cy="9" r="1.5" fill="currentColor"/>
+    <path d="M8 17s1-2 4-2 4 2 4 2"/>
+  </svg>
+);
+
+const LightbulbIcon = () => (
+  <svg className="icon" viewBox="0 0 24 24">
+    <path d="M9 21h6M12 17h.01M12 3a6 6 0 0 1 5.196 9H6.804A6 6 0 0 1 12 3z"/>
+    <path d="M8 17h8a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-1a2 2 0 0 1 2-2z"/>
+  </svg>
+);
+
 export default function SearchResults() {
   const [playgrounds, setPlaygrounds] = useState<PlaygroundWithScore[]>([]);
   const [weather, setWeather] = useState<WeatherData | null>(null);
@@ -130,10 +164,20 @@ export default function SearchResults() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-green-50 flex items-center justify-center">
+      <div style={{
+        minHeight: '100vh',
+        background: 'linear-gradient(to bottom, var(--color-cream), var(--color-green-light))',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}>
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600">Finding the best playgrounds for you...</p>
+          <div style={{ marginBottom: 'var(--space-md)' }}>
+            <LoadingSpinner />
+          </div>
+          <p style={{ fontSize: 'var(--text-lg)', color: 'var(--color-text-medium)' }}>
+            Finding the best playgrounds for you...
+          </p>
         </div>
       </div>
     );
@@ -141,13 +185,23 @@ export default function SearchResults() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-green-50 flex items-center justify-center">
-        <div className="text-center max-w-md mx-auto px-4">
-          <div className="text-6xl mb-4">😅</div>
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Oops!</h2>
-          <p className="text-gray-600 mb-6">{error}</p>
-          <button onClick={() => router.push('/')} className="btn-primary">
-            🔍 Try Another Postcode
+      <div style={{
+        minHeight: '100vh',
+        background: 'linear-gradient(to bottom, var(--color-cream), var(--color-green-light))',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}>
+        <div className="text-center container" style={{ maxWidth: '28rem', padding: '0 var(--space-md)' }}>
+          <div style={{ fontSize: '4rem', marginBottom: 'var(--space-md)', color: 'var(--color-coral)' }}>
+            <SadFaceIcon />
+          </div>
+          <h2 style={{ fontSize: 'var(--text-2xl)', fontWeight: '700', color: 'var(--color-text-dark)', marginBottom: 'var(--space-md)' }}>
+            Oops!
+          </h2>
+          <p style={{ color: 'var(--color-text-medium)', marginBottom: 'var(--space-lg)' }}>{error}</p>
+          <button onClick={() => router.push('/')} className="btn-coral">
+            <SearchIcon /> Try Another Postcode
           </button>
         </div>
       </div>
@@ -155,42 +209,68 @@ export default function SearchResults() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-green-50">
-      <main className="container mx-auto px-4 py-6">
+    <div style={{
+      minHeight: '100vh',
+      background: 'linear-gradient(to bottom, var(--color-cream), var(--color-green-light))'
+    }}>
+      <main className="container py-lg">
+        
         {/* Search Again Section */}
-        <div className="card p-6 mb-6">
-          <form onSubmit={handleNewSearch} className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-            <div className="flex-1">
-              <label htmlFor="search-postcode" className="block text-sm font-medium text-gray-700 mb-2">
-                Search another postcode
-              </label>
-              <input
-                id="search-postcode"
-                type="text"
-                value={searchPostcode}
-                onChange={(e) => setSearchPostcode(e.target.value)}
-                placeholder="e.g. 3000, 3163, 3204"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
-              />
+        <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
+          <form onSubmit={handleNewSearch} className="pure-form">
+            <div className="pure-g" style={{ alignItems: 'end' }}>
+              <div className="pure-u-1 pure-u-sm-3-4" style={{ paddingRight: 'var(--space-md)' }}>
+                <label htmlFor="search-postcode" style={{ 
+                  display: 'block', 
+                  fontSize: 'var(--text-sm)', 
+                  fontWeight: '500', 
+                  color: 'var(--color-text-medium)', 
+                  marginBottom: 'var(--space-xs)' 
+                }}>
+                  Search another postcode
+                </label>
+                <input
+                  id="search-postcode"
+                  type="text"
+                  value={searchPostcode}
+                  onChange={(e) => setSearchPostcode(e.target.value)}
+                  placeholder="e.g. 3000, 3163, 3204"
+                  className="form-input"
+                />
+              </div>
+              <div className="pure-u-1 pure-u-sm-1-4">
+                <button 
+                  type="submit"
+                  className="btn-coral"
+                  style={{ 
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: 'var(--space-xs)'
+                  }}
+                >
+                  <SearchIcon /> Search
+                </button>
+              </div>
             </div>
-            <button 
-              type="submit"
-              className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold rounded-lg transition-colors whitespace-nowrap"
-            >
-              🔍 Search
-            </button>
           </form>
         </div>
 
         {/* Weather & Location Info */}
         {weather && (
-          <div className="card p-6 mb-6">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <div>
-                <h1 className="text-2xl font-bold text-gray-800 mb-2">
+          <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
+            <div className="pure-g" style={{ alignItems: 'center', justifyContent: 'space-between' }}>
+              <div className="pure-u-1 pure-u-md-2-3">
+                <h1 style={{ 
+                  fontSize: 'var(--text-2xl)', 
+                  fontWeight: '700', 
+                  color: 'var(--color-text-dark)', 
+                  marginBottom: 'var(--space-xs)' 
+                }}>
                   Showing {filteredPlaygrounds.length} playground{filteredPlaygrounds.length !== 1 ? 's' : ''} near {postcode}
                 </h1>
-                <p className="text-gray-600">
+                <p style={{ color: 'var(--color-text-medium)' }}>
                   {filteredPlaygrounds.length !== playgrounds.length && (
                     <span>Filtered from {playgrounds.length} total • </span>
                   )}
@@ -198,28 +278,48 @@ export default function SearchResults() {
                 </p>
               </div>
               
-              <div className="flex items-center space-x-6 text-center md:text-left">
-                <div className="flex items-center space-x-2">
-                  <span className="text-3xl">{getWeatherEmoji(weather.weathercode)}</span>
-                  <div>
-                    <div className="text-2xl font-bold text-gray-800">{Math.round(weather.temperature)}°</div>
-                    <div className="text-sm text-gray-600">{getWindDescription(weather.windSpeed)}</div>
+              <div className="pure-u-1 pure-u-md-1-3" style={{ textAlign: 'center' }}>
+                <div style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  justifyContent: 'center', 
+                  gap: 'var(--space-lg)',
+                  flexWrap: 'wrap'
+                }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-xs)' }}>
+                    <span style={{ fontSize: '2rem' }}>{getWeatherEmoji(weather.weathercode)}</span>
+                    <div>
+                      <div style={{ 
+                        fontSize: 'var(--text-2xl)', 
+                        fontWeight: '700', 
+                        color: 'var(--color-text-dark)' 
+                      }}>
+                        {Math.round(weather.temperature)}°
+                      </div>
+                      <div style={{ fontSize: 'var(--text-sm)', color: 'var(--color-text-medium)' }}>
+                        {getWindDescription(weather.windSpeed)}
+                      </div>
+                    </div>
                   </div>
-                </div>
-                
-                <div className="text-center">
-                  <div className="text-lg font-semibold text-orange-600">UV {weather.uvIndex}</div>
-                  <div className="text-sm text-gray-600">
-                    {weather.uvIndex >= 11 ? 'Extreme' :
-                     weather.uvIndex >= 8 ? 'Very High' :
-                     weather.uvIndex >= 6 ? 'High' :
-                     weather.uvIndex >= 3 ? 'Moderate' : 'Low'}
+                  
+                  <div className="text-center">
+                    <div style={{ fontSize: 'var(--text-lg)', fontWeight: '600', color: '#ea580c' }}>
+                      UV {weather.uvIndex}
+                    </div>
+                    <div style={{ fontSize: 'var(--text-sm)', color: 'var(--color-text-medium)' }}>
+                      {weather.uvIndex >= 11 ? 'Extreme' :
+                       weather.uvIndex >= 8 ? 'Very High' :
+                       weather.uvIndex >= 6 ? 'High' :
+                       weather.uvIndex >= 3 ? 'Moderate' : 'Low'}
+                    </div>
                   </div>
-                </div>
-                
-                <div className="text-center">
-                  <div className="text-lg font-semibold text-blue-600">{Math.round(weather.windSpeed)} km/h</div>
-                  <div className="text-sm text-gray-600">Wind</div>
+                  
+                  <div className="text-center">
+                    <div style={{ fontSize: 'var(--text-lg)', fontWeight: '600', color: '#2563eb' }}>
+                      {Math.round(weather.windSpeed)} km/h
+                    </div>
+                    <div style={{ fontSize: 'var(--text-sm)', color: 'var(--color-text-medium)' }}>Wind</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -227,31 +327,65 @@ export default function SearchResults() {
         )}
 
         {/* Filters Section */}
-        <div className="card p-6 mb-6">
-          <h3 className="font-semibold text-gray-900 mb-4">Filter playgrounds</h3>
+        <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
+          <h3 style={{ 
+            fontWeight: '600', 
+            color: 'var(--color-text-dark)', 
+            marginBottom: 'var(--space-md)' 
+          }}>
+            Filter playgrounds
+          </h3>
           
-          <div className="space-y-4">
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-md)' }}>
             {/* Age Group Filter */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Age Group</label>
-              <div className="flex flex-wrap gap-2">
+              <label style={{ 
+                display: 'block', 
+                fontSize: 'var(--text-sm)', 
+                fontWeight: '500', 
+                color: 'var(--color-text-medium)', 
+                marginBottom: 'var(--space-xs)' 
+              }}>
+                Age Group
+              </label>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
                 <button
                   onClick={() => setSelectedAgeGroup('')}
-                  className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
-                    selectedAgeGroup === '' ? 'bg-yellow-400 text-gray-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  }`}
+                  style={{
+                    padding: 'var(--space-xs) var(--space-sm)',
+                    borderRadius: 'var(--radius-full)',
+                    fontSize: 'var(--text-sm)',
+                    fontWeight: '500',
+                    transition: 'all 0.2s ease',
+                    border: 'none',
+                    cursor: 'pointer',
+                    backgroundColor: selectedAgeGroup === '' ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                    color: selectedAgeGroup === '' ? 'var(--color-white)' : 'var(--color-text-medium)'
+                  }}
                 >
                   All Ages
                 </button>
                 {(['toddler', 'kinder', 'primary', 'older'] as AgeTag[]).map(age => {
                   const ageInfo = getAgeTagInfo(age);
+                  const isSelected = selectedAgeGroup === age;
                   return (
                     <button
                       key={age}
                       onClick={() => setSelectedAgeGroup(age === selectedAgeGroup ? '' : age)}
-                      className={`px-3 py-1 rounded-full text-sm font-medium transition-colors flex items-center space-x-1 ${
-                        selectedAgeGroup === age ? 'bg-yellow-400 text-gray-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                      }`}
+                      style={{
+                        padding: 'var(--space-xs) var(--space-sm)',
+                        borderRadius: 'var(--radius-full)',
+                        fontSize: 'var(--text-sm)',
+                        fontWeight: '500',
+                        transition: 'all 0.2s ease',
+                        border: 'none',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 'var(--space-xs)',
+                        backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                        color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
+                      }}
                     >
                       <span>{ageInfo.emoji}</span>
                       <span>{ageInfo.label}</span>
@@ -263,25 +397,53 @@ export default function SearchResults() {
 
             {/* Shade Level Filter */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Shade Level</label>
-              <div className="flex flex-wrap gap-2">
+              <label style={{ 
+                display: 'block', 
+                fontSize: 'var(--text-sm)', 
+                fontWeight: '500', 
+                color: 'var(--color-text-medium)', 
+                marginBottom: 'var(--space-xs)' 
+              }}>
+                Shade Level
+              </label>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
                 <button
                   onClick={() => setSelectedShadeLevel('')}
-                  className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
-                    selectedShadeLevel === '' ? 'bg-yellow-400 text-gray-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  }`}
+                  style={{
+                    padding: 'var(--space-xs) var(--space-sm)',
+                    borderRadius: 'var(--radius-full)',
+                    fontSize: 'var(--text-sm)',
+                    fontWeight: '500',
+                    transition: 'all 0.2s ease',
+                    border: 'none',
+                    cursor: 'pointer',
+                    backgroundColor: selectedShadeLevel === '' ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                    color: selectedShadeLevel === '' ? 'var(--color-white)' : 'var(--color-text-medium)'
+                  }}
                 >
                   Any Shade
                 </button>
                 {['minimal', 'partial', 'full'].map(shade => {
                   const shadeInfo = getShadeInfo(shade);
+                  const isSelected = selectedShadeLevel === shade;
                   return (
                     <button
                       key={shade}
                       onClick={() => setSelectedShadeLevel(shade === selectedShadeLevel ? '' : shade)}
-                      className={`px-3 py-1 rounded-full text-sm font-medium transition-colors flex items-center space-x-1 ${
-                        selectedShadeLevel === shade ? 'bg-yellow-400 text-gray-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                      }`}
+                      style={{
+                        padding: 'var(--space-xs) var(--space-sm)',
+                        borderRadius: 'var(--radius-full)',
+                        fontSize: 'var(--text-sm)',
+                        fontWeight: '500',
+                        transition: 'all 0.2s ease',
+                        border: 'none',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 'var(--space-xs)',
+                        backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                        color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
+                      }}
                     >
                       <span>{shadeInfo.emoji}</span>
                       <span>{shadeInfo.label}</span>
@@ -293,8 +455,16 @@ export default function SearchResults() {
 
             {/* Facilities Filter */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Must Have Facilities</label>
-              <div className="flex flex-wrap gap-2">
+              <label style={{ 
+                display: 'block', 
+                fontSize: 'var(--text-sm)', 
+                fontWeight: '500', 
+                color: 'var(--color-text-medium)', 
+                marginBottom: 'var(--space-xs)' 
+              }}>
+                Must Have Facilities
+              </label>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
                 {(['fenced', 'toilets'] as Facility[]).map(facility => {
                   const facilityInfo = getFacilityInfo(facility);
                   const isSelected = selectedFacilities.includes(facility);
@@ -302,9 +472,20 @@ export default function SearchResults() {
                     <button
                       key={facility}
                       onClick={() => toggleFacility(facility)}
-                      className={`px-3 py-1 rounded-full text-sm font-medium transition-colors flex items-center space-x-1 ${
-                        isSelected ? 'bg-yellow-400 text-gray-900' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                      }`}
+                      style={{
+                        padding: 'var(--space-xs) var(--space-sm)',
+                        borderRadius: 'var(--radius-full)',
+                        fontSize: 'var(--text-sm)',
+                        fontWeight: '500',
+                        transition: 'all 0.2s ease',
+                        border: 'none',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 'var(--space-xs)',
+                        backgroundColor: isSelected ? 'var(--color-coral)' : 'var(--color-cream-light)',
+                        color: isSelected ? 'var(--color-white)' : 'var(--color-text-medium)'
+                      }}
                     >
                       <span>{facilityInfo.emoji}</span>
                       <span>{facilityInfo.label}</span>
@@ -317,14 +498,21 @@ export default function SearchResults() {
           
           {/* Clear Filters */}
           {(selectedAgeGroup || selectedShadeLevel || selectedFacilities.length > 0) && (
-            <div className="mt-4">
+            <div style={{ marginTop: 'var(--space-md)' }}>
               <button
                 onClick={() => {
                   setSelectedAgeGroup('');
                   setSelectedShadeLevel('');
                   setSelectedFacilities([]);
                 }}
-                className="text-sm text-gray-600 hover:text-gray-800 underline"
+                style={{
+                  fontSize: 'var(--text-sm)',
+                  color: 'var(--color-text-medium)',
+                  textDecoration: 'underline',
+                  background: 'none',
+                  border: 'none',
+                  cursor: 'pointer'
+                }}
               >
                 Clear all filters
               </button>
@@ -333,32 +521,65 @@ export default function SearchResults() {
         </div>
 
         {/* Playgrounds List */}
-        <div className="space-y-4">
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-md)' }}>
           {filteredPlaygrounds.map((playground) => (
             <div key={playground.id}>
               <Link
                 href={`/playground/${playground.slug}`}
-                className="block card hover:shadow-xl transition-shadow duration-200"
+                style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}
               >
-                <div className="p-6">
-                  <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+                <div className="card" style={{ 
+                  padding: 'var(--space-lg)',
+                  transition: 'all 0.2s ease'
+                }}>
+                  <div className="pure-g" style={{ alignItems: 'center', justifyContent: 'space-between' }}>
+                    
                     {/* Left Side - Playground Info */}
-                    <div className="flex-1">
-                      <div className="flex items-start justify-between mb-3">
+                    <div className="pure-u-1 pure-u-lg-2-3" style={{ paddingRight: 'var(--space-md)' }}>
+                      <div style={{ 
+                        display: 'flex', 
+                        alignItems: 'flex-start', 
+                        justifyContent: 'space-between', 
+                        marginBottom: 'var(--space-sm)' 
+                      }}>
                         <div>
-                          <h3 className="text-xl font-bold text-gray-800 mb-1">{playground.name}</h3>
-                          <p className="text-gray-600 text-sm mb-2">{playground.address}</p>
+                          <h3 style={{ 
+                            fontSize: 'var(--text-xl)', 
+                            fontWeight: '700', 
+                            color: 'var(--color-text-dark)', 
+                            marginBottom: 'var(--space-xs)' 
+                          }}>
+                            {playground.name}
+                          </h3>
+                          <p style={{ 
+                            color: 'var(--color-text-medium)', 
+                            fontSize: 'var(--text-sm)', 
+                            marginBottom: 'var(--space-xs)' 
+                          }}>
+                            {playground.address}
+                          </p>
                           {playground.distance && (
-                            <p className="text-gray-500 text-sm">{playground.distance.toFixed(1)} km away</p>
+                            <p style={{ color: 'var(--color-text-light)', fontSize: 'var(--text-sm)' }}>
+                              {playground.distance.toFixed(1)} km away
+                            </p>
                           )}
                         </div>
                         
                         {/* Go Now Score */}
                         {playground.goNowScore && (
-                          <div className={`px-3 py-1 rounded-full text-sm font-semibold border ${
-                            playground.goNowScore.status === 'go' ? 'score-go' :
-                            playground.goNowScore.status === 'caution' ? 'score-caution' : 'score-avoid'
-                          }`}>
+                          <div style={{
+                            padding: 'var(--space-xs) var(--space-sm)',
+                            borderRadius: 'var(--radius-full)',
+                            fontSize: 'var(--text-sm)',
+                            fontWeight: '600',
+                            border: '1px solid',
+                            backgroundColor: playground.goNowScore.status === 'go' ? '#dcfce7' :
+                              playground.goNowScore.status === 'caution' ? '#fef3c7' : '#fecaca',
+                            color: playground.goNowScore.status === 'go' ? '#166534' :
+                              playground.goNowScore.status === 'caution' ? '#92400e' : '#991b1b',
+                            borderColor: playground.goNowScore.status === 'go' ? '#bbf7d0' :
+                              playground.goNowScore.status === 'caution' ? '#fde68a' : '#fca5a5'
+                          }}>
                             {playground.goNowScore.status === 'go' ? '🟢' :
                              playground.goNowScore.status === 'caution' ? '🟡' : '🔴'} 
                             {playground.goNowScore.score}/10
@@ -367,11 +588,25 @@ export default function SearchResults() {
                       </div>
 
                       {/* Age Tags */}
-                      <div className="flex flex-wrap gap-2 mb-3">
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)', marginBottom: 'var(--space-sm)' }}>
                         {playground.ageTags.map((tag) => {
                           const tagInfo = getAgeTagInfo(tag);
                           return (
-                            <span key={tag} className={`inline-flex items-center space-x-1 px-2 py-1 rounded-full text-xs font-medium ${tagInfo.color}`}>
+                            <span key={tag} style={{
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: 'var(--space-xs)',
+                              padding: 'var(--space-xs) var(--space-sm)',
+                              borderRadius: 'var(--radius-full)',
+                              fontSize: 'var(--text-xs)',
+                              fontWeight: '500',
+                              backgroundColor: tagInfo.color === 'bg-blue-100 text-blue-800' ? '#dbeafe' :
+                                tagInfo.color === 'bg-green-100 text-green-800' ? '#dcfce7' :
+                                tagInfo.color === 'bg-yellow-100 text-yellow-800' ? '#fef3c7' : '#f3e8ff',
+                              color: tagInfo.color === 'bg-blue-100 text-blue-800' ? '#1e40af' :
+                                tagInfo.color === 'bg-green-100 text-green-800' ? '#166534' :
+                                tagInfo.color === 'bg-yellow-100 text-yellow-800' ? '#92400e' : '#6b21a8'
+                            }}>
                               <span>{tagInfo.emoji}</span>
                               <span>{tagInfo.label}</span>
                             </span>
@@ -380,50 +615,83 @@ export default function SearchResults() {
                       </div>
 
                       {/* Facilities */}
-                      <div className="flex flex-wrap items-center gap-3 text-sm text-gray-600">
+                      <div style={{ 
+                        display: 'flex', 
+                        flexWrap: 'wrap', 
+                        alignItems: 'center', 
+                        gap: 'var(--space-sm)', 
+                        fontSize: 'var(--text-sm)', 
+                        color: 'var(--color-text-medium)' 
+                      }}>
                         {playground.facilities.slice(0, 6).map((facility) => {
                           const facilityInfo = getFacilityInfo(facility);
                           return (
-                            <span key={facility} className="flex items-center space-x-1">
+                            <span key={facility} style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-xs)' }}>
                               <span>{facilityInfo.emoji}</span>
                               <span>{facilityInfo.label}</span>
                             </span>
                           );
                         })}
                         {playground.facilities.length > 6 && (
-                          <span className="text-gray-400">+{playground.facilities.length - 6} more</span>
+                          <span style={{ color: 'var(--color-text-light)' }}>
+                            +{playground.facilities.length - 6} more
+                          </span>
                         )}
                       </div>
                     </div>
 
                     {/* Right Side - Shade & Recommendation */}
-                    <div className="lg:w-64 space-y-3">
-                      {/* Shade Level */}
-                      <div>
-                        <div className="flex items-center justify-between text-sm mb-1">
-                          <span className="font-medium text-gray-700">Shade Level</span>
-                          <span className={`font-medium ${getShadeInfo(playground.shadeLevel).color}`}>
-                            {getShadeInfo(playground.shadeLevel).emoji} {getShadeInfo(playground.shadeLevel).label}
-                          </span>
-                        </div>
-                        <div className={`shade-bar shade-${playground.shadeLevel}`}>
-                          <div className="shade-bar-fill"></div>
-                        </div>
-                      </div>
-
-                      {/* Go Now Recommendation */}
-                      {playground.goNowScore && (
-                        <div className="bg-gray-50 rounded-lg p-3">
-                          <div className="font-semibold text-sm text-gray-800 mb-1">
-                            {playground.goNowScore.message}
+                    <div className="pure-u-1 pure-u-lg-1-3" style={{ minWidth: '16rem' }}>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-sm)' }}>
+                        {/* Shade Level */}
+                        <div>
+                          <div style={{ 
+                            display: 'flex', 
+                            alignItems: 'center', 
+                            justifyContent: 'space-between', 
+                            fontSize: 'var(--text-sm)', 
+                            marginBottom: 'var(--space-xs)' 
+                          }}>
+                            <span style={{ fontWeight: '500', color: 'var(--color-text-medium)' }}>Shade Level</span>
+                            <span style={{ 
+                              fontWeight: '500',
+                              color: getShadeInfo(playground.shadeLevel).color === 'text-red-600' ? '#dc2626' :
+                                getShadeInfo(playground.shadeLevel).color === 'text-yellow-600' ? '#d97706' : '#059669'
+                            }}>
+                              {getShadeInfo(playground.shadeLevel).emoji} {getShadeInfo(playground.shadeLevel).label}
+                            </span>
                           </div>
-                          {playground.goNowScore.tips.length > 0 && (
-                            <div className="text-xs text-gray-600">
-                              {playground.goNowScore.tips[0]}
-                            </div>
-                          )}
+                          <div className={`shade-bar shade-${playground.shadeLevel}`}>
+                            <div className="shade-bar-fill"></div>
+                          </div>
                         </div>
-                      )}
+
+                        {/* Go Now Recommendation */}
+                        {playground.goNowScore && (
+                          <div style={{
+                            backgroundColor: 'var(--color-cream-light)',
+                            borderRadius: 'var(--radius-lg)',
+                            padding: 'var(--space-sm)'
+                          }}>
+                            <div style={{ 
+                              fontWeight: '600', 
+                              fontSize: 'var(--text-sm)', 
+                              color: 'var(--color-text-dark)', 
+                              marginBottom: 'var(--space-xs)' 
+                            }}>
+                              {playground.goNowScore.message}
+                            </div>
+                            {playground.goNowScore.tips.length > 0 && (
+                              <div style={{ 
+                                fontSize: 'var(--text-xs)', 
+                                color: 'var(--color-text-medium)' 
+                              }}>
+                                {playground.goNowScore.tips[0]}
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -431,17 +699,33 @@ export default function SearchResults() {
               
               {/* NOT RECOMMENDED Suggestion */}
               {playground.goNowScore?.status === 'avoid' && nearestGoPlayground && nearestGoPlayground.id !== playground.id && (
-                <div className="mt-2 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-                  <div className="flex items-center space-x-2 text-sm text-blue-800">
-                    <span>💡</span>
-                    <span className="font-medium">Instead try:</span>
+                <div style={{
+                  marginTop: 'var(--space-xs)',
+                  padding: 'var(--space-md)',
+                  backgroundColor: '#eff6ff',
+                  border: '1px solid #bfdbfe',
+                  borderRadius: 'var(--radius-lg)'
+                }}>
+                  <div style={{ 
+                    display: 'flex', 
+                    alignItems: 'center', 
+                    gap: 'var(--space-xs)', 
+                    fontSize: 'var(--text-sm)', 
+                    color: '#1e40af' 
+                  }}>
+                    <LightbulbIcon />
+                    <span style={{ fontWeight: '500' }}>Instead try:</span>
                     <Link 
                       href={`/playground/${nearestGoPlayground.slug}`}
-                      className="font-semibold hover:underline"
+                      style={{ 
+                        fontWeight: '600', 
+                        color: '#1e40af', 
+                        textDecoration: 'none' 
+                      }}
                     >
                       {nearestGoPlayground.name}
                     </Link>
-                    <span className="text-blue-600">
+                    <span style={{ color: '#2563eb' }}>
                       ({nearestGoPlayground.distance?.toFixed(1)} km away, 
                       {nearestGoPlayground.goNowScore ? ` ${nearestGoPlayground.goNowScore.score}/10` : ''})
                     </span>
@@ -453,10 +737,24 @@ export default function SearchResults() {
         </div>
 
         {filteredPlaygrounds.length === 0 && playgrounds.length > 0 && (
-          <div className="text-center py-12">
-            <div className="text-6xl mb-4">🔍</div>
-            <h3 className="text-xl font-bold text-gray-800 mb-2">No playgrounds match your filters</h3>
-            <p className="text-gray-600 mb-6">Try adjusting your filters or clearing them to see more results.</p>
+          <div className="text-center py-3xl">
+            <div style={{ fontSize: '4rem', marginBottom: 'var(--space-md)', color: 'var(--color-text-light)' }}>
+              <SearchIcon />
+            </div>
+            <h3 style={{ 
+              fontSize: 'var(--text-xl)', 
+              fontWeight: '700', 
+              color: 'var(--color-text-dark)', 
+              marginBottom: 'var(--space-xs)' 
+            }}>
+              No playgrounds match your filters
+            </h3>
+            <p style={{ 
+              color: 'var(--color-text-medium)', 
+              marginBottom: 'var(--space-lg)' 
+            }}>
+              Try adjusting your filters or clearing them to see more results.
+            </p>
             <button
               onClick={() => {
                 setSelectedAgeGroup('');
@@ -471,12 +769,26 @@ export default function SearchResults() {
         )}
 
         {playgrounds.length === 0 && (
-          <div className="text-center py-12">
-            <div className="text-6xl mb-4">🤔</div>
-            <h3 className="text-xl font-bold text-gray-800 mb-2">No playgrounds found</h3>
-            <p className="text-gray-600 mb-6">Try a different postcode or expand your search area.</p>
-            <button onClick={() => router.push('/')} className="btn-primary">
-              🔍 Try Another Postcode
+          <div className="text-center py-3xl">
+            <div style={{ fontSize: '4rem', marginBottom: 'var(--space-md)', color: 'var(--color-text-light)' }}>
+              <SadFaceIcon />
+            </div>
+            <h3 style={{ 
+              fontSize: 'var(--text-xl)', 
+              fontWeight: '700', 
+              color: 'var(--color-text-dark)', 
+              marginBottom: 'var(--space-xs)' 
+            }}>
+              No playgrounds found
+            </h3>
+            <p style={{ 
+              color: 'var(--color-text-medium)', 
+              marginBottom: 'var(--space-lg)' 
+            }}>
+              Try a different postcode or expand your search area.
+            </p>
+            <button onClick={() => router.push('/')} className="btn-coral">
+              <SearchIcon /> Try Another Postcode
             </button>
           </div>
         )}

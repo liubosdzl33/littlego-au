@@ -1,79 +1,161 @@
 import Link from 'next/link';
 
+const LogoIcon = () => (
+  <svg className="icon icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+    <circle cx="12" cy="12" r="10" fill="var(--color-green-medium)" stroke="white" strokeWidth="1"/>
+    <path d="M8 12l2 2 4-4" stroke="white" strokeWidth="2"/>
+  </svg>
+);
+
+const HeartIcon = () => (
+  <svg className="icon" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+  </svg>
+);
+
+const EmailIcon = () => (
+  <svg className="icon" viewBox="0 0 24 24">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+  </svg>
+);
+
+const GlobeIcon = () => (
+  <svg className="icon" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10"/>
+    <line x1="2" y1="12" x2="22" y2="12"/>
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+  </svg>
+);
+
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 border-t border-gray-200 mt-16">
-      <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="footer">
+      <div className="container">
+        <div className="pure-g">
           
           {/* Brand & Copyright */}
-          <div className="space-y-4">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">L</span>
-              </div>
-              <span className="text-xl font-bold text-gray-900">LittleGo</span>
+          <div className="pure-u-1 pure-u-md-1-3" style={{ marginBottom: 'var(--space-lg)' }}>
+            <Link 
+              href="/" 
+              style={{ 
+                display: 'flex', 
+                alignItems: 'center', 
+                gap: 'var(--space-sm)', 
+                textDecoration: 'none',
+                color: 'inherit',
+                marginBottom: 'var(--space-md)'
+              }}
+            >
+              <LogoIcon />
+              <span style={{ 
+                fontSize: 'var(--text-xl)', 
+                fontWeight: '700', 
+                color: 'var(--color-white)' 
+              }}>
+                LittleGo
+              </span>
             </Link>
-            <p className="text-gray-600 text-sm leading-relaxed">
-              © 2026 LittleGo — Helping Australian parents find the best playground
+            <p style={{ 
+              color: '#9ca3af', 
+              fontSize: 'var(--text-sm)', 
+              lineHeight: '1.6',
+              marginBottom: 'var(--space-md)'
+            }}>
+              Discover amazing places for your little ones across Australia. Weather-aware suggestions, parent reviews, and age-perfect filtering for 1-4 year olds.
+            </p>
+            <p style={{ 
+              color: '#6b7280', 
+              fontSize: 'var(--text-xs)'
+            }}>
+              © 2026 LittleGo — Made with <HeartIcon /> by parents in Melbourne
             </p>
           </div>
 
-          {/* Links */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-gray-900">Quick Links</h3>
-            <div className="flex flex-col space-y-2">
-              <Link 
-                href="/about" 
-                className="text-gray-600 hover:text-yellow-600 transition-colors text-sm"
-              >
-                About
+          {/* Quick Links */}
+          <div className="pure-u-1 pure-u-md-1-3" style={{ marginBottom: 'var(--space-lg)' }}>
+            <h3 style={{ 
+              fontWeight: '600', 
+              color: 'var(--color-white)', 
+              marginBottom: 'var(--space-md)',
+              fontSize: 'var(--text-lg)'
+            }}>
+              Quick Links
+            </h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-sm)' }}>
+              <Link href="/about" className="footer-link">
+                About LittleGo
+              </Link>
+              <Link href="/search" className="footer-link">
+                Find Places
               </Link>
               <a 
                 href="mailto:hello@littlego.com.au" 
-                className="text-gray-600 hover:text-yellow-600 transition-colors text-sm"
+                className="footer-link"
+                style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-xs)' }}
               >
-                Contact
+                <EmailIcon />
+                Contact Us
               </a>
+              <a href="#" className="footer-link">Privacy Policy</a>
+              <a href="#" className="footer-link">Terms of Service</a>
             </div>
           </div>
 
-          {/* Social & Credits */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-gray-900">Connect</h3>
-            <div className="flex space-x-4">
-              {/* Social placeholder links */}
-              <a 
-                href="#" 
-                className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-yellow-400 transition-colors"
-                aria-label="Facebook"
-              >
-                <svg className="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                </svg>
-              </a>
-              <a 
-                href="#" 
-                className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-yellow-400 transition-colors"
-                aria-label="Instagram"
-              >
-                <svg className="w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-2.458 0-4.467-2.01-4.467-4.468s2.009-4.467 4.467-4.467c2.458 0 4.468 2.009 4.468 4.467s-2.01 4.468-4.468 4.468z"/>
-                </svg>
-              </a>
-            </div>
+          {/* Location & Info */}
+          <div className="pure-u-1 pure-u-md-1-3" style={{ marginBottom: 'var(--space-lg)' }}>
+            <h3 style={{ 
+              fontWeight: '600', 
+              color: 'var(--color-white)', 
+              marginBottom: 'var(--space-md)',
+              fontSize: 'var(--text-lg)'
+            }}>
+              Coverage
+            </h3>
             
-            <div className="text-xs text-gray-500 space-y-1">
-              <p>Weather data from Open-Meteo</p>
-              <p>Playground data is community-contributed</p>
+            <div style={{ marginBottom: 'var(--space-lg)' }}>
+              <div style={{ 
+                display: 'flex', 
+                alignItems: 'center', 
+                gap: 'var(--space-xs)', 
+                marginBottom: 'var(--space-sm)',
+                color: 'var(--color-green-light)' 
+              }}>
+                <GlobeIcon />
+                <span style={{ fontWeight: '600' }}>Melbourne</span>
+              </div>
+              <p style={{ color: '#9ca3af', fontSize: 'var(--text-sm)' }}>
+                Starting with Melbourne, expanding across Australia
+              </p>
+            </div>
+
+            <div style={{ 
+              fontSize: 'var(--text-xs)', 
+              color: '#6b7280',
+              lineHeight: '1.6'
+            }}>
+              <p style={{ marginBottom: 'var(--space-xs)' }}>
+                Weather data from Open-Meteo API
+              </p>
+              <p style={{ marginBottom: 'var(--space-xs)' }}>
+                Place data is community-contributed
+              </p>
+              <p>
+                Ages 1-4 focus · Parent reviews · Melbourne first
+              </p>
             </div>
           </div>
           
         </div>
         
-        <div className="border-t border-gray-200 mt-8 pt-8 text-center">
-          <p className="text-sm text-gray-500">
-            Built by parents, for parents 💛
+        <div style={{ 
+          borderTop: '1px solid #374151', 
+          marginTop: 'var(--space-2xl)', 
+          paddingTop: 'var(--space-xl)', 
+          textAlign: 'center' 
+        }}>
+          <p style={{ fontSize: 'var(--text-sm)', color: '#9ca3af' }}>
+            🇦🇺 Proudly Australian · Built by parents, for parents
           </p>
         </div>
       </div>
