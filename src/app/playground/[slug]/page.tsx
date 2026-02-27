@@ -251,8 +251,8 @@ export default function PlaygroundDetailPage() {
       <main className="container py-lg">
         {/* Playground Header */}
         <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
-          <div className="pure-g" style={{ alignItems: 'flex-start', justifyContent: 'space-between' }}>
-            <div className="pure-u-1 pure-u-lg-2-3" style={{ paddingRight: 'var(--space-md)' }}>
+          <div className="pure-g" style={{ alignItems: 'flex-start' }}>
+            <div className="pure-u-1 pure-u-lg-2-3" style={{ paddingRight: 'var(--space-md)', boxSizing: 'border-box' }}>
               <h1 style={{ 
                 fontSize: 'var(--text-3xl)', 
                 fontWeight: '700', 
@@ -311,17 +311,17 @@ export default function PlaygroundDetailPage() {
 
             {/* Go Now Score Card */}
             {goNowScore && weather && (
-              <div className="pure-u-1 pure-u-lg-1-3" style={{ paddingLeft: 'var(--space-md)' }}>
+              <div className="pure-u-1 pure-u-lg-1-3" style={{ boxSizing: 'border-box' }}>
                 <div style={{
-                  padding: 'var(--space-lg)',
-                  borderRadius: 'var(--radius-xl)',
+                  padding: 'var(--space-md)',
+                  borderRadius: '12px',
                   border: '2px solid',
                   backgroundColor: goNowScore.status === 'go' ? '#f0fdf4' :
                     goNowScore.status === 'caution' ? '#fefce8' : '#fef2f2',
                   borderColor: goNowScore.status === 'go' ? '#bbf7d0' :
                     goNowScore.status === 'caution' ? '#fde047' : '#fecaca',
                   overflow: 'hidden',
-                  maxWidth: '100%'
+                  wordBreak: 'break-word' as const
                 }}>
                   <div className="text-center" style={{ marginBottom: 'var(--space-md)' }}>
                     <div style={{ fontSize: '3rem', marginBottom: 'var(--space-xs)' }}>
