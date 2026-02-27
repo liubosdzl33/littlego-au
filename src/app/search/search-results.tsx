@@ -245,13 +245,10 @@ export default function SearchResults() {
                   );
                 })()}
                 
-                {/* Go Now Badge */}
-                {playground.goNowScore && (
-                  <div className={`card-badge ${playground.goNowScore.status === 'go' ? 'go-now' : playground.goNowScore.status === 'caution' ? 'caution' : 'avoid'}`}>
-                    {playground.goNowScore.status === 'go' ? 'Go Now' : 
-                     playground.goNowScore.status === 'caution' ? 'OK' : 'Not Ideal'}
-                  </div>
-                )}
+                {/* Free / Paid Badge */}
+                <div className={`card-badge ${playground.isPaid ? 'paid' : 'go-now'}`}>
+                  {playground.isPaid ? 'Paid' : 'Free'}
+                </div>
 
                 {/* Venue Type Badge */}
                 {playground.isPaid && (
@@ -434,6 +431,11 @@ export default function SearchResults() {
         
         .card-badge.go-now {
           background: #10b981;
+          color: white;
+        }
+        
+        .card-badge.paid {
+          background: #FF385C;
           color: white;
         }
         

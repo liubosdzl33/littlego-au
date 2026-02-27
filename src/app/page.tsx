@@ -180,7 +180,7 @@ export default function Homepage() {
                     );
                   })()}
                   <div className="card-badge go-now">
-                    Popular
+                    Free
                   </div>
                 </div>
 
@@ -264,8 +264,8 @@ export default function Homepage() {
                         />
                       );
                     })()}
-                    <div className="card-badge" style={{ background: 'var(--color-primary)', color: 'white' }}>
-                      Indoor
+                    <div className="card-badge" style={{ background: '#FF385C', color: 'white' }}>
+                      Paid
                     </div>
                   </div>
 
