@@ -298,16 +298,16 @@ export default function PlaygroundDetailPage() {
               </div>
 
               {/* Age Tags */}
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)', marginBottom: 'var(--space-md)' }}>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: 'var(--space-md)' }}>
                 {playground.ageTags.map((tag) => {
                   const tagInfo = getAgeTagInfo(tag);
                   return (
                     <span key={tag} style={{
                       display: 'inline-flex',
                       alignItems: 'center',
-                      gap: 'var(--space-xs)',
-                      padding: 'var(--space-xs) var(--space-sm)',
-                      borderRadius: 'var(--radius-full)',
+                      gap: '4px',
+                      padding: '4px 12px',
+                      borderRadius: '20px',
                       fontSize: 'var(--text-sm)',
                       fontWeight: '500',
                       backgroundColor: tagInfo.color === 'bg-blue-100 text-blue-800' ? '#dbeafe' :
@@ -315,7 +315,9 @@ export default function PlaygroundDetailPage() {
                         tagInfo.color === 'bg-yellow-100 text-yellow-800' ? '#fef3c7' : '#f3e8ff',
                       color: tagInfo.color === 'bg-blue-100 text-blue-800' ? '#1e40af' :
                         tagInfo.color === 'bg-green-100 text-green-800' ? '#166534' :
-                        tagInfo.color === 'bg-yellow-100 text-yellow-800' ? '#92400e' : '#6b21a8'
+                        tagInfo.color === 'bg-yellow-100 text-yellow-800' ? '#92400e' : '#6b21a8',
+                      marginRight: '8px',
+                      marginBottom: '4px'
                     }}>
                       <span>{tagInfo.emoji}</span>
                       <span>{tagInfo.label}</span>
@@ -327,7 +329,7 @@ export default function PlaygroundDetailPage() {
 
             {/* Go Now Score Card */}
             {goNowScore && weather && (
-              <div className="pure-u-1 pure-u-lg-1-3" style={{ minWidth: '20rem' }}>
+              <div className="pure-u-1 pure-u-lg-1-3" style={{ paddingLeft: 'var(--space-md)' }}>
                 <div style={{
                   padding: 'var(--space-lg)',
                   borderRadius: 'var(--radius-xl)',
@@ -335,7 +337,9 @@ export default function PlaygroundDetailPage() {
                   backgroundColor: goNowScore.status === 'go' ? '#f0fdf4' :
                     goNowScore.status === 'caution' ? '#fefce8' : '#fef2f2',
                   borderColor: goNowScore.status === 'go' ? '#bbf7d0' :
-                    goNowScore.status === 'caution' ? '#fde047' : '#fecaca'
+                    goNowScore.status === 'caution' ? '#fde047' : '#fecaca',
+                  overflow: 'hidden',
+                  maxWidth: '100%'
                 }}>
                   <div className="text-center" style={{ marginBottom: 'var(--space-md)' }}>
                     <div style={{ fontSize: '3rem', marginBottom: 'var(--space-xs)' }}>
@@ -590,7 +594,7 @@ export default function PlaygroundDetailPage() {
           </div>
         </div>
 
-        {/* Map Placeholder */}
+        {/* Location Links */}
         <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
           <h2 style={{ 
             fontSize: 'var(--text-2xl)', 
@@ -604,25 +608,6 @@ export default function PlaygroundDetailPage() {
             <MapPinIcon />
             Location
           </h2>
-          <div style={{
-            backgroundColor: 'var(--color-cream-light)',
-            borderRadius: 'var(--radius-lg)',
-            height: '16rem',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            marginBottom: 'var(--space-md)'
-          }}>
-            <div className="text-center" style={{ color: 'var(--color-text-light)' }}>
-              <div style={{ marginBottom: 'var(--space-xs)' }}>
-                <MapIcon />
-              </div>
-              <p>Interactive map coming soon!</p>
-              <p style={{ fontSize: 'var(--text-sm)', marginTop: 'var(--space-xs)' }}>
-                Lat: {playground.lat.toFixed(4)}, Lng: {playground.lng.toFixed(4)}
-              </p>
-            </div>
-          </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-xs)' }}>
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(playground.address)}`}
@@ -657,68 +642,9 @@ export default function PlaygroundDetailPage() {
           </div>
         </div>
 
-        {/* Photo Gallery Placeholder */}
-        <div className="card mb-lg" style={{ padding: 'var(--space-lg)' }}>
-          <h2 style={{ 
-            fontSize: 'var(--text-2xl)', 
-            fontWeight: '700', 
-            color: 'var(--color-text-dark)', 
-            marginBottom: 'var(--space-md)',
-            display: 'flex',
-            alignItems: 'center',
-            gap: 'var(--space-xs)'
-          }}>
-            <CameraIcon />
-            Photos
-          </h2>
-          <div className="pure-g">
-            {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="pure-u-1-2 pure-u-md-1-4" style={{ padding: 'var(--space-xs)' }}>
-                <div style={{
-                  backgroundColor: 'var(--color-cream-light)',
-                  borderRadius: 'var(--radius-lg)',
-                  aspectRatio: '1 / 1',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center'
-                }}>
-                  <div className="text-center" style={{ color: 'var(--color-text-light)' }}>
-                    <div style={{ fontSize: '2rem', marginBottom: 'var(--space-xs)' }}>
-                      <CameraIcon />
-                    </div>
-                    <p style={{ fontSize: 'var(--text-xs)' }}>Photo {i}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p style={{ color: 'var(--color-text-light)', fontSize: 'var(--text-sm)', marginTop: 'var(--space-md)' }}>
-            Photos coming soon! Help us by sharing photos of this playground.
-          </p>
-        </div>
+        {/* Photos section removed - will be implemented when real photos are available */}
 
-        {/* Reviews Placeholder */}
-        <div className="card" style={{ padding: 'var(--space-lg)' }}>
-          <h2 style={{ 
-            fontSize: 'var(--text-2xl)', 
-            fontWeight: '700', 
-            color: 'var(--color-text-dark)', 
-            marginBottom: 'var(--space-md)',
-            display: 'flex',
-            alignItems: 'center',
-            gap: 'var(--space-xs)'
-          }}>
-            <MessageCircleIcon />
-            Parent Reviews & Tips
-          </h2>
-          <div className="text-center py-2xl" style={{ color: 'var(--color-text-light)' }}>
-            <div style={{ fontSize: '3rem', marginBottom: 'var(--space-xs)' }}>
-              <MessageCircleIcon />
-            </div>
-            <p style={{ marginBottom: 'var(--space-xs)' }}>Be the first to share your experience!</p>
-            <p style={{ fontSize: 'var(--text-sm)' }}>Parent reviews and tips coming soon.</p>
-          </div>
-        </div>
+        {/* Reviews section removed - will be implemented when review feature is built */}
       </main>
 
       {/* Responsive Styles */}
