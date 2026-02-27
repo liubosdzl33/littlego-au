@@ -58,6 +58,7 @@ export default function Header() {
               <nav style={{ display: 'none' }} className="desktop-nav">
                 <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2xl)' }}>
                   <Link href="/" className="nav-link">Home</Link>
+                  <Link href="/blog" className="nav-link">Blog</Link>
                   <Link href="/about" className="nav-link">About</Link>
                   <Link href="/search" className="nav-link">Search</Link>
                 </div>
@@ -98,6 +99,14 @@ export default function Header() {
                     style={{ display: 'block', padding: 'var(--space-xs) var(--space-sm)' }}
                   >
                     Home
+                  </Link>
+                  <Link 
+                    href="/blog" 
+                    className="nav-link"
+                    onClick={() => setIsMenuOpen(false)}
+                    style={{ display: 'block', padding: 'var(--space-xs) var(--space-sm)' }}
+                  >
+                    Blog
                   </Link>
                   <Link 
                     href="/about" 
