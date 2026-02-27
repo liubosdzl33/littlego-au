@@ -302,38 +302,35 @@ export function getShadeInfo(shadeLevel: string): { label: string; color: string
   return shadeMap[shadeLevel] || shadeMap['minimal'];
 }
 
-// Generate a deterministic colour from venue name
-export function getVenueColor(name: string): string {
-  const colors = ['#52b788', '#2d6a4f', '#40916c', '#74c69d', '#95d5b2', '#b7e4c7',
-                   '#3a86ff', '#8338ec', '#ff006e', '#fb5607', '#ffbe0b', '#06d6a0'];
-  const hash = name.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
-  return colors[hash % colors.length];
+// Convert lat/lng to OpenStreetMap tile coordinates
+function latLngToTile(lat: number, lng: number, zoom: number): { x: number; y: number } {
+  const n = Math.pow(2, zoom);
+  const x = Math.floor((lng + 180) / 360 * n);
+  const y = Math.floor((1 - Math.log(Math.tan(lat * Math.PI / 180) + 1 / Math.cos(lat * Math.PI / 180)) / Math.PI) / 2 * n);
+  return { x, y };
 }
 
-// Get playground image data for rendering colored placeholders
-export function getPlaygroundImageData(playground: Playground): { color: string; letter: string; icon: string } {
-  const color = getVenueColor(playground.name);
+// Get OpenStreetMap tile URL for a playground location
+export function getPlaygroundMapUrl(playground: Playground): string {
+  const zoom = 16;
+  const { x, y } = latLngToTile(playground.lat, playground.lng, zoom);
+  return `https://tile.openstreetmap.org/${zoom}/${x}/${y}.png`;
+}
+
+// Get playground image data — now returns map tile URL
+export function getPlaygroundImageData(playground: Playground): { mapUrl: string; color: string; letter: string; icon: string } {
+  const mapUrl = getPlaygroundMapUrl(playground);
   const letter = playground.name.charAt(0).toUpperCase();
-  
-  // Determine icon based on venue type
-  let icon = '🌳'; // Default park icon
-  
-  // Check if it's an indoor venue based on facilities or name
-  const isIndoor = playground.facilities?.includes('indoor' as any) || 
-                   playground.name.toLowerCase().includes('indoor') ||
+  const isIndoor = playground.name.toLowerCase().includes('indoor') ||
                    playground.name.toLowerCase().includes('centre') ||
-                   playground.name.toLowerCase().includes('center');
-  
-  if (isIndoor) {
-    icon = '🏠';
-  }
-  
-  return { color, letter, icon };
-}
-
-// Legacy function for backward compatibility - returns placeholder data instead of URL
-export function getPlaygroundImage(playground: Playground): string {
-  const { color } = getPlaygroundImageData(playground);
-  // Return a data structure that can be used to render a colored div instead of img
-  return `placeholder:${color}:${playground.name}`;
+                   playground.name.toLowerCase().includes('center') ||
+                   playground.name.toLowerCase().includes('bounce') ||
+                   playground.name.toLowerCase().includes('zone') ||
+                   playground.name.toLowerCase().includes('inflatable') ||
+                   playground.name.toLowerCase().includes('monkey') ||
+                   playground.name.toLowerCase().includes('chipmunks') ||
+                   playground.name.toLowerCase().includes('lollipop');
+  const icon = isIndoor ? '🏠' : '🌳';
+  const color = isIndoor ? '#FF385C' : '#52b788';
+  return { mapUrl, color, letter, icon };
 }

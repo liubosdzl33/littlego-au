@@ -166,28 +166,17 @@ export default function Homepage() {
                   {(() => {
                     const imageData = getPlaygroundImageData(playground);
                     return (
-                      <div 
-                        className="card-image card-placeholder"
+                      <img 
+                        className="card-image"
+                        src={imageData.mapUrl}
+                        alt={`Map of ${playground.name}`}
+                        loading="lazy"
                         style={{
-                          backgroundColor: imageData.color,
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          color: 'white',
-                          fontWeight: 'bold',
                           width: '100%',
-                          height: '100%'
+                          height: '100%',
+                          objectFit: 'cover'
                         }}
-                      >
-                        <div style={{ textAlign: 'center' }}>
-                          <div style={{ fontSize: '32px', marginBottom: '8px' }}>
-                            {imageData.icon}
-                          </div>
-                          <div style={{ fontSize: '24px' }}>
-                            {imageData.letter}
-                          </div>
-                        </div>
-                      </div>
+                      />
                     );
                   })()}
                   <div className="card-badge go-now">
@@ -262,28 +251,17 @@ export default function Homepage() {
                     {(() => {
                       const imageData = getPlaygroundImageData(venue);
                       return (
-                        <div 
-                          className="card-image card-placeholder"
+                        <img 
+                          className="card-image"
+                          src={imageData.mapUrl}
+                          alt={`Map of ${venue.name}`}
+                          loading="lazy"
                           style={{
-                            backgroundColor: imageData.color,
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            color: 'white',
-                            fontWeight: 'bold',
                             width: '100%',
-                            height: '100%'
+                            height: '100%',
+                            objectFit: 'cover'
                           }}
-                        >
-                          <div style={{ textAlign: 'center' }}>
-                            <div style={{ fontSize: '32px', marginBottom: '8px' }}>
-                              {imageData.icon}
-                            </div>
-                            <div style={{ fontSize: '24px' }}>
-                              {imageData.letter}
-                            </div>
-                          </div>
-                        </div>
+                        />
                       );
                     })()}
                     <div className="card-badge" style={{ background: 'var(--color-primary)', color: 'white' }}>
