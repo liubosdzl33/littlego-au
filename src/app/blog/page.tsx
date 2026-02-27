@@ -195,6 +195,113 @@ export default function BlogPage() {
           </section>
         </main>
       </div>
+      
+      <style jsx>{`
+        .category-filter {
+          border-radius: 32px;
+          border: 1px solid #ddd;
+          padding: 8px 16px;
+          background: white;
+          color: #666;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          font-size: 14px;
+          font-weight: 500;
+        }
+        
+        .category-filter:hover {
+          border-color: #52b788;
+          color: #52b788;
+        }
+        
+        .category-filter.active {
+          font-weight: 600;
+        }
+        
+        .blog-card {
+          background: white;
+          border-radius: 12px;
+          padding: 24px;
+          height: 100%;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          border: 1px solid #f0f0f0;
+        }
+        
+        .blog-card:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+        
+        .blog-card-content {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .blog-meta {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          flex-wrap: wrap;
+        }
+        
+        .blog-category-tag {
+          color: white;
+          padding: 4px 12px;
+          border-radius: 16px;
+          font-size: 12px;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+        
+        .blog-date {
+          color: #888;
+          font-size: 14px;
+        }
+        
+        .blog-post-link:hover {
+          color: #52b788 !important;
+        }
+        
+        .blog-tags {
+          display: flex;
+          gap: 8px;
+          flex-wrap: wrap;
+        }
+        
+        .blog-tag {
+          color: #666;
+          font-size: 12px;
+          opacity: 0.8;
+        }
+        
+        .read-more-link {
+          color: #52b788;
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 14px;
+          transition: color 0.2s ease;
+        }
+        
+        .read-more-link:hover {
+          color: #2d6a4f;
+        }
+        
+        /* Grid responsiveness */
+        @media (max-width: 768px) {
+          .pure-u-md-1-2 {
+            width: 100% !important;
+          }
+        }
+        
+        @media (max-width: 1024px) {
+          .pure-u-lg-1-3 {
+            width: 50% !important;
+          }
+        }
+      `}</style>
     </>
   );
 }

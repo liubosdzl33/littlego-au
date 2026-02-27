@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { getPlaygroundsByLocation } from '@/lib/playgrounds';
+import { getPlaygroundsByLocation, getPlaygroundImageData } from '@/lib/playgrounds';
 
 // SVG Icon Components
 const SearchIcon = () => (
@@ -172,11 +172,33 @@ export default function Homepage() {
                 className="listing-card"
               >
                 <div className="card-image-container">
-                  <img 
-                    src={`https://picsum.photos/400/380?random=${playground.id}`}
-                    alt={playground.name}
-                    className="card-image"
-                  />
+                  {(() => {
+                    const imageData = getPlaygroundImageData(playground);
+                    return (
+                      <div 
+                        className="card-image card-placeholder"
+                        style={{
+                          backgroundColor: imageData.color,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          color: 'white',
+                          fontWeight: 'bold',
+                          width: '100%',
+                          height: '100%'
+                        }}
+                      >
+                        <div style={{ textAlign: 'center' }}>
+                          <div style={{ fontSize: '32px', marginBottom: '8px' }}>
+                            {imageData.icon}
+                          </div>
+                          <div style={{ fontSize: '24px' }}>
+                            {imageData.letter}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })()}
                   <div className="card-badge go-now">
                     Popular
                   </div>
@@ -246,11 +268,33 @@ export default function Homepage() {
                   className="listing-card"
                 >
                   <div className="card-image-container">
-                    <img 
-                      src={`https://picsum.photos/400/380?random=${venue.id}-indoor`}
-                      alt={venue.name}
-                      className="card-image"
-                    />
+                    {(() => {
+                      const imageData = getPlaygroundImageData(venue);
+                      return (
+                        <div 
+                          className="card-image card-placeholder"
+                          style={{
+                            backgroundColor: imageData.color,
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            color: 'white',
+                            fontWeight: 'bold',
+                            width: '100%',
+                            height: '100%'
+                          }}
+                        >
+                          <div style={{ textAlign: 'center' }}>
+                            <div style={{ fontSize: '32px', marginBottom: '8px' }}>
+                              {imageData.icon}
+                            </div>
+                            <div style={{ fontSize: '24px' }}>
+                              {imageData.letter}
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })()}
                     <div className="card-badge" style={{ background: 'var(--color-primary)', color: 'white' }}>
                       Indoor
                     </div>

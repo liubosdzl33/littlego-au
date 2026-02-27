@@ -240,10 +240,10 @@ export function getPostcodeCoordinates(postcode: string): { lat: number; lng: nu
 // Get age tag display info
 export function getAgeTagInfo(tag: AgeTag): { label: string; emoji: string; color: string } {
   const tagMap = {
-    'toddler': { label: 'Toddler (1-3)', emoji: '👶', color: 'bg-pink-100 text-pink-800' },
-    'kinder': { label: 'Kinder (3-5)', emoji: '🧒', color: 'bg-blue-100 text-blue-800' },
-    'primary': { label: 'Primary (5-12)', emoji: '🧑‍🎓', color: 'bg-green-100 text-green-800' },
-    'older': { label: 'Older (12+)', emoji: '👦', color: 'bg-purple-100 text-purple-800' }
+    'toddler': { label: 'Little Ones', emoji: '👶', color: 'bg-pink-100 text-pink-800' },
+    'kinder': { label: 'Preschool', emoji: '🧒', color: 'bg-blue-100 text-blue-800' },
+    'primary': { label: 'School Age', emoji: '🧑‍🎓', color: 'bg-green-100 text-green-800' },
+    'older': { label: 'All Ages', emoji: '👦', color: 'bg-purple-100 text-purple-800' }
   };
   return tagMap[tag];
 }
@@ -302,35 +302,38 @@ export function getShadeInfo(shadeLevel: string): { label: string; color: string
   return shadeMap[shadeLevel] || shadeMap['minimal'];
 }
 
-// Get playground image based on deterministic hash of name
-export function getPlaygroundImage(playground: Playground): string {
-  // Diverse pool of 20+ Unsplash playground/park photos
-  const images = [
-    'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=400&h=300&fit=crop', // playground equipment
-    'https://images.unsplash.com/photo-1564429238961-bf8ecf6b6d77?w=400&h=300&fit=crop', // garden park
-    'https://images.unsplash.com/photo-1566041510394-cf7ad71006c1?w=400&h=300&fit=crop', // kids playing
-    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop', // trees nature
-    'https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=400&h=300&fit=crop', // family outdoor
-    'https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?w=400&h=300&fit=crop', // swing
-    'https://images.unsplash.com/photo-1597524678053-5e6fef52d8a3?w=400&h=300&fit=crop', // park path
-    'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=300&fit=crop', // green landscape
-    'https://images.unsplash.com/photo-1588714477688-cf28a50e94f7?w=400&h=300&fit=crop', // slide
-    'https://images.unsplash.com/photo-1595241728498-41af5e2d7ced?w=400&h=300&fit=crop', // open field
-    'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=300&fit=crop', // sunset park
-    'https://images.unsplash.com/photo-1509600110300-21b9d5fedeb7?w=400&h=300&fit=crop', // green park
-    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop', // beach
-    'https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=400&h=300&fit=crop', // garden
-    'https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=300&fit=crop', // playground slide
-    'https://images.unsplash.com/photo-1617713964959-d9a36bbc7b52?w=400&h=300&fit=crop', // sandbox
-    'https://images.unsplash.com/photo-1526679516767-9f3bfb3d7dcb?w=400&h=300&fit=crop', // nature walk
-    'https://images.unsplash.com/photo-1595007553330-3eb5c9e61e1e?w=400&h=300&fit=crop', // outdoor play
-    'https://images.unsplash.com/photo-1504173010664-32509aeebb62?w=400&h=300&fit=crop', // kids park
-    'https://images.unsplash.com/photo-1605152276897-4f618f831968?w=400&h=300&fit=crop'  // climbing frame
-  ];
+// Generate a deterministic colour from venue name
+export function getVenueColor(name: string): string {
+  const colors = ['#52b788', '#2d6a4f', '#40916c', '#74c69d', '#95d5b2', '#b7e4c7',
+                   '#3a86ff', '#8338ec', '#ff006e', '#fb5607', '#ffbe0b', '#06d6a0'];
+  const hash = name.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
+  return colors[hash % colors.length];
+}
 
-  // Create deterministic hash based on playground name
-  const hash = playground.name.charCodeAt(0) + playground.name.length;
-  const imageIndex = hash % images.length;
+// Get playground image data for rendering colored placeholders
+export function getPlaygroundImageData(playground: Playground): { color: string; letter: string; icon: string } {
+  const color = getVenueColor(playground.name);
+  const letter = playground.name.charAt(0).toUpperCase();
   
-  return images[imageIndex];
+  // Determine icon based on venue type
+  let icon = '🌳'; // Default park icon
+  
+  // Check if it's an indoor venue based on facilities or name
+  const isIndoor = playground.facilities?.includes('indoor' as any) || 
+                   playground.name.toLowerCase().includes('indoor') ||
+                   playground.name.toLowerCase().includes('centre') ||
+                   playground.name.toLowerCase().includes('center');
+  
+  if (isIndoor) {
+    icon = '🏠';
+  }
+  
+  return { color, letter, icon };
+}
+
+// Legacy function for backward compatibility - returns placeholder data instead of URL
+export function getPlaygroundImage(playground: Playground): string {
+  const { color } = getPlaygroundImageData(playground);
+  // Return a data structure that can be used to render a colored div instead of img
+  return `placeholder:${color}:${playground.name}`;
 }

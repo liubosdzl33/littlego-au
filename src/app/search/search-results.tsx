@@ -5,7 +5,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { PlaygroundWithScore, WeatherData, WeatherWithForecast, AgeTag, Facility } from '@/types/playground';
 import { fetchWeatherData, fetchWeatherWithForecast, calculateGoNowScore, getWeatherEmoji, getWindDescription } from '@/lib/weather';
-import { getPostcodeCoordinates, getPlaygroundsByLocation, getAgeTagInfo, getFacilityInfo, getShadeInfo, getPlaygroundImage, getEquipmentInfo } from '@/lib/playgrounds';
+import { getPostcodeCoordinates, getPlaygroundsByLocation, getAgeTagInfo, getFacilityInfo, getShadeInfo, getPlaygroundImageData, getEquipmentInfo } from '@/lib/playgrounds';
 
 // SVG Icons
 const SearchIcon = () => (
@@ -234,11 +234,32 @@ export default function SearchResults() {
               className="listing-card"
             >
               <div className="card-image-container">
-                <img 
-                  src={getPlaygroundImage(playground)}
-                  alt={playground.name}
-                  className="card-image"
-                />
+                {(() => {
+                  const imageData = getPlaygroundImageData(playground);
+                  return (
+                    <div 
+                      className="card-image card-placeholder"
+                      style={{
+                        backgroundColor: imageData.color,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        color: 'white',
+                        fontWeight: 'bold',
+                        fontSize: '48px'
+                      }}
+                    >
+                      <div style={{ textAlign: 'center' }}>
+                        <div style={{ fontSize: '32px', marginBottom: '8px' }}>
+                          {imageData.icon}
+                        </div>
+                        <div style={{ fontSize: '24px' }}>
+                          {imageData.letter}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })()}
                 
                 {/* Go Now Badge */}
                 {playground.goNowScore && (
@@ -338,6 +359,149 @@ export default function SearchResults() {
           </div>
         )}
       </main>
+      
+      <style jsx>{`
+        .filter-pill {
+          border-radius: 32px;
+          border: 1px solid #ddd;
+          padding: 8px 16px;
+          background: white;
+          color: #666;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          font-size: 14px;
+          font-weight: 500;
+          margin-right: 12px;
+          margin-bottom: 12px;
+        }
+        
+        .filter-pill:hover {
+          border-color: #52b788;
+          color: #52b788;
+        }
+        
+        .filter-pill.active {
+          background: #52b788;
+          color: white;
+          font-weight: 600;
+        }
+        
+        .filter-pills {
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 24px;
+        }
+        
+        .cards-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+          gap: 24px;
+        }
+        
+        @media (max-width: 768px) {
+          .cards-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+        
+        .listing-card {
+          text-decoration: none;
+          color: inherit;
+          border-radius: 12px;
+          overflow: hidden;
+          border: 1px solid #e5e7eb;
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .listing-card:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-image-container {
+          position: relative;
+          width: 100%;
+          height: 200px;
+          overflow: hidden;
+        }
+        
+        .card-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        
+        .card-placeholder {
+          width: 100%;
+          height: 100%;
+        }
+        
+        .card-badge {
+          position: absolute;
+          top: 12px;
+          left: 12px;
+          padding: 6px 12px;
+          border-radius: 20px;
+          font-size: 12px;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+        
+        .card-badge.go-now {
+          background: #10b981;
+          color: white;
+        }
+        
+        .card-badge.caution {
+          background: #f59e0b;
+          color: white;
+        }
+        
+        .card-badge.avoid {
+          background: #ef4444;
+          color: white;
+        }
+        
+        .card-content {
+          padding: 16px;
+        }
+        
+        .card-location {
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 4px;
+          color: #1f2937;
+        }
+        
+        .card-description {
+          color: #6b7280;
+          font-size: 14px;
+          margin-bottom: 12px;
+        }
+        
+        .card-features {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+          margin-bottom: 12px;
+        }
+        
+        .card-feature {
+          font-size: 12px;
+          color: #6b7280;
+        }
+        
+        .card-price {
+          font-weight: 600;
+          color: #1f2937;
+        }
+        
+        .card-rating {
+          font-size: 14px;
+          color: #6b7280;
+        }
+      `}</style>
     </div>
   );
 }

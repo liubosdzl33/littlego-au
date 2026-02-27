@@ -80,9 +80,9 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'rainy-day-activities-toddlers-melbourne',
     title: 'Rainy Day Activities for Toddlers in Melbourne',
-    excerpt: 'When Melbourne\'s unpredictable weather keeps you indoors, discover these engaging activities and venues perfect for toddlers aged 1-3 years.',
+    excerpt: 'When Melbourne\'s unpredictable weather keeps you indoors, discover these engaging activities and venues perfect for toddlers and young children.',
     content: `
-      <p>Melbourne is famous for experiencing "four seasons in one day," and when the rain starts falling, parents of toddlers need a backup plan. The good news? Melbourne offers an incredible array of indoor activities specifically designed for little ones aged 1-3 years. From interactive play centres to cozy storytime sessions, here's your guide to making rainy days just as fun as sunny ones.</p>
+      <p>Melbourne is famous for experiencing "four seasons in one day," and when the rain starts falling, parents of toddlers need a backup plan. The good news? Melbourne offers an incredible array of indoor activities specifically designed for little ones. From interactive play centres to cozy storytime sessions, here's your guide to making rainy days just as fun as sunny ones.</p>
 
       <h2>Indoor Play Centres</h2>
       
@@ -103,7 +103,7 @@ export const blogPosts: BlogPost[] = [
       <ul>
         <li><strong>Rhyme Time</strong>: Interactive sessions with songs, rhymes, and movement activities</li>
         <li><strong>Baby Bounce</strong>: For younger toddlers (12-18 months) with sensory play elements</li>
-        <li><strong>Toddler Tales</strong>: Story sessions with craft activities for 18 months - 3 years</li>
+        <li><strong>Toddler Tales</strong>: Story sessions with craft activities for toddlers and preschoolers</li>
       </ul>
 
       <p>Popular locations include Monash Public Library (Oakleigh), Whitehorse Libraries (Box Hill, Blackburn), and City of Boroondara libraries. Many sessions run multiple times per week, so check online schedules for availability.</p>
@@ -133,7 +133,7 @@ export const blogPosts: BlogPost[] = [
       <p>Features an excellent playground area and regular toddler-friendly activities. The centre often hosts free entertainment including puppet shows and character meet-and-greets suitable for young children.</p>
 
       <h4>Chadstone Shopping Centre</h4>
-      <p>Offers multiple play areas including a dedicated toddler zone. The centre's "Little Ones" program includes activities like mini discos and craft sessions specifically designed for 1-3 year olds.</p>
+      <p>Offers multiple play areas including a dedicated toddler zone. The centre's "Little Ones" program includes activities like mini discos and craft sessions specifically designed for toddlers and young children.</p>
 
       <h2>Creative and Sensory Activities</h2>
 

@@ -55,12 +55,60 @@ export default function Header() {
               </Link>
 
               {/* Desktop Navigation */}
-              <nav style={{ display: 'none' }} className="desktop-nav">
-                <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2xl)' }}>
-                  <Link href="/" className="nav-link">Home</Link>
-                  <Link href="/blog" className="nav-link">Blog</Link>
-                  <Link href="/about" className="nav-link">About</Link>
-                  <Link href="/search" className="nav-link">Search</Link>
+              <nav className="desktop-nav">
+                <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
+                  <Link 
+                    href="/" 
+                    className="nav-link"
+                    style={{
+                      color: '#222222',
+                      fontSize: '14px',
+                      fontWeight: '500',
+                      textDecoration: 'none',
+                      transition: 'color 0.2s ease'
+                    }}
+                  >
+                    Home
+                  </Link>
+                  <Link 
+                    href="/blog" 
+                    className="nav-link"
+                    style={{
+                      color: '#222222',
+                      fontSize: '14px',
+                      fontWeight: '500',
+                      textDecoration: 'none',
+                      transition: 'color 0.2s ease'
+                    }}
+                  >
+                    Blog
+                  </Link>
+                  <Link 
+                    href="/about" 
+                    className="nav-link"
+                    style={{
+                      color: '#222222',
+                      fontSize: '14px',
+                      fontWeight: '500',
+                      textDecoration: 'none',
+                      transition: 'color 0.2s ease'
+                    }}
+                  >
+                    About
+                  </Link>
+                  <Link 
+                    href="/search" 
+                    className="nav-link"
+                    style={{
+                      color: '#222222',
+                      fontSize: '14px',
+                      fontWeight: '500',
+                      textDecoration: 'none',
+                      transition: 'color 0.2s ease'
+                    }}
+                  >
+                    Search
+                  </Link>
                 </div>
               </nav>
 
@@ -132,6 +180,14 @@ export default function Header() {
       </div>
 
       <style jsx>{`
+        .nav-link:hover {
+          color: #52b788 !important;
+        }
+        
+        .desktop-nav {
+          display: none;
+        }
+        
         @media (min-width: 768px) {
           .desktop-nav {
             display: block !important;

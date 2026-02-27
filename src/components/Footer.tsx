@@ -86,6 +86,9 @@ export default function Footer() {
               <Link href="/about" className="footer-link">
                 About LittleGo
               </Link>
+              <Link href="/blog" className="footer-link">
+                Blog
+              </Link>
               <Link href="/search" className="footer-link">
                 Find Places
               </Link>
