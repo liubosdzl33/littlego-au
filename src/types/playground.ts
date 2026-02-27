@@ -1,3 +1,5 @@
+export type VenueType = 'free_playground' | 'indoor_play' | 'trampoline_park' | 'adventure_park' | 'water_park' | 'animal_farm';
+
 export interface Playground {
   id: string;
   name: string;
@@ -19,6 +21,21 @@ export interface Playground {
     summer: string;
     winter: string;
   };
+  // Phase 2: Venue fields
+  venueType?: VenueType;
+  isPaid?: boolean;
+  priceRange?: string; // "$", "$$", "$$$"
+  entryPrice?: string; // "From $15/child"
+  openingHours?: {
+    weekday: string; // "9am - 5pm"
+    weekend: string; // "9am - 6pm"
+  };
+  website?: string;
+  phone?: string;
+  isIndoor?: boolean;
+  hasParking?: boolean;
+  hasCafe?: boolean; // different from cafe_nearby in facilities
+  ageRange?: string; // "0-12" or "All ages"
 }
 
 export type AgeTag = 'toddler' | 'kinder' | 'primary' | 'older';
