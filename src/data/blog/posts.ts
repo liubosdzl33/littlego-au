@@ -15,6 +15,81 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'moomba-festival-2026-family-guide-melbourne',
+    title: 'Moomba Festival 2026 with Kids: Your Complete Family Guide',
+    excerpt: 'Moomba is back March 5-9 along the Yarra! Here\'s everything families need to know — best times to visit with little ones, what to see, and how to survive the day without a meltdown.',
+    content: `
+      <p>It's the event Melbourne families circle on the calendar every year: <strong>Moomba Festival</strong> returns to the banks of the Yarra River from <strong>March 5 to 9, 2026</strong> — that's the Labour Day long weekend — and it's completely free. If you've never taken your little ones before, or you're a Moomba veteran looking for a smoother day out, this guide covers everything you need to know.</p>
+
+      <h2>What Actually Is Moomba?</h2>
+      <p>Moomba is Australia's largest free community festival, and it's been running since 1955. Think carnival rides along Birrarung Marr, live entertainment stages, a huge parade down St Kilda Road, and water activities on the Yarra. For families with young kids, the real draw is the combination of free entertainment, open green spaces, and that buzzing festival atmosphere toddlers absolutely thrive in.</p>
+
+      <h2>Best Days and Times for Families with Young Kids</h2>
+      <p>Here's what experienced Moomba parents know: <strong>weekday mornings are gold</strong>. Thursday March 5 and Friday March 6 between 10 AM and 12 PM are your sweet spot — smaller crowds, shorter ride queues, and enough space to let a toddler wander without losing them in a sea of legs.</p>
+      <p>The Saturday and Monday (Labour Day) are the busiest. If the weekend is your only option, arrive right when it opens in the morning. By 2 PM on a sunny Saturday, you'll be navigating a pram through serious crowds.</p>
+      <p><strong>The Moomba Parade</strong> runs on Monday March 9 along St Kilda Road. It's spectacular but loud — if your child is sensitive to noise, bring ear protection or watch from further back where it's less intense.</p>
+
+      <h2>What to See with Under-5s</h2>
+
+      <h3>Carnival Rides</h3>
+      <p>The carnival section always includes rides specifically for toddlers and young children — teacups, mini trains, carousels, and slow-spinning rides. These do cost money (you buy ride coupons), so budget around $30-40 for a few rides per child. The rest of the festival? Totally free.</p>
+
+      <h3>Free Entertainment Stages</h3>
+      <p>Multiple stages run performances throughout the day. Look out for the <strong>kids' stage</strong> in Birrarung Marr — it typically features puppetry, children's musicians, and interactive performances designed for pre-schoolers. Check the official Moomba app or website closer to the date for the full program.</p>
+
+      <h3>Birdman Rally</h3>
+      <p>On Sunday, the famous Birdman Rally sees costumed competitors launching themselves off a platform into the Yarra. Kids find this absolutely hilarious. Grab a spot along the riverbank early — it draws a big crowd.</p>
+
+      <h3>Water Play and Splash Zones</h3>
+      <p>March in Melbourne can still be warm, and Moomba usually includes water play areas. Bring swimmers and a towel — there's nothing like a surprise splash zone to keep a toddler entertained for an hour.</p>
+
+      <h2>Survival Tips from Parents Who've Done It</h2>
+
+      <h3>Getting There</h3>
+      <p><strong>Don't drive.</strong> Seriously. Parking around the Yarra precinct during Moomba is a nightmare. Catch a train to Flinders Street or Richmond and walk in. If you're coming from the eastern suburbs, the free tram zone drops you right at Federation Square. For families with prams, trams along Flinders Street or St Kilda Road are your best bet.</p>
+
+      <h3>The Packing List</h3>
+      <ul>
+        <li>Sunscreen and hats (UV is still strong in early March)</li>
+        <li>Refillable water bottles — there are free water stations</li>
+        <li>Snacks. Then double your snacks. Festival food exists, but the queues test everyone's patience</li>
+        <li>A picnic blanket for claiming grass space in the park</li>
+        <li>Lightweight rain jacket (this is Melbourne, after all)</li>
+        <li>Spare change of clothes if your child discovers the water play</li>
+        <li>A carrier or compact stroller — bulky prams are hard to navigate in crowds</li>
+      </ul>
+
+      <h3>Food Strategy</h3>
+      <p>Festival food stalls are plentiful but pricey and queue-heavy. Our recommendation: <strong>pack lunch and buy treats</strong>. Bring sandwiches and fruit, then let the kids choose one festival treat — fairy floss, a sausage sizzle, or an icy pole. It saves money and avoids the "I'm hungry NOW" meltdown in a 20-minute queue.</p>
+
+      <h3>Toilets and Change Facilities</h3>
+      <p>Portable toilets are scattered throughout the festival grounds. They get busy (and less pleasant) as the day goes on — another reason to come early. Birrarung Marr has more permanent facilities near the playground. Bring your own wipes and hand sanitiser, because the portaloo soap situation is always questionable.</p>
+
+      <h2>Nearby Playgrounds to Combine with Your Visit</h2>
+      <p>If your child needs a break from the festival buzz, there are excellent playgrounds within walking distance:</p>
+      <ul>
+        <li><strong>Birrarung Marr Playground</strong> — right within the festival precinct, often less crowded than the rides</li>
+        <li><strong>Fitzroy Gardens Playground</strong> — a 10-minute walk east, with good shade and a quieter vibe</li>
+        <li><strong>Flagstaff Gardens</strong> — north of the river, recently upgraded with equipment for all ages</li>
+      </ul>
+      <p>Use our <a href="/search?category=playground">playground finder</a> to discover more options near the CBD.</p>
+
+      <h2>If the Weather Turns</h2>
+      <p>Melbourne being Melbourne, always have a Plan B. If rain arrives, the nearby <strong>Melbourne Museum</strong>, <strong>SEA LIFE Aquarium</strong>, or <strong>ACMI at Fed Square</strong> all make great wet-weather pivots. The State Library kids' area is free and just a short walk north.</p>
+
+      <h2>Your Moomba Game Plan</h2>
+      <p><strong>Ideal family day:</strong> Arrive by 10 AM → free entertainment and a few carnival rides → picnic lunch on the grass → water play or playground time → home by 2 PM before crowds peak and nap time hits.</p>
+      <p>Moomba is one of those quintessential Melbourne experiences every family should try at least once. With a bit of planning and the right expectations — you're there for the atmosphere, not to see everything — it's a genuinely magical day out with little ones.</p>
+      <p>See you at the Yarra! 🎪</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-01T07:00:00+11:00',
+    category: 'activities',
+    tags: ['moomba festival', 'melbourne events', 'family activities', 'labour day', 'march 2026', 'free events', 'toddlers'],
+    seoTitle: 'Moomba Festival 2026 with Kids: Complete Melbourne Family Guide',
+    seoDescription: 'Planning to take young kids to Moomba Festival 2026? Our family guide covers the best times to visit, what to see with toddlers, packing tips, and nearby playgrounds along the Yarra River.'
+  },
+  {
     slug: 'weekend-planner-melbourne-families-feb-28-mar-1-2026',
     title: 'Weekend Planner: Melbourne Family Fun for February 28 – March 1',
     excerpt: 'Warm weather, colourful festivals, and plenty of outdoor play — here\'s your family weekend sorted with playground picks, events, and a backup plan if the clouds roll in.',
