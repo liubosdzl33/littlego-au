@@ -15,6 +15,83 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-playgrounds-bayside-melbourne-brighton-sandringham-hampton',
+    title: 'Best Playgrounds in Bayside Melbourne: Brighton, Sandringham & Hampton',
+    excerpt: 'From beachside climbing frames to fully fenced toddler havens, here are the best playgrounds across Melbourne\'s Bayside — perfect for a family day by the bay.',
+    content: `
+      <p>Melbourne's Bayside area — stretching from Brighton down through Sandringham, Hampton and Beaumaris — is one of those pockets of the city where playgrounds and the beach sit almost side by side. If you're a family living in or visiting the area, you're genuinely spoiled for choice. We've rounded up the standout playgrounds that local parents keep coming back to, with practical details so you can plan your visit.</p>
+
+      <h2>Best Bayside Playgrounds for Toddlers</h2>
+
+      <h3>1. Dendy Park Playground, Brighton</h3>
+      <p>If you have a toddler who's mastered the art of bolting in the opposite direction, <strong>Dendy Park</strong> is your sanctuary. It's <strong>fully fenced</strong> with large shade sails overhead, so you can actually sit down and drink your coffee while keeping eyes on your little one. The equipment is sized for younger kids — low slides, gentle climbing structures, and a sandpit that toddlers can happily dig in for an hour straight.</p>
+      <p><strong>Good to know:</strong> There are toilets nearby at the sports pavilion, and the park has plenty of flat grassy space for a picnic blanket. On weekday mornings it's quiet — weekends get busier, especially around 10 AM.</p>
+
+      <h3>2. Royal Avenue Park, Sandringham</h3>
+      <p>Another <strong>fully fenced gem</strong>, tucked into a shaded reserve surrounded by established trees. Royal Avenue Park is the kind of spot where you feel like you've discovered a secret — it's off the main roads and has a lovely enclosed feel. There are toilets on-site (a genuine luxury for parents), and the mix of swings, climbing frames and open grass makes it work for crawlers through to five-year-olds.</p>
+      <p><strong>Tip:</strong> Combine it with a walk to Sandringham Village for lunch — it's only about 10 minutes on foot, and there are several family-friendly cafés along Station Street.</p>
+
+      <h2>Best for Bigger Kids (and Adventurous Toddlers)</h2>
+
+      <h3>3. Thomas Street South Reserve, Hampton</h3>
+      <p>This one got a major upgrade recently and local parents absolutely rave about it. The new play equipment is imaginative and challenging — think tall climbing nets, a long flying fox, and multi-level structures that keep older kids (5-10) genuinely engaged. There's still equipment suitable for younger children, but the real draw here is for kids who've outgrown the toddler slides and want something with a bit more thrill.</p>
+      <p><strong>Parking:</strong> Street parking only, and it can fill up on weekends. Try arriving before 9:30 AM on a Saturday for easy access.</p>
+
+      <h3>4. Basterfield Park, Hampton East</h3>
+      <p>Another recently upgraded playground that went from good to spectacular. Basterfield Park now features modern equipment spread across a large area, with sections for different age groups. The park itself is spacious with walking paths, a lake, and barbecue facilities — making it a genuine half-day destination rather than a quick playground stop. Pack lunch, bring the bikes, and settle in.</p>
+
+      <h2>Beach + Playground Combos</h2>
+
+      <h3>5. North Road Foreshore Playground, Brighton</h3>
+      <p>This is the one that visitors to Bayside shouldn't miss. Perched right along the foreshore near Brighton Beach, this playground combines play equipment with <strong>water play features</strong> and views across Port Phillip Bay toward the city skyline. On a clear autumn day, it's genuinely stunning. Kids can bounce between the playground and the beach, and there's a kiosk nearby for coffee and snacks.</p>
+      <p><strong>Sun warning:</strong> Even in March, UV along the foreshore is strong with reflected light off the water. Sunscreen and hats are essential, even on overcast days.</p>
+
+      <h3>6. Black Rock Foreshore Playground, Black Rock</h3>
+      <p>A <strong>pirate-themed playground</strong> overlooking Half Moon Bay — need we say more? The themed equipment fires up kids' imaginations, and the clifftop location means you get sweeping bay views while they play. It's not huge, but the setting is what makes it special. Combine it with a walk along the cliff path or head down to the beach at Half Moon Bay for rock pool exploring at low tide.</p>
+
+      <h2>Hidden Gems Worth Finding</h2>
+
+      <h3>7. Allambee Park, Sandringham</h3>
+      <p>Kids who are obsessed with trucks and diggers will lose their minds here. The playground features <strong>construction-themed play equipment</strong> including a digger kids can actually sit in and operate. It's a smaller playground but incredibly popular with the under-5 crowd. There's shade from surrounding trees, and the nearby streets are quiet enough that you don't worry about traffic noise.</p>
+
+      <h3>8. Hurlingham Park, Brighton East</h3>
+      <p>A classic neighbourhood playground anchored by a large <strong>wooden climbing structure with turrets</strong> that looks like it belongs in a storybook. It's the kind of playground that sparks imaginative play — castles, dragons, pirates, you name it. Good swings, a decent slide, and enough open space around it for running and ball games. It won't win awards for modern design, but kids genuinely love it.</p>
+
+      <h2>Planning Your Bayside Playground Day</h2>
+
+      <p>One of the best things about Bayside is how close everything is. You can easily hit two or three playgrounds in a morning, especially if you're driving along Beach Road. Here's a route we love:</p>
+
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Dendy Park (fenced, great for warming up)</li>
+        <li><strong>10:30 AM</strong> — Drive 5 minutes to North Road Foreshore for beach and water play</li>
+        <li><strong>12:00 PM</strong> — Lunch at one of Brighton's kid-friendly cafés along Church Street</li>
+        <li><strong>1:00 PM</strong> — If energy remains, continue south to Black Rock Foreshore for the pirate playground</li>
+      </ol>
+
+      <h3>Getting There</h3>
+      <p>The <strong>Sandringham train line</strong> runs right through the heart of Bayside, with stations at Brighton Beach, Hampton, Sandringham, and Black Rock — all within walking distance of playgrounds on this list. If you're driving, most parks have street parking, though the foreshore spots can get competitive on sunny weekends.</p>
+
+      <h3>What to Pack</h3>
+      <ul>
+        <li>Sunscreen and wide-brim hats (the bay reflects UV even in autumn)</li>
+        <li>Swimmers and a towel if visiting foreshore playgrounds</li>
+        <li>Sand toys — several of these playgrounds have sandpits</li>
+        <li>A picnic blanket and snacks (always more snacks than you think)</li>
+        <li>Spare clothes for the inevitable water play situation</li>
+      </ul>
+
+      <p>Bayside is one of Melbourne's most family-friendly areas for a reason — the combination of quality playgrounds, beach access, and leafy parks is hard to beat. Whether you're local or making the trip from across town, it's worth a visit.</p>
+
+      <p>Want to find more playgrounds near you? Use our <a href="/search?category=playground">playground finder</a> to search by location, age group, and facilities like fencing and shade.</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-02T07:00:00+11:00',
+    category: 'playgrounds',
+    tags: ['playgrounds', 'bayside', 'brighton', 'sandringham', 'hampton', 'beaumaris', 'black rock', 'fenced playgrounds', 'beach playgrounds'],
+    seoTitle: 'Best Playgrounds in Bayside Melbourne: Brighton, Sandringham & Hampton (2026)',
+    seoDescription: 'Discover the best family playgrounds in Melbourne\'s Bayside area — from fully fenced toddler parks in Brighton to beachside play at Sandringham and pirate-themed fun at Black Rock.'
+  },
+  {
     slug: 'moomba-festival-2026-family-guide-melbourne',
     title: 'Moomba Festival 2026 with Kids: Your Complete Family Guide',
     excerpt: 'Moomba is back March 5-9 along the Yarra! Here\'s everything families need to know — best times to visit with little ones, what to see, and how to survive the day without a meltdown.',
