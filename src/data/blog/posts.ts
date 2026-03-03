@@ -15,6 +15,123 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'whats-on-this-week-melbourne-families-march-4-9-labour-day-2026',
+    title: "What's On This Week: Melbourne's Biggest Family Week of the Year (March 4–9)",
+    excerpt: "Moomba, the F1 Fan Festival, a brand-new Play School exhibition, and Lantern Festival — this Labour Day long weekend is absolutely stacked for Melbourne families. Here's your complete guide.",
+    content: `
+      <p>If you only get out for one big family week all year, make it this one. The Labour Day long weekend has turned Melbourne into a giant playground, and most of it is completely free. Between <strong>Moomba Festival</strong>, the <strong>F1 Melbourne Fan Festival</strong>, the just-opened <strong>Play School exhibition at ACMI</strong>, and a beautiful <strong>Lantern Festival</strong> on the riverside, there's genuinely something for every age group and every energy level.</p>
+
+      <p>Here's your day-by-day breakdown so you can plan around nap times, snack supplies, and your own sanity.</p>
+
+      <h2>🆕 Just Opened: Play School: Come and Play! at ACMI</h2>
+      <p>This one opened <strong>today (Wednesday March 4)</strong> and it's going to be massive. ACMI at Federation Square is hosting <strong>Play School: Come and Play!</strong> — a hands-on exhibition celebrating 60 years of Australia's most beloved children's TV show. Little ones can step behind the iconic windows, explore how episodes are made, and play with sets and props from the show.</p>
+      <p><strong>Details:</strong></p>
+      <ul>
+        <li><strong>When:</strong> March 4 – July 12, 2026</li>
+        <li><strong>Where:</strong> ACMI, Federation Square</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Best for:</strong> Ages 2–6 (though younger toddlers will enjoy the sensory elements too)</li>
+      </ul>
+      <p><strong>Parent tip:</strong> Go this week while it's brand new — once word spreads, weekends will be packed. Weekday mornings are your best bet for a calm visit. And since it runs until July, you can always come back if your toddler falls in love with it (they will).</p>
+
+      <h2>🎪 Moomba Festival (March 5–9)</h2>
+      <p>Australia's largest free community festival returns to the banks of the Yarra, and this year it runs for <strong>five full days</strong>. If you've read our <a href="/blog/moomba-festival-2026-family-guide-melbourne">complete Moomba family guide</a>, you'll know the drill — but here are the highlights for this week:</p>
+
+      <h3>Best Days for Families with Young Kids</h3>
+      <p><strong>Wednesday March 5 and Thursday March 6</strong> are your golden windows. Smaller crowds, shorter ride queues, and enough room to let a toddler wander without white-knuckling the pram. The weekend gets busy — especially Saturday — so if you can swing a weekday visit, do it.</p>
+
+      <h3>Don't Miss</h3>
+      <ul>
+        <li><strong>Carnival rides:</strong> Toddler-friendly options including teacups, mini trains, and carousels (rides cost extra — budget around $30–40 per child for a few goes)</li>
+        <li><strong>Kids' stage at Birrarung Marr:</strong> Free performances including puppetry, children's music, and interactive shows designed for pre-schoolers</li>
+        <li><strong>Nightly fireworks:</strong> Every evening from the banks of the Yarra. Spectacular, but bring ear protection for little ones who are sensitive to loud bangs</li>
+        <li><strong>Birdman Rally (Sunday March 8):</strong> Costumed competitors launching themselves into the Yarra. Kids find this absolutely hilarious — arrive early for a good riverside spot</li>
+        <li><strong>Moomba Parade (Monday March 9):</strong> The grand finale — larger-than-life floats, dance troupes, and community groups along St Kilda Road. It's loud and colourful and toddlers either love it or need to watch from a little further back</li>
+      </ul>
+      <p><strong>Getting there:</strong> Don't drive. Train to Flinders Street or use the free tram zone. A compact stroller or carrier is much easier to navigate than a bulky pram in festival crowds.</p>
+
+      <h2>🏎️ F1 Melbourne Fan Festival (March 6–8)</h2>
+      <p>Even if your family couldn't care less about Formula 1, this is worth a look. The <strong>F1 Melbourne Fan Festival</strong> takes over Federation Square from <strong>Friday March 6 to Sunday March 8</strong> and it's completely free.</p>
+      <p><strong>What kids will actually enjoy:</strong></p>
+      <ul>
+        <li><strong>Racing simulators:</strong> Older kids (5+) can hop into realistic F1 racing simulators — it's hands-on and exciting even if they don't know who Max Verstappen is</li>
+        <li><strong>The 2026 F1 show car:</strong> This is the first time the new-regulation car has been on public display. Even toddlers are drawn to the shiny, futuristic design — it makes for a great photo op</li>
+        <li><strong>Live screenings:</strong> Giant screens showing race action from Albert Park. The atmosphere is buzzy and fun without the ticket price of the actual Grand Prix</li>
+        <li><strong>Fan activities:</strong> Face painting, merchandise, and general festival energy</li>
+      </ul>
+      <p><strong>Details:</strong> Open 10 AM – 10 PM daily. Federation Square, free entry. Easily combined with a Moomba visit since they're basically next door to each other.</p>
+
+      <h2>🏮 Lantern Riveredge Festival Cultural Market (March 7–8)</h2>
+      <p>A gorgeous addition to the weekend, the <strong>Lantern Riveredge Festival</strong> brings glowing lanterns, cultural performances, and festive food to the riverside at the <strong>World Trade Centre</strong>, right in the heart of the city.</p>
+      <p><strong>Details:</strong></p>
+      <ul>
+        <li><strong>When:</strong> Saturday & Sunday, 12 PM – 7:30 PM</li>
+        <li><strong>Where:</strong> WTC Riverside, South Wharf</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Best for:</strong> All ages</li>
+      </ul>
+      <p>This is a lovely option for late afternoon when the lanterns start glowing against the river. Kids are captivated by the lights, and the food stalls offer something different from your standard festival fare. It's a calmer, more atmospheric alternative if Moomba crowds are feeling overwhelming.</p>
+
+      <h2>🎨 Also On: Ongoing Exhibitions Worth Combining</h2>
+
+      <h3>Let's Party: NGV Fashion for Kids</h3>
+      <p>If you're already in the Southbank/St Kilda Road area for Moomba or the parade, pop into <strong>NGV International</strong> for this free exhibition running until May 3. It showcases spectacular children's fashion from designers around the world — bold colours, wild shapes, and playful accessories that kids find genuinely fascinating. It's interactive enough for toddlers and visually stunning for parents too.</p>
+
+      <h3>Grand Prix Fan Zone Experience — Southbank</h3>
+      <p>Running until March 8 in Southbank, this free fan zone offers family-friendly Grand Prix activities. It's a natural add-on if you're walking between Moomba and the Lantern Festival.</p>
+
+      <h2>📋 Your Family Game Plan: Day by Day</h2>
+
+      <h3>Wednesday March 4 (Today)</h3>
+      <p>Head to <strong>ACMI</strong> for the Play School exhibition opening day. Beat the crowds while everyone's still at work. Combine with a walk through Fed Square and lunch in the area.</p>
+
+      <h3>Thursday March 5</h3>
+      <p><strong>Moomba opens!</strong> Visit the carnival early (10 AM) for the shortest ride queues of the whole festival. Stay for kids' stage performances and head home before the afternoon rush.</p>
+
+      <h3>Friday March 6</h3>
+      <p>Double-header day: <strong>F1 Fan Festival opens</strong> at Fed Square + Moomba continues along the Yarra. Start at one, walk to the other — they're side by side. Check out the F1 show car and simulators, then let kids burn energy at the Moomba playground areas.</p>
+
+      <h3>Saturday March 7</h3>
+      <p>The big day. Arrive early for Moomba if you're going (it'll be busy). Or try the <strong>Lantern Festival</strong> from midday for a different vibe. <strong>Sculpted Sounds</strong> at McClelland Sculpture Park in Langwarrin is also on today if you'd rather escape the city — an outdoor music festival set among sculptures and native bushland on the Mornington Peninsula.</p>
+
+      <h3>Sunday March 8</h3>
+      <p><strong>Birdman Rally</strong> at Moomba — get a riverside spot early. Last day of the F1 Fan Festival and Grand Prix Fan Zone. Lantern Festival continues (12–7:30 PM). A perfect "choose your own adventure" day.</p>
+
+      <h3>Monday March 9 (Labour Day)</h3>
+      <p><strong>Moomba Parade</strong> along St Kilda Road — the festival's grand finale. Floats, dancers, music, community groups. Find a spot with some shade and pack plenty of snacks. It's an iconic Melbourne moment for kids.</p>
+
+      <h2>🎒 Packing Essentials for This Week</h2>
+      <ul>
+        <li>Sunscreen and hats (UV is still strong in early March, especially near the river)</li>
+        <li>Refillable water bottles — free water stations at Moomba</li>
+        <li>Ear protection for toddlers (fireworks every night, parade is loud)</li>
+        <li>A compact stroller or carrier — easier than bulky prams in crowds</li>
+        <li>Snacks, snacks, and more snacks (festival food queues are long and patience is short)</li>
+        <li>A lightweight rain jacket — because Melbourne</li>
+        <li>Spare clothes if your child discovers any water play</li>
+      </ul>
+
+      <h2>Nearby Playgrounds for Festival Breaks</h2>
+      <p>When the festival energy gets too much and your little one needs space to just <em>run</em>, these playgrounds are all within walking distance of the action:</p>
+      <ul>
+        <li><strong>Birrarung Marr Playground</strong> — literally within the Moomba precinct, usually quieter than the rides</li>
+        <li><strong>Fitzroy Gardens Playground</strong> — 10-minute walk east, shaded and calm</li>
+        <li><strong>Flagstaff Gardens</strong> — north of the river, recently upgraded, great for all ages</li>
+      </ul>
+      <p>Use our <a href="/search?category=playground">playground finder</a> to discover more options near the CBD.</p>
+
+      <p>This is genuinely one of the best weeks on Melbourne's family calendar. Five days of Moomba, a brand-new Play School exhibition, F1 excitement, glowing lanterns, and a long weekend to enjoy it all. You don't need to do everything — pick two or three events that suit your family's pace, pack the snack bag, and get out there.</p>
+
+      <p>Have a wonderful long weekend, Melbourne families! 🎪</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-04T07:00:00+11:00',
+    category: 'events',
+    tags: ['whats on this week', 'melbourne events', 'labour day long weekend', 'moomba festival', 'F1 fan festival', 'play school exhibition', 'lantern festival', 'family activities', 'march 2026', 'free events'],
+    seoTitle: "What's On This Week in Melbourne for Families: Labour Day Long Weekend March 4–9, 2026",
+    seoDescription: "Your complete guide to Melbourne family events this week — Moomba Festival, F1 Fan Festival, Play School at ACMI, Lantern Festival, and more. Mostly free, all kid-friendly."
+  },
+  {
     slug: 'free-activities-families-melbourne-autumn-budget-guide',
     title: 'Free Activities for Families in Melbourne: Your Autumn Budget-Friendly Guide',
     excerpt: 'Discover 25+ completely free activities perfect for families with young children in Melbourne. From library storytimes to nature walks, make the most of autumn without breaking the budget.',
