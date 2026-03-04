@@ -15,6 +15,107 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'how-playgrounds-help-toddler-development-milestones-guide',
+    title: 'How Playgrounds Help Your Toddler Hit Development Milestones (A Parent\'s Guide)',
+    excerpt: 'That wobbly climb up the slide ladder? It\'s actually building crucial skills. Here\'s what your toddler is really learning at the playground — and how you can support each stage.',
+    content: `
+      <p>Here's something that took me a while to appreciate as a parent: every single thing your toddler does at the playground is building something. The tentative climb up the ladder, the squealing slide down, the sand scooped and dumped a hundred times over — it's all developmental gold. Not in a pushy "optimise your child" way, but in a genuine, research-backed, "their brain and body are doing incredible things right now" way.</p>
+
+      <p>If you've ever sat on a park bench wondering whether your 18-month-old should be climbing that high, or whether your two-year-old is "behind" because they won't go near the swing, this one's for you. Let's break down what's actually happening at each piece of playground equipment and how you can gently support your child's development — without turning every park visit into a lesson.</p>
+
+      <h2>🧗 Climbing: More Than Just Getting to the Top</h2>
+      <p>When your toddler reaches for the next rung on a climbing frame, they're working on <strong>gross motor skills, spatial awareness, and problem-solving</strong> all at once. Their brain is calculating distance, their muscles are building strength, and they're learning to plan a sequence of movements — reach, grip, push, step.</p>
+
+      <h3>What to expect by age</h3>
+      <ul>
+        <li><strong>12–18 months:</strong> Crawling up low steps, pulling to stand on equipment. They might climb onto a platform but need help getting down.</li>
+        <li><strong>18–24 months:</strong> Climbing short ladders with support, navigating steps with a hand held. Starting to figure out how to get down independently (usually bum-first).</li>
+        <li><strong>2–3 years:</strong> Climbing ladders independently, navigating rope structures with confidence, starting to attempt more challenging climbs.</li>
+      </ul>
+
+      <h3>How to support it</h3>
+      <p>Resist the urge to lift them onto equipment they can't reach themselves. If they can't climb up to it, they're probably not ready for it — and that's okay. Stay close, spot them quietly, and let them figure out the movement. A calm "where's your next foot going?" is more helpful than grabbing their waist.</p>
+      <p><strong>Melbourne playground tip:</strong> The nature play area at <a href="/search?category=playground">Royal Park</a> is brilliant for graduated climbing challenges — logs and rocks at different heights let toddlers choose their own difficulty level.</p>
+
+      <h2>🛝 Slides: Teaching Risk Assessment (Really!)</h2>
+      <p>Slides look simple, but they're teaching your child about <strong>risk assessment, body control, and cause-and-effect</strong>. That pause at the top? That's their brain weighing up whether they feel safe. The giggle at the bottom? That's dopamine rewarding them for taking a calculated risk. It's healthy, and it's how children learn to manage fear.</p>
+
+      <h3>What to expect</h3>
+      <ul>
+        <li><strong>12–18 months:</strong> Sliding on your lap, or on their tummy feet-first. They're learning the sensation of speed and the concept of "down."</li>
+        <li><strong>18–24 months:</strong> Attempting to sit and slide independently on smaller slides. May go headfirst a few times (this is normal — they're experimenting with body position).</li>
+        <li><strong>2–3 years:</strong> Confidently using slides of various sizes. May start going "fast" by lifting their hands — a sign of growing confidence and body awareness.</li>
+      </ul>
+
+      <h3>How to support it</h3>
+      <p>Don't force a reluctant slider. Fear at the top of a slide is a <em>functioning</em> risk assessment system, not a problem to fix. If they want to come back down the ladder, let them. They'll try again when they're ready. Also — and this surprises many parents — sitting them on your lap going down a slide can actually be <em>more</em> dangerous for small legs. Their foot can catch on the side while your body weight pushes them forward. Toddlers are safer sliding solo on age-appropriate slides.</p>
+
+      <h2>🤸 Swings: Building Core Strength and Sensory Processing</h2>
+      <p>Swinging is a <strong>vestibular activity</strong> — it stimulates the inner ear and helps your child develop balance and spatial orientation. Kids who love swinging (and some who seem to want to swing forever) are often seeking this sensory input because their brain is actively building these pathways.</p>
+
+      <h3>What to expect</h3>
+      <ul>
+        <li><strong>12–18 months:</strong> Bucket swings only. They're experiencing the sensation and building core stability to stay upright.</li>
+        <li><strong>18–24 months:</strong> Still bucket swings, but they may start "pumping" their legs — an early attempt at self-propulsion that takes a long time to master.</li>
+        <li><strong>2–3 years:</strong> Some children begin transitioning to flat swings with support. Independent pumping usually develops closer to age 4.</li>
+      </ul>
+
+      <h3>How to support it</h3>
+      <p>Push gently and consistently — it's the rhythm that matters, not the height. If your child doesn't like swings, don't push it (pun intended). Some toddlers find the vestibular sensation overwhelming, and that's a completely normal sensory preference. Try again in a few months.</p>
+
+      <h2>🏖️ Sand Play: Fine Motor Skills and Creativity</h2>
+      <p>Sand play is an underrated developmental powerhouse. Scooping, pouring, patting, and moulding sand builds <strong>fine motor skills, hand-eye coordination, and early maths concepts</strong> like volume and quantity. It's also incredibly calming — occupational therapists actually use sand play as a regulation tool for children who are feeling overwhelmed.</p>
+
+      <h3>What to expect</h3>
+      <ul>
+        <li><strong>12–18 months:</strong> Exploring texture (and tasting — yes, they all eat sand). Simple scooping and dumping.</li>
+        <li><strong>18–24 months:</strong> Filling and emptying containers. Starting to use tools like spades and rakes with purpose.</li>
+        <li><strong>2–3 years:</strong> Building simple structures, making "cakes" and "food" (hello, imaginative play!), and starting to play cooperatively with other children in the sandpit.</li>
+      </ul>
+
+      <h3>How to support it</h3>
+      <p>Bring a few sand toys — a cup, a spade, and a small bucket are enough. Then sit back. Sand play is one of those beautiful activities where toddlers genuinely don't need adult direction. If they're eating the sand, gently redirect but don't panic — a little playground sand won't hurt them.</p>
+
+      <h2>🤝 Social Play: The Hardest Milestone to Rush</h2>
+      <p>Playgrounds are where many toddlers encounter other children outside their family for the first time. Social development at this age follows a clear pattern, and it's <strong>much slower than parents expect</strong>:</p>
+      <ul>
+        <li><strong>12–18 months:</strong> <em>Solitary play.</em> They play alone, largely unaware of other children. This is completely normal.</li>
+        <li><strong>18–24 months:</strong> <em>Parallel play.</em> They play alongside other children, doing similar activities but not interacting. They're watching and learning even if it doesn't look like it.</li>
+        <li><strong>2–3 years:</strong> <em>Early cooperative play.</em> Taking turns (with support), sharing toys (sometimes), and starting to engage in simple back-and-forth play.</li>
+      </ul>
+
+      <h3>How to support it</h3>
+      <p>Don't force sharing or interaction. "Say sorry" and "share with the nice boy" are adult social scripts that toddlers literally cannot process yet — their brains haven't developed that capacity. Instead, model the behaviour: "Oh, she's using that now. Let's find another one." Visit the same playgrounds regularly so your child sees familiar faces, which makes interaction feel safer.</p>
+
+      <h2>🌿 Nature Play: Where It All Comes Together</h2>
+      <p>Melbourne is increasingly investing in nature playgrounds — spaces with logs, rocks, water, and loose materials instead of standard plastic equipment. These spaces are developmental goldmines because they're <strong>unpredictable</strong>. A log doesn't have one "right" way to play with it. A stick can be a wand, a fishing rod, or a tool for drawing in dirt.</p>
+      <p>Nature play builds <strong>creativity, problem-solving, and resilience</strong> because the environment doesn't have instructions. Your child has to figure it out themselves.</p>
+      <p><strong>Melbourne spots for nature play:</strong> Royal Park Nature Play in Parkville, the Botanic Gardens Children's Garden, and Westerfolds Park in Templestowe all offer brilliant nature play environments. Use our <a href="/search?category=playground">playground finder</a> to discover more nature-based playgrounds near you.</p>
+
+      <h2>📋 Quick Reference: Playground Skills by Age</h2>
+
+      <table>
+        <tr><th>Age</th><th>Gross Motor</th><th>Fine Motor</th><th>Social</th></tr>
+        <tr><td><strong>12–18 months</strong></td><td>Walking, crawling up steps, pulling to stand</td><td>Grasping, simple scooping</td><td>Solitary play, watching others</td></tr>
+        <tr><td><strong>18–24 months</strong></td><td>Climbing short ladders, running, squatting</td><td>Using tools (spade, cup), stacking</td><td>Parallel play, some imitation</td></tr>
+        <tr><td><strong>2–3 years</strong></td><td>Confident climbing, jumping from low heights, balancing</td><td>Building, moulding, threading</td><td>Early turn-taking, cooperative play emerging</td></tr>
+      </table>
+
+      <h2>The Most Important Tip: Let Them Play</h2>
+      <p>Here's the truth that doesn't make for clickable headlines: <strong>you don't need to "teach" your toddler at the playground</strong>. You don't need to narrate every action, quiz them on colours, or turn the slide into a counting lesson. The playground itself is the teacher. Your job is to be present, keep them safe, and let their brain and body do what they're beautifully designed to do — learn through play.</p>
+
+      <p>Every child develops at their own pace. If you have genuine concerns about your toddler's physical or social development, your maternal and child health nurse or GP is the right first port of call. But most of the time, what looks like "not doing much" at the playground is actually a brain building itself, one sandy handful at a time.</p>
+
+      <p>Find your next playground adventure with our <a href="/search?category=playground">playground finder</a> — filter by age group, fencing, shade, and facilities to find the perfect spot for your little one's current stage.</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-05T07:00:00+11:00',
+    category: 'tips',
+    tags: ['toddler development', 'playground milestones', 'parenting tips', 'gross motor skills', 'toddler play', 'child development', 'nature play', 'Melbourne playgrounds'],
+    seoTitle: 'How Playgrounds Help Toddler Development: Milestones & Tips for Melbourne Parents',
+    seoDescription: 'Discover how playground equipment supports your toddler\'s developmental milestones — from climbing and sliding to social skills and nature play. Practical tips for Melbourne parents.'
+  },
+  {
     slug: 'whats-on-this-week-melbourne-families-march-4-9-labour-day-2026',
     title: "What's On This Week: Melbourne's Biggest Family Week of the Year (March 4–9)",
     excerpt: "Moomba, the F1 Fan Festival, a brand-new Play School exhibition, and Lantern Festival — this Labour Day long weekend is absolutely stacked for Melbourne families. Here's your complete guide.",
