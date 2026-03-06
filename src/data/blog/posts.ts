@@ -15,6 +15,106 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'weekend-planner-melbourne-families-march-7-8-2026',
+    title: 'Weekend Planner: Overcast Saturday, Sunny Sunday — Two Very Different Playground Days',
+    excerpt: 'This weekend serves up the classic Melbourne combo: a cool, cloudy Saturday perfect for longer playground sessions, then a gorgeous 26°C Sunday for water play and picnics. Here\'s how to make the most of both.',
+    content: `
+      <p>Melbourne's weather forecast this weekend is doing that thing where it hands you two completely different days and says "good luck." Saturday is overcast and mild at 20°C — genuinely ideal playground weather if you know where to go. Sunday swings to a sunny 26°C, which calls for a totally different game plan. Here's your family weekend sorted, with playground picks matched to each day's conditions.</p>
+
+      <h2>🌥️ Saturday March 7: Overcast, 20°C — The Perfect Playground Day</h2>
+
+      <p>Parents, this is the weather we dream about. Cool enough that nobody overheats, warm enough that you don't need jackets, and overcast skies mean UV is lower (though still moderate at 3, so hats and sunscreen stay on). An overcast Saturday means playgrounds will be slightly quieter than usual — fair-weather families sometimes stay home when the sky looks grey, which is their loss and your gain.</p>
+
+      <h3>Morning Pick: Fitzroy Gardens Playground, East Melbourne</h3>
+      <p>On an overcast day, Fitzroy Gardens feels almost magical. The mature elms and oaks that canopy the park look spectacular against grey skies, and the playground sits in a beautifully sheltered pocket surrounded by established trees. The equipment suits toddlers through to about age 8, with a good mix of climbing structures, slides, and swings.</p>
+      <p>What makes it perfect for today: the natural tree cover means you're not relying on shade sails (which matter less when the sun's behind clouds anyway), and the wide gravel paths are pram-friendly for a post-play wander. Walk past the Model Tudor Village and the Conservatory — toddlers love peering through the glass at the flowers inside.</p>
+      <p><strong>Parking:</strong> Free along Lansdowne Street and Albert Street. Arrive before 10 AM on a Saturday for easy spots.<br>
+      <strong>Facilities:</strong> Toilets near the playground, plus the Fitzroy Gardens Café is a short walk for coffee.<br>
+      <strong>Combine with:</strong> The <a href="/search?category=playground">playground finder</a> shows several other options within a 10-minute drive if your kids want a second round.</p>
+
+      <h3>Afternoon Pick: Merri Creek Trail Playgrounds, Northcote to Clifton Hill</h3>
+      <p>If your family has energy to burn on a mild afternoon, the Merri Creek trail is brilliant. Multiple small playgrounds dot the path between Rushall Station and CERES Community Environment Park, so you can walk, stop, play, walk, stop, play — the toddler version of a pub crawl. The trail is flat, pram-friendly, and the creek itself is endlessly fascinating for little ones who want to spot ducks, throw leaves in the water, and poke sticks at things.</p>
+      <p><strong>Pro tip:</strong> Start at CERES (free entry to the park and café area) and walk south. The playgrounds get progressively bigger, so you end on a high note rather than hearing "but I want the BIG slide" on the walk back.</p>
+
+      <h2>☀️ Sunday March 8: Sunny, 26°C — Water Play and Picnic Weather</h2>
+
+      <p>Sunday is going to be gorgeous. Clear skies, 26°C, and that golden autumn light that makes everything look like a tourism ad. This is a day for water play, long picnics, and playgrounds with good shade — because at UV index 5, you'll want it.</p>
+
+      <h3>Morning Pick: Royal Park Nature Play, Parkville</h3>
+      <p>We keep recommending this one because it keeps delivering. On a warm, sunny day, the nature play area at Royal Park is at its absolute best. The water pump section provides hours of messy, muddy, glorious play. The logs and rocks offer climbing challenges in dappled shade from mature native trees. And the open grassland nearby is perfect for spreading a picnic blanket and actually relaxing for ten minutes while the kids dig in the sand area.</p>
+      <p><strong>What to bring:</strong> Spare clothes (the water play will get them soaked), a towel, and sand toys. Pack your picnic — there's nothing better than eating under the trees here on a sunny day.<br>
+      <strong>Getting there:</strong> Royal Park station is right there on the Upfield line, or park free along The Avenue.</p>
+
+      <h3>Afternoon Pick: St Kilda Adventure Playground</h3>
+      <p>If the warmth has everyone craving the coast, head to St Kilda. The adventure playground near the foreshore is brilliant for older toddlers and kids, with wooden structures, a flying fox, and enough space to run wild. After the playground, you're a five-minute walk from the beach, the St Kilda pier (penguins at dusk if you stay late enough), and plenty of ice cream options along Acland Street.</p>
+      <p><strong>Sun warning:</strong> The foreshore reflects UV hard. SPF 50+, rashies, and wide-brim hats are non-negotiable, even late in the afternoon.</p>
+
+      <h2>🎪 What's On This Weekend (Last Chance Edition)</h2>
+
+      <p>This is the final weekend for several major events we covered in our <a href="/blog/whats-on-this-week-melbourne-families-march-4-9-labour-day-2026">Labour Day long weekend guide</a>. If you haven't made it to these yet, now or never:</p>
+
+      <h3>Moomba Festival — Final Weekend (Until Monday March 9)</h3>
+      <p>The carnival rides, kids' stage performances, and nightly fireworks continue along the Yarra. <strong>Sunday's Birdman Rally</strong> is the highlight — costumed competitors launching into the river, which kids find absolutely hilarious. The <strong>Moomba Parade on Monday</strong> is the grand finale along St Kilda Road. Expect bigger Saturday crowds than last weekend, so arrive early or opt for Sunday morning.</p>
+
+      <h3>F1 Melbourne Fan Festival — Last Day Sunday</h3>
+      <p>The free fan zone at Federation Square wraps up Sunday March 8. Racing simulators, the 2026 show car, and live race screenings from Albert Park. Easily combined with Moomba since they're side by side.</p>
+
+      <h3>Lantern Riveredge Festival — Saturday & Sunday</h3>
+      <p>Glowing lanterns, cultural performances, and festive food at WTC Riverside, South Wharf. <strong>Free entry, 12 PM – 7:30 PM both days.</strong> This is a gorgeous late-afternoon option when the lanterns start lighting up against the water. Much calmer than Moomba if you need a lower-key vibe.</p>
+
+      <h3>Sculpted Sounds — McClelland Sculpture Park, Langwarrin (Saturday)</h3>
+      <p>If you'd rather escape the city entirely, McClelland Sculpture Park is hosting <strong>Sculpted Sounds</strong> today — an outdoor music event set among sculptures and native bushland on the Mornington Peninsula. It's a genuinely unique family experience, wandering through art and nature with a live soundtrack. Perfect for the overcast conditions.</p>
+
+      <h3>Play School: Come and Play! — ACMI (Ongoing)</h3>
+      <p>The brand-new Play School exhibition at ACMI, Federation Square opened this week and it's <strong>completely free</strong>. Step behind the iconic windows, explore how episodes are made, and play with real sets and props. It runs until July, but weekends will only get busier — going this week while it's fresh is smart.</p>
+
+      <h2>📋 Your Weekend Game Plan</h2>
+
+      <h3>Saturday (Overcast, 20°C)</h3>
+      <p><strong>Option A — City Explorer:</strong> Morning at Fitzroy Gardens playground → walk to Fed Square for Play School exhibition at ACMI → Lantern Festival from mid-afternoon at South Wharf.</p>
+      <p><strong>Option B — Creek Adventure:</strong> Morning at Merri Creek trail playgrounds → lunch at CERES Community Park café → afternoon Moomba visit if energy allows.</p>
+      <p><strong>Option C — Peninsula Escape:</strong> Drive to McClelland Sculpture Park for Sculpted Sounds → stop at a Mornington Peninsula playground on the way home.</p>
+
+      <h3>Sunday (Sunny, 26°C)</h3>
+      <p><strong>Option A — Park and Play:</strong> Morning at Royal Park Nature Play → picnic lunch under the trees → Melbourne Zoo next door if you want more adventure.</p>
+      <p><strong>Option B — Seaside Day:</strong> Morning at St Kilda Adventure Playground → lunch on Acland Street → beach time → F1 Fan Festival at Fed Square on the way home (last day).</p>
+      <p><strong>Option C — Festival Finale:</strong> Early Moomba visit for Birdman Rally → playground break at Birrarung Marr → F1 Fan Festival farewell → home before the heat peaks.</p>
+
+      <h2>🎒 Packing for Two Different Days</h2>
+
+      <h3>Saturday's Bag</h3>
+      <ul>
+        <li>Light layers — 20°C with cloud cover can feel cool, especially in the morning</li>
+        <li>Sunscreen and hats (UV is still moderate even through cloud)</li>
+        <li>A lightweight rain jacket each, just in case (1% chance, but this is Melbourne)</li>
+        <li>Snacks and water bottles</li>
+        <li>A picnic blanket if you're doing the creek trail</li>
+      </ul>
+
+      <h3>Sunday's Bag</h3>
+      <ul>
+        <li>Full sun protection: SPF 50+, wide-brim hats, sunglasses, rashies if heading beachside</li>
+        <li>Swimmers and a towel (for water play at Royal Park or the beach)</li>
+        <li>Spare clothes — water play is inevitable at 26°C</li>
+        <li>Extra water (warmer day, more hydration needed)</li>
+        <li>A portable shade option if you're picnicking in open areas</li>
+      </ul>
+
+      <h2>Looking Ahead: Monday is Labour Day</h2>
+      <p>If you're lucky enough to have the long weekend, Monday March 9 brings the <strong>Moomba Parade</strong> along St Kilda Road — the festival's spectacular grand finale with floats, dancers, and community groups. The forecast is a warm 29°C and partly cloudy, so find a shady spot along the route and pack plenty of water. It's an iconic Melbourne moment for kids of all ages.</p>
+
+      <p>Two different days, two different moods — but both brilliant for getting outdoors with your little ones. Saturday's clouds are a gift for longer, more comfortable playground sessions, and Sunday's sunshine is calling for water play and picnic blankets. Whichever way you play it, it's a great weekend to be a Melbourne family.</p>
+
+      <p>Find your perfect playground for each day with our <a href="/search?category=playground">playground finder</a> — filter by shade, fencing, water play, and more to match the conditions.</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-07T07:00:00+11:00',
+    category: 'activities',
+    tags: ['weekend planner', 'melbourne playgrounds', 'family activities', 'march 2026', 'moomba festival', 'autumn playgrounds', 'water play', 'nature play'],
+    seoTitle: 'Melbourne Family Weekend Planner March 7–8, 2026: Playground Picks for Every Weather',
+    seoDescription: 'Plan your Melbourne family weekend with playground recommendations matched to the weather — overcast Saturday for shaded adventures, sunny Sunday for water play and picnics. Plus last-chance events.'
+  },
+  {
     slug: 'kid-friendly-cafes-play-areas-melbourne-guide',
     title: 'Kid-Friendly Cafes with Play Areas in Melbourne: Where to Eat Without the Meltdown',
     excerpt: 'Forget choosing between good coffee and keeping your toddler happy. These Melbourne cafes have proper play spaces AND food worth ordering — sorted by region so you can find one near you.',
