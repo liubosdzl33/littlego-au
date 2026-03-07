@@ -15,6 +15,98 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'welcoming-autumn-melbourne-family-walks-nature-activities-march-2026',
+    title: 'Welcoming Autumn in Melbourne: The Best Family Walks, Nature Activities and What\'s On This March',
+    excerpt: 'As Melbourne\'s leaves start turning gold and the scorching days ease off, autumn opens up a whole new world of family fun. Here are the best walks, nature activities, and upcoming events to enjoy with your little ones this March.',
+    content: `
+      <p>There's a moment every March in Melbourne when you step outside and the air feels different. Not cold — just gentler. The sun sits lower, the light turns golden, and those towering elms and oaks that line our parks and gardens start putting on an absolute show. If you've spent the summer dodging UV and chasing shade, welcome to your reward season. <strong>Autumn in Melbourne with kids</strong> is, honestly, the best kept secret in the family calendar.</p>
+
+      <p>Here's how to make the most of it — from leaf-crunching walks to nature activities that toddlers adore, plus a preview of what's coming up later this month.</p>
+
+      <h2>🍂 Best Autumn Walks for Families with Little Ones</h2>
+
+      <p>Melbourne's autumn leaf display rivals anywhere in Australia, and the best part? Most of the top spots are pram-friendly and completely free. The colour really starts building from mid-March, peaking in April and May — so right now you're catching the early magic.</p>
+
+      <h3>Fitzroy Gardens, East Melbourne</h3>
+      <p>If you only do one autumn walk with your kids this year, make it Fitzroy Gardens. The avenue of mature English elms turns the most spectacular shade of gold you'll see anywhere in Melbourne. The paths are wide, flat, and perfect for prams and scooters. Kids can stomp through leaf piles (an activity that never, ever gets old), visit the Model Tudor Village, and finish at the playground for a run around.</p>
+      <p><strong>Autumn tip:</strong> Visit on a still, sunny morning when the light filters through the canopy. Bring a bag and let your toddler collect leaves — sorting them by colour at home makes a surprisingly absorbing afternoon activity.</p>
+
+      <h3>Royal Botanic Gardens, South Yarra</h3>
+      <p>The Botanic Gardens are stunning year-round, but autumn adds a layer of drama. Walk around the ornamental lake where deciduous trees reflect off the water in golds and reds. The wide, paved paths are easy to navigate with a pram, and there are enough ducks, swans, and water dragons to keep little ones entertained between the "are we there yet" moments. Pack a picnic blanket — the lawns near the lake are perfect for spreading out.</p>
+      <p><strong>Don't miss:</strong> Guilfoyle's Volcano, a hidden garden built inside a 19th-century reservoir. Toddlers love the winding path up to the top, and the view across the gardens is beautiful.</p>
+
+      <h3>Carlton Gardens, Carlton</h3>
+      <p>The tree-lined avenues of Carlton Gardens turn into a tunnel of golden light in autumn. It's a shorter walk than the Botanic Gardens — ideal if you've got a toddler who has approximately 25 minutes of walking enthusiasm. The playground at the southern end is excellent for all ages, and you're right next to Melbourne Museum if the weather turns or you need an indoor pivot.</p>
+
+      <h3>Williamstown Botanic Gardens</h3>
+      <p>A bit further afield but worth the trip, especially if you want to combine autumn colours with a seaside feel. These gardens opened in 1860 and feature beautiful mature trees, an ornamental lake, and peaceful walking paths. The nearby Williamstown foreshore adds a beach walk to your day, and the suburb itself has some lovely family-friendly cafés along Nelson Place.</p>
+
+      <h3>St Kilda Road Boulevard</h3>
+      <p>Sometimes the best autumn walk is the simplest one. The oak-lined boulevard of St Kilda Road is genuinely spectacular when the leaves turn — and you can combine it with a visit to the NGV, the Arts Centre, or a playground in the Domain. Catch the tram (free zone!) and make a morning of it.</p>
+
+      <h2>🌿 Autumn Nature Activities Kids Actually Love</h2>
+
+      <p>Autumn is nature's sensory playground, and toddlers are hardwired to love it. Here are some simple activities that turn a regular park visit into something memorable:</p>
+
+      <h3>Leaf Treasure Hunts</h3>
+      <p>Give your toddler a small bag and a simple mission: find the reddest leaf, the biggest leaf, a leaf with spots, a perfectly yellow one. It's amazing how long this keeps them engaged. At home, press the best ones between book pages for a few days — instant autumn art supplies.</p>
+
+      <h3>Acorn and Seed Collecting</h3>
+      <p>Parks with oak trees (Fitzroy Gardens, Carlton Gardens, most of the inner-city parks) drop acorns through autumn. Toddlers find them endlessly fascinating — they're the perfect size for little hands, satisfying to collect, and you can use them for counting games, sorting by size, or just filling and dumping a bucket over and over (the toddler national sport).</p>
+
+      <h3>Puddle Stomping (When It Rains)</h3>
+      <p>Autumn showers are lighter and warmer than winter's downpours. Chuck the gumboots on, grab a raincoat, and let them stomp. It's sensory play, gross motor development, and pure joy all in one. The best puddle-stomping spots are gravel paths in parks — they hold water just long enough for maximum splash.</p>
+
+      <h3>Nature Journals (for 3+)</h3>
+      <p>If your child is old enough to hold a crayon, a nature journal is a beautiful autumn project. Tape in leaves, draw what you see, stick in a feather found on the path. It doesn't need to be Pinterest-worthy — it's about noticing and recording, which is genuinely how scientists start out.</p>
+
+      <h2>📅 What's Coming Up in Melbourne This March</h2>
+
+      <p>The back half of March is packed with family-friendly events. Here's what to put in your calendar:</p>
+
+      <h3>Melbourne Food and Wine Festival (March 20–29)</h3>
+      <p>While the festival leans adult, there are always family-friendly events in the program — outdoor tastings, picnic-style gatherings, and food truck festivals where kids are welcome. Keep an eye on the program for weekend daytime events.</p>
+
+      <h3>Melbourne International Flower and Garden Show (March 25–29)</h3>
+      <p>Held at the Royal Exhibition Building and Carlton Gardens, this is a surprisingly great family outing. Kids enjoy wandering through the elaborate garden displays, and the outdoor sections in Carlton Gardens are free to explore. Combine it with a playground visit and you've got a full autumn day sorted.</p>
+
+      <h3>Melbourne International Comedy Festival (March 25 – April 19)</h3>
+      <p>The Comedy Festival always includes a kids' program with shows designed for young audiences. Previous years have featured puppetry, clowning, and interactive comedy perfect for ages 3+. Check the program when it drops for family matinee sessions.</p>
+
+      <h3>Indonesian Festival at QVM (March 28–29)</h3>
+      <p>A free cultural festival at Queen Victoria Market with food, music, and performances. Markets with food stalls are brilliant for toddlers — new smells, bright colours, and the freedom to wander and point at everything.</p>
+
+      <h3>AFL Season Kick-Off</h3>
+      <p>The 2026 AFL season starts this weekend, and even if you're not a footy family yet, taking a toddler to their first game is a rite of passage for Melbourne parents. The atmosphere, the crowd noise, and the green oval are genuinely exciting for little ones — even if you leave at quarter time (no judgment).</p>
+
+      <h2>🎒 Your Autumn Day Pack</h2>
+
+      <p>Autumn weather in Melbourne is glorious but unpredictable. Here's what experienced parents keep in the car boot from March to May:</p>
+      <ul>
+        <li><strong>Layers:</strong> A light jumper or hoodie for each child. Mornings can be cool (14–16°C) even when the afternoon hits 22°C</li>
+        <li><strong>A lightweight rain jacket:</strong> Autumn showers appear from nowhere. Having one means rain becomes an adventure, not a disaster</li>
+        <li><strong>Sunscreen and hats:</strong> UV is lower than summer but still moderate (index 3–5) on sunny days. Don't ditch the sun protection yet</li>
+        <li><strong>A picnic blanket:</strong> Autumn picnics are the best picnics. The grass isn't scorching, the ants are calmer, and you can actually sit without melting</li>
+        <li><strong>A small bag or container:</strong> For the inevitable leaf, stick, acorn, and "special rock" collection that comes home with you</li>
+        <li><strong>Spare socks:</strong> Because someone will find a puddle. They always find the puddle</li>
+      </ul>
+
+      <h2>Why Autumn Is the Best Season for Melbourne Playgrounds</h2>
+
+      <p>Here's something worth saying out loud: <strong>autumn is genuinely the best playground season in Melbourne</strong>. Summer playgrounds are too hot — metal slides burn, rubber surfaces radiate heat, and everyone's hiding under shade sails. Winter is wet and cold. But autumn? Autumn is playground perfection. The equipment is comfortable to touch, the UV is manageable, the air is fresh, and kids can play for longer without overheating or needing to reapply sunscreen every 90 minutes.</p>
+
+      <p>If there's a playground you've been meaning to check out — one that's a bit further from home, or doesn't have great shade coverage — autumn is the time to go. Use our <a href="/search?category=playground">playground finder</a> to discover new spots and filter by what matters to your family.</p>
+
+      <p>Welcome to the golden season, Melbourne families. Get out there and crunch some leaves. 🍁</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-08T07:00:00+11:00',
+    category: 'activities',
+    tags: ['autumn activities Melbourne', 'autumn walks kids Melbourne', 'family nature activities', 'march 2026', 'seasonal activities', 'autumn leaves Melbourne', 'toddler outdoor activities', 'Melbourne parks'],
+    seoTitle: 'Best Autumn Walks and Nature Activities for Melbourne Families (March 2026)',
+    seoDescription: 'Discover the best autumn walks, leaf-crunching adventures, and nature activities for families with young kids in Melbourne. Plus upcoming March events and your autumn day packing guide.'
+  },
+  {
     slug: 'weekend-planner-melbourne-families-march-7-8-2026',
     title: 'Weekend Planner: Overcast Saturday, Sunny Sunday — Two Very Different Playground Days',
     excerpt: 'This weekend serves up the classic Melbourne combo: a cool, cloudy Saturday perfect for longer playground sessions, then a gorgeous 26°C Sunday for water play and picnics. Here\'s how to make the most of both.',
