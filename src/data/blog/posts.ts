@@ -15,6 +15,139 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-playgrounds-western-suburbs-melbourne-werribee-point-cook-altona',
+    title: 'Best Playgrounds in Melbourne\'s Western Suburbs: Werribee, Point Cook, Altona & Beyond',
+    excerpt: 'Melbourne\'s west is booming with young families — and the playgrounds have caught up. From water play in Werribee to pirate ships in Point Cook, here are the best playgrounds across the western suburbs.',
+    content: `
+      <p>If you haven't explored Melbourne's western suburbs lately, you're in for a surprise. The west has quietly become one of the best areas in Melbourne for family playgrounds — modern equipment, creative themes, and the kind of thoughtful design that keeps kids entertained for hours while parents actually get to sit down. From Williamstown's seaside charm to the massive community parks in Wyndham Vale and Point Cook, here's our guide to the <strong>best playgrounds in Melbourne's western suburbs</strong>.</p>
+
+      <h2>🏴‍☠️ Best Themed Playgrounds</h2>
+
+      <h3>1. Crocodile Park, Point Cook</h3>
+      <p>This one is a genuine destination playground — the kind of place you'd happily drive 30 minutes for. Crocodile Park features soft white sand, streams of water flowing around stepping stones, wooden lookout platforms, rope bridges, and a big snappy crocodile sculpture that spurts water from its mouth. It feels more like a resort water park than a suburban playground, and kids go absolutely wild for it.</p>
+      <p>The nature-based design encourages imaginative play rather than just climbing and sliding. Toddlers love the shallow water channels and sand, while older kids tackle the rope bridges and climbing structures. There's plenty of shade from mature trees around the edges, plus picnic tables and a barbecue area.</p>
+      <p><strong>Water play:</strong> Yes — bring swimmers and a towel, especially on warmer autumn days<br>
+      <strong>Fenced:</strong> Partially — the main play area is contained but not fully fenced<br>
+      <strong>Facilities:</strong> Toilets, barbecues, picnic tables, parking<br>
+      <strong>Address:</strong> Dorado Crescent, Point Cook</p>
+
+      <h3>2. Montgomery Pirate Shipwreck Park, Essendon</h3>
+      <p>If your child is in a pirate phase (and honestly, are they ever not?), this playground delivers. The centrepiece is a detailed pirate ship structure surrounded by sand — because every good shipwreck needs a beach. Kids can climb aboard, man the helm, and survey their domain from the crow's nest. There's also a separate section with swings, a slide, and climbing equipment for younger ones who aren't ready to walk the plank just yet.</p>
+      <p>The park itself is leafy and pleasant, with mature trees providing natural shade. It's on the smaller side, but the theming makes it feel special — perfect for a focused playground session rather than a full-day outing.</p>
+      <p><strong>Best for:</strong> Toddlers to about age 7, especially imaginative players<br>
+      <strong>Facilities:</strong> Street parking, small grassy area for picnics<br>
+      <strong>Address:</strong> Montgomery Street, Essendon</p>
+
+      <h3>3. Rose Hedge Reserve, Sydenham</h3>
+      <p>A medieval dragon-themed playground that turns every visit into a quest. The main structure features a dragon you can climb over and through, plus castle-inspired towers and bridges. It's the kind of playground where kids immediately start narrating their own adventure — knights, dragons, princesses, the works. The equipment caters to a wide age range, with gentler elements for toddlers alongside more challenging climbing for older children.</p>
+      <p><strong>Best for:</strong> Ages 2–10, fantasy-loving kids<br>
+      <strong>Facilities:</strong> Toilets, parking, open grass<br>
+      <strong>Address:</strong> Rose Hedge Drive, Sydenham</p>
+
+      <h2>💦 Best for Water Play</h2>
+
+      <h3>4. Riverwalk Water Park, Werribee</h3>
+      <p>When the weather's warm enough for water play — and in early autumn, it often still is — Riverwalk Water Park in Werribee is hard to beat. This purpose-built splash park features jets, sprays, tipping buckets, and water channels designed for kids to get thoroughly soaked. The water play area is separate from the dry playground equipment, so you can choose your adventure based on the weather and your spare-clothes situation.</p>
+      <p>The surrounding park has shade structures, seating, and enough grass for a proper picnic spread. It's become a genuine community hub for young families in Wyndham, and the quality of the facilities reflects that.</p>
+      <p><strong>Water play:</strong> Dedicated splash park (operational in warmer months)<br>
+      <strong>Facilities:</strong> Toilets, change areas, parking, barbecues<br>
+      <strong>Best time to visit:</strong> March still has warm enough days for water play — check the forecast and pack accordingly<br>
+      <strong>Address:</strong> Riverwalk Boulevard, Werribee</p>
+
+      <h2>🧗 Best for Active Kids</h2>
+
+      <h3>5. Rosehill Park, Keilor East</h3>
+      <p>This is a playground that takes the "all ages" promise seriously. The centrepiece is a huge climbing structure with what local parents describe as the fastest slide in the west — your child will come off it grinning every time. Add in ladders, ropes, flying foxes, swings, and a sandpit, and you've got a playground that genuinely works for toddlers right through to 10-year-olds without anyone getting bored.</p>
+      <p>The park around it is spacious with walking paths and open grass for ball games or kite flying. There are barbecue facilities and toilets, making it a solid half-day destination. Arrive in the morning and bring lunch — your kids won't want to leave.</p>
+      <p><strong>Highlights:</strong> Fast slide, flying fox, rope climbing<br>
+      <strong>Fenced:</strong> No<br>
+      <strong>Facilities:</strong> Toilets, barbecues, ample parking<br>
+      <strong>Address:</strong> Rosehill Road, Keilor East</p>
+
+      <h3>6. Lollipop Hill Park, Manor Lakes</h3>
+      <p>A family favourite in the Manor Lakes community and well worth the trip if you're exploring the outer west. The playground sits on a slight hill with a long slide running down the slope — a clever bit of design that kids love. The play equipment is modern and varied, with climbing frames, swings, and sensory elements. The surrounding parkland includes walking paths and open green space, giving it a spacious, uncrowded feel even on weekends.</p>
+      <p><strong>Best for:</strong> Families who like space and don't mind driving a bit further<br>
+      <strong>Facilities:</strong> Parking, open grass, walking paths<br>
+      <strong>Address:</strong> Lollipop Hill Drive, Manor Lakes</p>
+
+      <h2>🌊 Best Seaside Playgrounds</h2>
+
+      <h3>7. Williamstown Beach Foreshore Playground</h3>
+      <p>Williamstown is often called Melbourne's best-kept secret, and the foreshore playground is a big reason families keep coming back. Right on the beach with views across Port Phillip Bay to the city skyline, this playground combines standard equipment — slides, swings, climbing structures — with the unbeatable bonus of the beach literally metres away. Kids can bounce between the playground and the sand without crossing any roads.</p>
+      <p>The surrounding foreshore has walking paths, fish and chip shops, and enough parkland for a proper picnic. On a clear autumn day, the view alone is worth the trip.</p>
+      <p><strong>Combine with:</strong> A walk along the Williamstown foreshore, fish and chips from one of the Nelson Place shops, or the Williamstown Botanic Gardens (a 10-minute walk)<br>
+      <strong>Parking:</strong> Free along the Esplanade — arrive before 10 AM on weekends<br>
+      <strong>Facilities:</strong> Toilets, cafes nearby, beach access</p>
+
+      <h3>8. Altona Beach Playground</h3>
+      <p>Another seaside gem that pairs a solid playground with beach access. The equipment is well-maintained and suits toddlers through to early primary school age. What makes it special is the location — right on the Altona foreshore with the pier nearby and the relaxed, beachy suburb atmosphere. After the playground, walk the pier, spot some pelicans, and grab a coffee from one of the cafes along Pier Street.</p>
+      <p><strong>Best for:</strong> A combined playground-and-beach morning<br>
+      <strong>Facilities:</strong> Toilets, cafes, pier access, parking<br>
+      <strong>Address:</strong> Esplanade, Altona</p>
+
+      <h2>🌿 Best for Nature Play</h2>
+
+      <h3>9. Crofts Reserve, Altona North</h3>
+      <p>If your toddler's happy place involves sand, mud, and natural materials, Crofts Reserve is paradise. The playground leans heavily into nature play with sand-based elements, log stepping stones, and natural timber structures. It's the kind of space that encourages kids to create their own games rather than following a prescribed path — which is exactly what the research says builds creativity and problem-solving.</p>
+      <p>The reserve itself is well maintained with shaded seating and gentle paths. It's a quieter, more contemplative playground experience compared to the big themed parks — perfect when you want a calmer outing.</p>
+      <p><strong>Best for:</strong> Toddlers and preschoolers who love sensory play<br>
+      <strong>Facilities:</strong> Parking, seating<br>
+      <strong>Address:</strong> Crofts Crescent, Altona North</p>
+
+      <h2>🚀 Best Newer Playgrounds</h2>
+
+      <h3>10. Cosmopolitan Drive Park, Wyndham Vale</h3>
+      <p>One of the newer additions to the west's playground scene, and it shows. The centrepiece is a towering yellow and orange climbing structure with a long twisty slide that dominates the park. To reach the top, kids need to navigate rope climbs, rock walls, and an indoor tunnel — it's genuinely challenging and satisfying for children who've outgrown basic toddler equipment. Younger kids still have plenty to do with ground-level play elements and swings.</p>
+      <p>The park is bright, spacious, and well designed. It's a great example of how Melbourne's newer suburbs are investing in quality family infrastructure.</p>
+      <p><strong>Best for:</strong> Ages 3–10, kids who love a climbing challenge<br>
+      <strong>Facilities:</strong> Parking, open grass, paths<br>
+      <strong>Address:</strong> Cosmopolitan Drive, Wyndham Vale</p>
+
+      <h2>📋 Planning Your Western Suburbs Playground Day</h2>
+
+      <p>The west is spread out, so picking a cluster makes sense. Here are two routes we love:</p>
+
+      <h3>Route A: Seaside Morning (Williamstown–Altona)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Williamstown Beach Foreshore Playground</li>
+        <li><strong>10:30 AM</strong> — Walk the foreshore or pop into the Williamstown Botanic Gardens</li>
+        <li><strong>11:30 AM</strong> — Drive 10 minutes to Altona Beach Playground for a change of scene</li>
+        <li><strong>12:30 PM</strong> — Fish and chips on the Altona pier</li>
+      </ol>
+
+      <h3>Route B: Adventure Day (Point Cook–Werribee)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Crocodile Park in Point Cook</li>
+        <li><strong>11:00 AM</strong> — Drive 15 minutes to Riverwalk Water Park in Werribee</li>
+        <li><strong>12:30 PM</strong> — Lunch at one of Werribee's family cafes along Watton Street</li>
+        <li><strong>1:30 PM</strong> — If energy remains, Werribee Open Range Zoo is nearby for an afternoon add-on</li>
+      </ol>
+
+      <h2>🎒 What to Pack</h2>
+      <ul>
+        <li><strong>Swimmers and a towel</strong> if visiting Crocodile Park or Riverwalk (even in autumn — warm days still happen)</li>
+        <li><strong>Spare clothes</strong> — sand and water play is basically guaranteed</li>
+        <li><strong>Sunscreen and hats</strong> — UV is still moderate through March, even on overcast days</li>
+        <li><strong>Sand toys</strong> — a bucket, spade, and cup are enough for hours of entertainment</li>
+        <li><strong>Picnic supplies</strong> — many of these parks have barbecues and covered areas</li>
+        <li><strong>A light jumper</strong> — autumn mornings in the west can be breezy, especially near the coast</li>
+      </ul>
+
+      <h2>Why the West Is Worth Exploring</h2>
+      <p>Melbourne's western suburbs have transformed over the past decade. What was once considered a playground desert is now home to some of the most creative, well-designed play spaces in the city. New developments in Wyndham, Point Cook, and Manor Lakes have invested heavily in family infrastructure, and established suburbs like Williamstown, Altona, and Essendon have upgraded their parks to match.</p>
+
+      <p>If you're a family from the east or south making the trip across town, you'll be pleasantly surprised. And if you're a western suburbs family — you already know how good you've got it.</p>
+
+      <p>Find more playgrounds near you with our <a href="/search?category=playground">playground finder</a> — filter by fencing, shade, water play, and more to find the perfect spot for your family.</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-09T07:00:00+11:00',
+    category: 'playgrounds',
+    tags: ['playgrounds', 'western suburbs', 'werribee', 'point cook', 'altona', 'williamstown', 'essendon', 'wyndham vale', 'water play', 'themed playgrounds', 'nature play'],
+    seoTitle: 'Best Playgrounds in Melbourne\'s Western Suburbs: Werribee, Point Cook, Altona & More (2026)',
+    seoDescription: 'Discover the best family playgrounds in Melbourne\'s western suburbs — from Crocodile Park in Point Cook to seaside play at Williamstown and water parks in Werribee. 10 top picks with practical tips.'
+  },
+  {
     slug: 'welcoming-autumn-melbourne-family-walks-nature-activities-march-2026',
     title: 'Welcoming Autumn in Melbourne: The Best Family Walks, Nature Activities and What\'s On This March',
     excerpt: 'As Melbourne\'s leaves start turning gold and the scorching days ease off, autumn opens up a whole new world of family fun. Here are the best walks, nature activities, and upcoming events to enjoy with your little ones this March.',
