@@ -15,6 +15,172 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-bike-scooter-trails-kids-melbourne-family-cycling-guide',
+    title: 'Best Bike and Scooter Trails for Kids in Melbourne: A Family Cycling Guide',
+    excerpt: 'Melbourne\'s network of shared paths is a goldmine for families with young riders. From flat creek trails perfect for balance bikes to longer routes with playgrounds along the way, here are the best spots to ride with kids this autumn.',
+    content: `
+      <p>There's a stage in every Melbourne family's life when the balance bike or scooter becomes the most important object in the house. Your two-year-old won't leave without it. Your four-year-old wants to ride it to every single destination. And you, pushing a pram with one hand and holding a coffee with the other, need to find somewhere safe, flat, and — ideally — with a playground at the end.</p>
+
+      <p>Good news: Melbourne is genuinely brilliant for <strong>family bike and scooter trails</strong>. The city's network of shared paths along creeks, rivers, and coastline means you can find smooth, flat, car-free riding almost anywhere. Here's our guide to the best trails for kids — sorted by difficulty so you can match the ride to your child's confidence level.</p>
+
+      <h2>🚲 Beginner Trails: Perfect for Balance Bikes and First Riders</h2>
+
+      <p>These trails are flat, smooth, short enough for little legs, and — crucially — have something fun at the end to make the whole expedition feel worthwhile.</p>
+
+      <h3>1. Royal Park Loop, Parkville</h3>
+      <p>This is probably Melbourne's most popular first cycling spot for families, and for good reason. The wide, sealed paths around Royal Park are dead flat, well maintained, and loop past the nature play area, open grasslands, and the zoo entrance. You can do a short 1.5 km loop around the inner park or extend to 3-4 km depending on energy levels.</p>
+      <p>What makes it perfect for beginners: the paths are wide enough that a wobbly balance bike rider isn't going to collide with joggers, and there are multiple grassy escape routes when someone needs to stop. The nature play area midway is the world's best bribe — "ride to the playground and then you can play with the water pump."</p>
+      <p><strong>Surface:</strong> Sealed asphalt, flat<br>
+      <strong>Distance:</strong> 1.5–4 km (your choice)<br>
+      <strong>Parking:</strong> Free along The Avenue<br>
+      <strong>Playground stop:</strong> Royal Park Nature Play — water pump, sand, logs<br>
+      <strong>Facilities:</strong> Toilets near the nature play area</p>
+
+      <h3>2. Markham Reserve, Ashburton</h3>
+      <p>A hidden gem that parents in the eastern suburbs guard jealously. Markham Reserve has a <strong>dedicated kids' bike and scooter track</strong> that loops around inside the fenced playground area. It's got mini road markings painted on the path, gentle curves, and the entire thing is contained within the playground fence — so your toddler can ride laps while you sit on a bench and breathe.</p>
+      <p>The playground itself is excellent, with equipment for a wide age range, and there's a skate park just outside the fence for older kids. It's one of those rare spaces designed with tiny riders specifically in mind.</p>
+      <p><strong>Surface:</strong> Sealed path with painted road markings<br>
+      <strong>Distance:</strong> ~300 m loop (inside fence)<br>
+      <strong>Best for:</strong> Balance bikes, first pedal bikes, scooters<br>
+      <strong>Parking:</strong> Small car park off High Street Road<br>
+      <strong>Facilities:</strong> Toilets, playground, BBQ area</p>
+
+      <h3>3. Napier Park, Essendon</h3>
+      <p>Another park with a dedicated scooter and bike circuit, Napier Park's path winds around the playground and through the park in a gentle loop. The path is wide and smooth, the playground is great for under-5s, and there's a café across the road for your coffee needs. It's the kind of spot where you can let a three-year-old scoot laps while you actually relax.</p>
+      <p><strong>Surface:</strong> Sealed, flat<br>
+      <strong>Distance:</strong> ~500 m loop<br>
+      <strong>Parking:</strong> Street parking on Napier Street<br>
+      <strong>Facilities:</strong> Playground, nearby café</p>
+
+      <h2>🛴 Intermediate Trails: For Confident Riders (Ages 3–6)</h2>
+
+      <p>Once your child can steer, brake (even if braking means putting their feet down), and ride in a roughly straight line, these trails open up a whole new world. They're longer, still flat, and all follow creek or river corridors that feel like genuine adventures.</p>
+
+      <h3>4. Merri Creek Trail, Northcote to Coburg</h3>
+      <p>The Merri Creek Trail is a family cycling classic. The section from <strong>Rushall Station to CERES Community Environment Park</strong> (about 3 km) is ideal — flat, mostly sealed, and dotted with small playgrounds along the way. Kids love the creek itself: ducks, waterbirds, and the occasional blue-tongue lizard keep things interesting between riding bursts.</p>
+      <p>Start at CERES for a coffee and let the kids explore the farm area (free to enter), then ride south along the creek. The playgrounds appear every few hundred metres, giving natural rest stops. In autumn, the deciduous trees along the creek turn gorgeous shades of gold.</p>
+      <p><strong>Surface:</strong> Mostly sealed, some gravel sections<br>
+      <strong>Distance:</strong> 3 km one way (ride as far as you like and turn back)<br>
+      <strong>Playground stops:</strong> Multiple small playgrounds along the route<br>
+      <strong>Starting point:</strong> CERES, cnr Roberts & Stewart Streets, Brunswick East<br>
+      <strong>Facilities:</strong> Toilets and café at CERES, toilets at various parks along the trail</p>
+
+      <h3>5. Gardiners Creek Trail, Burwood to Glen Iris</h3>
+      <p>A smooth, sealed trail that follows Gardiners Creek through leafy eastern suburbs. The section between Burwood Highway and Tooronga Road (about 4 km) is particularly family-friendly — flat, wide, and shaded by overhanging trees that are spectacular in autumn. There are several playgrounds along the route, and the trail passes through some beautifully maintained parkland.</p>
+      <p>This trail connects to a broader network, so as your kids grow in confidence, you can extend rides in either direction. But for now, the 4 km section is plenty for a morning adventure with a preschooler.</p>
+      <p><strong>Surface:</strong> Sealed asphalt<br>
+      <strong>Distance:</strong> 4 km one way<br>
+      <strong>Best for:</strong> Kids on pedal bikes or confident scooter riders<br>
+      <strong>Parking:</strong> Gardiners Creek Reserve car park off Warrigal Road</p>
+
+      <h3>6. Kororoit Creek Trail, Altona North</h3>
+      <p>One of the western suburbs' best-kept secrets. This trail follows Kororoit Creek through parkland and past some genuinely impressive public sculptures. The path is smooth and flat, and the mix of art, nature, and open space makes it feel more like an excursion than a bike ride. There's a great playground at the northern end near Grieve Parade, and the trail is wide enough for side-by-side riding.</p>
+      <p><strong>Surface:</strong> Sealed, flat<br>
+      <strong>Distance:</strong> 3 km one way<br>
+      <strong>Highlights:</strong> Public sculptures, creek views, open parkland<br>
+      <strong>Playground stop:</strong> Grieve Parade Reserve</p>
+
+      <h2>🚴 Longer Adventures: For Families Ready to Go Further</h2>
+
+      <p>When your child can ride 5+ km without dissolving into "carry me" territory, Melbourne's longer trails become available. These are proper family outings — pack snacks, water, and sunscreen, and make a morning of it.</p>
+
+      <h3>7. Bay Trail: Brighton to Sandringham</h3>
+      <p>Riding the Bay Trail on a clear autumn morning is one of Melbourne's great family experiences. The section from Brighton Beach to Sandringham (about 6 km) hugs the coastline with views across Port Phillip Bay the entire way. The path is sealed and mostly flat, with only gentle rises near the Black Rock cliffs.</p>
+      <p>The beauty of this section is the playground stops: you'll pass <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">several excellent Bayside playgrounds</a> along the route, so you can break the ride into manageable chunks. Stop at North Road Foreshore Playground halfway for water play and a rest.</p>
+      <p><strong>Surface:</strong> Sealed, mostly flat with gentle rises<br>
+      <strong>Distance:</strong> 6 km one way<br>
+      <strong>Highlights:</strong> Bay views, beach access, multiple playgrounds<br>
+      <strong>Starting point:</strong> Brighton Beach foreshore car park<br>
+      <strong>Facilities:</strong> Toilets and kiosks at several points along the route</p>
+
+      <h3>8. Main Yarra Trail: Southbank to Abbotsford</h3>
+      <p>Following the Yarra River through the heart of Melbourne, this trail gives you city skyline views, rowing clubs, river wildlife, and a series of parks and gardens. The 7 km section from Southbank to the Abbotsford Convent is varied and interesting enough that kids stay engaged — every bend in the river reveals something new.</p>
+      <p>End at the Abbotsford Convent for brunch at one of the cafés, or continue to Collingwood Children's Farm (small entry fee) for a completely different kind of adventure. On autumn weekdays, this trail is blissfully quiet.</p>
+      <p><strong>Surface:</strong> Mostly sealed, some gravel near Abbotsford<br>
+      <strong>Distance:</strong> 7 km one way<br>
+      <strong>Highlights:</strong> City views, Abbotsford Convent, river wildlife<br>
+      <strong>Starting point:</strong> Southbank Promenade (near Princes Bridge)</p>
+
+      <h3>9. Jells Park Circuit, Wheelers Hill</h3>
+      <p>A self-contained loop through native bushland in Melbourne's south-east. The 3–4 km circuit around the lake is sealed, gently undulating, and shaded by eucalypts — making it one of the coolest trails on a warm day. The lake itself is beautiful, and kids love spotting waterbirds and turtles from the path. There's an excellent <a href="/blog/best-shaded-playgrounds-south-east-melbourne">shaded playground</a> near the main car park for post-ride play.</p>
+      <p><strong>Surface:</strong> Sealed, gentle undulations<br>
+      <strong>Distance:</strong> 3–4 km loop<br>
+      <strong>Parking:</strong> Free car park off Waverley Road<br>
+      <strong>Facilities:</strong> Toilets, BBQs, playground, café</p>
+
+      <h2>🍂 Why Autumn Is the Best Season for Family Riding</h2>
+
+      <p>If you've been meaning to get the bikes out, now is the time. <strong>Autumn is hands-down the best season for cycling with kids in Melbourne:</strong></p>
+
+      <ul>
+        <li><strong>Comfortable temperatures</strong> — 16–22°C is perfect for active play without overheating</li>
+        <li><strong>Lower UV</strong> — still wear sunscreen, but you're not fighting the fierce summer sun</li>
+        <li><strong>Spectacular scenery</strong> — Melbourne's creek and river trails are lined with deciduous trees that put on an incredible autumn show</li>
+        <li><strong>Quieter paths</strong> — summer crowds thin out, leaving more space for wobbly riders</li>
+        <li><strong>Longer mornings</strong> — sunrise is later, so a 9:30 AM start still catches beautiful morning light</li>
+      </ul>
+
+      <h2>🎒 What to Pack for a Family Ride</h2>
+
+      <ul>
+        <li><strong>Helmets</strong> — legally required for all ages in Victoria, no exceptions</li>
+        <li><strong>Water bottles</strong> — one per person, even on cooler days</li>
+        <li><strong>Snacks</strong> — energy levels drop fast on little legs. Muesli bars, fruit, and crackers are trail staples</li>
+        <li><strong>Sunscreen and hats</strong> — UV is moderate through autumn, and you're exposed on open trails</li>
+        <li><strong>A pump and basic repair kit</strong> — a flat tyre 2 km from the car is no fun without one</li>
+        <li><strong>Spare clothes</strong> — puddles, mud, and the occasional tumble are all part of the experience</li>
+        <li><strong>A small first aid kit</strong> — plasters and antiseptic wipes for grazed knees</li>
+        <li><strong>Layers</strong> — a light jacket that fits in a basket or backpack for autumn mornings that start cool</li>
+      </ul>
+
+      <h2>💡 Tips for Riding with Young Kids</h2>
+
+      <h3>Start shorter than you think</h3>
+      <p>Your child's first trail ride should be embarrassingly short. Fifteen minutes of actual riding is plenty for a first outing. You can always do more, but you can't un-do a meltdown at the 3 km mark with 3 km still to go. Build distance gradually over weeks.</p>
+
+      <h3>Ride the same trail twice before trying a new one</h3>
+      <p>Familiarity builds confidence. If your child loved a trail the first time, go back. They'll ride further and more confidently the second time because they know what's coming. Novelty is overrated when you're three.</p>
+
+      <h3>Let them lead</h3>
+      <p>Put your child in front (with you close behind) so they set the pace. Following a parent is boring and frustrating for small riders. Leading the expedition? That's an adventure. Just stay close enough to call out hazards and catch them at intersections.</p>
+
+      <h3>Make the destination the reward</h3>
+      <p>"We're riding to the playground" works better than "we're going for a bike ride." The riding is the journey; the playground, café, or creek is the reward. Every trail on this list has something worth riding toward.</p>
+
+      <h3>Embrace the stops</h3>
+      <p>A family ride with a toddler is 30% riding, 30% stopping to look at interesting things, 20% snacking, and 20% negotiating. That's not a bug — it's the whole point. The stick collection, the duck observation, the leaf comparison: that's childhood happening in real time.</p>
+
+      <h2>📋 Quick Reference: Trails by Difficulty</h2>
+
+      <table>
+        <tr><th>Trail</th><th>Area</th><th>Distance</th><th>Surface</th><th>Best For</th></tr>
+        <tr><td>Royal Park Loop</td><td>Parkville</td><td>1.5–4 km</td><td>Sealed</td><td>Balance bikes, first riders</td></tr>
+        <tr><td>Markham Reserve</td><td>Ashburton</td><td>300 m loop</td><td>Sealed</td><td>Balance bikes, scooters (fenced)</td></tr>
+        <tr><td>Napier Park</td><td>Essendon</td><td>500 m loop</td><td>Sealed</td><td>Scooters, balance bikes</td></tr>
+        <tr><td>Merri Creek Trail</td><td>Northcote–Coburg</td><td>3 km</td><td>Mostly sealed</td><td>Confident riders 3–6</td></tr>
+        <tr><td>Gardiners Creek Trail</td><td>Burwood–Glen Iris</td><td>4 km</td><td>Sealed</td><td>Pedal bikes 4+</td></tr>
+        <tr><td>Kororoit Creek Trail</td><td>Altona North</td><td>3 km</td><td>Sealed</td><td>Confident riders 3–6</td></tr>
+        <tr><td>Bay Trail (Brighton–Sandy)</td><td>Bayside</td><td>6 km</td><td>Sealed</td><td>Families, 5+ riders</td></tr>
+        <tr><td>Main Yarra Trail</td><td>Southbank–Abbotsford</td><td>7 km</td><td>Mostly sealed</td><td>Families, 5+ riders</td></tr>
+        <tr><td>Jells Park Circuit</td><td>Wheelers Hill</td><td>3–4 km loop</td><td>Sealed</td><td>All ages, shaded</td></tr>
+      </table>
+
+      <h2>Getting Started</h2>
+
+      <p>You don't need fancy gear or a perfect plan. You need a bike (or scooter, or balance bike), a helmet, a water bottle, and a willingness to go at toddler pace. Melbourne's trail network is one of the city's best family resources — free, accessible, and genuinely beautiful, especially as the autumn colours set in.</p>
+
+      <p>Pick a trail near you, ride to the nearest playground, and see what happens. Worst case, you carry the bike home. Best case, you've just unlocked your family's new favourite weekend activity.</p>
+
+      <p>Find playgrounds along your route with our <a href="/search?category=playground">playground finder</a> — search by suburb to plan your ride-and-play adventure.</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-10T07:00:00+11:00',
+    category: 'activities',
+    tags: ['bike trails kids Melbourne', 'family cycling paths Melbourne', 'scooter trails', 'balance bike', 'autumn activities', 'outdoor activities', 'toddler cycling', 'creek trails'],
+    seoTitle: 'Best Bike and Scooter Trails for Kids in Melbourne: Family Cycling Guide (2026)',
+    seoDescription: 'Discover the best bike and scooter trails for families with young kids in Melbourne — from fenced balance bike loops to scenic creek trails. 9 top picks sorted by difficulty with practical tips.'
+  },
+  {
     slug: 'best-playgrounds-western-suburbs-melbourne-werribee-point-cook-altona',
     title: 'Best Playgrounds in Melbourne\'s Western Suburbs: Werribee, Point Cook, Altona & Beyond',
     excerpt: 'Melbourne\'s west is booming with young families — and the playgrounds have caught up. From water play in Werribee to pirate ships in Point Cook, here are the best playgrounds across the western suburbs.',
