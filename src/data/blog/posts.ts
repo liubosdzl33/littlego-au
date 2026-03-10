@@ -15,6 +15,160 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'whats-on-this-week-melbourne-families-march-11-15-2026',
+    title: "What's On This Week in Melbourne for Families: Holi, Community Festivals and the Last Moonlight Cinema Nights (March 11–15)",
+    excerpt: "From a colourful Holi festival in the Treasury Gardens to community festivals across the suburbs and the final nights of Moonlight Cinema, this week has plenty to keep Melbourne families busy. Here's your mid-March guide.",
+    content: `
+      <p>The post-Labour Day lull? Not in Melbourne. This week might not have a Moomba-sized headline act, but it's packed with the kind of events that make for genuinely great family days — community festivals with free entertainment, a spectacular Holi celebration, and the chance to catch Moonlight Cinema before it wraps up for the season. Here's everything worth knowing about for families this week.</p>
+
+      <h2>🌈 Melbourne CBD Holi Festival of Colours — Saturday & Sunday, March 14–15</h2>
+
+      <p>If your kids haven't experienced a <strong>Holi colour festival</strong>, this weekend at the <strong>Treasury Gardens</strong> is the one. The Melbourne CBD Holi Festival is a joyful explosion of coloured powder, music, and dancing — and children absolutely love it. There's something primal about being given permission to throw colour everywhere, and the squeals of delight from toddlers covered head-to-toe in pink and green powder are genuinely infectious.</p>
+
+      <h3>What families need to know</h3>
+      <ul>
+        <li><strong>When:</strong> Saturday & Sunday, March 14–15</li>
+        <li><strong>Where:</strong> Treasury Gardens, East Melbourne</li>
+        <li><strong>Cost:</strong> Free entry</li>
+        <li><strong>Best for:</strong> All ages — toddlers love the colours, older kids love the chaos</li>
+      </ul>
+
+      <h3>Parent survival tips for Holi</h3>
+      <p>Dress everyone in <strong>white clothes you don't mind staining</strong> — the colours show up beautifully and it makes for incredible photos. Leave the pram at home and use a carrier instead, because navigating crowds on grass with powder underfoot is tricky. Bring a complete change of clothes (including shoes), wet wipes, and a plastic bag for the colourful outfits afterwards. Keep cameras and phones in ziplock bags unless you want a permanently pink phone case.</p>
+      <p>The powder is generally washable, but some colours can linger in lighter hair for a day or two. If that sounds like a problem, a hat helps. If it sounds like a bonus — lean in.</p>
+
+      <h2>🎪 Moonee Valley Festival — Sunday, March 15</h2>
+
+      <p>This is one of those community festivals that punches well above its weight. The <strong>Moonee Valley Festival</strong> returns to <strong>Queens Park in Moonee Ponds</strong> on Sunday with a full day of free entertainment, food, and activities for all ages. Previous years have featured live music, roving performers, craft activities, cultural displays, and dedicated kids' zones with face painting and games.</p>
+
+      <p>What makes community festivals like this so good for families with young kids? The pace. Nobody's rushing between headline acts. You wander, you stop at whatever catches your eye, you eat something from a food stall, and the kids play on the grass between activities. It's relaxed, it's local, and it's free.</p>
+
+      <ul>
+        <li><strong>When:</strong> Sunday, March 15</li>
+        <li><strong>Where:</strong> Queens Park, Moonee Ponds</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Getting there:</strong> Moonee Ponds station is a short walk, or park along nearby streets (arrive early for easy spots)</li>
+      </ul>
+
+      <h2>🌿 Eco Festival — Saturday, March 15 (Correction: Sunday)</h2>
+
+      <p>Head to <strong>Petrie Park in Montmorency</strong> on Sunday for the <strong>Banyule Eco Festival</strong> — a celebration of environmental stewardship with workshops, panel discussions, creative spaces, wildlife displays, and hands-on activities. This is brilliant for families who want their kids to learn about nature and sustainability in a fun, engaging way rather than through a lecture.</p>
+
+      <p>Kids can get up close with native wildlife displays, try nature-based crafts, and explore outdoor creative spaces. It's the kind of event that sparks genuine curiosity — don't be surprised if you come home with a child who suddenly cares deeply about composting.</p>
+
+      <ul>
+        <li><strong>When:</strong> Sunday, March 15</li>
+        <li><strong>Where:</strong> Petrie Park, Montmorency</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Best for:</strong> Nature-loving families, ages 2+</li>
+      </ul>
+
+      <h2>🎉 More Community Festivals This Weekend</h2>
+
+      <p>Sunday March 15 is shaping up as a big festival day across Melbourne's suburbs. If Moonee Ponds or Montmorency aren't your patch, check these out:</p>
+
+      <h3>Celebrate Mooroolbark Festival — Sunday, March 15</h3>
+      <p>The annual community celebration in Mooroolbark with entertainment, food, and activities for families. A great option for outer-east families who'd rather not trek into the city.</p>
+
+      <h3>City of Whittlesea Community Festival — Sunday, March 15</h3>
+      <p>South Morang hosts this free community event with family activities and entertainment. Perfect for northern suburbs families.</p>
+
+      <h3>St Patrick's Day Festival — Sunday, March 15</h3>
+      <p>O'Donnell Gardens in St Kilda celebrates St Patrick's Day with music, food, and festivities. While the evening leans more adult, the afternoon program is family-friendly and the seaside location means you can combine it with a beach walk or <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside playground visit</a>.</p>
+
+      <h3>Melbourne Samba Encontro Parade — Sunday, March 15</h3>
+      <p>Experience the energy of Rio Carnival right in Melbourne's CBD with a spectacular showcase of drummers and dancers. This is free, family-friendly, and the kind of sensory spectacle that has toddlers dancing in the street. The rhythm is impossible to resist — even for parents.</p>
+
+      <h2>🎬 Moonlight Cinema — Final Nights (Until April 5)</h2>
+
+      <p>The beloved <strong>Moonlight Cinema</strong> at the Royal Botanic Gardens is entering its final weeks of the season. If you haven't taken the family yet, now's the time. Autumn evenings are actually ideal for outdoor cinema — the heat has gone, the mosquitoes are fewer, and the sunset over the gardens is spectacular.</p>
+
+      <p>For families with younger kids, the earlier screenings work best. Pack a picnic blanket, arrive early to claim a good spot, and bring layers — it cools down quickly after sunset. Not every film will suit little ones, so check the program for family-appropriate screenings. Even if your toddler falls asleep halfway through, the experience of lying under the stars in the Botanic Gardens is worth it.</p>
+
+      <ul>
+        <li><strong>Where:</strong> Royal Botanic Gardens, South Yarra</li>
+        <li><strong>Season ends:</strong> April 5</li>
+        <li><strong>Tickets:</strong> From ~$22 (check moonlight.com.au for showtimes)</li>
+      </ul>
+
+      <h2>🏛️ Ongoing Exhibitions Worth a Midweek Visit</h2>
+
+      <p>Wednesday is secretly the best day for indoor family outings. Crowds are thin, parking is easier, and you avoid the weekend crush. Here's what's on:</p>
+
+      <h3>Play School: Come and Play — ACMI (Until July 12)</h3>
+      <p>Still going strong and still <strong>completely free</strong>. If you missed it during the Labour Day rush, midweek is perfect. Step behind the iconic windows, play with real sets, and let your little ones discover how episodes are made. Wednesday mornings are noticeably quieter than weekends — you might actually get to enjoy it at toddler pace.</p>
+
+      <h3>Game Worlds — ACMI (Until March 29)</h3>
+      <p>ACMI's playable exhibition features more than 30 video games from the 1970s to today. While it skews slightly older (best for 5+), it's a fascinating experience for families who enjoy gaming together. Last chance to catch it — it closes at the end of the month.</p>
+
+      <h3>Dino Days — Melbourne Museum (Until December 30)</h3>
+      <p>Free for ages 3–5, this ongoing program invites young dinosaur enthusiasts to explore all things prehistoric. If your child is in a dinosaur phase (and when are they not?), this is a regular go-to that's always worth revisiting.</p>
+
+      <h3>Formula 1 Exhibition — MCEC (Until April 19)</h3>
+      <p>The first Asia-Pacific edition of the F1 Exhibition is still running at the Melbourne Convention and Exhibition Centre. It's an immersive journey through the sport's past, present, and future — surprisingly engaging for kids who love speed and shiny things, even if they don't know a pit stop from a pitstop.</p>
+
+      <h2>🎪 Also Happening This Weekend</h2>
+
+      <h3>The Game Expo — MCEC, March 14–16</h3>
+      <p>Board games, tabletop games, video games — if your family is into gaming, this expo at the convention centre is worth a look. It's a ticketed event, so check availability ahead of time.</p>
+
+      <h3>Womin Djeka Ngarnggee Balnarring Festival — Saturday, March 14</h3>
+      <p>A vibrant <strong>First Nations celebration</strong> on the Mornington Peninsula bringing together music, dance, food, and cultural experiences for the whole family. A meaningful and joyful day out, especially if you want to introduce your children to First Nations culture and storytelling.</p>
+
+      <h3>Herb and Chilli Festival — Wandin, March 14–15</h3>
+      <p>Out in the Yarra Valley, this festival celebrates all things herb and chilli. Kids enjoy the market stalls, food tastings, and the novelty of trying something spicy for the first time (or dramatically refusing to). Combine it with a Yarra Valley drive for a proper autumn day trip.</p>
+
+      <h3>Kyabram Fauna Park 50th Birthday — March 14–15</h3>
+      <p>Two fun-filled days of kids' activities, live entertainment, and animal celebrations at the park's milestone birthday. If you're up for a regional day trip (about two hours north of Melbourne), this is a unique one.</p>
+
+      <h2>📅 Looking Ahead: What's Coming Up</h2>
+
+      <p>The back half of March is shaping up nicely. Here's what to put in the calendar now:</p>
+
+      <ul>
+        <li><strong>Melbourne Food and Wine Festival</strong> — March 20–29. Keep an eye out for family-friendly events in the program</li>
+        <li><strong>Melbourne International Flower and Garden Show</strong> — March 25–29 at the Royal Exhibition Building. Great for families, especially the outdoor sections in Carlton Gardens</li>
+        <li><strong>Melbourne International Comedy Festival</strong> — March 25 – April 19. The kids' program always has excellent shows for young audiences</li>
+        <li><strong>Indonesian Festival at QVM</strong> — March 28–29. Free cultural festival with food, music, and performances</li>
+      </ul>
+
+      <h2>📋 Your Week at a Glance</h2>
+
+      <h3>Midweek (Wednesday–Friday)</h3>
+      <p><strong>Best bet:</strong> Hit ACMI for Play School and Game Worlds while it's quiet. Combine with a Fed Square lunch and a walk through the nearby <a href="/search?category=playground">city playgrounds</a>. Or take advantage of the cooler weather for a playground you've been meaning to try — our <a href="/blog/best-bike-scooter-trails-kids-melbourne-family-cycling-guide">bike trail guide</a> has great options for a midweek ride.</p>
+
+      <h3>Saturday, March 14</h3>
+      <p><strong>City families:</strong> Holi Festival at Treasury Gardens — arrive in white, leave in rainbow.<br>
+      <strong>Peninsula families:</strong> Balnarring Festival for First Nations culture and community.<br>
+      <strong>Yarra Valley families:</strong> Herb and Chilli Festival in Wandin.</p>
+
+      <h3>Sunday, March 15</h3>
+      <p><strong>Inner north/west:</strong> Moonee Valley Festival at Queens Park — free, relaxed, family-perfect.<br>
+      <strong>Outer east:</strong> Celebrate Mooroolbark Festival or Eco Festival in Montmorency.<br>
+      <strong>Northern suburbs:</strong> Whittlesea Community Festival in South Morang.<br>
+      <strong>Seaside:</strong> St Patrick's Day Festival in St Kilda + Samba Parade in the CBD.</p>
+
+      <h2>🎒 What to Pack This Week</h2>
+
+      <ul>
+        <li><strong>For Holi:</strong> White clothes, spare outfit, wet wipes, ziplock bags for phones, carrier instead of pram</li>
+        <li><strong>For outdoor festivals:</strong> Sunscreen and hats (UV is moderate but still present), water bottles, snacks, a picnic blanket</li>
+        <li><strong>For Moonlight Cinema:</strong> Warm layers, blankets, a picnic dinner, and patience for the toddler who decides they're "not tired" then falls asleep during the opening credits</li>
+        <li><strong>General:</strong> Autumn weather is settling in — mornings are cool (14–16°C), afternoons warm up to 22–24°C. Layers are your best friend this week</li>
+      </ul>
+
+      <p>This is one of those mid-March weeks that reminds you why autumn in Melbourne is so good for families. The monster events of the Labour Day weekend have cleared out, leaving space for community festivals, cultural celebrations, and the kind of relaxed family outings that don't require military-grade planning. Pick one or two things that suit your crew and enjoy the week.</p>
+
+      <p>Find playgrounds near any of this week's events with our <a href="/search?category=playground">playground finder</a> — because the best event exit strategy is always "let's stop at a playground on the way home." 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-11T07:00:00+11:00',
+    category: 'events',
+    tags: ['whats on this week', 'melbourne events', 'family activities', 'march 2026', 'holi festival', 'community festivals', 'moonlight cinema', 'free events', 'melbourne families'],
+    seoTitle: "What's On This Week in Melbourne for Families: Holi Festival, Community Events & More (March 11–15, 2026)",
+    seoDescription: "Your complete guide to Melbourne family events this week — Holi Festival at Treasury Gardens, Moonee Valley Festival, Eco Festival, Samba Parade, Moonlight Cinema and more. Mostly free, all kid-friendly."
+  },
+  {
     slug: 'best-bike-scooter-trails-kids-melbourne-family-cycling-guide',
     title: 'Best Bike and Scooter Trails for Kids in Melbourne: A Family Cycling Guide',
     excerpt: 'Melbourne\'s network of shared paths is a goldmine for families with young riders. From flat creek trails perfect for balance bikes to longer routes with playgrounds along the way, here are the best spots to ride with kids this autumn.',
