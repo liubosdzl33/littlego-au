@@ -15,6 +15,150 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'weekend-planner-melbourne-families-march-14-15-2026-sunny-autumn',
+    title: 'Weekend Planner: Two Sunny Autumn Days and the Best Shaded Playgrounds to Enjoy Them',
+    excerpt: "Saturday is a sunny 23°C, Sunday heats up to 27°C — it's the kind of Melbourne autumn weekend you want to bottle. Here's how to make the most of both days with playground picks, events, and a plan that actually works with nap schedules.",
+    content: `
+      <p>Some weekends Melbourne hands you grey skies and a weather app full of rain droplets. This is not one of those weekends. Saturday is a <strong>sunny 23°C</strong> and Sunday climbs to a <strong>gorgeous 27°C</strong> — the kind of mid-March conditions that remind you why autumn in this city is so special. Light winds, low humidity, and enough warmth for water play without the brutal UV of summer.</p>
+
+      <p>The catch? Sunday's warmth means shade becomes important again. Not "hide inside" important, but definitely "choose your playground wisely" important. Here's your family weekend planned around the forecast, with playground recommendations for each day and a quick rundown of what's happening around Melbourne.</p>
+
+      <h2>🌤️ Saturday March 14: Sunny, 23°C — Go Anywhere Weather</h2>
+
+      <p>This is the sweet spot. Warm enough for short sleeves, cool enough that nobody overheats, and sunny enough to make everything look beautiful. At 23°C with light southerly winds, you can get away with playgrounds that don't have great shade — the sun won't be punishing. UV will be moderate (index 3–4), so sunscreen and hats are still essential, but you won't be chasing shade sails every five minutes.</p>
+
+      <h3>Morning Pick: Westerfolds Park, Templestowe</h3>
+
+      <p>If you've been meaning to explore Melbourne's <strong>north-eastern nature playgrounds</strong>, today's the day. Westerfolds Park sits along the Yarra River in Templestowe, and it's the kind of place that makes you forget you're still in suburbia. The nature play area features logs, boulders, and timber structures nestled under eucalyptus canopy, which means dappled natural shade even on a sunny day.</p>
+
+      <p>The real magic here is what surrounds the playground. Walking trails wind along the river, kookaburras call from the gum trees, and there's enough open grassland for running, kicking a ball, or spreading out a picnic blanket. The 23°C conditions are perfect for a combination play-and-walk morning — let the kids burn energy at the playground, then explore a section of trail before heading home for lunch.</p>
+
+      <p><strong>Best for:</strong> Nature-loving families, ages 2+<br>
+      <strong>Parking:</strong> Free car park off Fitzsimons Lane — arrive before 10 AM on weekends<br>
+      <strong>Facilities:</strong> Toilets, barbecues, picnic tables<br>
+      <strong>Combine with:</strong> The Yarra River trail heading south toward Banksia Park is flat, pram-friendly, and stunning in autumn light</p>
+
+      <h3>Afternoon Pick: Hays Paddock, East Kew</h3>
+
+      <p>A hidden gem that locals guard fiercely. Hays Paddock has a lovely playground surrounded by mature trees, wide open grass, and a gentle creek that kids love exploring. The equipment suits toddlers through to about age 7, and the park itself has a peaceful, neighbourhood feel that's a world away from the busier destination playgrounds.</p>
+
+      <p>What makes it perfect for a Saturday afternoon: the natural tree shade means the equipment stays comfortable even after a full day of sun, the creek offers endless poking-sticks-at-things entertainment, and the open grass is ideal for an afternoon picnic as the light turns golden.</p>
+
+      <p><strong>Best for:</strong> A relaxed afternoon, toddlers who like exploring<br>
+      <strong>Parking:</strong> Street parking on Hays Close<br>
+      <strong>Facilities:</strong> Toilets nearby, open grassland<br>
+      <strong>Tip:</strong> Bring gumboots for creek exploring — feet will get wet</p>
+
+      <h2>☀️ Sunday March 15: Sunny, 27°C — Shade and Water Play Weather</h2>
+
+      <p>Sunday's warmer at 27°C, so the game plan shifts. This is the day for playgrounds with <strong>excellent shade cover or water play features</strong> — and ideally both. UV will be higher (index 4–5), and equipment in direct sun will start getting warm by mid-morning. Pick your spot wisely and you'll have a brilliant day. Pick wrong and someone's burning their hands on a metal slide by 11 AM.</p>
+
+      <h3>Morning Pick: Jells Park, Wheelers Hill</h3>
+
+      <p>One of Melbourne's best-kept playground secrets for warm days. The playground at <a href="/blog/best-bike-scooter-trails-kids-melbourne-family-cycling-guide">Jells Park</a> sits under significant tree cover, keeping equipment cool well into the afternoon. But the real drawcard on a 27°C day is the lake circuit — a sealed 3–4 km loop through eucalypt bushland with the lake shimmering alongside. Kids can ride bikes or scooters on the path while you walk, then cool down at the shaded playground.</p>
+
+      <p>The café near the main car park means you don't have to pack everything, and the barbecue facilities are excellent if you want to make a morning of it. Water birds, turtles, and the occasional blue-tongue lizard keep little nature enthusiasts entertained between playground sessions.</p>
+
+      <p><strong>Best for:</strong> All ages, families with bikes or scooters<br>
+      <strong>Parking:</strong> Free car park off Waverley Road<br>
+      <strong>Facilities:</strong> Toilets, café, barbecues, picnic tables<br>
+      <strong>Shade:</strong> Excellent — natural tree canopy over playground and much of the trail</p>
+
+      <h3>Afternoon Pick: Wattle Park, Burwood</h3>
+
+      <p>Wattle Park is a classic Melbourne family spot that comes into its own on warm autumn days. The playground sits in a mature parkland setting with significant shade from old established trees — elms and oaks that are just starting to turn golden this time of year. The equipment caters to a good age range, and the surrounding park has walking paths, open grass, and a dog-free zone near the playground.</p>
+
+      <p>At 27°C, the afternoon light through the turning leaves is genuinely spectacular. It's one of those places where you set up a picnic blanket, let the kids alternate between playing and eating, and suddenly it's 4 PM and nobody wants to leave. There's a golf course adjacent, so the overall atmosphere is quiet and spacious — a lovely contrast to the busier inner-city parks.</p>
+
+      <p><strong>Best for:</strong> Relaxed afternoon play, autumn leaf collecting<br>
+      <strong>Parking:</strong> Free along Riversdale Road<br>
+      <strong>Facilities:</strong> Toilets, picnic areas<br>
+      <strong>Autumn bonus:</strong> The deciduous trees here put on one of the eastern suburbs' best colour shows — bring a bag for leaf collecting</p>
+
+      <h2>🎪 What's On This Weekend</h2>
+
+      <p>We covered this week's events in detail in our <a href="/blog/whats-on-this-week-melbourne-families-march-11-15-2026">What's On guide</a>, but here's the quick Saturday-Sunday version:</p>
+
+      <h3>Holi Festival of Colours — Treasury Gardens (Saturday & Sunday)</h3>
+      <p>Still the headline act this weekend. Free entry, coloured powder everywhere, music and dancing. If you haven't been, Saturday's 23°C is slightly more comfortable than Sunday's 27°C for being outdoors in the CBD — and dress everyone in white for the full effect. See our <a href="/blog/whats-on-this-week-melbourne-families-march-11-15-2026">events guide</a> for full survival tips.</p>
+
+      <h3>AFL Round 1: Melbourne v St Kilda — MCG (Sunday)</h3>
+      <p>The 2026 AFL season kicks off, and taking a toddler to their first game at the 'G is a rite of passage for Melbourne families. The atmosphere alone is worth it — even if you leave at quarter time. The MCG is surprisingly child-friendly, with parent rooms and easy access to the nearby Yarra parklands if your little one needs a break from the noise.</p>
+
+      <h3>Moonee Valley Festival — Queens Park (Sunday)</h3>
+      <p>Free community festival in Moonee Ponds with live music, food, entertainment, and kids' activities. Sunday's weather makes this an ideal outdoor festival day. Great for inner-north and western suburbs families.</p>
+
+      <h3>Community Festivals Galore (Sunday)</h3>
+      <p>Sunday is festival day across Melbourne's suburbs: <strong>Eco Festival</strong> in Montmorency for nature-loving families, <strong>Celebrate Mooroolbark</strong> for the outer east, <strong>Whittlesea Community Festival</strong> in South Morang, <strong>St Patrick's Day Festival</strong> in St Kilda, and the <strong>Melbourne Samba Encontro Parade</strong> in the CBD. Pick whichever's closest to your patch and enjoy the community vibes.</p>
+
+      <h3>Ongoing: Don't Forget These</h3>
+      <ul>
+        <li><strong>Play School: Come and Play</strong> at ACMI — free, brilliant, and a perfect warm-day backup if you need aircon</li>
+        <li><strong>Moonlight Cinema</strong> at the Botanic Gardens — the season runs until April 5, and a 27°C evening is perfect for outdoor cinema</li>
+        <li><strong>Game Worlds</strong> at ACMI — closes March 29, last chance approaching</li>
+      </ul>
+
+      <h2>🌡️ The Shade Factor: Why It Matters This Weekend</h2>
+
+      <p>Here's a quick parent reality check on playground shade that's worth knowing for Sunday's warmer conditions:</p>
+
+      <ul>
+        <li><strong>Metal slides in direct sun at 27°C</strong> can reach surface temperatures well above the air temperature. Test with your hand before your child sits down</li>
+        <li><strong>Rubber surfacing</strong> under play equipment absorbs heat — bare feet on hot rubber is no fun for toddlers</li>
+        <li><strong>Natural tree shade</strong> is significantly cooler than shade sails, because trees also cool the surrounding air through evaporation</li>
+        <li><strong>Morning is your friend</strong> — equipment is coolest before 11 AM, even in direct sun. Plan your Sunday playground visit early</li>
+      </ul>
+
+      <p>This is exactly why we recommended Jells Park and Wattle Park for Sunday — both have substantial natural tree canopy that keeps equipment genuinely comfortable through the warmest part of the day.</p>
+
+      <h2>📋 Your Weekend Game Plan</h2>
+
+      <h3>Saturday (Sunny, 23°C)</h3>
+      <p><strong>Option A — Nature Explorer:</strong> Morning at Westerfolds Park (nature play + river trail) → picnic lunch under the gums → afternoon at Hays Paddock for creek play and golden-hour grass time.</p>
+      <p><strong>Option B — Festival Day:</strong> Morning at Holi Festival in Treasury Gardens → lunch in East Melbourne → afternoon at Fitzroy Gardens playground (shaded, right nearby).</p>
+      <p><strong>Option C — Bayside Beautiful:</strong> The 23°C conditions are perfect for the <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside playground trail</a> — start at Dendy Park, work your way to the North Road Foreshore, and enjoy the bay views without summer's heat.</p>
+
+      <h3>Sunday (Sunny, 27°C)</h3>
+      <p><strong>Option A — Shaded Play:</strong> Early morning at Jells Park (ride the lake loop, play in the shade) → café lunch → afternoon at Wattle Park for autumn colours and cool grass.</p>
+      <p><strong>Option B — Festival + Play:</strong> Morning at Moonee Valley Festival or your local community festival → afternoon at a shaded playground near home when the heat peaks.</p>
+      <p><strong>Option C — First Footy:</strong> AFL at the MCG (Melbourne v St Kilda) → let the kids run wild at Birrarung Marr playground afterwards → walk along the Yarra as the evening cools.</p>
+
+      <h2>🎒 Packing for a Sunny Autumn Weekend</h2>
+
+      <h3>Saturday (23°C)</h3>
+      <ul>
+        <li>Sunscreen SPF 50+ and wide-brim hats — the UV is moderate but persistent on clear days</li>
+        <li>Light layers for the morning — 12°C overnight means it'll be cool before 10 AM</li>
+        <li>Picnic supplies if you're heading to a park (Saturday conditions are picnic perfection)</li>
+        <li>Gumboots or old shoes if visiting Westerfolds or any creek-adjacent playground</li>
+        <li>A bag for nature treasures — autumn leaves, gum nuts, interesting sticks</li>
+      </ul>
+
+      <h3>Sunday (27°C)</h3>
+      <ul>
+        <li>Full sun protection — SPF 50+, hats, sunglasses, rashies if heading to water play</li>
+        <li>Extra water bottles — warmer day, more hydration needed, especially for active kids</li>
+        <li>Swimmers and a towel — 27°C is absolutely warm enough for water play features</li>
+        <li>Spare clothes — because where there's water, there are wet children</li>
+        <li>Shoes that can get wet (the creek at Hays Paddock or water play anywhere will be irresistible at this temperature)</li>
+      </ul>
+
+      <h2>🔭 Looking Ahead: Next Week</h2>
+
+      <p>Monday brings a change — <strong>rain forecast and a drop to 23°C</strong>, with Tuesday cooler and wet at 21°C. Then the weather settles back into sunny mid-20s from Wednesday. If you've been saving your <a href="/blog/best-indoor-play-centres-melbourne-toddlers-preschoolers-guide">indoor play centre visit</a>, Monday or Tuesday is your window. And the back half of next week looks brilliant for outdoor play as the <strong>Melbourne Food and Wine Festival</strong> kicks off on March 20.</p>
+
+      <p>But that's next week's problem. Right now, Melbourne has handed you two perfect autumn days. Grab the sunscreen, fill the water bottles, and get outside — your kids won't remember the housework you didn't do, but they'll remember the playground where they discovered the biggest stick in the world.</p>
+
+      <p>Find shaded playgrounds near you with our <a href="/search?category=playground">playground finder</a> — filter for shade and tree cover to pick the best spots for warm autumn days. ☀️</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-14T07:00:00+11:00',
+    category: 'activities',
+    tags: ['weekend planner', 'shaded playgrounds Melbourne', 'melbourne playgrounds autumn', 'family activities', 'march 2026', 'sunny day playgrounds', 'Jells Park', 'Westerfolds Park', 'Holi festival', 'AFL'],
+    seoTitle: 'Melbourne Family Weekend Planner March 14–15, 2026: Best Shaded Playgrounds for Sunny Autumn Days',
+    seoDescription: 'Plan your sunny Melbourne family weekend with shaded playground picks matched to the forecast — 23°C Saturday and 27°C Sunday. Plus Holi Festival, AFL Round 1, and community events.'
+  },
+  {
     slug: 'best-indoor-play-centres-melbourne-toddlers-preschoolers-guide',
     title: 'Best Indoor Play Centres in Melbourne for Toddlers and Preschoolers: A No-Nonsense Guide',
     excerpt: "When it's raining sideways or your toddler has energy that could power a small city, indoor play centres are the answer. Here are Melbourne's best — sorted by region, with honest parent verdicts on each.",
