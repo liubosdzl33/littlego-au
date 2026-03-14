@@ -15,6 +15,205 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'easter-2026-melbourne-kids-egg-hunts-school-holiday-activities-guide',
+    title: 'Easter in Melbourne with Kids: Your Complete 2026 Guide to Egg Hunts, Free Events and School Holiday Fun',
+    excerpt: "Easter 2026 falls on April 3–6 and it's shaping up brilliantly for Melbourne families. From giant egg hunts to free Federation Square events, here's everything you need to plan the perfect Easter break with little ones.",
+    content: `
+      <p>Easter is three weeks away and if you're anything like most Melbourne parents, you're somewhere between "I should probably start planning" and "can I just hide chocolate eggs in the backyard and call it done?" Both are valid. But Melbourne has so much on offer for families over the Easter long weekend and school holidays that a little planning now means a lot less scrambling later — and a lot more fun for your kids.</p>
+
+      <p>Here's your complete guide to <strong>Easter 2026 in Melbourne with kids</strong> — from organised egg hunts to free city events, DIY ideas for toddlers, and a few playground suggestions that make the perfect Easter morning backdrop.</p>
+
+      <h2>📅 Key Dates to Know</h2>
+
+      <p>First things first — let's lock in the calendar:</p>
+
+      <ul>
+        <li><strong>Victorian school holidays:</strong> Term 1 ends Friday March 27. School holidays run roughly March 28 – April 12</li>
+        <li><strong>Good Friday:</strong> April 3</li>
+        <li><strong>Easter Saturday:</strong> April 4</li>
+        <li><strong>Easter Sunday:</strong> April 5</li>
+        <li><strong>Easter Monday:</strong> April 6</li>
+      </ul>
+
+      <p>That means you've got a solid two-week break with the long weekend right in the middle. Whether you're planning four days of activities or just one really good morning, there's something here for every family.</p>
+
+      <h2>🥚 Best Easter Egg Hunts in Melbourne (2026)</h2>
+
+      <p>Melbourne does egg hunts well, and there's a surprising range — from free community events to ticketed extravaganzas with age-separated sessions. Here are the ones worth booking now (the best ones sell out).</p>
+
+      <h3>Giant Easter Egg Hunt — Chirnside Park (Saturday April 4)</h3>
+
+      <p>This is the big one — literally. The Giant Easter Egg Hunt returns with age-appropriate time slots so your toddler isn't competing with seven-year-olds for chocolate. Alongside the hunt, there are inflatables, face painting, and a sausage sizzle. It's well-organised, genuinely fun, and the age separation means even cautious little ones get a fair go at finding eggs.</p>
+
+      <p><strong>Tickets:</strong> Required in advance — check giantegghunt.com.au (spectators free)<br>
+      <strong>Best for:</strong> All ages, with dedicated toddler sessions<br>
+      <strong>Tip:</strong> Book early. This event has sold out every year and sessions go fast</p>
+
+      <h3>Kids Day Out — Good Friday Appeal (MCEC, Friday April 3)</h3>
+
+      <p>The Good Friday Appeal's <strong>Kids Day Out</strong> at the Melbourne Convention and Exhibition Centre is a Melbourne institution, and it's <strong>completely free</strong>. Carnival rides, giant inflatables, arts and crafts, sports zones, face painting, creative workshops, and live performances — all under one roof, all day. No registration required, just turn up.</p>
+
+      <p>For families with toddlers, this is honestly one of the best free family events in Melbourne's calendar. The indoor setting means weather is irrelevant, and the sheer variety of activities means even the shortest attention span is catered for. Plus, you're supporting the Royal Children's Hospital — so you feel good about the outing on every level.</p>
+
+      <p><strong>When:</strong> Friday April 3, 10 AM – 5 PM<br>
+      <strong>Where:</strong> MCEC, South Wharf<br>
+      <strong>Cost:</strong> Free<br>
+      <strong>Tip:</strong> Arrive before 11 AM for shorter queues at the most popular activities. Bring your own snacks — the venue food is fine but queues can be long at peak times</p>
+
+      <h3>Federation Square Easter Festival (April 3–6)</h3>
+
+      <p>Fed Square goes full Easter across the long weekend with <strong>free street performers, live music, family workshops, and Easter egg hunts</strong>. It's the kind of drop-in event that works brilliantly with toddlers because there's no set schedule you need to stick to — wander around, stop at whatever catches your child's eye, and leave when the mood shifts. The CBD location means you can easily combine it with ACMI's Play School exhibition (still free, still brilliant) or a walk to the Yarra.</p>
+
+      <p><strong>When:</strong> April 3–6<br>
+      <strong>Where:</strong> Federation Square<br>
+      <strong>Cost:</strong> Free</p>
+
+      <h3>Snow White's Happily Ever After Egg Hunt — Diggers Rest (Friday April 3)</h3>
+
+      <p>For something a bit different, Animal Land Children's Farm in Diggers Rest hosts a fairytale-themed egg hunt on Good Friday. Kids follow a story-led trail, meet fairytale characters, and explore the farm between egg-hunting sessions. It's gentler and more imaginative than the big suburban hunts, which suits toddlers who might find the competitive egg-grabbing a bit much.</p>
+
+      <p><strong>When:</strong> Good Friday April 3, 10 AM – 3 PM (timed entry)<br>
+      <strong>Tickets:</strong> Required — check animalland.com.au<br>
+      <strong>Best for:</strong> Toddlers and preschoolers who love stories and animals</p>
+
+      <h3>More Egg Hunts Worth Knowing About</h3>
+
+      <ul>
+        <li><strong>Skyline Melbourne Easter Egg Hunt</strong> (March 28–29) — Arts and crafts, meet the Easter Bunny, and a hunt with city views. Great for an early-Easter warm-up</li>
+        <li><strong>Macleod Village Easter Egg Hunt and Maker's Market</strong> (Saturday March 28) — Free community event with a local market twist</li>
+        <li><strong>Diamond Creek Eggstravagant Easter Egg Hunt</strong> (Saturday March 28) — Family picnic atmosphere at the Diamond Creek playspace</li>
+        <li><strong>Kew Junction Easter Hunt</strong> (Saturday April 4) — Free window walk with surprises in shop windows and storybook characters</li>
+        <li><strong>Chicken or the Egg Easter Hunt, Mordialloc</strong> (April 4–5) — Find chicks and eggs around the village, mark them on a map, win a big egg. Clever scavenger hunt format that older toddlers love</li>
+        <li><strong>Tesselaar KaBloom Easter Rabbit Hunt, Silvan</strong> (March 30 – April 6) — Hunt rabbits instead of eggs among the flower fields. Beautiful Yarra Valley day trip</li>
+        <li><strong>Warratina Lavender Farm Easter Bunny Hunt</strong> (April 4–19) — Free hunt, no booking required, daily 10 AM – 4 PM. A relaxed, no-pressure option</li>
+      </ul>
+
+      <h2>🐣 Easter with Toddlers: DIY Ideas That Actually Work</h2>
+
+      <p>Let's be real — toddlers don't need an organised event to have a magical Easter. Some of the best Easter memories come from simple activities you can do at a park or in your own backyard. Here are ideas that work with short attention spans and developing motor skills:</p>
+
+      <h3>The Backyard (or Park) Egg Hunt</h3>
+
+      <p>The classic, and still the best for under-3s. Use plastic eggs filled with small toys, stickers, or a couple of chocolate buttons rather than full-sized eggs. For toddlers, "hide" them in obvious spots — sitting on top of a bush, next to a tree trunk, on the seat of a bench. The joy is in the finding, not the difficulty. Give them a bucket or small basket and watch them go.</p>
+
+      <p><strong>Playground twist:</strong> Hide eggs around your local playground before you arrive (or while your partner distracts). The climbing frame, sandpit, and under the slide become the hunt zones. It turns an ordinary playground visit into an event, and it costs about $5 in plastic eggs.</p>
+
+      <h3>Easter Nature Walk</h3>
+
+      <p>Combine an autumn nature walk with Easter by giving your toddler a checklist of things to find: a yellow leaf, a feather, a round stone, a stick shaped like a letter. Throw in a few hidden chocolate eggs along the trail if you want to add an Easter element. Melbourne's parks are at their most beautiful right now — the early autumn light and changing leaves make any walk feel special.</p>
+
+      <p><strong>Best spots:</strong> <a href="/blog/welcoming-autumn-melbourne-family-walks-nature-activities-march-2026">Our autumn walks guide</a> has detailed recommendations, but Fitzroy Gardens, Carlton Gardens, and the Royal Botanic Gardens are all perfect for an Easter nature walk</p>
+
+      <h3>Easter Egg Decorating</h3>
+
+      <p>Hard-boil some eggs, grab some non-toxic paints or food colouring, and let your toddler go to town. Will they be Pinterest-worthy? Absolutely not. Will your child be completely absorbed for 20 minutes? Yes. Will you find food colouring on surfaces you didn't know existed? Also yes. Worth it.</p>
+
+      <h3>Easter Play Dough</h3>
+
+      <p>Make a batch of play dough (flour, salt, water, oil, food colouring — recipes are everywhere) and provide cookie cutters in egg and bunny shapes. Toddlers who love sensory play will spend ages rolling, cutting, and squishing. Add glitter if you're feeling brave.</p>
+
+      <h2>🌤️ Best Playgrounds for an Easter Morning</h2>
+
+      <p>If your Easter plan is "playground + hidden eggs + hot cross buns from the bakery," you're doing it right. Here are playgrounds that make particularly good Easter morning destinations:</p>
+
+      <h3>Fitzroy Gardens, East Melbourne</h3>
+
+      <p>The mature trees, wide paths, and gentle atmosphere make Fitzroy Gardens feel like it was designed for Easter morning. The playground is excellent for toddlers, and the surrounding gardens have countless spots to tuck a few eggs. The autumn colours in early April will be gorgeous — golds and reds filling the canopy overhead. Arrive early, hide eggs among the roots and garden beds near the playground, and enjoy the most picturesque Easter morning in Melbourne.</p>
+
+      <h3>Royal Park Nature Play, Parkville</h3>
+
+      <p>The logs, boulders, and sand areas at Royal Park's nature play space have a million nooks and crannies perfect for hiding eggs. It's the kind of environment where an egg hunt feels organic rather than staged — because the playground itself is full of discovery opportunities. The wide open grass nearby is ideal for spreading a picnic blanket and eating hot cross buns while the kids play.</p>
+
+      <h3>Jells Park, Wheelers Hill</h3>
+
+      <p>The shaded playground at <a href="/blog/best-bike-scooter-trails-kids-melbourne-family-cycling-guide">Jells Park</a> sits under beautiful tree canopy, and the lake circuit adds an adventure element to any Easter visit. Hide eggs along a short section of the trail and let your child "discover" them as you walk. The café near the car park means hot cross buns and coffee without any effort. Early April weather should be perfect — mid-20s, light breeze, autumn at its finest.</p>
+
+      <h3>Dendy Park, Brighton</h3>
+
+      <p>If you're a <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside family</a>, Dendy Park is a lovely Easter choice. Fully fenced (so toddlers can hunt without escaping), with a good playground and enough garden beds and trees around the perimeter to hide eggs effectively. The nearby beach adds a post-hunt option that's hard to beat on a mild autumn morning.</p>
+
+      <h2>🍫 The Chocolate Question: Easter with Toddlers</h2>
+
+      <p>Every parent faces the chocolate dilemma at Easter. Here's a pragmatic approach that keeps the magic without the sugar meltdown:</p>
+
+      <ul>
+        <li><strong>Under 2:</strong> Plastic eggs filled with small toys, stickers, or sultanas. They genuinely don't know what they're missing, and the hunting is the fun part anyway</li>
+        <li><strong>Ages 2–3:</strong> A mix of plastic eggs (toys/stickers) and a small amount of chocolate. One or two small eggs is plenty — they're excited by the finding, not the volume</li>
+        <li><strong>Ages 3+:</strong> The chocolate arms race begins. Set a reasonable number (our family does 10 small eggs max) and supplement with non-food treasures — temporary tattoos, bouncy balls, or a small toy in a special golden egg</li>
+      </ul>
+
+      <p><strong>Timing tip:</strong> Do the egg hunt mid-morning after a proper breakfast. A toddler hopped up on chocolate at 7 AM is a toddler in meltdown by 9 AM. Feed them real food first, then unleash the hunt.</p>
+
+      <h2>📋 Your Easter Long Weekend Planner</h2>
+
+      <h3>Good Friday, April 3</h3>
+
+      <p><strong>Option A — City Family Day:</strong> Kids Day Out at MCEC (free, all day) → walk along South Wharf → early dinner in Southbank.<br>
+      <strong>Option B — Farm Adventure:</strong> Snow White's Egg Hunt at Animal Land, Diggers Rest → explore the farm → stop at a <a href="/blog/best-playgrounds-western-suburbs-melbourne-werribee-point-cook-altona">western suburbs playground</a> on the way home.<br>
+      <strong>Option C — Quiet at Home:</strong> DIY backyard egg hunt in the morning → Easter crafts after lunch → <a href="/blog/best-indoor-play-centres-melbourne-toddlers-preschoolers-guide">indoor play centre</a> if cabin fever strikes.</p>
+
+      <h3>Easter Saturday, April 4</h3>
+
+      <p><strong>Option A — Big Day Out:</strong> Giant Easter Egg Hunt at Chirnside Park → Yarra Valley drive → Warratina Lavender Farm for a second hunt (free).<br>
+      <strong>Option B — Bayside Easter:</strong> Morning playground egg hunt at Dendy Park → beach walk along the Bay Trail → fish and chips for lunch.<br>
+      <strong>Option C — Inner City:</strong> Federation Square Easter Festival → Play School at ACMI → playground at Birrarung Marr.</p>
+
+      <h3>Easter Sunday, April 5</h3>
+
+      <p><strong>Option A — Nature Easter:</strong> Easter nature walk at Fitzroy Gardens with hidden eggs → hot cross bun picnic → afternoon at a nearby playground.<br>
+      <strong>Option B — Mountain Adventure:</strong> Drive to Mt Buller for the free 10,000-egg hunt across the mountain (yes, really) — a spectacular day trip if you're up for the drive.<br>
+      <strong>Option C — Local and Lovely:</strong> Egg hunt at your regular playground → Easter lunch at a <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly café</a> → afternoon rest (everyone needs it by day three).</p>
+
+      <h3>Easter Monday, April 6</h3>
+
+      <p><strong>Option A — Wind Down:</strong> Fed Square Easter Festival (last day) → Yarra river walk → Moonlight Cinema if the season is still running.<br>
+      <strong>Option B — Something Different:</strong> Melbourne Museum (free for under-16s) for dinosaur-loving kids → Carlton Gardens playground → ice cream on Lygon Street.<br>
+      <strong>Option C — Recovery Day:</strong> Local playground, leftover chocolate, no plan. Sometimes the best family day is the unplanned one.</p>
+
+      <h2>🎒 Easter Packing Essentials</h2>
+
+      <ul>
+        <li><strong>Sunscreen and hats</strong> — early April UV is moderate (index 3–4) but still requires protection on clear days</li>
+        <li><strong>Layers</strong> — autumn mornings can be cool (12–15°C) warming to a pleasant 20–23°C by afternoon</li>
+        <li><strong>A basket or bucket</strong> for egg collecting (let your toddler choose their own — ownership matters)</li>
+        <li><strong>Wet wipes</strong> — chocolate hands are inevitable. Accept this</li>
+        <li><strong>A cooler bag</strong> if you're bringing chocolate to an outdoor event — April sun can still melt eggs left in the car</li>
+        <li><strong>Spare clothes</strong> — because someone will discover water play, mud, or both</li>
+        <li><strong>Hot cross buns and a thermos of tea/coffee</strong> — the ultimate Easter morning luxury while kids play</li>
+      </ul>
+
+      <h2>🔭 School Holiday Ideas Beyond Easter</h2>
+
+      <p>With two weeks of school holidays wrapping around the long weekend, you'll want activities for the days either side of Easter too. Here are a few ideas that pair well with the season:</p>
+
+      <ul>
+        <li><strong>Melbourne International Comedy Festival</strong> (March 25 – April 19) — The kids' program always features excellent shows for young audiences. Book family-friendly matinees early in the holidays before they sell out</li>
+        <li><strong>Melbourne International Flower and Garden Show</strong> (March 25–29) — The outdoor sections in Carlton Gardens are beautiful in early autumn, and kids enjoy the elaborate garden displays more than you'd expect</li>
+        <li><strong>Moonlight Cinema</strong> — The season runs until April 5. A family screening on a mild autumn evening at the Botanic Gardens is pure magic</li>
+        <li><strong>Play School: Come and Play at ACMI</strong> — Still free, still wonderful, and school holidays are a great time to visit on a weekday morning when it's quieter than weekends</li>
+        <li><strong><a href="/blog/best-bike-scooter-trails-kids-melbourne-family-cycling-guide">Family bike rides</a></strong> — Autumn is the best season for cycling with kids. Pick a creek trail and ride to a playground</li>
+      </ul>
+
+      <h2>The Real Magic of Easter with Little Ones</h2>
+
+      <p>Here's the thing about Easter with toddlers that nobody tells you: it doesn't need to be elaborate. A two-year-old doesn't care whether the egg hunt has 200 participants or 2. They don't know if the chocolate is Lindt or Cadbury. They don't need a fairytale character or a jumping castle (though they'll enjoy both).</p>
+
+      <p>What they'll remember — or rather, what builds the family traditions they'll carry forward — is the feeling. The excitement of finding something hidden. The warmth of a picnic blanket in the autumn sun. The taste of a hot cross bun while swinging their legs on a park bench. The sound of you saying "look what you found!"</p>
+
+      <p>That can happen anywhere. At a $50 ticketed event or in your own backyard. At a famous Melbourne playground or the tiny park around the corner from your house.</p>
+
+      <p>Plan as much or as little as feels right for your family. The chocolate is just the wrapper — the real treasure is the morning itself.</p>
+
+      <p>Find the perfect playground for your Easter egg hunt with our <a href="/search?category=playground">playground finder</a> — filter for fenced playgrounds to keep your toddler's hunt contained, or search for nature play areas where the hiding spots are built right in. 🐰</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-15T07:00:00+11:00',
+    category: 'activities',
+    tags: ['Easter Melbourne 2026', 'Easter egg hunts Melbourne', 'school holiday activities Melbourne', 'Easter with toddlers', 'family Easter activities', 'Easter events Melbourne', 'autumn school holidays', 'Easter playground ideas', 'free Easter events'],
+    seoTitle: 'Easter in Melbourne with Kids 2026: Best Egg Hunts, Free Events & School Holiday Activities Guide',
+    seoDescription: 'Plan the perfect Easter 2026 in Melbourne with kids — from the best egg hunts and free Federation Square events to DIY toddler activities and playground picks. Your complete family guide.'
+  },
+  {
     slug: 'weekend-planner-melbourne-families-march-14-15-2026-sunny-autumn',
     title: 'Weekend Planner: Two Sunny Autumn Days and the Best Shaded Playgrounds to Enjoy Them',
     excerpt: "Saturday is a sunny 23°C, Sunday heats up to 27°C — it's the kind of Melbourne autumn weekend you want to bottle. Here's how to make the most of both days with playground picks, events, and a plan that actually works with nap schedules.",
