@@ -15,6 +15,192 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham',
+    title: "Best Playgrounds in Melbourne's Northern Suburbs: Bundoora, Preston, Eltham and Beyond",
+    excerpt: "Melbourne's north has quietly become a playground powerhouse. From farm-adjacent adventure parks in Bundoora to splash pads in Doreen, here are the best playgrounds across the northern suburbs for families with toddlers and young kids.",
+    content: `
+      <p>If you still think Melbourne's northern suburbs are all about that one tired park near the shops, it's time for an update. The north has been on an absolute playground building spree — new estates are investing seriously in play infrastructure, established suburbs have upgraded their old equipment, and the result is a region that now rivals anywhere in Melbourne for quality family playgrounds.</p>
+
+      <p>From the inner-north charm of Northcote and Preston through to the sprawling adventure parks of South Morang and Doreen, here's our guide to the <strong>best playgrounds in Melbourne's northern suburbs</strong> — sorted by what they do best so you can match the playground to your family's mood.</p>
+
+      <h2>🏆 Best All-Rounders</h2>
+
+      <h3>1. Granite Hills Community Park, South Morang</h3>
+
+      <p>This playground is a genuine destination — the kind of place worth driving across town for. Opened as part of the Granite Hills estate, it caters brilliantly for all ages with towering climbing structures, multiple slides (including a long roller slide that kids queue up for), swings, a flying fox, and a separate toddler zone with softer, lower equipment. The sheer variety of play elements means siblings at different ages can all find something that challenges them without anyone getting bored.</p>
+
+      <p>The surrounding park is spacious with walking paths, open grass for ball games, and enough picnic space that even on busy weekends you won't feel crowded. It's the kind of playground where you set up camp for the morning and don't leave until someone announces they're hungry for the third time.</p>
+
+      <p><strong>Best for:</strong> Families with kids of mixed ages, anyone who wants a proper half-day outing<br>
+      <strong>Ages:</strong> 1–10<br>
+      <strong>Facilities:</strong> Parking, toilets, picnic tables, open grass<br>
+      <strong>Address:</strong> Granite Hills Community Park, South Morang<br>
+      <strong>Tip:</strong> Arrive before 10 AM on weekends — it's popular for good reason</p>
+
+      <h3>2. Bundoora Park All Abilities Playspace</h3>
+
+      <p>Right next to the Bundoora Park Farm (which is free to enter), this playspace is one of the most thoughtfully designed in Melbourne's north. The "all abilities" label isn't just marketing — the playground features wheelchair-accessible equipment, sensory panels, ground-level play elements, and inclusive swings alongside traditional slides and climbing structures. It's a place where every child can play, regardless of ability.</p>
+
+      <p>What elevates it beyond a standard playground is the farm next door. After the playground, wander through to see chickens, goats, ponies, and alpacas — no booking required, no entry fee. For a toddler, the combination of playground and farm animals in one outing is essentially the perfect morning.</p>
+
+      <p><strong>Best for:</strong> Inclusive play, animal-loving toddlers, families with children of different abilities<br>
+      <strong>Ages:</strong> 0–8<br>
+      <strong>Facilities:</strong> Toilets, parking, barbecues, farm access<br>
+      <strong>Address:</strong> River Red Gum Ave, Bundoora<br>
+      <strong>Combine with:</strong> Bundoora Park Farm (free) and the walking trails through the surrounding bushland</p>
+
+      <h2>💦 Best for Water Play</h2>
+
+      <h3>3. Hilltop Playground and Splash Park, Doreen</h3>
+
+      <p>If your child's idea of heaven involves getting thoroughly soaked while simultaneously climbing things, Hilltop is the playground for you. The splash zone features interactive water jets, sprays and tipping elements, while the dry playground alongside has slides, climbing frames, a trampoline, and nature play elements like logs and boulders. It really does have everything.</p>
+
+      <p>The nature play section deserves special mention — it's not an afterthought tacked on to the main structure. There are winding paths through rocks and plantings, log steps, and sand areas that encourage the kind of unstructured, imaginative play that developmental experts rave about. On a warm autumn day (and mid-March still delivers a few of those), the combination of water and nature play keeps kids entertained for hours.</p>
+
+      <p><strong>Water play:</strong> Yes — splash zone operational in warmer months. Bring swimmers and a towel<br>
+      <strong>Best for:</strong> Active kids who love water, families wanting variety<br>
+      <strong>Ages:</strong> 1–10<br>
+      <strong>Facilities:</strong> Parking, toilets, picnic areas<br>
+      <strong>Address:</strong> Hilltop Road, Doreen<br>
+      <strong>Tip:</strong> The water play area can get slippery — water shoes are a smart idea for toddlers</p>
+
+      <h3>4. York Street Park, Pascoe Vale</h3>
+
+      <p>This is one of those parks that ticks every single box on the parent checklist. <strong>Fenced? Yes. Water play? Yes. Toilets? Yes. Barbecues? Yes. Shade? Yes. Equipment for all ages? Also yes.</strong> York Street Park had a significant upgrade and the result is a playground that works whether you've got a crawling baby or a seven-year-old who thinks they're a parkour athlete.</p>
+
+      <p>The play equipment is modern and varied — climbing structures, slides, swings, and a spinning element that kids find endlessly entertaining. The water play feature adds a splash-and-play option on warmer days, and the fencing around the playground gives parents of runners that precious sense of security. It's not the biggest playground in the north, but it might be the most complete.</p>
+
+      <p><strong>Best for:</strong> Families who want everything in one spot, toddlers who bolt<br>
+      <strong>Ages:</strong> 0–8<br>
+      <strong>Fenced:</strong> Yes<br>
+      <strong>Facilities:</strong> Toilets, barbecues, shade, parking<br>
+      <strong>Address:</strong> York Street, Pascoe Vale</p>
+
+      <h2>🧗 Best for Active Kids</h2>
+
+      <h3>5. Mernda Adventure Park</h3>
+
+      <p>The name says it all. Mernda Adventure Park is built for kids who need to climb, swing, slide, and generally move at full speed for an extended period. The climbing equipment is challenging enough to interest older kids while still having accessible elements for toddlers, and the sandpit provides a gentler option for those who prefer digging to climbing.</p>
+
+      <p>What makes this one special is the setting. Walking tracks wind around a lake, so you can combine playground time with a family walk — or, more realistically, you walk while your child rides their scooter at approximately the speed of sound. The lake has waterbirds to spot, and the surrounding parkland feels open and uncrowded. It's a lovely place to spend a whole morning.</p>
+
+      <p><strong>Best for:</strong> Energetic kids, families who want to combine play and walking<br>
+      <strong>Ages:</strong> 2–10<br>
+      <strong>Facilities:</strong> Toilets, parking, walking tracks, lake<br>
+      <strong>Address:</strong> Mernda Village Drive, Mernda<br>
+      <strong>Combine with:</strong> A scooter or bike ride around the lake trail</p>
+
+      <h3>6. CB Smith Reserve, Fawkner</h3>
+
+      <p>Recently upgraded, CB Smith Reserve has had what local parents call a "glow up" — and they're right. The new double climbing tower is impressive, with multiple routes to the top that challenge kids of different abilities. Around it you'll find a massive sandpit, a set of four swings plus a rope web swing, a floor spinner, and musical flower installations that toddlers love tapping and listening to.</p>
+
+      <p>The musical elements are a genuinely lovely touch. In most playgrounds, sound is incidental — kids yelling, chains squeaking. Here, the musical flowers invite children to create rhythms and patterns, which is the kind of sensory play that occupational therapists actively recommend. It's a small detail that makes a big difference to the play experience.</p>
+
+      <p><strong>Best for:</strong> Mixed ages, kids who love music and sensory play<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Facilities:</strong> Parking, open grass, nearby sports facilities<br>
+      <strong>Address:</strong> CB Smith Reserve, Fawkner</p>
+
+      <h2>🌿 Best for Nature Play</h2>
+
+      <h3>7. Eltham Lower Park, Eltham</h3>
+
+      <p>Eltham has always had a reputation as Melbourne's green wedge — leafy, bushy, and a bit alternative. The upgraded playground at Eltham Lower Park fits that character perfectly. Set under mature native trees with the Diamond Creek flowing nearby, it's a playground that feels immersed in nature rather than plonked down next to it.</p>
+
+      <p>The equipment blends into the landscape with timber structures and earthy colours. There's a good range for different ages, with climbing, sliding and swinging options alongside open grass for running. The creek is the bonus attraction — kids can wade, throw sticks, and search for tadpoles along the shallow edges (with supervision, obviously). On an autumn day, the light filtering through the canopy is genuinely beautiful.</p>
+
+      <p><strong>Best for:</strong> Nature-loving families, creek exploring, a quieter playground experience<br>
+      <strong>Ages:</strong> 2–8<br>
+      <strong>Facilities:</strong> Toilets, barbecues, parking<br>
+      <strong>Address:</strong> Eltham Lower Park, Panther Place, Eltham<br>
+      <strong>Autumn bonus:</strong> The deciduous trees along the creek put on a gorgeous display from late March — bring a bag for leaf collecting</p>
+
+      <h3>8. Serle Wetland Park, Doreen</h3>
+
+      <p>A hidden gem even among northern suburbs families. Serle Wetland Park combines a solid playground with boardwalks through genuine wetlands, making it half playground visit, half nature excursion. Kids can play on the equipment then walk the boardwalk spotting waterbirds — a pair of binoculars elevates this from fun to genuinely educational for preschoolers who are getting into birds and animals.</p>
+
+      <p>The playground has equipment for a good range of ages, and the wetland setting means the whole area feels peaceful and green. It's not as big or flashy as Granite Hills or Hilltop, but it has a character that the newer mega-playgrounds can't replicate.</p>
+
+      <p><strong>Best for:</strong> Bird-watching families, nature walks with toddlers<br>
+      <strong>Ages:</strong> 2–8<br>
+      <strong>Facilities:</strong> Parking, boardwalk, playground<br>
+      <strong>Address:</strong> Serle Wetland Park, Doreen</p>
+
+      <h2>🔒 Best Fenced Playgrounds (For Runners)</h2>
+
+      <h3>9. Batman Park, Northcote</h3>
+
+      <p>Every parent of a bolter knows the value of a fully fenced playground — and Batman Park on Arthurton Road is one of the best fenced options in the inner north. Two main play structures cater to different age groups, so your toddler can play on the smaller equipment while an older sibling tackles the bigger structure. The fencing is solid and the gate closes properly (you'd be surprised how often this isn't the case).</p>
+
+      <p>Location-wise, it's perfect for an inner-north outing. Northcote's High Street is a short walk away for coffee, and the nearby Merri Creek trail is accessible if your child has energy left after the playground. For families who live in the inner north and need a reliable, safe, everyday playground, this is hard to beat.</p>
+
+      <p><strong>Best for:</strong> Toddlers who run, parents who need a fence they can trust<br>
+      <strong>Ages:</strong> 1–7<br>
+      <strong>Fenced:</strong> Fully fenced with secure gate<br>
+      <strong>Facilities:</strong> Nearby cafes on High Street, Merri Creek access<br>
+      <strong>Address:</strong> Arthurton Road, Northcote</p>
+
+      <h3>10. HM Dowd Reserve, Pascoe Vale</h3>
+
+      <p>Another recently refreshed playground, HM Dowd Reserve has charm in spades. The main structure features two slides, climbing ropes, tic-tac-toe panels, a four-in-a-row game, and — the standout — a little corner store set-up underneath for imaginative play. Watching toddlers "shop" at the pretend store, handing invisible groceries to each other and having conversations about what to buy, is genuinely heart-melting.</p>
+
+      <p>Around the main structure there's a carousel, rockers, colourful tyre steppers, a basket swing, a ladybug painted on a rock (toddlers are obsessed with finding it), and a hopscotch area. It's not a huge playground, but the designers have packed a remarkable amount of play value into the space.</p>
+
+      <p><strong>Best for:</strong> Imaginative play, toddlers who love pretend shopping and role play<br>
+      <strong>Ages:</strong> 1–6<br>
+      <strong>Facilities:</strong> Parking, open grass<br>
+      <strong>Address:</strong> HM Dowd Reserve, Pascoe Vale<br>
+      <strong>Tip:</strong> Ask your child to find the ladybug rock — it'll keep them hunting for a solid five minutes</p>
+
+      <h2>📋 Planning Your Northern Suburbs Playground Day</h2>
+
+      <p>The north covers a lot of ground, so clustering your visits makes sense. Here are two routes we love:</p>
+
+      <h3>Route A: Inner North Morning (Northcote–Pascoe Vale)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Batman Park, Northcote for fenced play</li>
+        <li><strong>10:30 AM</strong> — Coffee on High Street (plenty of <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly cafes</a> nearby)</li>
+        <li><strong>11:15 AM</strong> — Drive 10 minutes to York Street Park, Pascoe Vale for water play</li>
+        <li><strong>12:30 PM</strong> — Lunch at the park using the barbecue facilities</li>
+      </ol>
+
+      <h3>Route B: Outer North Adventure (Bundoora–South Morang)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Bundoora Park All Abilities Playspace</li>
+        <li><strong>10:30 AM</strong> — Wander through Bundoora Park Farm (free)</li>
+        <li><strong>11:30 AM</strong> — Drive 15 minutes to Granite Hills Community Park, South Morang</li>
+        <li><strong>1:00 PM</strong> — Picnic lunch at Granite Hills</li>
+      </ol>
+
+      <h2>🎒 What to Pack</h2>
+      <ul>
+        <li><strong>Swimmers and a towel</strong> if visiting Hilltop Doreen or York Street Pascoe Vale (water play is still on in mid-March)</li>
+        <li><strong>Gumboots or old shoes</strong> for Eltham Lower Park — the creek is irresistible and feet will get wet</li>
+        <li><strong>Sunscreen and hats</strong> — UV is moderate through autumn (index 3–4) but still requires protection on clear days</li>
+        <li><strong>Sand toys</strong> — several of these playgrounds have excellent sandpits</li>
+        <li><strong>Layers</strong> — northern suburbs mornings can be a few degrees cooler than bayside, warming up nicely by mid-morning</li>
+        <li><strong>Snacks and water</strong> — always more than you think you need</li>
+        <li><strong>A bag for nature treasures</strong> — especially at Eltham and Serle Wetland</li>
+      </ul>
+
+      <h2>Why the North Is Worth Exploring</h2>
+
+      <p>Melbourne's northern suburbs have undergone a quiet transformation over the past five years. Growth corridors in Doreen, South Morang, and Mernda have invested heavily in community infrastructure, and the result is a new generation of playgrounds that rival anything in the south or east. Meanwhile, inner-north suburbs like Northcote, Preston, and Pascoe Vale have upgraded existing parks with modern equipment and better facilities.</p>
+
+      <p>What the north does particularly well is <strong>space</strong>. These aren't cramped inner-city playgrounds squeezed between apartment buildings. Most northern suburbs playgrounds sit in generous parkland with walking trails, open grass, barbecue areas, and room to breathe. When your toddler has been climbing for an hour and needs to just <em>run</em>, that surrounding space matters enormously.</p>
+
+      <p>Whether you're a northern suburbs local discovering something new around the corner, or a family from across town looking for a day trip — Melbourne's north won't disappoint. The playgrounds are excellent, the parks are spacious, and there's a good chance you'll find a spot that becomes your family's new favourite.</p>
+
+      <p>Find more playgrounds near you with our <a href="/search?category=playground">playground finder</a> — filter by fencing, water play, shade and more to find the perfect spot for your crew. 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-16T07:00:00+11:00',
+    category: 'playgrounds',
+    tags: ['playgrounds', 'northern suburbs', 'bundoora', 'south morang', 'doreen', 'eltham', 'northcote', 'pascoe vale', 'fawkner', 'mernda', 'fenced playgrounds', 'water play', 'nature play', 'all abilities playground'],
+    seoTitle: "Best Playgrounds in Melbourne's Northern Suburbs: Bundoora, Preston, Eltham & More (2026)",
+    seoDescription: "Discover the best family playgrounds in Melbourne's northern suburbs — from adventure parks in South Morang to fenced play in Northcote and nature play in Eltham. 10 top picks with practical tips."
+  },
+  {
     slug: 'easter-2026-melbourne-kids-egg-hunts-school-holiday-activities-guide',
     title: 'Easter in Melbourne with Kids: Your Complete 2026 Guide to Egg Hunts, Free Events and School Holiday Fun',
     excerpt: "Easter 2026 falls on April 3–6 and it's shaping up brilliantly for Melbourne families. From giant egg hunts to free Federation Square events, here's everything you need to plan the perfect Easter break with little ones.",
