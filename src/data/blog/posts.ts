@@ -15,6 +15,91 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'whats-on-this-week-melbourne-families-march-18-22-2026',
+    title: 'What\'s On This Week in Melbourne for Families: KaBloom, Harmony Day & Food Festivals (March 18–22)',
+    excerpt: 'Melbourne autumn hits its stride this week! Dive into the magical Tesselaar KaBloom flower festival, celebrate Harmony Day across the suburbs, and grab kid-friendly bites at the Food and Wine Festival.',
+    content: `
+      <p>The post-long-weekend recovery is officially over, and Melbourne is ramping right back up. If you thought the festival season ended with Moomba, think again. This week brings the launch of three massive events: the spectacular <strong>Tesselaar KaBloom</strong> flower festival in the Dandenongs, the <strong>Melbourne Food and Wine Festival</strong>, and nationwide <strong>Harmony Week</strong> celebrations culminating on Saturday.</p>
+
+      <p>The weather is looking like peak Melbourne autumn — a gorgeous 23°C on Saturday and 24°C on Sunday with mostly clear skies. It's the kind of weekend that makes you want to pack the car and head for the hills, or catch a train into the city for street food. If you're looking for <strong>Melbourne family events this weekend</strong>, here's your complete guide to what's on for toddlers and young kids.</p>
+
+      <h2>🌸 Tesselaar KaBloom, Festival of Flowers (Opens Saturday, March 21)</h2>
+
+      <p>If there's one autumn event that feels like stepping into a storybook, it's <strong>KaBloom</strong>. Held at the Tesselaar flower farm in the Dandenong Ranges (the same venue as the spring tulip festival), this features millions of autumn blooms set against a backdrop of towering mountain ash trees. But what makes it a must-do for families isn't just the flowers — it's the entertainment.</p>
+
+      <p>The festival is heavily geared toward kids. Every day features world-class circus performers tumbling and performing acrobatics among the flowers, plus wandering fairies, an obstacle course, and the famous tractor train rides that toddlers absolutely lose their minds over.</p>
+
+      <ul>
+        <li><strong>When:</strong> Opens Saturday March 21, running daily until April 19 (10 AM – 5 PM)</li>
+        <li><strong>Where:</strong> Tesselaar Flower Farm, Silvan (Dandenong Ranges)</li>
+        <li><strong>Tickets:</strong> Required — book online at kabloom.com.au (Kids under 16 are usually free with a paying adult, making it a surprisingly affordable family day out)</li>
+        <li><strong>Parent Tip:</strong> The Dandenongs are usually a few degrees cooler than the city, and the farm can be muddy if there's been recent rain. Pack layers and throw the kids' gumboots in the car just in case.</li>
+      </ul>
+
+      <h2>🌍 Harmony Day Community Festivals (March 21–22)</h2>
+
+      <p>Saturday, March 21 is officially <strong>Harmony Day</strong>, capping off Harmony Week across Australia. The theme is "Everyone Belongs," and the traditional colour is orange. Councils and markets across Melbourne are hosting free multicultural festivals that are brilliant for young families — think global street food, vibrant traditional dancing, and free kids' crafts.</p>
+
+      <h3>Dandenong Market Harmony Day Celebration (Sunday, March 22)</h3>
+      <p>Dandenong Market throws one of the best Harmony Day parties in the city. The market comes alive with cultural performances, drumming workshops, and food from literally every corner of the globe. Markets are fantastic sensory environments for toddlers, and the live music means nobody cares if your child is being loud.</p>
+      <ul>
+        <li><strong>When:</strong> Sunday, March 22</li>
+        <li><strong>Where:</strong> Dandenong Market</li>
+        <li><strong>Cost:</strong> Free entry</li>
+      </ul>
+
+      <h3>Local Council Festivals</h3>
+      <p>Check your local council's website, as almost every municipality hosts a Harmony Day event this weekend. Look out for local library sessions too — many are running special multilingual storytimes and orange-themed craft sessions on Thursday and Friday mornings.</p>
+
+      <h2>🍕 Melbourne Food and Wine Festival (March 20–29)</h2>
+
+      <p>Yes, the <strong>Melbourne Food and Wine Festival</strong> is famous for long lunches and expensive dinners, but the festival hub at <strong>Federation Square</strong> is surprisingly family-friendly. This year's pop-ups and food stalls offer a chance to grab some incredible street-style food without the pressure of a sit-down restaurant.</p>
+
+      <p><strong>How to do MFWF with a toddler:</strong><br>
+      Skip the ticketed masterclasses. Instead, head to Fed Square around 11:30 AM before the lunch rush hits. Grab something delicious from the festival stalls, find a spot on the steps, and let the kids eat while watching the CBD go by. Once they're done, you can walk straight across to Birrarung Marr to burn off the energy.</p>
+
+      <h2>🎬 Ongoing Family Favourites</h2>
+
+      <h3>Play School: Come and Play at ACMI</h3>
+      <p>Still running, still <strong>completely free</strong>, and still brilliant. If you didn't brave the crowds over the Labour Day weekend, this weekend is your chance. Step behind the iconic windows and explore the history of Play School. Weekday mornings remain the quietest time to visit.</p>
+
+      <h3>Moonlight Cinema — Final Weeks</h3>
+      <p>The season at the Royal Botanic Gardens wraps up on April 5, which means you're running out of weekends to enjoy an outdoor movie. Autumn evenings are cooler, so pack blankets, thick socks, and a thermos of hot chocolate. Check their program for family-friendly early screenings.</p>
+
+      <h2>🛝 Playground Pick of the Week: Olinda Playspace</h2>
+
+      <p>If you're heading up to the Dandenong Ranges for KaBloom, you absolutely must stop at the <strong>Olinda Playspace</strong>. Located right near the Dandenong Ranges Botanic Garden, this is one of Victoria's best regional playgrounds.</p>
+
+      <p>It's built into the natural landscape with a massive custom climbing structure, water play features (yes, even in autumn!), a flying fox, and cubby houses. The views are spectacular, the air is incredibly fresh, and the playground is large enough to handle weekend crowds without feeling cramped. Grab a coffee from the nearby Olinda village bakery and settle in.</p>
+
+      <h2>📋 Your Weekend Game Plan</h2>
+
+      <h3>Saturday (Sunny, 23°C)</h3>
+      <p><strong>Option A — Mountain Adventure:</strong> Early drive to the Dandenongs for the opening day of Tesselaar KaBloom → lunch among the flowers → afternoon run-around at Olinda Playspace before the drive home.</p>
+      <p><strong>Option B — City Culture:</strong> Morning Harmony Day events in your local area (wear orange!) → head into Fed Square for Melbourne Food and Wine Festival street food → afternoon session at Play School at ACMI.</p>
+
+      <h3>Sunday (Mostly Sunny, 24°C)</h3>
+      <p><strong>Option A — Market Vibes:</strong> Morning at Dandenong Market for their huge Harmony Day celebration → global street food for lunch → relax at a <a href="/blog/best-shaded-playgrounds-south-east-melbourne">shaded playground in the south-east</a> on the way home.</p>
+      <p><strong>Option B — Coastal Calm:</strong> Skip the big festivals entirely. Take advantage of the 24°C weather and hit a <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside playground</a> like North Road Foreshore for a morning of sand, sea breeze, and excellent coffee.</p>
+
+      <h2>🎒 Packing for This Week</h2>
+
+      <ul>
+        <li><strong>Layers:</strong> The classic Melbourne autumn rule. A 24°C afternoon starts as a 14°C morning. Cardigans and light jackets that can be stuffed into a backpack are essential.</li>
+        <li><strong>For KaBloom:</strong> Closed-toe shoes or gumboots (farms get muddy), a picnic blanket (food is available, but picnicking under the trees is lovely), and your camera.</li>
+        <li><strong>For the City:</strong> If you're hitting Fed Square and ACMI, leave the bulky pram at home if you can. A compact stroller or carrier makes navigating festival food hubs much less stressful.</li>
+      </ul>
+
+      <p>This is the weekend where Melbourne autumn really hits its stride. Whether you're chasing fairies in the Dandenongs, eating your way through Fed Square, or just enjoying a local Harmony Day picnic, have a brilliant week out with your little ones. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-18T07:00:00+11:00',
+    category: 'events',
+    tags: ['whats on this week', 'melbourne events', 'family activities', 'march 2026', 'kabloom festival', 'harmony day', 'melbourne food and wine festival', 'autumn playgrounds'],
+    seoTitle: 'What\'s On This Week in Melbourne for Families: KaBloom & Harmony Day (Mar 18-22)',
+    seoDescription: 'Looking for Melbourne family events this weekend? Discover Tesselaar KaBloom, Harmony Day festivals, and kid-friendly Food & Wine events for March 18-22, 2026.'
+  },
+  {
     slug: 'free-museums-galleries-toddlers-melbourne-cultural-days-out-guide',
     title: "Melbourne's Best Free Museums and Galleries for Toddlers: Cultural Days Out That Won't Cost a Cent",
     excerpt: "Melbourne has world-class museums and galleries that are completely free for kids — and genuinely designed for them. From dinosaur digs at Melbourne Museum to art-making at the NGV, here's your guide to cultural days out with toddlers that are fun, free, and surprisingly meltdown-resistant.",
