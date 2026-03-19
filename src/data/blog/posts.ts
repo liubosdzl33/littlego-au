@@ -15,6 +15,204 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'kid-friendly-cafes-play-areas-melbourne-guide',
+    title: 'Kid-Friendly Cafes with Play Areas in Melbourne: Where to Eat Without the Chaos',
+    excerpt: 'Finding a cafe where you can actually finish a hot coffee while your toddler is happily occupied? It exists. Here are Melbourne\'s best kid-friendly cafes with play areas, sorted by region so you can find one near your next playground visit.',
+    content: `
+      <p>Let's paint the picture. You arrive at a cafe with your toddler. You order a flat white and something from the menu that isn't a babycino. Your child spots the play area, toddles over, and proceeds to be <em>independently entertained</em> for twenty whole minutes while you eat food at a normal temperature and have a conversation that doesn't involve negotiating over a rice cake.</p>
+
+      <p>This isn't fantasy. It's a Tuesday morning at the right cafe.</p>
+
+      <p>Melbourne has quietly built one of the best collections of <strong>kid-friendly cafes with play areas</strong> in the country. We're not talking about venues that grudgingly tolerate children — these are places that have genuinely thought about families, with dedicated play spaces, kids' menus that go beyond chicken nuggets, and coffee that's actually good. The kind of places where everyone in the family has a good time, including you.</p>
+
+      <p>Here's our guide, sorted by region so you can find somewhere near your next <a href="/search?category=playground">playground visit</a> or combine cafe time with a morning adventure.</p>
+
+      <h2>🏙️ Inner City and Inner North</h2>
+
+      <h3>Stomping Ground Brewery — Collingwood</h3>
+
+      <p>A craft brewery with a fenced cubby house and indoor play area might sound like it was designed by a committee of desperate parents, and honestly, it kind of was — in the best way. Stomping Ground's kids' area is visible from the main dining space, fully enclosed, and stocked with wooden toys that actually get played with rather than ignored in favour of the salt shaker.</p>
+
+      <p>The food goes well beyond pub grub — think smoked brisket, woodfired pizzas, and a rotating seasonal menu. The beer list is obviously excellent (it's a brewery), but they also do a surprisingly good flat white. Sunday sessions here have become a Melbourne family institution for a reason.</p>
+
+      <p><strong>Address:</strong> 100 Gipps Street, Collingwood<br>
+      <strong>Play area:</strong> Fenced indoor cubby house with toys<br>
+      <strong>Best for:</strong> Weekend family lunches, catch-ups with other parents<br>
+      <strong>Tip:</strong> Book for Sunday lunch — it fills up fast with families</p>
+
+      <h3>Red Door Corner Store — Northcote</h3>
+
+      <p>This is the inner-north parent's secret weapon. Red Door is a cosy neighbourhood cafe on a quiet Northcote street, with a corner of toys and picture books that keeps toddlers occupied while you enjoy a seasonal menu that changes regularly. It doesn't have a giant play structure — it has something better: a relaxed, welcoming atmosphere where kids are genuinely part of the scene rather than merely tolerated.</p>
+
+      <p>The food is thoughtful and seasonal, the courtyard is lovely in autumn, and the coffee is excellent. It's the kind of place you go back to weekly because it just <em>works</em> with small children.</p>
+
+      <p><strong>Address:</strong> 70 Mitchell Street, Northcote<br>
+      <strong>Play area:</strong> Toy and book corner<br>
+      <strong>Best for:</strong> Weekday brunch with a toddler, mums' group catch-ups<br>
+      <strong>Combine with:</strong> Batman Park playground on Arthurton Road is a short drive — <a href="/blog/best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham">fully fenced</a> and perfect for a post-brunch run</p>
+
+      <h3>Moon Dog World — Preston</h3>
+
+      <p>If Stomping Ground is the polished family brewery experience, Moon Dog World is its wild, colourful cousin. The fenced outdoor playground has climbing equipment, and the whole venue is so visually stimulating — think neon signs, giant murals, and a fake pool — that kids are entertained just looking around. The food is solid pub-meets-street-food fare, and the beer selection is inventive.</p>
+
+      <p>It's louder and more chaotic than some options on this list, which actually works in your favour — nobody notices if your toddler is having a moment, because the entire venue is already operating at toddler volume.</p>
+
+      <p><strong>Address:</strong> 32 Chifley Drive, Preston<br>
+      <strong>Play area:</strong> Fenced outdoor playground<br>
+      <strong>Best for:</strong> Weekend family outings, birthday gatherings<br>
+      <strong>Tip:</strong> The playground is outdoors, so it's best on dry days. Pack a jacket for the kids in autumn</p>
+
+      <h3>Park Street — Carlton North</h3>
+
+      <p>Overlooking Curtain Square and its excellent playground, Park Street cafe gives you the best of both worlds. The cafe itself has books and toys for indoor play, but the real trick is the back entrance that opens directly onto the playground. Order your coffee, set up at a table with a sightline to the play equipment, and let your child alternate between the toy corner and the climbing frame.</p>
+
+      <p>The menu is classic Melbourne cafe fare done well — all-day breakfast, seasonal specials, and a kids' menu that includes options beyond the beige food group.</p>
+
+      <p><strong>Address:</strong> 815 Nicholson Street, Carlton North<br>
+      <strong>Play area:</strong> Indoor toys + adjacent council playground<br>
+      <strong>Best for:</strong> The holy grail: cafe that's literally attached to a playground</p>
+
+      <h2>🌊 Bayside and South</h2>
+
+      <h3>Saska Cafe — Beaumaris</h3>
+
+      <p>Saska is the Bayside cafe that keeps popping up in parent recommendations, and for good reason. The atmosphere is warm and unhurried, with a selection of toys, books, and drawing materials that keep little ones busy without the overstimulation of a full play centre. The food is genuinely good — house-baked pastries, seasonal bowls, and a coffee program that takes quality seriously.</p>
+
+      <p>What makes Saska work so well for families is the <em>vibe</em>. Staff are visibly comfortable with small children. Nobody flinches when a sippy cup hits the floor. There's a sense that families are the core clientele, not an inconvenience. That matters more than any play structure.</p>
+
+      <p><strong>Address:</strong> 2 North Concourse, Beaumaris<br>
+      <strong>Play area:</strong> Toy and book corner, drawing materials<br>
+      <strong>Best for:</strong> Relaxed Bayside brunch with little ones<br>
+      <strong>Combine with:</strong> A morning at one of the <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside playgrounds</a> — Dendy Park in Brighton is 10 minutes away</p>
+
+      <h3>Cowderoy's Dairy — St Kilda West</h3>
+
+      <p>Located right next to a leafy public playground, Cowderoy's is the perfect grab-a-coffee-and-let-them-play setup. The cafe is small and casual, with tables that look directly onto the fenced play area. You're literally drinking your latte while watching your child on the swings. It doesn't get more efficient than that.</p>
+
+      <p>The menu is simple and well-executed — toasties, pastries, smoothies, good coffee. Don't come expecting a degustation; come expecting a stress-free half hour where everyone is happy.</p>
+
+      <p><strong>Address:</strong> 14 Cowderoy Street, St Kilda West<br>
+      <strong>Play area:</strong> Adjacent public playground (fenced)<br>
+      <strong>Best for:</strong> Quick weekday coffee with a toddler who needs to run</p>
+
+      <h2>🏡 West</h2>
+
+      <h3>Zan Zanz — Williamstown North</h3>
+
+      <p>This one surprises people. Zan Zanz serves affordable, fresh paninis and bowls alongside genuinely good coffee — and tucked inside there's a kids' play area with blocks, a toy kitchen, and (the clincher) a decent-sized jumping castle. A <em>jumping castle</em>. Inside a cafe. If you have a toddler who needs to burn energy before they can sit still long enough for you to eat, this is the answer to your prayers.</p>
+
+      <p>The play area is gated and visible from the dining tables, so you can actually relax. The food is surprisingly good for a venue that also contains a bouncy castle — which, let's be honest, sets expectations in a particular direction.</p>
+
+      <p><strong>Address:</strong> 2/110 Maddox Road, Williamstown North<br>
+      <strong>Play area:</strong> Indoor play area with jumping castle, blocks, toy kitchen<br>
+      <strong>Best for:</strong> High-energy toddlers who need to bounce before brunch<br>
+      <strong>Combine with:</strong> The <a href="/blog/best-playgrounds-western-suburbs-melbourne-werribee-point-cook-altona">Williamstown foreshore playgrounds</a> are a short drive for an afternoon session</p>
+
+      <h3>Cheeky Chewies — Laverton and Werribee</h3>
+
+      <p>An Asian-fusion cafe with a soft-play kids' room is not a combination you'd necessarily predict, but it works brilliantly. The menu features dishes like satay chicken, teriyaki bowls, and loaded fries alongside the standard cafe fare, and the quality is genuinely impressive. The soft play room has padded equipment for younger kids, and it's visible from the dining area.</p>
+
+      <p>Open for breakfast, lunch, and dinner — which makes it one of the few kid-friendly cafes where you can actually have a family dinner out without the usual restaurant anxiety. The Werribee location has its own play area too, so you've got options across the west.</p>
+
+      <p><strong>Addresses:</strong> 18A Aviation Road, Laverton / Werribee<br>
+      <strong>Play area:</strong> Soft play room, visible from tables<br>
+      <strong>Best for:</strong> Family dinners, Asian-fusion brunch, western suburbs families</p>
+
+      <h2>🌳 East and South East</h2>
+
+      <h3>A Pinch of Joy — Glen Iris</h3>
+
+      <p>Tucked away on Burke Road, A Pinch of Joy lives up to its name with a cheerful kids' area stocked with books, games, and colouring materials. The cafe is bright and welcoming, with a menu that covers brunch staples and some creative specials. It's the kind of place where the staff know the regular families by name, which tells you everything about the atmosphere.</p>
+
+      <p>The play area is right in the cafe — no separate room to worry about — so you have full visibility while eating. For families in the inner east, this fills the gap between "serious cafe" and "kid chaos" perfectly.</p>
+
+      <p><strong>Address:</strong> 149 Burke Road, Glen Iris<br>
+      <strong>Play area:</strong> In-cafe kids' corner with books and games<br>
+      <strong>Best for:</strong> Inner-east families who want good food and a calm play space</p>
+
+      <h3>Rapture Cafe — Ferntree Gully</h3>
+
+      <p>Out in the foothills, Rapture has built a loyal family following with its dedicated kids' play area and seriously good brunch menu. The play space has toys, books, and enough variety to keep toddlers busy through a full coffee-and-breakfast session. The food is a step above typical suburban cafe fare — think house-made granola, smashed avo done properly, and fresh seasonal specials.</p>
+
+      <p>If you're heading up to the Dandenong Ranges for a family day out, Rapture makes an excellent first stop. Fuel up, let the kids play, then hit the mountain trails or the <a href="/blog/best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham">Eltham and outer-east playgrounds</a>.</p>
+
+      <p><strong>Address:</strong> 1/101 Station Street, Ferntree Gully<br>
+      <strong>Play area:</strong> Dedicated kids' area with toys and books<br>
+      <strong>Best for:</strong> Pre-adventure fuel stop, eastern suburbs brunch</p>
+
+      <h3>Auburn Hotel — Hawthorn East</h3>
+
+      <p>The beer garden at the Auburn Hotel has become one of Melbourne's worst-kept family secrets. An enclosed outdoor playground sits right in the garden, so parents can eat and drink while kids climb and slide within full view. But here's the bonus: on Sundays between 12:30 and 3:30 PM, they run a <strong>free petting zoo</strong>. Goats, rabbits, guinea pigs, chicks — the works. For a toddler, Sunday lunch at the Auburn is basically a theme park.</p>
+
+      <p>The pub food is solid, with a proper kids' menu and generous portions. It's the kind of venue where you arrive for lunch and end up staying until mid-afternoon because everyone is having too much fun to leave.</p>
+
+      <p><strong>Address:</strong> 85 Auburn Road, Hawthorn East<br>
+      <strong>Play area:</strong> Enclosed outdoor playground in beer garden<br>
+      <strong>Best for:</strong> Sunday family lunch (petting zoo!), birthday celebrations<br>
+      <strong>Tip:</strong> Book a table in the garden for Sunday — it's popular for obvious reasons</p>
+
+      <h2>💡 Tips for Cafe Visits with Toddlers</h2>
+
+      <h3>Timing matters as much as venue</h3>
+      <p><strong>Weekday mornings between 9 and 10:30 AM</strong> are the sweet spot for cafe visits with toddlers. The kitchen isn't slammed, the play areas are quiet, and you're more likely to get a table near the action. Weekend brunches at popular family cafes can feel like a play centre with espresso — which might be exactly what you want, or exactly what you don't.</p>
+
+      <h3>Order fast</h3>
+      <p>You have approximately 12 minutes from sitting down before a toddler decides the novelty has worn off and they'd like to leave. If you know the menu, order at the counter. If you don't, pick the second thing that catches your eye (the first was for pre-children you). Speed is your friend.</p>
+
+      <h3>Bring a backup</h3>
+      <p>Even the best play area can't guarantee 30 uninterrupted minutes. A small zip-lock bag of crayons and paper, or a couple of stickers, can bridge the gap between "bored of the toys" and "food arriving." Think of it as cafe insurance.</p>
+
+      <h3>Check the sightlines</h3>
+      <p>The best kid-friendly cafes let you see the play area from your table. If you arrive and the play space is around a corner or in a separate room with no window, ask for a table with a view of it. Being able to see your child without getting up every 90 seconds is the difference between "enjoyable outing" and "standing up eating a cold muffin."</p>
+
+      <h3>Embrace the babycino</h3>
+      <p>Yes, it's just foamed milk in a tiny cup. Yes, your child thinks it's the most important beverage ever created. Yes, ordering one buys you roughly four minutes of blissful silence while they carefully spoon froth into their mouth. Four minutes is four minutes.</p>
+
+      <h2>📋 Quick Reference</h2>
+
+      <table>
+        <tr><th>Cafe</th><th>Area</th><th>Play Type</th><th>Food Style</th><th>Best For</th></tr>
+        <tr><td>Stomping Ground</td><td>Collingwood</td><td>Fenced cubby house</td><td>Brewery + woodfired</td><td>Weekend family lunches</td></tr>
+        <tr><td>Red Door Corner Store</td><td>Northcote</td><td>Toys and books</td><td>Seasonal cafe</td><td>Weekday brunch</td></tr>
+        <tr><td>Moon Dog World</td><td>Preston</td><td>Outdoor playground</td><td>Pub/street food</td><td>Lively family outings</td></tr>
+        <tr><td>Park Street</td><td>Carlton North</td><td>Toys + adjacent playground</td><td>All-day breakfast</td><td>Cafe-playground combo</td></tr>
+        <tr><td>Saska Cafe</td><td>Beaumaris</td><td>Toys and books</td><td>House-baked, seasonal</td><td>Relaxed Bayside brunch</td></tr>
+        <tr><td>Cowderoy's Dairy</td><td>St Kilda West</td><td>Adjacent playground</td><td>Simple cafe fare</td><td>Quick coffee + play</td></tr>
+        <tr><td>Zan Zanz</td><td>Williamstown Nth</td><td>Jumping castle + toys</td><td>Paninis and bowls</td><td>High-energy toddlers</td></tr>
+        <tr><td>Cheeky Chewies</td><td>Laverton/Werribee</td><td>Soft play room</td><td>Asian fusion</td><td>Family dinners</td></tr>
+        <tr><td>A Pinch of Joy</td><td>Glen Iris</td><td>In-cafe kids' corner</td><td>Brunch cafe</td><td>Inner-east families</td></tr>
+        <tr><td>Rapture Cafe</td><td>Ferntree Gully</td><td>Dedicated play area</td><td>Modern brunch</td><td>Pre-adventure fuel</td></tr>
+        <tr><td>Auburn Hotel</td><td>Hawthorn East</td><td>Enclosed playground</td><td>Pub bistro</td><td>Sunday lunch + petting zoo</td></tr>
+      </table>
+
+      <h2>🍂 Why Autumn Is the Best Season for Cafe Visits</h2>
+
+      <p>Here's a small parenting revelation: autumn is peak kid-friendly cafe season. The weather is cooling down — which means outdoor play areas and courtyards are comfortable rather than scorching — but it's not cold enough to make outdoor play miserable. Cafes with covered courtyards and indoor-outdoor flow come into their own right now.</p>
+
+      <p>More practically, the school holidays are approaching (late March through mid-April), which means weekday cafes get busier but also more festive. Many kid-friendly venues run special school holiday activities — check their social media or call ahead to see what's on.</p>
+
+      <p>And there's the obvious: on the inevitable Melbourne autumn day when the sky opens up and the playground is off the table, having a mental list of cafes where your toddler can play <em>inside</em> while you drink something warm is worth its weight in babycinos.</p>
+
+      <h2>The Real Test of a Kid-Friendly Cafe</h2>
+
+      <p>You can tell a lot about a cafe's family-friendliness within thirty seconds of walking in. Does the staff smile when they see the pram, or do they look like you've just wheeled in a ticking bomb? Is there a highchair readily available, or do they have to excavate one from a storage room with visible reluctance? Does someone offer a kids' menu without being asked?</p>
+
+      <p>The cafes on this list pass the thirty-second test. They're places where families aren't just accommodated — they're genuinely welcomed. Where the play area exists because someone thought "parents need this" rather than "this might attract more customers." Where the babycino comes with a smile and sometimes a tiny marshmallow, and nobody minds when it ends up mostly on the table.</p>
+
+      <p>Because here's the truth about eating out with small children: the food matters, but the feeling matters more. A mediocre sandwich in a place where you feel relaxed and your child is happy beats the best brunch in Melbourne at a venue where you spend the whole meal apologising for your toddler's existence.</p>
+
+      <p>These cafes get that. Enjoy them.</p>
+
+      <p>Find playgrounds near every cafe on this list with our <a href="/search?category=playground">playground finder</a> — because the best family morning starts with coffee and ends with a good run around. ☕</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-20T07:00:00+11:00',
+    category: 'reviews',
+    tags: ['kid-friendly cafes Melbourne', 'cafes with play areas Melbourne', 'family cafes Melbourne', 'toddler-friendly restaurants', 'cafe playground Melbourne', 'brunch with kids', 'Melbourne family dining', 'autumn cafes'],
+    seoTitle: 'Best Kid-Friendly Cafes with Play Areas in Melbourne: 2026 Family Guide',
+    seoDescription: 'Discover Melbourne\'s best kid-friendly cafes with play areas — from brewery playgrounds in Collingwood to jumping castles in Williamstown. 11 venues sorted by region with honest parent tips.'
+  },
+  {
     slug: 'how-playground-play-supports-toddler-development-milestones-ages-1-4',
     title: 'How Playground Play Supports Your Toddler\'s Development: A Melbourne Parent\'s Guide to Milestones at Ages 1–4',
     excerpt: 'That climbing frame isn\'t just entertainment — it\'s building your child\'s brain, body, and social skills. Here\'s what\'s actually happening developmentally when your toddler plays at the playground, broken down by age.',
