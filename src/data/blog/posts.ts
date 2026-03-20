@@ -15,6 +15,101 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'weekend-planner-melbourne-families-march-21-22-2026-autumn-equinox',
+    title: 'Weekend Planner: Clear Skies, a Brand-New Autumn Festival at QVM, and KaBloom Opens in the Dandenongs',
+    excerpt: 'Saturday and Sunday are sunny and warm — 25°C and 26°C with barely a cloud. Plus there\'s a brand-new Flavours of Autumn Festival at Queen Vic Market and the opening of Tesselaar KaBloom. Here\'s your family game plan for a brilliant weekend.',
+    content: `
+      <p>Melbourne has handed us another gorgeous autumn weekend, and this one comes loaded with events worth leaving the house for. Saturday hits <strong>25°C under clear skies</strong>, Sunday pushes to <strong>26°C with light winds</strong> — the kind of weekend where being outdoors feels effortless. The UV is moderate (index 3–4), so sunscreen and hats are still on the packing list, but you won't be battling summer-strength sun.</p>
+
+      <p>What makes this weekend special isn't just the weather, though. Queen Victoria Market is launching its <strong>first-ever Flavours of Autumn Festival</strong>, <strong>Tesselaar KaBloom</strong> opens in the Dandenongs, and several excellent events are in their final weekends. Here's how to make the most of both days with your little ones.</p>
+
+      <h2>🍂 Saturday March 21: Market Feast + City Playground (25°C, Sunny)</h2>
+
+      <h3>Morning Event: Flavours of Autumn Festival — Queen Victoria Market</h3>
+
+      <p>This is a brand-new event and it's worth getting to early. The inaugural <strong>Flavours of Autumn Festival</strong> takes over C Shed at QVM with seasonal street food, a pop-up bar serving fig gin cocktails and pomegranate margaritas (hello, parent reward), and the kind of bustling market atmosphere that toddlers genuinely love. Markets are brilliant sensory environments for little ones — the smells, the colours, the noise all contribute to a rich outing without you needing to entertain them.</p>
+
+      <p>The festival runs <strong>Saturday 9 AM – 4 PM</strong> as part of the <strong>Melbourne Food and Wine Festival</strong>, and entry is free. Arrive before 10 AM to beat the crowds and give your toddler space to toddle between stalls without dodging a thousand adults.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday March 21, 9 AM – 4 PM</li>
+        <li><strong>Where:</strong> C Shed, Queen Victoria Market</li>
+        <li><strong>Cost:</strong> Free entry (food at stall prices)</li>
+        <li><strong>Tip:</strong> The market's regular stalls are open too — grab fresh fruit, pastries, and a babycino from one of the nearby cafes. Pack wet wipes. Markets with toddlers require wet wipes.</li>
+      </ul>
+
+      <h3>Playground Pick: Flagstaff Gardens</h3>
+
+      <p>A five-minute walk from Queen Vic Market, <strong>Flagstaff Gardens</strong> is one of Melbourne's most underrated city playgrounds for families. The playground sits under mature elm trees that are just starting their autumn colour change — dappled golden light, falling leaves to collect, and natural shade that keeps equipment comfortable all day.</p>
+
+      <p>The play equipment suits toddlers through to about age 7, with climbing structures, slides, and swings. But the real appeal is the gardens themselves. Wide open lawns for running, ancient trees for hide-and-seek, and paths that feel like a world away from the city despite being in the CBD. After a morning navigating market crowds, the space and quiet of Flagstaff Gardens is exactly what both parent and child need.</p>
+
+      <p><strong>Post-market plan:</strong> Walk from QVM to Flagstaff Gardens → spread a blanket under the elms → let the kids play while you eat whatever delicious thing you grabbed from the festival. Saturday sorted.</p>
+
+      <h3>Alternative Saturday: KaBloom Opening Day</h3>
+
+      <p>If you'd rather head for the hills, <strong>Tesselaar KaBloom</strong> opens today in Silvan. We covered this in detail in our <a href="/blog/whats-on-this-week-melbourne-families-march-18-22-2026">What's On guide earlier this week</a> — circus performers among the flowers, tractor train rides, and the incredible sight of millions of autumn blooms. Kids under 16 are typically free with a paying adult. Pack layers (the Dandenongs are cooler) and combine with a stop at the <strong>Olinda Playspace</strong> nearby for one of the best playground-and-flowers combos in Victoria.</p>
+
+      <h2>☀️ Sunday March 22: Gallery + River Playground (26°C, Sunny)</h2>
+
+      <h3>Morning Pick: FUTURE COUNTRY at NGV International</h3>
+
+      <p>A new exhibition opened this week that's worth knowing about. <strong>FUTURE COUNTRY</strong> at NGV International is the second iteration of the Country Road and NGV First Nations Commission, and it's <strong>completely free</strong>. First Nations art tends to captivate toddlers — the bold colours, the patterns, the scale of the works — and this exhibition runs all the way until September, so no rush. But Sunday morning at the NGV is a lovely, calm start to the day, especially with the water wall at the entrance keeping small people mesmerised.</p>
+
+      <p>While you're there, swing through the <strong>NGV Kids Corner</strong> for hands-on creative activities. The gallery is air-conditioned, pram-friendly, and genuinely welcoming to families. Check our <a href="/blog/free-museums-galleries-toddlers-melbourne-cultural-days-out-guide">museum guide</a> for detailed tips on visiting with toddlers.</p>
+
+      <h3>Playground Pick: Birrarung Marr</h3>
+
+      <p>Walk out of the NGV, cross the footbridge, and you're at <strong>Birrarung Marr</strong> — one of Melbourne's best city playgrounds and the perfect follow-up to a gallery visit. The playground has excellent equipment for a range of ages, and the riverside location means there's always a breeze on warm days. At 26°C, the trees along the Yarra provide comfortable shade, and the wide paths are ideal for a post-playground scooter or balance bike ride.</p>
+
+      <p>The <strong>ArtPlay</strong> creative space is right here too — check their website for any free Sunday workshops running this weekend. And if the kids need more running space, the open lawns stretching toward Federation Square give them room to sprint without you worrying about roads.</p>
+
+      <p><strong>Sunday plan:</strong> NGV International (free, 10 AM) → walk to Birrarung Marr playground → lunch from one of the Southbank eateries or a picnic on the grass → ArtPlay if anything's on → home before the afternoon energy crash.</p>
+
+      <h2>🎮 Last Chance: Game Worlds at ACMI (Closes March 29)</h2>
+
+      <p>If you've been meaning to visit ACMI's <strong>Game Worlds</strong> exhibition, you've got two weekends left. This playable exhibition features over 30 video games spanning five decades — and while it's more suited to older kids and adults, preschoolers enjoy the interactive screens and the visual spectacle. It's <strong>free</strong> and right at Federation Square, so it's easy to fold into a city day. The <a href="/blog/free-museums-galleries-toddlers-melbourne-cultural-days-out-guide">Play School: Come and Play</a> exhibition is also still running at ACMI — pair them for a brilliant indoor morning.</p>
+
+      <h2>📋 Your Weekend Game Plan</h2>
+
+      <h3>Saturday (Sunny, 25°C)</h3>
+      <p><strong>Option A — Market Morning:</strong> Flavours of Autumn Festival at QVM (arrive by 9:30 AM) → walk to Flagstaff Gardens for playground time and a picnic lunch under the elms.</p>
+      <p><strong>Option B — Mountain Adventure:</strong> Drive to Silvan for KaBloom opening day → lunch among the flowers → afternoon at Olinda Playspace → bakery stop in Olinda village on the way home.</p>
+      <p><strong>Option C — Bayside Bliss:</strong> Skip the events entirely. A 25°C autumn Saturday at a <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside playground</a> like North Road Foreshore or Dendy Park is hard to beat. Grab fish and chips and eat them by the bay.</p>
+
+      <h3>Sunday (Sunny, 26°C)</h3>
+      <p><strong>Option A — Culture + Play:</strong> FUTURE COUNTRY at NGV International (free) → Birrarung Marr playground → Southbank lunch or Yarra river walk.</p>
+      <p><strong>Option B — Last-Chance ACMI:</strong> Game Worlds + Play School at ACMI → Fed Square morning tea → Birrarung Marr playground when they need to run.</p>
+      <p><strong>Option C — Eastern Suburbs Escape:</strong> Morning at <a href="/blog/best-bike-scooter-trails-kids-melbourne-family-cycling-guide">Jells Park</a> for the lake loop and shaded playground → café lunch → quiet afternoon at home before the working week resets.</p>
+
+      <h2>🎒 Packing for This Weekend</h2>
+
+      <ul>
+        <li><strong>Sunscreen SPF 50+ and wide-brim hats</strong> — UV is moderate but steady on clear autumn days</li>
+        <li><strong>Light layers</strong> — both mornings will start around 13–14°C before warming up. A zip-up hoodie they can peel off by 11 AM is the move</li>
+        <li><strong>Water bottles</strong> — 26°C on Sunday means more hydration, especially if you're walking between venues</li>
+        <li><strong>A bag for autumn treasures</strong> — Flagstaff Gardens is shedding golden elm leaves right now. Your toddler will want to collect approximately all of them</li>
+        <li><strong>For QVM:</strong> A compact stroller or carrier rather than a bulky pram. Market aisles and toddler legs are a challenging combination</li>
+        <li><strong>For KaBloom:</strong> Closed-toe shoes or gumboots (the farm can be muddy), and a jacket for the Dandenongs where it's always a few degrees cooler</li>
+        <li><strong>Snacks</strong> — always more than you think. Market food is great but the queue with a hungry toddler is not</li>
+      </ul>
+
+      <h2>🔭 Looking Ahead: Next Week</h2>
+
+      <p>The sunshine holds through Monday and Tuesday (around 25°C), then a rainy patch moves in Wednesday through Friday with moderate rainfall and temperatures dropping to the low 20s. Perfect timing for <a href="/blog/best-indoor-play-centres-melbourne-toddlers-preschoolers-guide">indoor play centres</a> mid-week.</p>
+
+      <p>Next Wednesday brings the <strong>Melbourne International Flower and Garden Show</strong> at Carlton Gardens (March 25–29), and the <strong>Melbourne International Comedy Festival</strong> kicks off the same day. School holidays start the following weekend. The next two weeks are going to be packed — enjoy this calm, sunny weekend before the holiday rush begins.</p>
+
+      <p>Find playgrounds near every event on this list with our <a href="/search?category=playground">playground finder</a> — because the best family day always ends with a good run around. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-21T07:00:00+11:00',
+    category: 'activities',
+    tags: ['weekend planner', 'Melbourne family weekend', 'Flavours of Autumn Festival', 'Queen Victoria Market', 'KaBloom festival', 'autumn equinox', 'Melbourne playgrounds autumn', 'Flagstaff Gardens', 'Birrarung Marr', 'NGV FUTURE COUNTRY', 'march 2026', 'free things to do Melbourne kids'],
+    seoTitle: 'Melbourne Family Weekend Planner March 21–22, 2026: Autumn Festival, KaBloom & Best Playgrounds',
+    seoDescription: 'Plan your Melbourne family weekend with the brand-new Flavours of Autumn Festival at QVM, KaBloom opening day, and sunny playground picks for 25–26°C clear skies. Free events and practical tips.'
+  },
+  {
     slug: 'kid-friendly-cafes-play-areas-melbourne-guide',
     title: 'Kid-Friendly Cafes with Play Areas in Melbourne: Where to Eat Without the Chaos',
     excerpt: 'Finding a cafe where you can actually finish a hot coffee while your toddler is happily occupied? It exists. Here are Melbourne\'s best kid-friendly cafes with play areas, sorted by region so you can find one near your next playground visit.',
