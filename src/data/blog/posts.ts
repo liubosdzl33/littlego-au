@@ -15,6 +15,238 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'melbourne-april-school-holidays-2026-two-week-activity-planner-families',
+    title: 'Melbourne April School Holidays 2026: Your Two-Week Activity Planner for Families with Little Ones',
+    excerpt: 'School holidays start April 3 and run through Easter to April 19. Two whole weeks. Here\'s your day-by-day planning framework — what to book now, what\'s free, and how to survive the fortnight without losing your mind or your savings.',
+    content: `
+      <p>Two weeks of school holidays are heading your way. <strong>April 3 to April 19, 2026</strong> — wrapping around the Easter long weekend (April 3–6), overlapping with the Melbourne International Comedy Festival, and landing right in the golden heart of Melbourne autumn. If you're a parent of a toddler or preschooler, that's fourteen days of "what are we doing today?" stretching out in front of you.</p>
+
+      <p>Deep breath. You've got this.</p>
+
+      <p>The trick with school holidays isn't planning every minute — it's having a framework. A loose structure that means you always know the answer to "what's happening tomorrow?" without needing a colour-coded spreadsheet. Some days are big outings. Some days are pyjamas until 10 AM and the playground around the corner. Both are valid. Both are necessary.</p>
+
+      <p>Here's your <strong>Melbourne school holidays April 2026 planner</strong> — organised by week, packed with free and affordable activities, and designed for families with kids roughly aged 1 to 5. Book the things that need booking, bookmark the rest, and give yourself permission to wing at least half of it.</p>
+
+      <h2>📅 The Key Dates</h2>
+
+      <ul>
+        <li><strong>School holidays:</strong> Friday April 3 – Sunday April 19</li>
+        <li><strong>Good Friday:</strong> April 3 (public holiday — many venues closed, but plenty of events on)</li>
+        <li><strong>Easter Saturday:</strong> April 4</li>
+        <li><strong>Easter Sunday:</strong> April 5</li>
+        <li><strong>Easter Monday:</strong> April 6 (public holiday)</li>
+        <li><strong>Melbourne International Comedy Festival:</strong> March 25 – April 19 (kids' shows run throughout)</li>
+        <li><strong>Fed Square School Holiday Program:</strong> Free activities across the break</li>
+        <li><strong>Kids travel free on Tuesdays:</strong> Children aged 4–16 ride public transport free every Tuesday</li>
+      </ul>
+
+      <h2>🎯 What to Book NOW (Before It Sells Out)</h2>
+
+      <p>Most school holiday activities are show-up-and-go, but a handful need advance booking — and the best ones sell out fast. If you do nothing else after reading this article, book these three things:</p>
+
+      <h3>1. Comedy Festival Kids' Shows</h3>
+
+      <p>The <strong>Melbourne International Comedy Festival</strong> runs a brilliant school holiday program for families, and the best shows sell out well before the holidays start. Here's what's on for little ones:</p>
+
+      <ul>
+        <li><strong>Comedy Club for Kids</strong> — The flagship family show. Clean, hilarious, and genuinely entertaining for adults too. Multiple sessions across the holidays</li>
+        <li><strong>The Listies</strong> — If your child has seen them before, you already have tickets. If they haven't, prepare for a new obsession. Anarchic, silly, and utterly brilliant for preschoolers and up</li>
+        <li><strong>Trash Test Dummies</strong> — Physical comedy and circus acts using everyday objects. Perfect for toddlers who might not follow dialogue but absolutely understand a man falling over</li>
+        <li><strong>Tricky Nick Magic Show</strong> — Magic is catnip for 3–5 year olds. Tricky Nick delivers every time</li>
+        <li><strong>Winni Wizard and Her Magical Smells</strong> — At ACMI, running the full holiday period. A sensory comedy show that's perfectly pitched for the under-5 crowd</li>
+        <li><strong>Signor Baffo</strong> — Wordless physical comedy that crosses every language and age barrier. Toddlers find this absolutely hilarious</li>
+        <li><strong>Aboriginal Comedy Allstars (Kids Edition)</strong> — April 18. First Nations comedians with a family show full of laughs, singing, dancing, and storytelling</li>
+      </ul>
+
+      <p>Book through <strong>comedyfestival.com.au</strong>. Matinee sessions fill first, so grab those if you have a toddler who naps in the afternoon.</p>
+
+      <h3>2. Giant Easter Egg Hunt — Chirnside Park (April 4)</h3>
+
+      <p>This one sells out every year. Age-separated sessions mean your toddler gets a fair go. Book at giantegghunt.com.au — see our <a href="/blog/easter-2026-melbourne-kids-egg-hunts-school-holiday-activities-guide">Easter guide</a> for all the details.</p>
+
+      <h3>3. Royal Botanic Gardens School Holiday Workshops</h3>
+
+      <p>The <strong>Royal Botanic Gardens Melbourne</strong> runs free nature connection workshops during the holidays for Foundation to Year 2 students (Victorian government schools). Sessions fill quickly once registration opens. Even if your child is younger, the gardens themselves are a free, spectacular autumn destination — the deciduous trees will be at peak colour by mid-April.</p>
+
+      <h2>🆓 The Free Stuff (No Booking Required)</h2>
+
+      <p>Melbourne does free school holiday activities better than almost any city in Australia. Here's what's available across the full two weeks:</p>
+
+      <h3>Federation Square School Holiday Program</h3>
+
+      <p>Fed Square goes all out during school holidays. This year's program features <strong>free outdoor cinema</strong> — including the return of Studio Ghibli Afternoons (yes, <em>My Neighbour Totoro</em> on the big screen, outdoors, for free) and family-friendly comedies. Plus free workshops and exhibitions at the Koorie Heritage Trust, NGV Australia, and ACMI.</p>
+
+      <p>The beauty of Fed Square is that you can wing it completely. Turn up, see what's on, grab a coffee, and let the kids engage with whatever catches their eye. No booking, no schedule pressure, no entry fee. It's the perfect default school holiday destination.</p>
+
+      <h3>Kids Day Out — Good Friday Appeal (April 3)</h3>
+
+      <p>The <strong>Royal Children's Hospital Good Friday Appeal Kids Day Out</strong> at the Melbourne Convention and Exhibition Centre is one of the best free family events of the year. Carnival rides, inflatables, crafts, sports zones, face painting, creative workshops, and live performances — all free, all day. See our <a href="/blog/easter-2026-melbourne-kids-egg-hunts-school-holiday-activities-guide">Easter guide</a> for tips on making the most of it.</p>
+
+      <h3>Museums and Galleries (Free for Under-16s)</h3>
+
+      <p>Melbourne's museums are the ultimate school holiday resource, and most are <strong>free for children</strong>:</p>
+
+      <ul>
+        <li><strong>Melbourne Museum</strong> — The Pauline Gandel Children's Gallery is purpose-built for under-5s. Dinosaur dig, train tunnel, discovery garden. Free for under-16s</li>
+        <li><strong>NGV International</strong> — Completely free entry. The FUTURE COUNTRY First Nations exhibition runs until September. Kids Corner offers hands-on creative activities</li>
+        <li><strong>ACMI</strong> — Play School: Come and Play is still running (free) and perfect for toddlers. Plus Winni Wizard during the Comedy Festival</li>
+        <li><strong>Scienceworks</strong> — The Ground Up space for 0–5s is sensory play heaven. Free for under-16s</li>
+        <li><strong>State Library of Victoria</strong> — Free storytelling sessions and creative workshops during school holidays. Completely free entry</li>
+      </ul>
+
+      <p>Check our <a href="/blog/free-museums-galleries-toddlers-melbourne-cultural-days-out-guide">complete museum guide</a> for detailed tips on visiting each venue with toddlers, including the best times to go and what to pack.</p>
+
+      <h3>Tesselaar KaBloom (Until April 19)</h3>
+
+      <p>The KaBloom flower festival in Silvan runs through the entire school holiday period, with circus performers, tractor train rides, and millions of autumn blooms. Kids under 16 are typically free with a paying adult. Our <a href="/blog/whats-on-this-week-melbourne-families-march-18-22-2026">events guide</a> has the details.</p>
+
+      <h3>The Lygon Street Market — Easter Sunday (April 5)</h3>
+
+      <p>A special Easter market on one of Melbourne's most famous food strips. Stalls, live entertainment, and the kind of bustling atmosphere that toddlers love. Walk from the market to Melbourne Museum (five minutes) for the ultimate free Carlton day out.</p>
+
+      <h2>📋 Week One: Easter Week (April 3–10)</h2>
+
+      <p>Easter dominates the first half. Here's a loose day-by-day framework — pick and choose based on weather, energy, and your child's mood.</p>
+
+      <h3>Friday April 3 — Good Friday</h3>
+      <p><strong>Go big:</strong> Kids Day Out at MCEC (free, all day). This is the standout event of the day — arrive before 11 AM for shorter queues. Combine with a walk along South Wharf afterwards.</p>
+      <p><strong>Go quiet:</strong> DIY Easter egg hunt at your local playground. Hide plastic eggs before you arrive, let the kids hunt, eat hot cross buns on a bench. Simple, magical, free.</p>
+
+      <h3>Saturday April 4 — Easter Saturday</h3>
+      <p><strong>Event day:</strong> Giant Easter Egg Hunt at Chirnside Park (if you booked) or the free Federation Square Easter Festival in the city.</p>
+      <p><strong>Nature day:</strong> Autumn walk at the Royal Botanic Gardens — the colours will be stunning by now. Pack a picnic and let the kids explore. It's free, it's beautiful, and it's the antidote to Easter chocolate chaos.</p>
+
+      <h3>Sunday April 5 — Easter Sunday</h3>
+      <p><strong>Local:</strong> Morning egg hunt at your favourite <a href="/search?category=playground">playground</a>, then the Lygon Street Market for a festive lunch.</p>
+      <p><strong>Adventure:</strong> Drive to Warratina Lavender Farm for their free Easter Bunny Hunt (daily through April 19, no booking required).</p>
+
+      <h3>Monday April 6 — Easter Monday</h3>
+      <p><strong>Wind down:</strong> Everyone's chocolated out. Today is a local playground and leftover hot cross buns day. Or hit a <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly café</a> for brunch — you've earned it.</p>
+      <p><strong>If you have energy:</strong> Fed Square Easter Festival (last day) or Melbourne Museum's Children's Gallery.</p>
+
+      <h3>Tuesday April 7 — Free Transport Day</h3>
+      <p>Kids aged 4–16 ride public transport free on Tuesdays. Use this. Take the train into the city for a museum day, ride the tram to St Kilda for the beach and playground, or catch the train to Scienceworks. The journey IS the activity for many toddlers — riding a tram is peak entertainment at age two.</p>
+
+      <h3>Wednesday April 8 — Midweek Reset</h3>
+      <p><strong>Indoor option:</strong> <a href="/blog/best-indoor-play-centres-melbourne-toddlers-preschoolers-guide">Indoor play centre</a> — midweek mornings are quieter than weekends. MoPA, Play Nook, or Billy Lids are all excellent for the under-5 crowd.</p>
+      <p><strong>Outdoor option:</strong> Explore a playground you haven't tried before. Our guides to the <a href="/blog/best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham">northern suburbs</a>, <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside</a>, and <a href="/blog/best-playgrounds-western-suburbs-melbourne-werribee-point-cook-altona">western suburbs</a> have plenty of options.</p>
+
+      <h3>Thursday April 9</h3>
+      <p><strong>Comedy Festival kids' show.</strong> This is the day to use one of those tickets you booked. Pair a matinee show with a playground visit nearby — most Comedy Festival venues are in the CBD or inner suburbs, with playgrounds within walking distance.</p>
+
+      <h3>Friday April 10</h3>
+      <p><strong>Nature day:</strong> Family bike or scooter ride along one of Melbourne's <a href="/blog/best-bike-scooter-trails-kids-melbourne-family-cycling-guide">creek trails</a>. Merri Creek, Gardiners Creek, or the Bay Trail are all gorgeous in mid-April autumn colours. Ride to a playground, eat snacks, ride back. That's a school holiday day sorted.</p>
+
+      <h2>📋 Week Two: The Long Stretch (April 11–19)</h2>
+
+      <p>By week two, the novelty of holidays has worn off for everyone. You need less planning and more reliable defaults. Here's a framework:</p>
+
+      <h3>Saturday April 11</h3>
+      <p><strong>Festival day:</strong> Fed Square outdoor cinema (check program for family-friendly afternoon screening — Studio Ghibli sessions are free). Arrive early with a picnic blanket.</p>
+      <p><strong>Alternatively:</strong> KaBloom at Tesselaar if you haven't been yet. The flower festival is in full swing and the autumn blooms will be at their peak.</p>
+
+      <h3>Sunday April 12</h3>
+      <p><strong>Slow day.</strong> Local playground, maybe a <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">café with a play area</a>, definitely an afternoon rest. You're on day ten. Be gentle with yourself.</p>
+
+      <h3>Monday April 13</h3>
+      <p><strong>Rainy day backup:</strong> If Melbourne's April weather delivers rain (and it will at some point), this is your indoor day. Melbourne Museum, Scienceworks, or an indoor play centre. Pack snacks, pack patience, accept that the car park will be busy.</p>
+      <p><strong>If it's sunny:</strong> Royal Park Nature Play in Parkville — one of the best nature playgrounds in Melbourne, and mid-April autumn light through the eucalypts is special.</p>
+
+      <h3>Tuesday April 14 — Free Transport Day</h3>
+      <p>Second free transport Tuesday. This time, try somewhere further afield. Train to Williamstown for the foreshore playgrounds and fish and chips. Or ride to Hurstbridge and explore the trails around the outer north-east. The adventure is in the journey.</p>
+
+      <h3>Wednesday April 15</h3>
+      <p><strong>Crafternoon.</strong> Some days, the best activity is staying home. Set up a craft station — play dough, painting, collage, stickers — put on some music, and let the kids create. You're not failing at holidays by staying in. You're recharging for the final stretch.</p>
+      <p><strong>If you need to get out:</strong> ArtPlay at Birrarung Marr often runs free or low-cost creative workshops during school holidays. Check artplay.com.au for the current program.</p>
+
+      <h3>Thursday April 16</h3>
+      <p><strong>Second Comedy Festival show</strong> if you booked two, or try a drop-in kids' show. The <em>(Very) Big Laugh Out</em> — the Comedy Festival's expanded family program — runs throughout the holidays and some shows have walk-up availability.</p>
+
+      <h3>Friday April 17</h3>
+      <p><strong>Playdate day.</strong> By now your child is probably missing their friends. Organise a playground catch-up with another family. Shared snacks, shared supervision, shared conversation that isn't about Bluey. Everyone wins.</p>
+
+      <h3>Saturday April 18</h3>
+      <p><strong>One last adventure:</strong> Aboriginal Comedy Allstars (Kids Edition) at the Comedy Festival. Or a day trip to the Dandenong Ranges — KaBloom closes tomorrow, so it's your last chance. Combine with the Olinda Playspace for a spectacular final holiday outing.</p>
+
+      <h3>Sunday April 19 — Last Day</h3>
+      <p><strong>Low-key.</strong> Local playground, ice cream, early bath, early bedtime. Tomorrow is back to routine, and everyone — including you — needs a gentle landing.</p>
+
+      <h2>🌤️ What to Expect from April Weather</h2>
+
+      <p>Melbourne in April is classic autumn — and that's great news for families:</p>
+
+      <ul>
+        <li><strong>Temperatures:</strong> Expect highs of 18–23°C and morning lows of 10–14°C. Comfortable for outdoor play all day without summer's heat stress</li>
+        <li><strong>Rain:</strong> April averages about 8 rainy days across the month. You'll almost certainly get a few wet days during the two-week break — hence the indoor backup plans above</li>
+        <li><strong>UV:</strong> Dropping to low-moderate (index 2–4). Still wear sunscreen on sunny days, but you're not battling fierce UV</li>
+        <li><strong>Autumn colours:</strong> Mid-April is peak season for Melbourne's deciduous trees. Fitzroy Gardens, the Botanic Gardens, and the Dandenong Ranges are spectacular. Leaf collecting is a free activity that toddlers will happily do for thirty minutes straight</li>
+        <li><strong>Daylight:</strong> Sunset around 6 PM, giving you solid daylight hours for afternoon outings. Daylight saving ends April 5, so clocks go back one hour — meaning earlier sunsets but (theoretically) easier bedtimes</li>
+      </ul>
+
+      <h2>💰 Budgeting for Two Weeks</h2>
+
+      <p>School holidays can quietly drain the bank account if you're not paying attention. Here's how to keep costs manageable:</p>
+
+      <h3>Free activities that fill a whole morning</h3>
+      <ul>
+        <li>Playground visits (always free, always good)</li>
+        <li>Fed Square school holiday program</li>
+        <li>NGV and Ian Potter Centre (completely free entry)</li>
+        <li>ACMI Play School exhibition (free)</li>
+        <li>State Library storytelling sessions (free)</li>
+        <li>ArtPlay workshops (free or very low cost)</li>
+        <li>Bike and scooter rides on creek trails</li>
+        <li>Nature walks with autumn leaf collecting</li>
+        <li>Fed Square outdoor cinema (free)</li>
+        <li>DIY play dough and craft at home</li>
+      </ul>
+
+      <h3>Worth spending on</h3>
+      <ul>
+        <li><strong>One or two Comedy Festival kids' shows</strong> (~$15–25 per ticket) — the quality is genuinely excellent and they're experiences your child will talk about for weeks</li>
+        <li><strong>One indoor play centre visit</strong> (~$15–25 per child) — save it for the inevitable rainy day when you need a guaranteed win</li>
+        <li><strong>Melbourne Museum or Scienceworks</strong> (free for kids, ~$18 per adult) — excellent value for two to three hours of entertainment</li>
+      </ul>
+
+      <h3>The budget target</h3>
+      <p>You can genuinely do two weeks of school holidays in Melbourne for under $100 in activity costs if you lean into the free options. Add a couple of paid activities for variety and you're looking at maybe $150–200 total. That's less than two days of vacation care.</p>
+
+      <h2>🎒 Your School Holiday Survival Kit</h2>
+
+      <p>Pack this bag once at the start of the holidays and leave it by the door. Every morning you'll thank yourself.</p>
+
+      <ul>
+        <li><strong>Sunscreen and hats</strong> — even on overcast days, UV can surprise you</li>
+        <li><strong>Spare clothes</strong> — for the inevitable water play, mud, or spill</li>
+        <li><strong>Snacks (so many snacks)</strong> — muesli bars, fruit, crackers, sultanas. Restock every few days. Hungry children are unhappy children</li>
+        <li><strong>Water bottles</strong> — one per person, filled before you leave</li>
+        <li><strong>Layers</strong> — a light jacket or zip-up hoodie for cool mornings. April mornings start at 10–14°C before warming up</li>
+        <li><strong>Wet wipes</strong> — the universal parenting tool</li>
+        <li><strong>A small bag for treasures</strong> — autumn leaves, interesting sticks, pretty rocks. Your toddler WILL want to collect things</li>
+        <li><strong>A picnic blanket</strong> — turns any park into a lunch destination</li>
+        <li><strong>One book or small toy</strong> — for waiting rooms, transport, or the dreaded "I'm bored" in transit</li>
+      </ul>
+
+      <h2>🧘 The Real Survival Guide</h2>
+
+      <p>Here's what nobody puts in school holiday articles but every parent needs to hear: <strong>you don't need to fill every day with an activity.</strong></p>
+
+      <p>Two weeks is a long time. Your child doesn't need fourteen different outings. They need a mix of stimulation and rest, adventure and routine, new experiences and comfortable repetition. A week that includes two or three planned outings, a couple of playground sessions, one rainy-day indoor activity, and several mornings of unhurried play at home? That's a brilliant school holiday.</p>
+
+      <p>The days that feel like "nothing" — the morning spent building a cubby house out of couch cushions, the hour in the backyard with a bucket of water and some cups, the long bath where you actually read a chapter of your book — those days matter just as much as the big outings. Maybe more.</p>
+
+      <p>Your toddler won't remember whether you went to three events or seven. They'll remember the feeling of the holidays: relaxed, playful, unhurried. Present. That's the goal. Everything else is just logistics.</p>
+
+      <p>Find the perfect playground for every day of the holidays with our <a href="/search?category=playground">playground finder</a> — your most reliable, always-free, never-closed school holiday activity. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-22T07:00:00+11:00',
+    category: 'activities',
+    tags: ['Melbourne school holidays April 2026', 'school holiday activities Melbourne', 'free school holiday activities Melbourne kids', 'Easter school holidays', 'Melbourne Comedy Festival kids shows', 'things to do school holidays Melbourne', 'toddler activities school holidays', 'autumn school holidays Melbourne', 'family activities April 2026', 'Federation Square school holidays'],
+    seoTitle: 'Melbourne April School Holidays 2026: Free Activities, Comedy Shows & Two-Week Family Planner',
+    seoDescription: 'Plan two weeks of Melbourne school holidays (April 3–19, 2026) with this family guide — free events, Comedy Festival kids shows, Easter activities, and a day-by-day planner for toddlers and preschoolers.'
+  },
+  {
     slug: 'weekend-planner-melbourne-families-march-21-22-2026-autumn-equinox',
     title: 'Weekend Planner: Clear Skies, a Brand-New Autumn Festival at QVM, and KaBloom Opens in the Dandenongs',
     excerpt: 'Saturday and Sunday are sunny and warm — 25°C and 26°C with barely a cloud. Plus there\'s a brand-new Flavours of Autumn Festival at Queen Vic Market and the opening of Tesselaar KaBloom. Here\'s your family game plan for a brilliant weekend.',
