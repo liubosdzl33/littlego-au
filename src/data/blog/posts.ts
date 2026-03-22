@@ -15,6 +15,215 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn',
+    title: "Best Playgrounds in Melbourne's Inner East: Hawthorn, Camberwell, Kew, Balwyn and Beyond",
+    excerpt: "Melbourne\'s inner east is leafy, hilly, and quietly packed with excellent family playgrounds. From the iconic rocket ship at Central Gardens to fenced adventure play at Markham Reserve, here are the best playgrounds across Boroondara for families with toddlers and young kids.",
+    content: `
+      <p>If you live in Melbourne's inner east, you already know the neighbourhood secret: this part of the city is <strong>ridiculously well-served for playgrounds</strong>. The City of Boroondara alone has over 100 playgrounds across its suburbs, and several of them rank among the best anywhere in Melbourne. The combination of mature trees, creek corridors, generous parkland, and councils that actually invest in play infrastructure means you're never more than a short drive (or walk) from somewhere genuinely excellent.</p>
+
+      <p>But here's the thing — even local families tend to rotate through the same two or three parks near home. There's a playground five minutes from your place that you've never visited, and it might be exactly what your toddler needs this week. So consider this your invitation to explore.</p>
+
+      <p>Here's our guide to the <strong>best playgrounds in Melbourne's inner east</strong> — covering Hawthorn, Camberwell, Kew, Balwyn, Ashburton, Glen Iris, and surrounds. Sorted by what they do best, so you can match the playground to your family's mood.</p>
+
+      <h2>🏆 Best All-Rounders</h2>
+
+      <h3>1. Markham Reserve, Ashburton</h3>
+
+      <p>If the inner east had a flagship playground, Markham Reserve would be it. <strong>Fully fenced</strong> (with gates that actually close properly — a detail that matters enormously when you have a runner), this playground crams an impressive amount of play value into a well-designed space. There's a climbing tower with slides, swings including a bird's nest swing, a sandpit, and spinning equipment that delights kids and mildly terrifies parents.</p>
+
+      <p>But what makes Markham genuinely special is the <strong>dedicated kids' bike and scooter track</strong> that loops around the playground perimeter. It's sealed, flat, and just the right size for toddlers on balance bikes and preschoolers on scooters. The combination of riding and climbing in one fenced space means siblings at different stages can both be independently entertained — which is, frankly, the holy grail of playground visits.</p>
+
+      <p>The surrounding reserve has open grass, picnic tables, and a barbecue area. There's a community garden next door that curious toddlers enjoy peering into. On autumn mornings, the light through the established trees is beautiful, and the sealed path means the track stays rideable even after a bit of rain.</p>
+
+      <p><strong>Best for:</strong> Families with a mix of ages, balance bike and scooter riders, parents who need a fence<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Fenced:</strong> Yes — fully fenced with self-closing gates<br>
+      <strong>Facilities:</strong> Toilets, barbecue, picnic tables, parking<br>
+      <strong>Address:</strong> Markham Reserve, Ashburton<br>
+      <strong>Tip:</strong> Bring the bike AND the scooter. The track is the star attraction and kids will ride laps until you physically remove them</p>
+
+      <h3>2. Hays Paddock, Kew East</h3>
+
+      <p>Hays Paddock is one of those parks that doesn't scream "destination playground" from the car park — and that's part of its charm. The playground sits under mature trees beside a gentle creek, surrounded by wide open grass and peaceful bushland. The equipment includes climbing structures, swings, and slides suitable for toddlers through to about age seven, with an <strong>all-abilities focus</strong> that means the space is genuinely inclusive.</p>
+
+      <p>What elevates Hays Paddock beyond a standard suburban playground is the <strong>creek</strong>. Kids can wade in the shallows, throw sticks, watch ducks, and generally do the kind of unstructured nature play that developmental experts recommend. In autumn, the established trees along the creek put on a gorgeous colour show — golds and russets overhead, crunchy leaves underfoot, and that particular quality of autumn light that makes everything glow.</p>
+
+      <p>The park also has walking trails through bushland that feel remarkably wild for somewhere so close to the city. For families who want their playground visit to include a bit of nature exploration, Hays Paddock delivers beautifully.</p>
+
+      <p><strong>Best for:</strong> Nature-loving families, creek play, a quieter playground experience<br>
+      <strong>Ages:</strong> 0–8<br>
+      <strong>Facilities:</strong> Toilets, barbecues, parking, walking trails<br>
+      <strong>Address:</strong> Hays Paddock, Kew East<br>
+      <strong>Autumn bonus:</strong> The deciduous trees along the creek are spectacular from late March through April. Bring a bag for leaf collecting — your toddler will insist</p>
+
+      <h2>🚀 Best for Imaginative Play</h2>
+
+      <h3>3. Central Gardens "Rocket Park", Hawthorn</h3>
+
+      <p>Every inner-east family knows Rocket Park — and for good reason. The <strong>iconic rocket ship climbing structure</strong> at Central Gardens has been launching imaginations for years, and a recent upgrade has added modern play elements around it without losing the retro charm that made it famous. Kids climb inside the rocket, peer out the windows, and conduct elaborate space missions that can last an entire morning.</p>
+
+      <p>Around the rocket, you'll find swings, a sandpit, and a newer play structure with slides and climbing walls. The gardens themselves are beautiful — manicured lawns, established trees, and flower beds that make the whole park feel like somewhere special rather than just functional. There's a lovely path circuit that's perfect for a post-play stroll with the pram.</p>
+
+      <p>The Glenferrie Road shops are a short walk away, which means excellent coffee and bakery options for the parent tax that every playground visit demands.</p>
+
+      <p><strong>Best for:</strong> Space-obsessed kids, imaginative play, a visually beautiful park<br>
+      <strong>Ages:</strong> 2–8<br>
+      <strong>Facilities:</strong> Toilets, parking, nearby shops on Glenferrie Road<br>
+      <strong>Address:</strong> Central Gardens, Hawthorn<br>
+      <strong>Combine with:</strong> A babycino on Glenferrie Road — you're spoiled for <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly cafe options</a> in the area</p>
+
+      <h3>4. Fordham Reserve, Camberwell</h3>
+
+      <p>Tucked behind the Camberwell shops, Fordham Reserve is a cleverly designed pocket playground that punches well above its size. The play equipment includes a rope-climbing structure, a slide built into a small hill, musical instruments, and sensory panels — all packed into a space that feels intimate rather than cramped.</p>
+
+      <p>The musical elements are a highlight. Toddlers love banging on the outdoor drums and xylophones, and the sound adds an extra sensory layer to the play experience. The hill slide is gentle enough for cautious toddlers but fun enough that confident three-year-olds will climb and slide on repeat.</p>
+
+      <p>Location is the real advantage here. Post-playground, you can walk straight to Burke Road for brunch, hit the Camberwell Fresh Food Market on Sundays, or browse the charity shops that Camberwell is famous for. It's a playground that fits neatly into a broader morning outing.</p>
+
+      <p><strong>Best for:</strong> Quick play sessions, combining with a shopping or cafe outing<br>
+      <strong>Ages:</strong> 1–6<br>
+      <strong>Facilities:</strong> Near public toilets, Burke Road shops within walking distance<br>
+      <strong>Address:</strong> Fordham Reserve, Camberwell</p>
+
+      <h2>🌿 Best for Nature Play</h2>
+
+      <h3>5. Wattle Park, Burwood</h3>
+
+      <p>Wattle Park is one of Melbourne's most underrated family destinations — a sprawling green space with a playground, walking trails, a historic tramway, and enough open bushland to feel like you've left the suburbs entirely. The playground has solid equipment for a range of ages, but it's the <strong>surrounding environment</strong> that makes Wattle Park extraordinary.</p>
+
+      <p>The park sits on a ridge with views across the eastern suburbs, and the native bushland is home to kookaburras, rosellas, and the occasional echidna. Walking tracks wind through the bush, and the gentle trails are manageable for toddlers on foot or in a pram. In autumn, the combination of eucalyptus green and deciduous golds creates a colour palette that photographers drive across town for.</p>
+
+      <p>The heritage tram — a beautifully restored W-class tram permanently parked in the grounds — is a free attraction that toddlers love climbing through. It's basically a giant cubby house on wheels. There's also a café on site for coffee and snacks, which elevates Wattle Park from "playground visit" to "proper morning out."</p>
+
+      <p><strong>Best for:</strong> Nature walks with toddlers, families who want space and variety<br>
+      <strong>Ages:</strong> 1–10<br>
+      <strong>Facilities:</strong> Toilets, café, parking, walking trails, heritage tram<br>
+      <strong>Address:</strong> Wattle Park, Burwood<br>
+      <strong>Tip:</strong> Visit on a weekday morning for the quietest experience. Weekends are popular with dog walkers, runners, and families — which is lovely but busier</p>
+
+      <h3>6. Gardiners Creek Reserve, Glen Iris</h3>
+
+      <p>The playground at Gardiners Creek Reserve sits right alongside the <strong>Gardiners Creek Trail</strong>, making it a natural stopping point on a family bike ride or walk. The equipment is modern and well-maintained, with climbing structures, swings, and a sandpit. But the real attraction is the creek corridor itself — a ribbon of green that winds through the eastern suburbs, lined with native plantings and mature trees.</p>
+
+      <p>For families with older toddlers and preschoolers, the combination of playground and trail is brilliant. Ride or scooter along the path, stop at the playground for a play session, then continue along the creek. The trail is flat, sealed, and pram-friendly, and in autumn the overhanging trees create a canopy of gold that makes the ride genuinely beautiful.</p>
+
+      <p>The creek is shallow enough in most sections for supervised wading and stone-throwing — two activities that occupy toddlers for far longer than any piece of play equipment ever could.</p>
+
+      <p><strong>Best for:</strong> Active families, combining with a <a href="/blog/best-bike-scooter-trails-kids-melbourne-family-cycling-guide">bike or scooter ride</a><br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Facilities:</strong> Parking, connected trail network<br>
+      <strong>Address:</strong> Gardiners Creek Reserve, Glen Iris<br>
+      <strong>Combine with:</strong> The Gardiners Creek Trail runs all the way to Chadstone in one direction and toward the Yarra in the other — pick a section and explore</p>
+
+      <h2>🔒 Best Fenced Playgrounds (For Runners)</h2>
+
+      <h3>7. Victoria Park Playground, Kew</h3>
+
+      <p>If your toddler's primary hobby is sprinting toward the nearest road, Victoria Park has you covered. The playground area is <strong>well-fenced</strong> with a good range of equipment for different ages — climbing frames, slides, swings, and a sandpit. The park itself is enormous, with wide open fields used for sports on weekends and perfect for running, kite-flying, or ball games on quieter days.</p>
+
+      <p>What makes Victoria Park a regular fixture for Kew families is its reliability. The equipment is well-maintained, there's always shade from the established trees, the toilets are clean, and there's enough space that even on busy days it doesn't feel overcrowded. It's the playground equivalent of your favourite weeknight dinner — nothing flashy, consistently excellent, always satisfying.</p>
+
+      <p><strong>Best for:</strong> Everyday play, toddlers who run, families who value reliability<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Fenced:</strong> Yes<br>
+      <strong>Facilities:</strong> Toilets, parking, sports ovals, open grass<br>
+      <strong>Address:</strong> Victoria Park, Kew</p>
+
+      <h3>8. Fritsch Holzer Park, Balwyn North</h3>
+
+      <p>A beautifully upgraded playground that's become a favourite for Balwyn families. The play equipment is modern and varied — a climbing tower with multiple slides, a rope bridge, swings, and spinning elements. The space is <strong>partially fenced</strong> with clear sightlines, so you can see your child from anywhere in the playground area.</p>
+
+      <p>The park features a lovely landscape design with gentle mounding and garden beds that create a sense of exploration without any dead corners where kids can disappear. The open grass areas are generous, and there are excellent picnic facilities including sheltered tables and barbecues.</p>
+
+      <p>For families in the Balwyn North and Doncaster border area, this fills a gap that the older local playgrounds couldn't. It's modern, it's well-designed, and it has enough variety to keep kids engaged for a solid hour — which is the real benchmark for any playground.</p>
+
+      <p><strong>Best for:</strong> Modern equipment, families wanting a freshly upgraded space<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Facilities:</strong> Toilets, barbecue, parking, sheltered picnic area<br>
+      <strong>Address:</strong> Fritsch Holzer Park, Balwyn North</p>
+
+      <h2>☕ Best Playground-Café Combos</h2>
+
+      <h3>9. Auburn Hotel Beer Garden Playground, Hawthorn East</h3>
+
+      <p>We featured the <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">Auburn Hotel</a> in our café guide, and it deserves a mention here too — because the beer garden playground is legitimately good. An <strong>enclosed outdoor playground with climbing equipment and slides</strong> sits right in the garden, visible from every table. The pub food is solid, the kids' menu is thoughtful, and on Sundays between 12:30 and 3:30 PM they run a <strong>free petting zoo</strong> with goats, rabbits, guinea pigs, and chicks.</p>
+
+      <p>For a Sunday family lunch where both parents and kids are genuinely happy, this is hard to beat anywhere in Melbourne's east. Book ahead for Sundays — the petting zoo is popular for obvious reasons.</p>
+
+      <p><strong>Best for:</strong> Sunday family lunch, combining food and play<br>
+      <strong>Ages:</strong> 1–7<br>
+      <strong>Address:</strong> 85 Auburn Road, Hawthorn East<br>
+      <strong>Tip:</strong> Book a garden table. Walk-ups on Sunday are risky</p>
+
+      <h3>10. Kellet Reserve, Kew</h3>
+
+      <p>A street-level playground with a sneaky advantage: <strong>city views</strong>. Kellet Reserve sits on the Kew hillside, and while the playground itself is modest — suitable for toddlers and young preschoolers — the panoramic views across to the CBD give it a special-occasion feel that elevates a regular playground run. The equipment includes a small climbing structure, swings, and a sandbox.</p>
+
+      <p>More importantly, it's within easy walking distance of several excellent cafés along Cotham Road. The combination of playground, views, and good coffee makes Kellet Reserve a favourite for weekday morning playdates among Kew parents — the kind of local secret that doesn't make the Instagram guides but fills a gap in your weekly routine beautifully.</p>
+
+      <p><strong>Best for:</strong> Toddlers, a quiet weekday play with a view<br>
+      <strong>Ages:</strong> 1–5<br>
+      <strong>Facilities:</strong> Street parking, nearby cafés<br>
+      <strong>Address:</strong> Kellet Reserve, Kew</p>
+
+      <h2>📋 Planning Your Inner East Playground Day</h2>
+
+      <p>The inner east is compact enough that you can cluster two playground visits into a single morning. Here are two routes we love:</p>
+
+      <h3>Route A: Hawthorn to Camberwell Morning</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Central Gardens Rocket Park, Hawthorn for imaginative play</li>
+        <li><strong>10:30 AM</strong> — Coffee on Glenferrie Road (plenty of <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly options</a>)</li>
+        <li><strong>11:15 AM</strong> — Drive 8 minutes to Fordham Reserve, Camberwell for musical play and the hill slide</li>
+        <li><strong>12:00 PM</strong> — Lunch on Burke Road — the bakeries and cafés are excellent</li>
+      </ol>
+
+      <h3>Route B: Kew to Ashburton Adventure</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Hays Paddock, Kew East for creek play and nature exploring</li>
+        <li><strong>11:00 AM</strong> — Drive 12 minutes to Markham Reserve, Ashburton</li>
+        <li><strong>11:00 AM</strong> — Balance bike or scooter laps on the track, then climbing and sandpit play</li>
+        <li><strong>12:30 PM</strong> — Lunch at one of the Ashburton village cafés on High Street</li>
+      </ol>
+
+      <h2>🎒 What to Pack</h2>
+
+      <ul>
+        <li><strong>Balance bike or scooter</strong> — essential for Markham Reserve and the Gardiners Creek Trail</li>
+        <li><strong>Gumboots or old shoes</strong> — for creek play at Hays Paddock and Gardiners Creek (feet will get wet; accept this early)</li>
+        <li><strong>Sunscreen and hats</strong> — autumn UV is moderate (index 3–4) but still needs protection on clear days</li>
+        <li><strong>Sand toys</strong> — Markham Reserve and Central Gardens both have excellent sandpits</li>
+        <li><strong>A bag for nature treasures</strong> — autumn leaves, interesting sticks, smooth creek stones. The inner east's mature gardens produce world-class collecting material in March and April</li>
+        <li><strong>Layers</strong> — inner-east mornings can sit around 12–14°C before warming to the low 20s by late morning. A zip-up hoodie is the universal toddler autumn uniform</li>
+        <li><strong>Snacks and water</strong> — the inner east has excellent cafés near most playgrounds, but the queue with a hungry toddler is never fun. Pack emergency rations</li>
+      </ul>
+
+      <h2>🍂 Why Autumn Is the Inner East's Best Season</h2>
+
+      <p>Melbourne's inner east earns its "leafy" reputation most honestly in autumn. The established gardens and tree-lined streets that define suburbs like Hawthorn, Kew, and Camberwell come alive from late March through May with a colour display that rivals anywhere in the city. Liquid ambers turn scarlet, oaks go golden, and plane trees drop leaves the size of dinner plates.</p>
+
+      <p>For playground visits, this matters more than you'd think. The mature tree canopy that's merely pleasant in summer becomes <strong>genuinely magical in autumn</strong> — dappled golden light, crunchy leaves underfoot, and a sensory richness that adds an extra dimension to every outing. Toddlers who might spend twenty minutes on play equipment will spend forty minutes collecting leaves, throwing them in the air, and crunching through piles.</p>
+
+      <p>The temperature is ideal too. Autumn highs of 18–23°C mean comfortable outdoor play all morning without summer's heat stress. Play equipment stays cool to touch, nobody needs constant water breaks, and you can sit on a park bench with a takeaway coffee in genuine comfort. This is the season the inner east was designed for.</p>
+
+      <h2>Why the Inner East Is Worth Exploring</h2>
+
+      <p>The inner east doesn't have the mega-playgrounds of the outer suburbs — the towering structures of <a href="/blog/best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham">South Morang's Granite Hills</a> or the splash parks of Doreen. What it has instead is <strong>depth</strong>. A density of well-maintained, thoughtfully designed playgrounds woven into beautiful parkland, with excellent cafés and shops nearby.</p>
+
+      <p>It's the kind of area where you can have a different playground experience every day of the week without driving more than ten minutes. Creek play on Monday. Bike track on Tuesday. Rocket ship on Wednesday. Nature walk on Thursday. Café-playground combo on Friday. Each one offers something distinct, and each one sits in surroundings that make the outing feel like more than just "going to the park."</p>
+
+      <p>Whether you're an inner-east local looking to break out of your regular rotation or a family from across town planning a day trip, Melbourne's inner east won't disappoint. The playgrounds are excellent, the parks are beautiful, and there's always a good coffee within walking distance. What more could you ask for?</p>
+
+      <p>Find more playgrounds near you with our <a href="/search?category=playground">playground finder</a> — filter by fencing, shade, and facilities to find the perfect spot for your crew. 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-23T07:00:00+11:00',
+    category: 'playgrounds',
+    tags: ['playgrounds inner east Melbourne', 'best playgrounds Hawthorn', 'Camberwell playgrounds families', 'Kew playgrounds toddlers', 'Markham Reserve Ashburton', 'fenced playgrounds Boroondara', 'Central Gardens Rocket Park', 'Hays Paddock Kew East', 'Wattle Park Burwood', 'Gardiners Creek trail playground', 'Balwyn playgrounds kids', 'autumn playgrounds Melbourne'],
+    seoTitle: "Best Playgrounds in Melbourne's Inner East: Hawthorn, Camberwell, Kew & Balwyn Family Guide (2026)",
+    seoDescription: "Discover the best family playgrounds in Melbourne's inner east — from the iconic Rocket Park in Hawthorn to fenced bike tracks in Ashburton and creek play in Kew East. 10 top picks with practical tips for families with toddlers."
+  },
+  {
     slug: 'melbourne-april-school-holidays-2026-two-week-activity-planner-families',
     title: 'Melbourne April School Holidays 2026: Your Two-Week Activity Planner for Families with Little Ones',
     excerpt: 'School holidays start April 3 and run through Easter to April 19. Two whole weeks. Here\'s your day-by-day planning framework — what to book now, what\'s free, and how to survive the fortnight without losing your mind or your savings.',
