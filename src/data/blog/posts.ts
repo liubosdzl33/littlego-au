@@ -15,6 +15,193 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'whats-on-this-week-melbourne-families-march-25-29-2026',
+    title: "What's On This Week in Melbourne for Families: Comedy Festival Opens, Flower Show Blooms & a Packed Multicultural Weekend (March 25–29)",
+    excerpt: "This is one of those weeks where Melbourne throws everything at you at once. The Comedy Festival launches its 40th year, the Flower and Garden Show takes over Carlton Gardens, and the weekend is bursting with free multicultural festivals. Here's your family guide to making the most of it all.",
+    content: `
+      <p>If Melbourne had a "peak festival" setting, this would be it. In the space of five days, the city launches its <strong>40th Melbourne International Comedy Festival</strong>, the <strong>Melbourne International Flower and Garden Show</strong> takes over Carlton Gardens, the <strong>Food and Wine Festival</strong> wraps up its final weekend, and Saturday delivers a trio of free multicultural festivals that would be headline events in any other week. Oh, and there's an Easter egg hunt at the top of a skyscraper.</p>
+
+      <p>For families with little ones, this much happening at once is both exciting and slightly overwhelming. The good news: most of the best stuff is free, it's all happening in the CBD or inner suburbs, and the weather is looking like classic Melbourne autumn — a bit of drizzle early Saturday, then clearing to a pleasant Sunday. Here's how to navigate the week without losing your mind, your toddler, or your parking spot.</p>
+
+      <h2>🌸 Melbourne International Flower and Garden Show (March 25–29)</h2>
+
+      <h3>Royal Exhibition Building & Carlton Gardens</h3>
+
+      <p>This year's theme is <strong>Kaleidoscope</strong>, and it's a beauty. The Melbourne International Flower and Garden Show transforms the Royal Exhibition Building and surrounding Carlton Gardens into a stunning celebration of colour, design, and — this is the bit that matters for families — <strong>free entry for kids under 16</strong>.</p>
+
+      <p>Inside the Exhibition Building, you'll find jaw-dropping floral displays, show gardens, and landscape designs that are genuinely impressive even if your horticultural knowledge peaks at "water the basil sometimes." For toddlers and preschoolers, the visual spectacle alone is worth the visit — rooms full of colour, scent, and texture are a sensory experience that holds young attention far better than you'd expect. Children can get hands-on with <strong>colouring and craft activities</strong>, and there are plenty of interactive elements designed to engage small people alongside the more adult-oriented displays.</p>
+
+      <p>But here's the real family play: <strong>Carlton Gardens itself</strong> is one of Melbourne's most magnificent parks, and it's at its absolute autumn best right now. The European trees lining the avenues are turning gold and russet, the fountain is running, and the playground — yes, there's a playground right there — is a perfect complement to an indoor flower show visit. Toddlers who hit their exhibition limit (approximately 25 minutes, if we're being honest) can be released into the gardens while you keep browsing in shifts.</p>
+
+      <p>Friday and Saturday evenings bring <strong>Gardens by Twilight</strong> sessions running until 9:30 PM — a magical after-dark experience where the displays are lit up and the atmosphere shifts to something almost fairy-tale. If you have a child who still naps in the afternoon and you can manage a late evening, the twilight session is genuinely special.</p>
+
+      <ul>
+        <li><strong>When:</strong> Wednesday March 25 – Sunday March 29</li>
+        <li><strong>Hours:</strong> Wed–Thu 9 AM – 5 PM, Fri–Sat 10 AM – 9:30 PM (Gardens by Twilight), Sun 10 AM – 5 PM</li>
+        <li><strong>Where:</strong> Royal Exhibition Building & Carlton Gardens</li>
+        <li><strong>Cost:</strong> Adults from $28, <strong>kids under 16 free</strong></li>
+        <li><strong>Tip:</strong> Wednesday (today!) is opening day and typically the quietest. If you can swing a weekday visit, you'll have far more space to navigate with a pram than on the weekend. Book timed sessions online — some are already selling out</li>
+      </ul>
+
+      <h2>🎭 Melbourne International Comedy Festival Opens (March 25 – April 19)</h2>
+
+      <h3>Venues Across the City</h3>
+
+      <p>The Comedy Festival is turning <strong>40 this year</strong>, and it's celebrating with the biggest program yet — including an expanded family lineup that runs right through the April school holidays. The festival officially opens today (March 25), though most of the kids' shows kick in from April 3 when school breaks up.</p>
+
+      <p>Here's why this matters <em>right now</em>: the best kids' shows sell out during the first week of ticket sales, and if you haven't booked yet, some sessions are already gone. This is your nudge to open comedyfestival.com.au tonight and lock in a show or two for the holidays. Our <a href="/blog/melbourne-april-school-holidays-2026-two-week-activity-planner-families">school holidays planner</a> has the full rundown of family shows, but here are the highlights:</p>
+
+      <ul>
+        <li><strong>Comedy Club for Kids</strong> — the flagship family show, always excellent</li>
+        <li><strong>The Listies</strong> — anarchic, hilarious, and utterly beloved by preschoolers</li>
+        <li><strong>Trash Test Dummies</strong> — physical comedy that works brilliantly for toddlers who don't follow dialogue but absolutely understand slapstick</li>
+        <li><strong>Signor Baffo</strong> — wordless physical comedy. Crosses every age and language barrier</li>
+        <li><strong>Tricky Nick Magic Show</strong> — magic is catnip for 3–5 year olds</li>
+        <li><strong>Winni Wizard and Her Magical Smells</strong> — at ACMI, running the full holiday period. Perfectly pitched for under-5s</li>
+        <li><strong>Elixir Revived</strong> (opens March 27) — a post-apocalyptic circus comedy with jaw-dropping acrobatics. More suited to older kids but the circus elements will mesmerise preschoolers too</li>
+      </ul>
+
+      <p>Even if you're not seeing a show this week, the Comedy Festival transforms the city's atmosphere. Street performers pop up around the CBD, venues buzz with energy, and there's a general sense of fun that makes any city outing feel a bit more festive. If you're in town for the Flower Show or any of the weekend events, you'll feel the festival energy everywhere.</p>
+
+      <p><strong>Book now:</strong> comedyfestival.com.au — matinee sessions sell first, so grab those if you have a napper</p>
+
+      <h2>🍽️ Melbourne Food and Wine Festival — Final Days (Until March 29)</h2>
+
+      <p>The 2026 Melbourne Food and Wine Festival wraps up this Sunday, which means this weekend is your last chance to soak up the festival atmosphere. The hub at <strong>Federation Square</strong> remains the most family-friendly way to experience MFWF — grab street food from the stalls, sit on the steps, and let the kids watch the world go by before walking to Birrarung Marr playground.</p>
+
+      <p>The tip we gave in our <a href="/blog/whats-on-this-week-melbourne-families-march-18-22-2026">earlier MFWF guide</a> still applies: skip the ticketed masterclasses, arrive at Fed Square around 11:30 AM before the lunch rush, and treat it as a casual food-and-play outing rather than a structured event. Your toddler doesn't care about wine pairings — they care about the pigeons and the fountain. Both are free.</p>
+
+      <h2>🎉 The Big Weekend: Free Multicultural Festivals (March 28–29)</h2>
+
+      <p>Saturday and Sunday are packed with free community events, and the multicultural lineup is particularly strong this week. If you've been meaning to introduce your toddler to the world beyond your suburb, this is a brilliant weekend to do it.</p>
+
+      <h3>🕌 Eid in the City (Saturday & Sunday)</h3>
+
+      <p>A vibrant celebration of Eid al-Fitr across two iconic Melbourne venues. On <strong>Saturday</strong>, the State Library of Victoria hosts performances including Bosnian, Afghan, and Palestinian dance, African and South Asian music, and plenty of food stalls with dishes from across the Muslim world. On <strong>Sunday</strong>, celebrations continue at Fed Square.</p>
+
+      <p>For families, this is a beautiful sensory experience — live drumming, colourful performances, incredible food aromas, and the kind of festive energy that makes toddlers wide-eyed and happy. Markets and cultural festivals are brilliant for young children because the entertainment is constant and everywhere — you don't need to sit still or follow a program.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday March 28 & Sunday March 29</li>
+        <li><strong>Where:</strong> State Library of Victoria (Sat) & Federation Square (Sun)</li>
+        <li><strong>Cost:</strong> Free</li>
+      </ul>
+
+      <h3>🇮🇩 Indonesian Festival (Saturday & Sunday)</h3>
+
+      <p>Queen Victoria Market hosts a weekend-long celebration of Indonesian culture and cuisine. If your toddler has never tried satay from an authentic Indonesian street-food stall, this is the moment. The market atmosphere — bustling, noisy, colourful — is exactly the kind of environment that toddlers thrive in, and the food is affordable and genuinely delicious.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday March 28 & Sunday March 29</li>
+        <li><strong>Where:</strong> Queen Victoria Market</li>
+        <li><strong>Cost:</strong> Free entry (food at stall prices)</li>
+        <li><strong>Combine with:</strong> Walk to Flagstaff Gardens playground afterwards — five minutes on foot, with gorgeous autumn trees</li>
+      </ul>
+
+      <h3>🧁 Baker's Dozen (Saturday & Sunday)</h3>
+
+      <p>It's baking, it's caking, and it's free. This delightful event celebrates all things baked, and while the details are geared toward adults, any toddler who has opinions about cake (so… all toddlers) will enjoy the sights and smells. Perfect to combine with one of the other weekend events.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday March 28 & Sunday March 29</li>
+        <li><strong>Cost:</strong> Free</li>
+      </ul>
+
+      <h3>🌏 Carlton Harmony Day (Saturday)</h3>
+
+      <p>A late addition to the Harmony Week celebrations — free family fun with activities, food, and music in one of Melbourne's most multicultural neighbourhoods. Carlton's food scene needs no introduction, and the community atmosphere at these events is genuinely warm.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday March 28</li>
+        <li><strong>Where:</strong> Carlton</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Combine with:</strong> Melbourne Museum is a short walk away — the <a href="/blog/free-museums-galleries-toddlers-melbourne-cultural-days-out-guide">Children's Gallery</a> is free for under-16s and a perfect indoor backup</li>
+      </ul>
+
+      <h2>🥚 Skyline Melbourne Easter Egg Hunt (Saturday & Sunday)</h2>
+
+      <p>Here's one for families who like their Easter hunts with a view. <strong>Skyline Melbourne</strong> (the observation deck at Melbourne Central) is running an Easter egg hunt across the weekend. Details and ticket info are on their website — it's a fun novelty for kids who've outgrown the playground egg hunt but aren't quite ready for the full chocolate aisle meltdown at Woolworths. The city views from up top are worth the visit alone.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday March 28 & Sunday March 29</li>
+        <li><strong>Where:</strong> Skyline Melbourne</li>
+        <li><strong>Check:</strong> Booking may be required — visit their website for details</li>
+      </ul>
+
+      <h2>🏃 Herald Sun / Transurban Run for the Kids (Sunday March 29)</h2>
+
+      <p>Not technically a "kids' activity" in the sit-down-and-watch sense, but the annual <strong>Run for the Kids</strong> is a Melbourne institution and a brilliant spectacle for families. The course winds through the CBD, and watching thousands of runners stream past while cheering from the sideline is genuinely exciting for small children — especially if someone they know is running.</p>
+
+      <p>The event supports the <strong>Royal Children's Hospital Good Friday Appeal</strong>, so there's a feel-good community atmosphere all morning. If you're in the city for any of the weekend festivals, the run adds an extra layer of energy and celebration.</p>
+
+      <ul>
+        <li><strong>When:</strong> Sunday March 29, morning</li>
+        <li><strong>Where:</strong> CBD course</li>
+        <li><strong>Note:</strong> Expect some road closures in the CBD on Sunday morning — plan your travel accordingly if you're driving in for other events</li>
+      </ul>
+
+      <h2>🎪 Still Going: KaBloom at Tesselaar (Until April 19)</h2>
+
+      <p>If you missed the opening weekend, <strong>Tesselaar KaBloom</strong> in the Dandenongs is still in full swing — circus performers among millions of autumn flowers, tractor train rides, and the kind of colourful spectacle that toddlers remember for weeks. Kids under 16 are typically free with a paying adult. Pack layers and gumboots for the hills. See our <a href="/blog/whats-on-this-week-melbourne-families-march-18-22-2026">earlier guide</a> for full details.</p>
+
+      <h2>🌤️ Weather Watch</h2>
+
+      <p>The forecast is classic late-March Melbourne:</p>
+
+      <ul>
+        <li><strong>Wednesday–Thursday:</strong> Mild and pleasant, around 20–22°C. Perfect for the Flower Show — warm enough to enjoy the gardens, cool enough that nobody overheats</li>
+        <li><strong>Friday:</strong> Warming slightly, ideal for Gardens by Twilight in the evening. Bring a light jacket for after sunset</li>
+        <li><strong>Saturday:</strong> Around 19°C with a <strong>chance of showers in the morning</strong> (60%). Don't let this deter you from the festivals — most are undercover or have covered areas, and Melbourne parents know a bit of drizzle is no reason to cancel. Pack a compact umbrella and waterproof jacket for the kids</li>
+        <li><strong>Sunday:</strong> Partly cloudy and pleasant. Good conditions for an outdoor festival day or Run for the Kids spectating</li>
+      </ul>
+
+      <p>Morning temperatures will sit around 12–14°C before warming through the day. The universal late-March parenting uniform applies: layers, layers, layers.</p>
+
+      <h2>📋 Your Week at a Glance</h2>
+
+      <h3>Midweek (Wednesday–Thursday)</h3>
+      <p><strong>Top pick:</strong> Melbourne International Flower and Garden Show at Carlton Gardens. Quieter crowds, beautiful displays, and the playground right outside for when your toddler needs to run. Combine with a walk through the autumn gardens and lunch on Lygon Street.</p>
+
+      <h3>Friday Evening</h3>
+      <p><strong>Top pick:</strong> Gardens by Twilight at the Flower Show (open until 9:30 PM). A magical evening outing if your child's schedule allows it. The lit-up displays are stunning after dark.</p>
+
+      <h3>Saturday</h3>
+      <p><strong>Option A — Multicultural Morning:</strong> Indonesian Festival at QVM → walk to Flagstaff Gardens playground → afternoon at Carlton Harmony Day with a stop at Melbourne Museum.</p>
+      <p><strong>Option B — City Culture:</strong> Eid in the City at the State Library → walk to Flower Show at Carlton Gardens (last chance for the weekend!) → playground in Carlton Gardens.</p>
+      <p><strong>Option C — Easter Fun:</strong> Skyline Melbourne Easter Egg Hunt → city views → down to Fed Square for Food and Wine Festival street food (last weekend!) → Birrarung Marr playground.</p>
+
+      <h3>Sunday</h3>
+      <p><strong>Option A — Festival Finale:</strong> Watch Run for the Kids from the sidelines → Eid in the City at Fed Square → final day of Flower Show → lunch in Carlton or Lygon Street.</p>
+      <p><strong>Option B — Escape the City:</strong> Skip the CBD crowds entirely and head to Tesselaar KaBloom in the Dandenongs → Olinda Playspace → bakery stop in Olinda village. Sometimes the best weekend plan is the one that avoids parking meters.</p>
+      <p><strong>Option C — Low-Key Local:</strong> Two big weekends in a row deserve a breather. Hit your local <a href="/search?category=playground">playground</a>, grab a <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly cafe</a> brunch, and save your energy for the school holidays starting next week.</p>
+
+      <h2>🎒 Packing for This Week</h2>
+
+      <ul>
+        <li><strong>Compact umbrella and waterproof jacket</strong> — Saturday's morning showers are likely. Be prepared and you won't care</li>
+        <li><strong>Layers</strong> — mornings around 12°C, afternoons around 19–22°C. A zip-up hoodie for the kids, a light jacket for you</li>
+        <li><strong>Compact stroller or carrier</strong> — CBD festivals with a bulky pram are a contact sport. Go lightweight if you can</li>
+        <li><strong>Snacks and water</strong> — festival food is incredible but the queue with a hangry toddler is not. Pack emergency rations</li>
+        <li><strong>Cash</strong> — some market and festival stalls are cash-preferred, especially at QVM and community events</li>
+        <li><strong>For the Flower Show:</strong> Your camera. Seriously. The Kaleidoscope displays are going to be extraordinary, and your toddler posing among the blooms is peak Instagram content (we won't judge)</li>
+      </ul>
+
+      <h2>👀 Looking Ahead</h2>
+
+      <p><strong>School holidays start next Friday (April 3)</strong>, and they run through to April 19 — coinciding with Easter and the second half of the Comedy Festival. If you haven't started planning, our <a href="/blog/melbourne-april-school-holidays-2026-two-week-activity-planner-families">two-week school holidays planner</a> has everything you need: day-by-day ideas, what to book now, and a budget-friendly approach to two weeks of "what are we doing today?"</p>
+
+      <p>This week is the calm before the holiday storm — but with the Flower Show, Comedy Festival, and a stack of free multicultural festivals, "calm" is a relative term. Get out there and enjoy it. Melbourne is putting on a show. 🌷</p>
+
+      <p>Find playgrounds near every event with our <a href="/search?category=playground">playground finder</a> — because the best family outing always ends with a good run around. 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-25T07:00:00+11:00',
+    category: 'events',
+    tags: ['whats on this week', 'Melbourne family events March 2026', 'Melbourne Comedy Festival 2026 kids', 'Melbourne Flower and Garden Show 2026', 'Eid in the City Melbourne', 'Indonesian Festival QVM', 'free events Melbourne families', 'Carlton Gardens playground', 'Melbourne Food Wine Festival', 'Run for the Kids 2026', 'Easter egg hunt Melbourne', 'autumn events Melbourne kids'],
+    seoTitle: "What's On This Week Melbourne Families: Comedy Festival, Flower Show & Free Festivals (March 25–29, 2026)",
+    seoDescription: "Your Melbourne family events guide for March 25–29: Comedy Festival opens its 40th year, the Flower and Garden Show blooms at Carlton Gardens (kids free!), plus Eid in the City, Indonesian Festival, and Easter egg hunts. Free events and practical tips for families with toddlers."
+  },
+  {
     slug: 'best-indoor-play-centres-melbourne-toddlers-preschoolers-guide',
     title: 'Best Indoor Play Centres in Melbourne for Toddlers and Preschoolers: Your Rainy Day Rescue Guide',
     excerpt: "When the autumn rain sets in and the playground is a puddle, Melbourne's indoor play centres save the day. From creative children's museums to sensory-friendly gyms, here are the best spots to burn energy indoors with little ones.",
