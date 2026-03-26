@@ -15,6 +15,121 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-kid-friendly-pubs-beer-gardens-playgrounds-melbourne',
+    title: "Best Kid-Friendly Pubs with Beer Garden Playgrounds in Melbourne: Where to Have a Family Lunch Without the Stress",
+    excerpt: "Sometimes you want more than a babycino. Melbourne's best family pubs combine proper beer gardens with enclosed playgrounds, decent food, and the holy grail — a cold drink you can actually finish. Here are the pubs that genuinely get families right.",
+    content: `
+      <p>There comes a Saturday afternoon when you don't want a cafe. You don't want a play centre. You want to sit in a beer garden with a cold drink, eat something that wasn't microwaved, and watch your child play on a climbing frame fifteen metres away while you have an actual adult conversation. Is that too much to ask?</p>
+
+      <p>In Melbourne, no. Not even close. The city has a growing number of pubs that have figured out the formula: <strong>a proper enclosed playground in or next to the beer garden, food that's genuinely good, and an atmosphere where families aren't just tolerated — they're welcomed</strong>. These aren't pubs that stuck a plastic slide in a corner and called it family-friendly. These are venues that have invested in play spaces because they understand that happy kids mean relaxed parents, and relaxed parents stay for dessert.</p>
+
+      <p>With Easter weekend and the <a href="/blog/melbourne-april-school-holidays-2026-two-week-activity-planner-families">school holidays</a> kicking off next week, this is your planning guide for family lunches that don't end in tears. Here are Melbourne's best kid-friendly pubs with beer garden playgrounds.</p>
+
+      <h2>🍺 The Best of the Best</h2>
+
+      <h3>1. The Auburn Hotel — Hawthorn East</h3>
+
+      <p>If you've read our <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">cafe guide</a>, you know we love the Auburn. But it deserves a deeper look here because the beer garden playground is legitimately one of the best pub play spaces in Melbourne. The <strong>enclosed outdoor playground</strong> sits right in the garden with climbing equipment, a slide, and enough variety to hold toddlers and primary schoolers alike. Every table has a clear sightline to the play area — which is the single most important design feature any family pub can offer.</p>
+
+      <p>The food is solid bistro fare: schnitzels, burgers, steaks, and a kids' menu that includes options beyond chips (though there are also chips, because we're not monsters). On <strong>Sundays between 12:30 and 3:30 PM they run a free petting zoo</strong> — goats, rabbits, guinea pigs, and chicks roaming the garden while your toddler completely loses their mind with joy. Book a garden table for Sunday. Seriously. This is the pub lunch to beat.</p>
+
+      <p><strong>Where:</strong> 85 Auburn Road, Hawthorn East<br>
+      <strong>Playground:</strong> Enclosed, visible from all garden tables<br>
+      <strong>Food highlight:</strong> Sunday roast + petting zoo combo<br>
+      <strong>Tip:</strong> Book ahead for Sunday — walk-ups are a gamble</p>
+
+      <h3>2. The Terminus Hotel — Clifton Hill</h3>
+
+      <p>The Terminus has quietly become one of the inner north's best family pubs, and the reason is a <strong>large, fenced beer garden with a dedicated kids' play area</strong> that includes a cubby house, sandpit, and toys. The garden catches afternoon sun beautifully in autumn — warm enough for the kids to play outside while you sit under the heaters as the temperature drops.</p>
+
+      <p>The menu leans modern pub with some genuine standouts: the slow-cooked lamb shoulder and the woodfired pizzas are both excellent. The kids' menu is thoughtful (fish fingers with vegetables, pasta, mini pizzas) and reasonably priced. There's a decent craft beer list alongside the standards, and the wine selection is above what you'd expect from a suburban pub.</p>
+
+      <p>What really sets the Terminus apart is the <strong>atmosphere</strong>. Families fill the garden on weekends, but it never feels like a kids' party venue — there's a balance between family energy and adult socialising that's hard to get right and this pub nails it.</p>
+
+      <p><strong>Where:</strong> 492 Queens Parade, Clifton Hill<br>
+      <strong>Playground:</strong> Fenced garden with cubby house, sandpit, and toys<br>
+      <strong>Food highlight:</strong> Woodfired pizzas and slow-cooked lamb<br>
+      <strong>Best for:</strong> Saturday or Sunday lunch with inner-north friends</p>
+
+      <h3>3. Stomping Ground Brewery — Collingwood</h3>
+
+      <p>We mentioned Stomping Ground in our cafe guide, but let's be honest — it's a pub. A very good one. The <strong>fenced indoor cubby house and play area</strong> is stocked with wooden toys and is visible from the main dining space, which means you can order a tasting paddle and actually taste it. The food goes well beyond standard pub grub: woodfired pizzas, smoked brisket, and rotating seasonal specials that justify a visit even without the kids' area.</p>
+
+      <p>Being a brewery, the beer is obviously exceptional — brewed on-site and rotated regularly. But they also do excellent coffee, which matters at 11 AM on a Saturday when your toddler is ready for lunch but you're not ready for a pint.</p>
+
+      <p><strong>Where:</strong> 100 Gipps Street, Collingwood<br>
+      <strong>Playground:</strong> Fenced indoor cubby house with wooden toys<br>
+      <strong>Food highlight:</strong> Smoked brisket and on-site craft beer<br>
+      <strong>Best for:</strong> Year-round — the indoor play area means weather doesn't matter</p>
+
+      <h3>4. The Royal Hotel — Essendon</h3>
+
+      <p>The Royal has undergone a transformation in recent years, and the <strong>huge beer garden with an enclosed playground</strong> is a big part of why it's become a western suburbs family favourite. The play area has climbing equipment, a slide, and a cubby house — all fenced and visible from the garden tables. The space is generous enough that it handles weekend crowds without feeling chaotic.</p>
+
+      <p>The menu is classic pub done properly: parmas, steaks, fish and chips, and a kids' menu that covers all the bases. Portions are generous and prices are reasonable — a family of four can eat well for under $80, which is hard to beat for a pub lunch in Melbourne. The garden has heaters for cooler autumn afternoons, and the staff are visibly comfortable with families.</p>
+
+      <p><strong>Where:</strong> 887 Mt Alexander Road, Essendon<br>
+      <strong>Playground:</strong> Enclosed outdoor playground in large beer garden<br>
+      <strong>Food highlight:</strong> The parma — it's won awards<br>
+      <strong>Best for:</strong> Western suburbs families wanting a reliable lunch spot</p>
+
+      <h3>5. Zagame's — Boronia</h3>
+
+      <p>This one is an outer-east institution. Zagame's in Boronia has a <strong>massive enclosed outdoor play area</strong> that includes climbing structures, a sandpit, and a grassed area for running. It's big enough that kids genuinely don't want to leave — which is exactly what you want when you're trying to finish a meal and a conversation.</p>
+
+      <p>The bistro menu is extensive (this is a large venue), and the quality is consistently solid. The kids' eat free promotions that run periodically make it exceptionally good value. If you're heading to the Dandenong Ranges for <strong>KaBloom</strong> or the Olinda Playspace, Zagame's is a natural lunch or early dinner stop on the way home.</p>
+
+      <p><strong>Where:</strong> 79 Boronia Road, Boronia<br>
+      <strong>Playground:</strong> Large enclosed outdoor play area with multiple structures<br>
+      <strong>Food highlight:</strong> Extensive bistro menu with regular kids' eat free deals<br>
+      <strong>Combine with:</strong> A <a href="/blog/whats-on-this-week-melbourne-families-march-18-22-2026">Dandenong Ranges day trip</a> — KaBloom is 15 minutes up the hill</p>
+
+      <h3>6. Chelsea Heights Hotel — Chelsea Heights</h3>
+
+      <p>For families in the south-east, the Chelsea Heights Hotel offers a <strong>fully fenced playground in a large beer garden</strong> that's been purpose-built for families. The play equipment is modern, well-maintained, and suited to toddlers through to about age eight. The garden itself is spacious with plenty of shade — important in Melbourne's shoulder seasons when the autumn sun can still pack a punch at lunchtime.</p>
+
+      <p>The menu covers all the pub classics with a few surprises, and the kids' menu is solid without being exciting. What makes Chelsea Heights work is the <strong>combination of space and safety</strong> — the garden is big enough that kids have room to run, and the fencing means you're not chasing a toddler toward the car park every three minutes.</p>
+
+      <p><strong>Where:</strong> 30–32 Argus Street, Chelsea Heights<br>
+      <strong>Playground:</strong> Fully fenced in spacious beer garden<br>
+      <strong>Food highlight:</strong> Generous pub classics at reasonable prices<br>
+      <strong>Best for:</strong> South-east families wanting space and safety</p>
+
+      <h2>💡 Tips for Pub Lunches with Toddlers</h2>
+
+      <h3>Arrive early — ideally before noon</h3>
+      <p>The garden tables with the best playground sightlines go first. Arriving at 11:30 AM means you get your pick, the kitchen isn't slammed, and your food arrives before anyone hits the hunger meltdown. By 12:30 on a weekend, the good tables are gone and the wait for food is longer.</p>
+
+      <h3>Book the garden, not inside</h3>
+      <p>When you call to book, specifically request a <strong>beer garden table with a view of the playground</strong>. Some pubs will seat families inside by default. You want to be outside, facing the play area, close enough to see your child but far enough that you're not in the splash zone.</p>
+
+      <h3>Order kids' meals immediately</h3>
+      <p>Put the kids' food order in as soon as you sit down — before you've even looked at the adult menu. Most pub kitchens can turn around nuggets or fish fingers in under ten minutes. Fed children are happy children. Happy children play independently. Independent play means you eat in peace.</p>
+
+      <h3>Bring backup entertainment</h3>
+      <p>The playground buys you time, but the gap between sitting down and food arriving is the danger zone. A small bag of crayons or a couple of sticker sheets bridges that gap. Think of it as a ten-minute insurance policy.</p>
+
+      <h3>Check the playground first</h3>
+      <p>Before you settle in, walk your toddler to the playground and do a quick check: Is it fenced? Can they reach the gates? Is the equipment age-appropriate? Are there any gaps where a small child could get stuck? Sixty seconds of reconnaissance prevents an hour of anxiety.</p>
+
+      <h2>🍂 Why Autumn Is Peak Pub Garden Season</h2>
+
+      <p>Here's the thing about Melbourne pub beer gardens in autumn: they're <em>better</em> than in summer. The temperatures are comfortable (18–23°C), the play equipment isn't scorching hot, and the afternoon light through autumn leaves turns any decent garden into something genuinely beautiful. Most gardens have heaters or sheltered areas for when the evening chill arrives, and the kitchens shift to heartier menus — slow-cooked roasts, soup specials, and warming desserts — that make a leisurely lunch feel like an occasion.</p>
+
+      <p>With <a href="/blog/easter-2026-melbourne-kids-egg-hunts-school-holiday-activities-guide">Easter weekend</a> starting next Friday, this is the time to book a family pub lunch. The holidays stretch for two weeks, and having a few reliable pub-with-playground options in your back pocket means you'll always have an answer to "where should we go for lunch?" that keeps both the kids and the adults happy.</p>
+
+      <p>Because the truth about family pub lunches is this: when the setup is right — a good playground, a decent kitchen, a cold drink in your hand — <strong>everyone relaxes</strong>. The kids play. The adults talk. Nobody is cutting up someone else's food while their own goes cold. Nobody is chasing a toddler through a formal dining room. It's the closest thing to a pre-kids lunch experience that parenting allows, and Melbourne's best family pubs make it look effortless.</p>
+
+      <p>Find playgrounds near every pub on this list with our <a href="/search?category=playground">playground finder</a> — because sometimes the best afternoon starts with lunch and ends with a good run around. 🍻</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-27T07:00:00+11:00',
+    category: 'reviews',
+    tags: ['kid-friendly pubs Melbourne', 'pubs with playgrounds Melbourne', 'family-friendly beer gardens Melbourne', 'best family pubs Melbourne', 'pub playground Melbourne kids', 'family lunch Melbourne', 'beer garden playground toddlers', 'Auburn Hotel kids', 'Terminus Hotel Clifton Hill', 'Easter family dining Melbourne'],
+    seoTitle: 'Best Kid-Friendly Pubs with Beer Garden Playgrounds in Melbourne (2026 Family Guide)',
+    seoDescription: "Discover Melbourne's best kid-friendly pubs with enclosed beer garden playgrounds — from the Auburn Hotel's Sunday petting zoo to Stomping Ground's indoor play. 6 top picks with tips for stress-free family lunches."
+  },
+  {
     slug: 'toddler-sleep-outdoor-play-playground-time-helps-kids-sleep-better',
     title: 'Toddler Sleep and Outdoor Play: How Playground Time Actually Helps Your Child Sleep Better',
     excerpt: "If your toddler fights bedtime like it's a competitive sport, the answer might not be another sleep book — it might be more time at the park. Here's the science behind why outdoor play leads to better sleep, and how to use Melbourne's playgrounds to your advantage.",
