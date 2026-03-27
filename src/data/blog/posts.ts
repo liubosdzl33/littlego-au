@@ -15,6 +15,108 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'weekend-planner-melbourne-families-march-28-29-2026-rain-then-sunshine',
+    title: "Weekend Planner: A Drizzly Saturday, a Crisp Sunday, and Melbourne's Best Sheltered Playgrounds for Autumn Weather",
+    excerpt: "Saturday's wet and windy — but Sunday opens up beautifully. Here's how to make the most of both days with your little ones, plus the sheltered playgrounds and undercover options that turn iffy weather into a great weekend.",
+    content: `
+      <p>Melbourne has decided to remind us it's autumn. Saturday is <strong>overcast with rain through the morning</strong>, temperatures sitting around 12–19°C with a blustery wind. Sunday swings the other way — <strong>crisp, clear, and cool</strong>, dropping to about 6°C overnight before warming to a pleasant 18°C under partly cloudy skies. It's the kind of weekend that rewards flexibility: stay cosy and undercover on Saturday, then get out and enjoy the best of autumn on Sunday.</p>
+
+      <p>The good news? This is also one of the most event-packed weekends of the year. The <a href="/blog/whats-on-this-week-melbourne-families-march-25-29-2026">Melbourne International Flower and Garden Show</a> wraps up on Sunday, free multicultural festivals fill the city, and the <strong>Run for the Kids</strong> adds a buzz to Sunday morning. Here's your family game plan.</p>
+
+      <h2>🌧️ Saturday March 28: Embrace the Drizzle (12–19°C, Overcast, Morning Rain)</h2>
+
+      <p>Let's be honest: a rainy Saturday morning with a toddler can feel like the walls are closing in. But Melbourne parents know the trick — <strong>the right venue turns drizzle into atmosphere</strong>. Here are three ways to play it.</p>
+
+      <h3>Option A: Indoor Festival Morning</h3>
+
+      <p>Two major free festivals run today despite the weather. <strong>Eid in the City</strong> at the State Library of Victoria (Swanston Street) brings live performances — Bosnian, Afghan, and Palestinian dance, African and South Asian music — plus incredible food stalls under the library's covered forecourt. The energy is festive and warm, and toddlers love the drumming, the colour, and the bustle. Nearby, <strong>Carlton Harmony Day</strong> in Carlton offers free family activities, food, and music in one of Melbourne's most multicultural neighbourhoods.</p>
+
+      <p>Both are undercover or partially sheltered, making them solid rain-proof options. Combine with a quick visit to the <strong>Melbourne Museum Children's Gallery</strong> (free for under-16s, a five-minute walk from Carlton) for a full morning that doesn't depend on sunshine.</p>
+
+      <h3>Option B: Indoor Play Centre Rescue</h3>
+
+      <p>If the morning rain is heavier than forecast, this is the day to deploy your <a href="/blog/best-indoor-play-centres-melbourne-toddlers-preschoolers-guide">indoor play centre</a> backup. Weekday-quiet it won't be — every family in Melbourne has the same idea on a wet Saturday — but arriving before 10 AM at <strong>MoPA</strong> (Sandringham, Thomastown, or Nunawading), <strong>Play Nook</strong> in Northcote, or <strong>We Rock the Spectrum</strong> in Preston gives you the best chance of a calm session before the crowds build. Book online where possible.</p>
+
+      <h3>Option C: The Sheltered Playground Play</h3>
+
+      <p>Here's a secret that separates Melbourne playground veterans from the rookies: <strong>some playgrounds work brilliantly in light rain</strong>. The key is finding spots with mature tree canopy, covered structures, or nearby shelter where you can watch from dry ground while your waterproof-clad toddler splashes through puddles (which, let's be real, is basically a free water park to a two-year-old).</p>
+
+      <p>Our top sheltered picks for a drizzly Saturday:</p>
+
+      <ul>
+        <li><strong>Flagstaff Gardens, CBD</strong> — the enormous elm canopy keeps the playground surprisingly dry in light rain, and the covered rotunda gives you a dry base. Five minutes from Queen Vic Market if you want to combine with the <strong>Indonesian Festival</strong> running all weekend</li>
+        <li><strong>Edinburgh Gardens, Fitzroy North</strong> — the playground sits under mature trees with a covered picnic shelter right beside it. The North Fitzroy cafe strip on St Georges Road is a warm retreat for a coffee and dry-off</li>
+        <li><strong>Central Gardens "Rocket Park", Hawthorn</strong> — the established trees provide good cover, and <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">Glenferrie Road's cafes</a> are a two-minute walk for when the drizzle wins</li>
+      </ul>
+
+      <p><strong>The puddle-play kit:</strong> Gumboots, waterproof jacket, spare socks, spare pants, and a towel in the car. If you're dressed for it, rain is an adventure. If you're not, it's a disaster. The difference is entirely in the preparation.</p>
+
+      <h3>Saturday Afternoon: The Weather Window</h3>
+
+      <p>The forecast shows rain easing by early afternoon, with cloud lingering but the worst of the wet clearing by 1–2 PM. If you stayed inside for the morning, a <strong>post-nap playground session around 3 PM</strong> should land in drier conditions. The playgrounds will be quiet (everyone assumes the whole day is a write-off) and the air after rain has that particular autumn freshness that makes being outside feel clean and alive.</p>
+
+      <p>For a late-afternoon option, the <strong>Skyline Melbourne Easter Egg Hunt</strong> at Melbourne Central is running all weekend — an indoor activity with city views that doesn't care about the weather. Check their website for session availability.</p>
+
+      <h2>☀️ Sunday March 29: The Reward Day (6–18°C, Partly Cloudy, Dry)</h2>
+
+      <p>Sunday is the day to get outside properly. A cold start — <strong>6°C at dawn</strong> — warms to a comfortable 18°C by late morning under partly cloudy skies. The wind drops, the rain is gone, and Melbourne puts on the kind of crisp autumn day that makes every park feel like it's been freshly polished.</p>
+
+      <h3>Morning Pick: Run for the Kids + Eid at Fed Square</h3>
+
+      <p>The annual <strong>Herald Sun Run for the Kids</strong> winds through the CBD on Sunday morning, supporting the Royal Children's Hospital Good Friday Appeal. Even if nobody in your family is running, it's a brilliant spectacle for toddlers — thousands of runners streaming past, cheering crowds, a community atmosphere that's genuinely uplifting. Watch from the sidelines along the course, then walk to <strong>Federation Square</strong> where <strong>Eid in the City</strong> continues with performances, food, and celebrations. Two free events, one easy morning, no booking required.</p>
+
+      <p><strong>Note:</strong> Expect CBD road closures Sunday morning. If you're driving in, park early or better yet, take the train — the city loop stations are all within walking distance of both events.</p>
+
+      <h3>Playground Pick: Make the Most of the Sunshine</h3>
+
+      <p>After a wet Saturday, Sunday's dry weather is your green light for proper outdoor play. With temperatures cool but comfortable, playground equipment will be pleasant to touch (no hot metal slides, no scorching rubber), and the post-rain air has a clarity that makes autumn colours pop. Here are three playground options matched to your mood:</p>
+
+      <p><strong>For a city day:</strong> <strong>Birrarung Marr</strong> is the natural playground pairing with the Run for the Kids and Fed Square events. Excellent equipment, riverside location, and the wide paths are perfect for a scooter or balance bike ride along the Yarra afterwards. If the Flower Show crowds at nearby Carlton Gardens aren't too heavy (it's the last day), combine both for a packed morning.</p>
+
+      <p><strong>For a nature escape:</strong> <strong>Hays Paddock in Kew East</strong> comes alive after rain. The <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">creek will be flowing properly</a>, the autumn trees along the water will be dripping golden, and the playground sits under mature canopy that catches that particular post-rain light beautifully. Bring gumboots for creek-edge exploring — the best kind of Sunday morning mess.</p>
+
+      <p><strong>For a quiet local:</strong> Skip the city entirely. Your nearest <a href="/search?category=playground">local playground</a> on a crisp Sunday morning, a takeaway coffee, a blanket on the grass, and nowhere to be. Sometimes the simplest plan is the best one — especially after a cooped-up Saturday.</p>
+
+      <h3>Sunday Afternoon: The Flower Show Finale</h3>
+
+      <p>The <strong>Melbourne International Flower and Garden Show</strong> wraps up today at Carlton Gardens. If you haven't been yet, this is your last chance — and Sunday afternoon crowds are typically lighter than Saturday. Kids under 16 are free, the Kaleidoscope-themed displays are genuinely stunning, and <strong>the Carlton Gardens playground</strong> is right outside for when your toddler hits their indoor limit. The autumn colours in the gardens themselves are worth the visit even without the show.</p>
+
+      <h2>🎒 Packing for This Weekend</h2>
+
+      <ul>
+        <li><strong>Saturday:</strong> Waterproof jacket, gumboots, umbrella, spare clothes (including socks — wet socks are the enemy). Cash for festival food stalls</li>
+        <li><strong>Sunday:</strong> Warm layers for the cold morning — beanie and zip-up hoodie for the kids, a proper jacket for you. By 11 AM you'll be peeling layers off, so dress in easy-to-remove pieces</li>
+        <li><strong>Both days:</strong> Snacks, water, the eternal wet wipes. A bag for autumn treasures — post-rain parks are peak leaf-collecting season</li>
+      </ul>
+
+      <h2>📋 Your Weekend at a Glance</h2>
+
+      <h3>Saturday (Rain AM → Clearing PM)</h3>
+      <p><strong>Morning:</strong> Eid in the City at State Library (free, undercover) → Melbourne Museum Children's Gallery → Indonesian Festival at QVM if the rain eases.</p>
+      <p><strong>Afternoon:</strong> Post-nap playground session once the rain clears, or Skyline Melbourne Easter Egg Hunt if it stays wet.</p>
+
+      <h3>Sunday (Crisp and Dry, 6–18°C)</h3>
+      <p><strong>Morning:</strong> Run for the Kids spectating → Eid at Fed Square → Birrarung Marr playground. Or skip the city and hit a nature playground like Hays Paddock while the post-rain light is magic.</p>
+      <p><strong>Afternoon:</strong> Flower Show finale at Carlton Gardens (last day!) → playground in the gardens → early dinner as the temperature drops.</p>
+
+      <h2>🔭 Looking Ahead</h2>
+
+      <p>Monday warms right back up — sunshine and a high of <strong>24°C</strong> — so if you miss your outdoor window this weekend, Monday is your redemption day. The <strong>Melbourne International Comedy Festival</strong> is in full swing, with kids' shows running through the April school holidays starting next Friday. If you haven't booked yet, check our <a href="/blog/melbourne-april-school-holidays-2026-two-week-activity-planner-families">school holidays planner</a> — the best matinee sessions are selling fast.</p>
+
+      <p>And here's a parenting truth for weekends like this one: <strong>a wet Saturday followed by a sunny Sunday is actually the ideal combination</strong>. Saturday's enforced slowness — the indoor play, the cosy café stop, the slightly cabin-feverish afternoon — makes Sunday's outdoor time feel like a gift. Your toddler bursts out of the house with the energy of someone who's been caged, the fresh air hits different after a day inside, and the whole family appreciates sunshine in a way that three sunny days in a row doesn't quite achieve.</p>
+
+      <p>Melbourne's weather isn't a bug. It's a feature. Dress for it, plan around it, and enjoy the ride. 🌧️☀️</p>
+
+      <p>Find sheltered playgrounds and parks near you with our <a href="/search?category=playground">playground finder</a> — because the best weekend always includes a good run around, rain or shine. 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-28T07:00:00+11:00',
+    category: 'activities',
+    tags: ['weekend planner Melbourne families', 'rainy day playgrounds Melbourne', 'Melbourne autumn weekend kids', 'sheltered playgrounds Melbourne', 'Melbourne family events March 2026', 'Eid in the City Melbourne', 'Run for the Kids 2026', 'Melbourne Flower Show 2026', 'puddle play toddlers', 'autumn weekend activities Melbourne'],
+    seoTitle: 'Melbourne Family Weekend Planner March 28–29, 2026: Rainy Saturday, Sunny Sunday & Best Sheltered Playgrounds',
+    seoDescription: "Plan your Melbourne family weekend: Saturday brings rain and free indoor festivals (Eid in the City, Indonesian Festival), Sunday clears to crisp autumn sunshine perfect for playgrounds. Sheltered playground picks and practical tips for families with toddlers."
+  },
+  {
     slug: 'best-kid-friendly-pubs-beer-gardens-playgrounds-melbourne',
     title: "Best Kid-Friendly Pubs with Beer Garden Playgrounds in Melbourne: Where to Have a Family Lunch Without the Stress",
     excerpt: "Sometimes you want more than a babycino. Melbourne's best family pubs combine proper beer gardens with enclosed playgrounds, decent food, and the holy grail — a cold drink you can actually finish. Here are the pubs that genuinely get families right.",
