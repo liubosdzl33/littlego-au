@@ -15,6 +15,191 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'daylight-saving-ends-april-2026-toddler-sleep-schedule-adjustment-tips',
+    title: "Daylight Saving Ends April 5: How to Adjust Your Toddler's Sleep Schedule Without the Meltdowns",
+    excerpt: "Clocks go back an hour next Sunday — right in the middle of Easter weekend. Here's a practical, day-by-day plan to shift your toddler's body clock smoothly, plus why Melbourne parents secretly love the end of daylight saving.",
+    content: `
+      <p>Next Sunday — <strong>April 5, 2026</strong> — daylight saving ends in Victoria. At 3 AM, clocks spring back to 2 AM, handing you a glorious extra hour in bed. In theory. In practice, if you have a toddler, that "extra hour" translates to your child waking at what is now 5:15 AM, bright-eyed and ready to discuss dinosaurs, while your body insists it's actually 6:15 AM and the world is unfair.</p>
+
+      <p>The good news? The autumn time change is <strong>easier on kids than the spring one</strong>. You're gaining an hour, not losing one, which means bedtimes shift later rather than earlier — and most toddlers handle that more gracefully. The less-good news is that it lands smack in the middle of <strong>Easter weekend</strong> and the start of <strong>school holidays</strong>, so you're managing a clock change alongside chocolate overload, disrupted routines, and the general chaos that comes with a holiday break.</p>
+
+      <p>Here's your practical, no-panic guide to getting through it — with your toddler's sleep (and your sanity) intact.</p>
+
+      <h2>⏰ What Actually Happens When Clocks Go Back</h2>
+
+      <p>Let's clear up the confusion first, because even adults get muddled by this every year.</p>
+
+      <p>At <strong>3:00 AM on Sunday April 5</strong>, clocks go <strong>back one hour to 2:00 AM</strong>. This means:</p>
+
+      <ul>
+        <li>If your toddler normally wakes at 6:30 AM, their body will wake at the <strong>new 5:30 AM</strong> (because their internal clock still thinks it's 6:30)</li>
+        <li>If bedtime is normally 7:00 PM, their body won't feel tired until <strong>the new 8:00 PM</strong> (because internally it's only 7:00)</li>
+        <li>Nap times, meal times, and energy patterns will all feel "off" by about an hour for the first few days</li>
+      </ul>
+
+      <p>Your toddler's circadian rhythm — the internal body clock that regulates sleep and wake cycles — doesn't read clocks. It responds to <strong>light, routine, and physical cues</strong>. So when we arbitrarily shift the clock, the body needs time to catch up. For most toddlers, this takes <strong>three to seven days</strong>.</p>
+
+      <p>The question is whether those days are a gradual, barely-noticeable shift or a week of early mornings and bedtime battles. Your approach makes the difference.</p>
+
+      <h2>📋 Two Approaches: Gradual Shift vs. Cold Turkey</h2>
+
+      <p>There are two schools of thought on time changes with kids, and honestly, both work. Pick the one that matches your family's temperament.</p>
+
+      <h3>Option A: The Gradual Shift (Start Wednesday April 2)</h3>
+
+      <p>This is the gentler approach, and it works beautifully for toddlers who are sensitive to routine changes or who already have fragile sleep patterns. Starting <strong>three days before</strong> the clock change, you shift everything by 15–20 minutes each day:</p>
+
+      <ul>
+        <li><strong>Wednesday April 2:</strong> Push bedtime 15 minutes later than usual. If bedtime is 7:00 PM, make it 7:15 PM. Push the morning wake-up by 15 minutes too (use blackout curtains and don't rush in at the first sound). Shift naps and meals by the same amount</li>
+        <li><strong>Thursday April 3 (Good Friday):</strong> Push another 15 minutes. Bedtime at 7:30 PM, wake-up aiming for 15 minutes later. Naps and meals follow</li>
+        <li><strong>Friday April 4 (Easter Saturday):</strong> Another 15 minutes. Bedtime at 7:45 PM</li>
+        <li><strong>Saturday April 5 (the night clocks change):</strong> Bedtime at the "new" 7:00 PM — which is actually 8:00 PM old time, but your child has gradually shifted to accept it. Wake-up should land close to the new 6:30 AM</li>
+      </ul>
+
+      <p>By Sunday morning, you've done most of the adjustment already. Your toddler barely noticed because each shift was small enough to feel natural. Elegant, effective, and — let's be real — requires more planning discipline than most of us can muster during Easter weekend. Which brings us to…</p>
+
+      <h3>Option B: Cold Turkey (Just Change the Clock and Deal With It)</h3>
+
+      <p>This is the approach most Melbourne parents actually use, because planning a precise 15-minute daily shift while also hiding Easter eggs and hosting family lunch is ambitious even for the most organised among us.</p>
+
+      <p>With cold turkey, you simply switch to the new time on Sunday morning and run the day on the new schedule. Meals at the new times. Nap at the new time. Bedtime at the new time. Your toddler will resist a bit — they'll wake early, they won't be tired at the new bedtime — but within <strong>three to five days</strong>, their body clock adjusts.</p>
+
+      <p>The cold turkey approach works because toddlers are remarkably adaptable when given consistent cues. Light exposure, meal timing, and activity levels are more powerful clock-setters than the gradual 15-minute shifts. If you commit to running the day on the new schedule from Sunday, their body follows.</p>
+
+      <p><strong>Our honest recommendation?</strong> If your toddler is a good sleeper who handles routine changes well, go cold turkey. If your child is sleep-sensitive, prone to overtiredness meltdowns, or already in a fragile sleep phase, the gradual approach is worth the effort. Most families land somewhere in between — a loose 30-minute shift on Friday and Saturday, then cold turkey from Sunday.</p>
+
+      <h2>🌅 The Early Morning Problem (and How to Fix It)</h2>
+
+      <p>The biggest challenge with the autumn time change isn't bedtime — it's <strong>the early wake-up</strong>. Your toddler's body clock will still fire at the old time, which means they'll wake an hour earlier by the new clock. A child who normally wakes at 6:30 AM will wake at 5:30 AM. A 6:00 AM riser becomes a 5:00 AM riser. Nobody wins at 5:00 AM.</p>
+
+      <p>Here's how to manage it:</p>
+
+      <h3>Blackout curtains are non-negotiable</h3>
+
+      <p>Light is the single most powerful signal for your toddler's circadian rhythm. Even a sliver of dawn light through a gap in the curtains tells their brain "it's morning, time to wake up." In early April, sunrise in Melbourne is around <strong>7:10 AM AEDT (which becomes 6:10 AM AEST after the change)</strong>. That's early enough to trigger waking if the room isn't properly dark.</p>
+
+      <p>If you don't have blackout curtains, this is the week to get them. Or use the parent hack: <strong>black garbage bags taped over the window</strong>. It's ugly, it works, and nobody is judging your window décor during a time change. Portable blackout blinds (the suction-cup kind) are also excellent and travel well for holiday visits.</p>
+
+      <h3>Don't rush in at first sound</h3>
+
+      <p>When your toddler wakes at the new 5:30 AM, pause. Don't rush in immediately. Many toddlers will grumble, babble, or protest for 10–15 minutes and then <strong>resettle</strong> — especially if the room is dark and there's no parental arrival to reward the early wake-up. Give them a chance to drift back to sleep before you go in.</p>
+
+      <p>If they're genuinely awake and not going back, that's okay. Go in calmly, keep the lights low, and start the morning routine — but try to push breakfast closer to the <strong>new clock time</strong> rather than the old one. Eating at the new 7:00 AM instead of the new 5:30 AM sends a powerful signal to the body clock about when "morning" is.</p>
+
+      <h3>Morning light exposure (at the right time)</h3>
+
+      <p>Here's the counterintuitive bit: while you want to <strong>block light</strong> in the bedroom to prevent early waking, you want to <strong>flood your child with bright light</strong> at the new desired wake-up time. Open the curtains, turn on the lights, go outside if possible. Morning light exposure within 30 minutes of the target wake-up time is the fastest way to shift the circadian clock forward.</p>
+
+      <p>A <a href="/blog/toddler-sleep-outdoor-play-playground-time-helps-kids-sleep-better">morning playground visit</a> in the first few days after the time change does double duty: it delivers the bright light that resets the body clock, and the physical activity builds the sleep pressure that makes the new bedtime work. If there's one thing to prioritise in the first week of April, it's getting outside in the morning.</p>
+
+      <h2>🌙 Bedtime: Pushing Through the "Not Tired Yet" Phase</h2>
+
+      <p>On the flip side, bedtime may be tricky for a few nights. Your child's body won't feel tired at the new 7:00 PM because internally it's only 6:00 PM. They'll be wired, chatty, and suspicious of your motives when you announce bath time.</p>
+
+      <p>Strategies that help:</p>
+
+      <ul>
+        <li><strong>Start the bedtime routine 10 minutes earlier than usual</strong> — the extra buffer absorbs the resistance and prevents you from pushing into overtiredness territory</li>
+        <li><strong>Dim the lights from 5:30 PM onwards.</strong> Reducing light exposure in the evening triggers melatonin production earlier. Turn off overhead lights, use lamps, and avoid screens (yes, all of them — the blue light from tablets is the enemy of early bedtime)</li>
+        <li><strong>Keep the room cool and dark.</strong> A slightly cooler room (18–20°C) supports the natural body temperature drop that initiates sleep. Melbourne autumn evenings are perfect for this — open a window for 10 minutes before bed</li>
+        <li><strong>Don't stress about one or two late nights.</strong> If bedtime blows out by 30 minutes for the first couple of nights, that's normal. The adjustment happens fastest when you're consistent with morning routine and light exposure — bedtime follows within a few days</li>
+      </ul>
+
+      <h2>😴 Nap Adjustments</h2>
+
+      <p>If your toddler still naps (and if they've dropped the nap, skip this section and accept my sympathies), the time change affects nap timing too. Your child will feel ready for their nap an hour earlier by the new clock.</p>
+
+      <p>The simplest approach: <strong>split the difference</strong>. If nap is normally at 12:30 PM, offer it at the new 12:00 PM for the first two to three days, then gradually push it back to 12:30. This prevents the nap from drifting too early (which leads to a too-long afternoon and bedtime chaos) while acknowledging that their body genuinely is tired earlier.</p>
+
+      <p>If your child is in the twilight zone of nap transition — some days they nap, some days they don't — the time change might tip them either way. Don't fight it. A week of inconsistent napping during the adjustment is normal and will settle once the body clock catches up.</p>
+
+      <h2>🐣 The Easter Complication</h2>
+
+      <p>Here's what makes this particular time change uniquely challenging: it happens on <strong>Easter Sunday</strong>. Which means you're managing a circadian rhythm adjustment alongside:</p>
+
+      <ul>
+        <li>Chocolate for breakfast (don't pretend you won't allow it)</li>
+        <li>Easter egg hunts that spike adrenaline right when you need calm</li>
+        <li>Family gatherings that blow through nap windows</li>
+        <li>Late nights at relatives' houses because "it's a holiday"</li>
+        <li>Sugar crashes of spectacular proportions</li>
+      </ul>
+
+      <p>The realistic approach? <strong>Write off Easter weekend for sleep</strong>. Seriously. Accept that Friday through Monday will be chaotic, sugar-fuelled, and off-schedule. Focus your time-change adjustment efforts on <strong>Tuesday April 7 onwards</strong>, when the holidays are still going but the Easter madness has passed. Get back to a consistent morning routine, prioritise outdoor play, and let the body clock sort itself out over the working week.</p>
+
+      <p>If you try to enforce perfect sleep hygiene on Easter Sunday while also hosting lunch and managing an egg hunt, you'll make yourself miserable. Give yourself permission to deal with one thing at a time. Easter first, body clock second.</p>
+
+      <h2>🍂 Why Melbourne Parents Secretly Love the End of Daylight Saving</h2>
+
+      <p>Once the adjustment settles — and it will, usually within a week — the end of daylight saving is actually <strong>brilliant for families with young kids</strong>. Here's why:</p>
+
+      <h3>Earlier sunsets = easier bedtimes</h3>
+
+      <p>From April 5 onwards, the sun sets around <strong>5:50 PM AEST</strong> and gets earlier each week through winter. By the time you're doing bath and books at 6:30 PM, it's properly dark outside. And darkness is your ally at bedtime — it triggers natural melatonin production, removes the "but it's still light outside!" protest, and creates a cosy, settling atmosphere that makes the bedroom routine feel right.</p>
+
+      <p>If you've been battling summer and early-autumn bedtimes where your toddler could see sunlight streaming through the curtains at 7:30 PM, the shift to standard time is a relief. Darkness does half your bedtime work for you.</p>
+
+      <h3>Morning light at wake-up time</h3>
+
+      <p>After the change, sunrise shifts to around <strong>6:10 AM AEST</strong> in early April, gradually moving to 7:00 AM by late April. This means natural light arrives right around the time most toddlers wake — which reinforces a healthy circadian rhythm far better than waking in darkness (as happens in winter) or sleeping through bright mornings (as happens in summer's early dawns).</p>
+
+      <h3>The outdoor play window shifts earlier</h3>
+
+      <p>With sunset at 5:50 PM, the "golden hour" of afternoon play — that magical pre-dinner window when the light is warm and the air is cool — moves to around <strong>4:00–5:30 PM</strong>. For families with toddlers, this is actually a better fit than the daylight saving equivalent of 5:00–6:30 PM. You can do playground time, come home, and go straight into the dinner-bath-bed routine without that awkward 45-minute gap where it's too late to go out but too early for bedtime.</p>
+
+      <h3>Autumn evenings for parents</h3>
+
+      <p>When bedtime moves from a bright-sky 7:30 PM to a dark-sky 7:00 PM, something magical happens: <strong>your evenings get longer</strong>. Not on the clock, but in feeling. Your toddler goes down easier and earlier, the house is quiet before 8 PM, and you get that precious window of adult time that summer's endless daylight stole from you. Pour yourself something warm. You've earned it.</p>
+
+      <h2>📅 Your Day-by-Day Adjustment Plan</h2>
+
+      <p>Here's a simple plan that works for most families. Adjust to your child's temperament — more sensitive sleepers need the gentler approach, robust sleepers can handle bigger jumps.</p>
+
+      <h3>Wednesday April 2 – Thursday April 3</h3>
+      <p>If using the gradual approach: push bedtime and wake-up 15 minutes later each day. If going cold turkey: change nothing yet. Enjoy the last days of daylight saving.</p>
+
+      <h3>Friday April 4 – Saturday April 5 (Easter Weekend)</h3>
+      <p>Easter chaos takes priority. Don't stress about precision. If bedtime naturally pushes 30 minutes later because of family events, that's actually helping the adjustment. Let Easter do the work for you.</p>
+
+      <h3>Sunday April 6 (New Time)</h3>
+      <p>Clocks have changed overnight. Your toddler wakes early — that's expected. Keep the room dark, don't rush in. Start the day on the <strong>new clock</strong>. Breakfast at the new time. If you can, get to a <a href="/search?category=playground">playground</a> by mid-morning for light exposure and activity. Bedtime at the new 7:00 PM — they may resist, but keep the routine consistent. It might take 20 extra minutes to settle. That's fine.</p>
+
+      <h3>Monday April 7 – Wednesday April 9</h3>
+      <p>The critical adjustment window. Prioritise: <strong>consistent wake time, morning light, outdoor play, consistent bedtime</strong>. Early wake-ups should be shifting 10–15 minutes later each day. By Wednesday, most toddlers are within 15 minutes of their normal schedule. The <a href="/blog/melbourne-april-school-holidays-2026-two-week-activity-planner-families">school holidays</a> are in full swing — use the free time to get outside in the mornings.</p>
+
+      <h3>Thursday April 10 onwards</h3>
+      <p>Most children are fully adjusted by now. If your toddler is still waking significantly early, check: Is the room dark enough? Is morning light exposure happening at the right time? Is bedtime consistent? These three factors account for 90% of adjustment issues.</p>
+
+      <h2>💡 Quick Tips Summary</h2>
+
+      <ul>
+        <li><strong>Blackout the bedroom</strong> — light is the #1 early-waking trigger</li>
+        <li><strong>Get outside in the morning</strong> — natural light resets the circadian clock faster than anything else</li>
+        <li><strong>Run meals on the new clock</strong> — food timing is a powerful body-clock signal</li>
+        <li><strong>Don't skip the playground</strong> — <a href="/blog/toddler-sleep-outdoor-play-playground-time-helps-kids-sleep-better">physical activity drives better sleep</a> during any transition</li>
+        <li><strong>Dim the house from 5:30 PM</strong> — early melatonin production makes the new bedtime work</li>
+        <li><strong>Give it a week</strong> — most toddlers fully adjust in 5–7 days. Don't panic on day two</li>
+        <li><strong>Write off Easter for sleep perfection</strong> — adjust from Tuesday onwards, not during the chocolate hurricane</li>
+      </ul>
+
+      <h2>The Bottom Line</h2>
+
+      <p>The end of daylight saving sounds disruptive, but for families with toddlers it's actually a gift wrapped in a few days of inconvenience. Earlier sunsets make bedtimes easier. Morning light aligns with natural wake times. The outdoor play window fits better around dinner and bath. Once the 5–7 day adjustment passes, you'll wonder why you ever worried.</p>
+
+      <p>And here's the secret that experienced parents know: <strong>the time change is harder on adults than on kids</strong>. Your toddler will adapt because toddlers are resilient, routine-responsive little humans whose body clocks are remarkably flexible when given the right cues. You, on the other hand, will spend a week checking your phone to figure out what time it "really" is. That's okay. You'll catch up eventually.</p>
+
+      <p>Get through Easter. Get to the playground on Monday morning. Let the autumn light do its work. By next weekend, everyone will be sleeping on schedule — and those early, dark evenings will feel like a well-deserved reward.</p>
+
+      <p>Find your nearest playground for that crucial morning play session with our <a href="/search?category=playground">playground finder</a> — the fastest way to reset a toddler's body clock. ☀️😴</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-29T07:00:00+11:00',
+    category: 'tips',
+    tags: ['daylight saving ends Melbourne 2026', 'toddler sleep time change', 'adjust toddler sleep clock change', 'daylight saving kids sleep tips', 'Easter 2026 toddler sleep', 'autumn time change families', 'circadian rhythm toddler', 'Melbourne April daylight saving', 'baby clock change tips', 'toddler early waking daylight saving'],
+    seoTitle: "Daylight Saving Ends April 5, 2026: How to Adjust Your Toddler's Sleep Schedule (Melbourne Family Guide)",
+    seoDescription: "Clocks go back April 5 — right on Easter Sunday. Practical tips to shift your toddler's body clock smoothly, manage early wake-ups, and why Melbourne parents secretly love the end of daylight saving. Day-by-day adjustment plan included."
+  },
+  {
     slug: 'weekend-planner-melbourne-families-march-28-29-2026-rain-then-sunshine',
     title: "Weekend Planner: A Drizzly Saturday, a Crisp Sunday, and Melbourne's Best Sheltered Playgrounds for Autumn Weather",
     excerpt: "Saturday's wet and windy — but Sunday opens up beautifully. Here's how to make the most of both days with your little ones, plus the sheltered playgrounds and undercover options that turn iffy weather into a great weekend.",
