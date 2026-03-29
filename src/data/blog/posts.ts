@@ -15,6 +15,209 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-playgrounds-mornington-peninsula-families-rosebud-rye-mornington',
+    title: "Best Playgrounds on the Mornington Peninsula: A School Holiday Day-Trip Guide for Families",
+    excerpt: "The Mornington Peninsula isn't just wineries and hot springs — it's home to some of Victoria's best family playgrounds. From beachside climbing at Rosebud to nature play in Red Hill, here are the top picks for a school holiday day trip with toddlers and young kids.",
+    content: `
+      <p>Mention the <strong>Mornington Peninsula</strong> to most Melbourne adults and they think wineries, hot springs, maybe a fancy lunch overlooking the bay. Mention it to parents of toddlers and the conversation shifts instantly: "Which playgrounds are worth the drive?"</p>
+
+      <p>Good news — the answer is plenty. The Peninsula has quietly assembled an impressive collection of family playgrounds, from council-funded destination parks to tucked-away coastal gems that locals would rather keep secret. And with <strong>school holidays now in full swing</strong> and autumn delivering the kind of mild, sunny days that make a 90-minute drive feel like a holiday, there's no better time for a <strong>Mornington Peninsula playground day trip</strong>.</p>
+
+      <p>Here's our guide to the best playgrounds from Mornington down to Portsea — sorted by what they do best, with honest parent tips for each.</p>
+
+      <h2>🏆 Best All-Rounder: Rosebud Foreshore Playground</h2>
+
+      <p>If you're only going to visit one Peninsula playground this school holidays, make it Rosebud. The foreshore playground had a significant upgrade and the result is a genuinely impressive destination park that justifies the drive from anywhere in Melbourne.</p>
+
+      <p>The main climbing structure is a stunner — a multi-level timber and rope tower with slides, climbing nets, and platforms that challenge kids from about age three through to ten. Around it you'll find swings (including a basket swing for younger ones), a dedicated toddler area with lower equipment and softer surfaces, a sandpit, and — the bit that makes parents' eyes light up — <strong>direct views across Port Phillip Bay</strong> from every seat in the park.</p>
+
+      <p>What elevates Rosebud above a typical coastal playground is the surrounding infrastructure. The foreshore strip has cafes within walking distance, public toilets, barbecue facilities, and a long stretch of calm, shallow beach perfect for toddler paddling if the autumn sun cooperates. You can easily spend a full morning here: playground, beach potter, fish and chips on the grass, done.</p>
+
+      <p><strong>Best for:</strong> Families wanting a complete day-trip experience in one location<br>
+      <strong>Ages:</strong> 1–10<br>
+      <strong>Facilities:</strong> Toilets, barbecues, cafes nearby, beach access<br>
+      <strong>Address:</strong> Rosebud Foreshore, Point Nepean Road, Rosebud<br>
+      <strong>Parking:</strong> Foreshore car parks — free on most weekdays, can fill on warm weekends. Arrive before 10 AM in school holidays<br>
+      <strong>Tip:</strong> The beach here is one of the calmest on the Peninsula — shallow, sandy, and almost waveless. Perfect for toddlers who want to splash but aren't ready for surf</p>
+
+      <h2>💦 Best for Water Play: Rye Foreshore Playground</h2>
+
+      <p>Just along the coast from Rosebud, the Rye foreshore playground scores highly for families who want their kids thoroughly soaked by lunchtime. The playground features <strong>water play elements</strong> that run in the warmer months — jets, channels, and tipping buckets that turn the play area into organised chaos on a warm day.</p>
+
+      <p>Even in autumn, with the water play off, Rye holds its own. The play equipment is modern and well-maintained, with climbing structures suited to toddlers and older kids. The foreshore setting is gorgeous — that same calm bay water, wide grassy areas, and a relaxed Peninsula atmosphere that makes everything feel unhurried. There's a skate park adjacent for older siblings, and the strip of cafes and takeaway shops along Point Nepean Road means lunch is sorted without packing a thing.</p>
+
+      <p>On a warm autumn day (and late March still delivers a few above 25°C), the water play makes this the Peninsula's best splash destination for little ones.</p>
+
+      <p><strong>Best for:</strong> Water-loving kids, warmer autumn days<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Facilities:</strong> Toilets, water play, foreshore access, cafes<br>
+      <strong>Address:</strong> Rye Foreshore, Point Nepean Road, Rye<br>
+      <strong>Tip:</strong> Bring swimmers and a towel even in autumn — if the water play is running, your child <em>will</em> get in it. Pack spare dry clothes for the drive home</p>
+
+      <h2>🌿 Best for Nature Play: Red Hill Consolidated School Community Playground</h2>
+
+      <p>Tucked away in the Peninsula hinterland, the playground at Red Hill feels like it belongs in a children's storybook. Set among tall gum trees with dappled shade and the sound of birds overhead, it trades the coastal vibe for something quieter and more natural. The equipment blends into the landscape — timber structures, rope elements, and natural materials that encourage the kind of unstructured, imaginative play that structured climbing frames can't replicate.</p>
+
+      <p>For toddlers, the appeal is the sensory richness. Bark chip underfoot, fallen leaves to collect, sticks to arrange, birds to point at. The play equipment is accessible for younger children without being boring for four and five-year-olds, and the natural shade means you're not battling the sun even on warmer days.</p>
+
+      <p>Combine this with a stop at one of Red Hill's excellent farm-gate stalls or the Red Hill Market (first Saturday of the month) and you've got a Peninsula day trip that feels genuinely rural — which is rare when you're only 90 minutes from the CBD.</p>
+
+      <p><strong>Best for:</strong> Nature-loving families, a quieter alternative to the foreshore crowds<br>
+      <strong>Ages:</strong> 2–7<br>
+      <strong>Facilities:</strong> Basic — toilets available, BYO food and water<br>
+      <strong>Address:</strong> Red Hill area (check local signage)<br>
+      <strong>Combine with:</strong> Red Hill farm gates, the Enchanted Adventure Garden (ticketed but spectacular for kids), or a drive through the hinterland to Flinders</p>
+
+      <h2>🏖️ Best Beachside Playground: Sorrento Foreshore</h2>
+
+      <p>Sorrento has the Peninsula's most charming village atmosphere — limestone buildings, Norfolk pines, boutique shops, and an air of old-money seaside elegance. The foreshore playground fits right in. It's not the biggest or most elaborate on this list, but its <strong>location is unbeatable</strong>: right on the bay, with views across to Queenscliff and the Bellarine Peninsula, steps from the beach and the Sorrento pier.</p>
+
+      <p>The equipment suits toddlers through to about age six, with climbing structures, slides, and swings set on soft rubber surfacing. What makes it work as a family destination is everything around it. The beach is beautiful and calm for paddling. The pier is a short walk for spotting boats and, if you're lucky, dolphins. The village strip has ice cream, fish and chips, and proper coffee all within a five-minute stroll. It's the kind of outing that feels like a holiday even when it's just a Monday in school holidays.</p>
+
+      <p><strong>Best for:</strong> A classic seaside family outing, combining playground with beach and village<br>
+      <strong>Ages:</strong> 1–6<br>
+      <strong>Facilities:</strong> Toilets, cafes, beach access, pier<br>
+      <strong>Address:</strong> Sorrento Foreshore, Ocean Beach Road, Sorrento<br>
+      <strong>Tip:</strong> Walk out along the pier with your toddler — they'll be mesmerised by the boats, and dolphins are frequently spotted in the bay here in autumn</p>
+
+      <h2>🧗 Best for Adventurous Kids: Mornington Park</h2>
+
+      <p>If your child is the fearless type who treats every climbing frame as a personal challenge, Mornington Park delivers. The playground features a large multi-level climbing structure with elements that genuinely challenge confident three and four-year-olds — rope bridges, higher platforms, and a decent slide. There's also a separate area for younger kids with gentler equipment, so mixed-age families can find their level.</p>
+
+      <p>The park itself is spacious, with mature trees providing shade, open grass for running and ball games, and a skate park for older siblings. It's centrally located in Mornington township, which means you're close to Main Street's cafes, shops, and the Wednesday morning market. The drive from Melbourne is one of the shorter Peninsula trips — about an hour from the south-eastern suburbs — making it an easy school holiday excursion that doesn't eat your whole day.</p>
+
+      <p><strong>Best for:</strong> Confident climbers, families wanting a shorter Peninsula drive<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Facilities:</strong> Toilets, parking, shade, skate park<br>
+      <strong>Address:</strong> Mornington Park, Mornington<br>
+      <strong>Combine with:</strong> Mornington Main Street for lunch, or the Mornington foreshore for a beach walk afterwards</p>
+
+      <h2>🔒 Best Fenced Playground: Dromana Foreshore</h2>
+
+      <p>Parents of bolters, this one's for you. The Dromana foreshore playground sits within a <strong>fenced area</strong> right on the bay — which means your toddler can run freely while you sit with a clear sightline and actually drink your takeaway coffee at a normal pace. For families with runners, the psychological relief of a good fence cannot be overstated.</p>
+
+      <p>The equipment is solid rather than spectacular — climbing structures, slides, swings — but the fencing and the foreshore location make it a winner for younger families. The beach is right there for a post-playground paddle, and the grassy foreshore area has barbecues and picnic tables for lunch. Dromana also has some of the Peninsula's more affordable takeaway options along the main strip, which matters when you're feeding a family.</p>
+
+      <p><strong>Best for:</strong> Toddlers who bolt, parents who need a contained space<br>
+      <strong>Ages:</strong> 1–5<br>
+      <strong>Fenced:</strong> Yes<br>
+      <strong>Facilities:</strong> Toilets, barbecues, beach access<br>
+      <strong>Address:</strong> Dromana Foreshore, Point Nepean Road, Dromana<br>
+      <strong>Tip:</strong> The foreshore strip between Dromana and Safety Beach is great for a post-playground stroll with the pram</p>
+
+      <h2>🌊 Best Surf-Side Playground: Gunnamatta Recreation Reserve</h2>
+
+      <p>Most Peninsula playgrounds face the calm bay side. Gunnamatta flips the script — this playground sits on the <strong>ocean side</strong>, near one of the Peninsula's most dramatic surf beaches. The contrast is striking: instead of gentle lapping water and distant city views, you get crashing waves, wild coastal scrub, and the kind of raw natural beauty that reminds you the Peninsula has two very different personalities.</p>
+
+      <p>The playground itself is modest but well-maintained, with equipment suited to toddlers and younger kids. What makes it special is the setting and the experience around it. After playground time, walk the short track to the Gunnamatta beach lookout — the views are spectacular and even a two-year-old will be captivated by the surf. On a wild autumn day with big swell running, it's genuinely awe-inspiring. This isn't a playground you visit for the equipment; it's one you visit for the adventure.</p>
+
+      <p><strong>Best for:</strong> Families who love the ocean side, combining play with coastal walks<br>
+      <strong>Ages:</strong> 2–6<br>
+      <strong>Facilities:</strong> Toilets, parking<br>
+      <strong>Address:</strong> Gunnamatta Recreation Reserve, Truemans Road, Fingal<br>
+      <strong>Tip:</strong> The ocean beach is beautiful but <strong>not safe for swimming</strong> with young children — stick to looking and admiring. Keep little ones well back from the water's edge</p>
+
+      <h2>🎪 Best Combined Attraction: Enchanted Adventure Garden Playground</h2>
+
+      <p>Technically this is a ticketed attraction rather than a free public playground, but it deserves a mention because it's one of the Peninsula's best family experiences. The <strong>Enchanted Adventure Garden</strong> in Arthurs Seat features hedge mazes, tube slides, and a sprawling garden playground set in beautiful grounds with views across the Peninsula.</p>
+
+      <p>For toddlers, the highlight is the <strong>tube slides</strong> built into the hillside — they're thrilling without being scary, and kids can do them over and over. The hedge mazes work surprisingly well with young children because the hedges are only waist-height in some sections, so they can see over the top while still feeling the excitement of navigating a maze. The grounds are gorgeous in autumn, with changing foliage adding colour to the already vibrant gardens.</p>
+
+      <p><strong>Best for:</strong> A special school holiday outing, families willing to pay for a premium experience<br>
+      <strong>Ages:</strong> 2+<br>
+      <strong>Cost:</strong> Ticketed — check enchantedadventuregarden.com.au for current prices<br>
+      <strong>Address:</strong> Purves Road, Arthurs Seat<br>
+      <strong>Combine with:</strong> The Arthurs Seat Eagle chairlift is right nearby — stunning views and a thrilling ride for kids old enough to enjoy it</p>
+
+      <h2>📋 Planning Your Peninsula Playground Day Trip</h2>
+
+      <p>The Mornington Peninsula is long and narrow, so clustering your stops makes sense. Here are three route suggestions that combine multiple playgrounds with other family activities:</p>
+
+      <h3>Route A: Bay Side Beach Hop (Mornington → Rosebud)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Mornington Park playground (closest to Melbourne, ease into the day)</li>
+        <li><strong>10:30 AM</strong> — Drive along the coast to Dromana foreshore playground (fenced, quick stop)</li>
+        <li><strong>11:30 AM</strong> — Continue to Rosebud foreshore playground (the main event)</li>
+        <li><strong>12:30 PM</strong> — Fish and chips on the Rosebud foreshore, followed by a beach paddle</li>
+        <li><strong>2:00 PM</strong> — Head home before the afternoon energy crash, or continue to Rye if kids have stamina</li>
+      </ol>
+
+      <h3>Route B: Hinterland and Coast (Red Hill → Sorrento)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Red Hill for nature play among the gums</li>
+        <li><strong>10:30 AM</strong> — Farm-gate stall stop for morning tea (the kids will love seeing produce up close)</li>
+        <li><strong>11:30 AM</strong> — Drive down to Sorrento foreshore playground</li>
+        <li><strong>12:30 PM</strong> — Lunch in Sorrento village — ice cream on the pier afterwards</li>
+        <li><strong>1:30 PM</strong> — Walk the pier, spot boats and hopefully dolphins, then head home via the Mornington Peninsula Freeway</li>
+      </ol>
+
+      <h3>Route C: Adventure Day (Arthurs Seat → Gunnamatta)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Enchanted Adventure Garden at Arthurs Seat (book in advance)</li>
+        <li><strong>12:00 PM</strong> — Lunch at Arthurs Seat — several cafes with views</li>
+        <li><strong>1:00 PM</strong> — Drive over to Gunnamatta for the ocean-side playground and coastal lookout walk</li>
+        <li><strong>2:30 PM</strong> — Head home via Mornington for a final ice cream stop</li>
+      </ol>
+
+      <h2>🎒 Packing for a Peninsula Day Trip</h2>
+
+      <ul>
+        <li><strong>Sunscreen and hats</strong> — even in late March, the Peninsula's coastal exposure means UV can be higher than you'd expect on clear days</li>
+        <li><strong>Layers</strong> — the Peninsula can be a few degrees cooler than Melbourne, especially on the ocean side. A wind jacket is essential; morning temperatures might be around 12–14°C before warming to the low 20s</li>
+        <li><strong>Swimmers and a towel</strong> — you might not plan to swim, but your toddler will have other ideas the moment they see water</li>
+        <li><strong>Spare dry clothes</strong> — for the drive home after the inevitable paddling session</li>
+        <li><strong>Sand toys</strong> — bucket and spade work for both the sandpit and the beach</li>
+        <li><strong>Snacks and water</strong> — the drive down creates hungry kids, and having car snacks prevents the "are we there yet" spiral</li>
+        <li><strong>Cash</strong> — some farm-gate stalls and smaller foreshore kiosks are cash-only</li>
+        <li><strong>A picnic blanket</strong> — the foreshore parks are made for spreading out on the grass</li>
+      </ul>
+
+      <h2>🚗 Getting There and Timing Tips</h2>
+
+      <p>The drive from Melbourne's south-eastern suburbs to Mornington takes about 50–60 minutes via the Peninsula Freeway. To Rosebud or Rye, add another 20–30 minutes. To Sorrento or Portsea, you're looking at around 90 minutes total from the city.</p>
+
+      <p><strong>School holiday traffic tip:</strong> Leave Melbourne before 9 AM or after 10:30 AM. The 9–10 AM window is peak "families heading to the Peninsula" time on the freeway during school holidays. Conversely, aim to leave the Peninsula by 2:30 PM to avoid the late-afternoon return crawl.</p>
+
+      <p><strong>The nap strategy:</strong> If your toddler still naps, the drive is your friend. Leave Melbourne at nap time, let them sleep in the car, arrive at the Peninsula refreshed and ready to play. It's a 90-minute window of blissful car silence followed by an energised child — the parenting equivalent of a tactical advantage.</p>
+
+      <h2>🍂 Why Autumn Is the Best Time to Visit</h2>
+
+      <p>Here's a secret that Peninsula locals know and summer visitors don't: <strong>autumn is the best season on the Mornington Peninsula for families</strong>. The crowds that pack the foreshore strips in January have vanished. The parking that was impossible in December is suddenly easy. The cafes that had 45-minute waits in summer will seat you immediately.</p>
+
+      <p>The weather is kinder too. Summer on the Peninsula can be brutally hot — 35°C on exposed coastal playgrounds with limited shade is no fun for anyone. Autumn's milder conditions (18–24°C through March and April) mean kids can play longer, equipment stays comfortable, and nobody's at risk of overheating. The light is softer, the colours along the hinterland roads are changing, and the whole Peninsula has a gentle, unhurried quality that summer never quite achieves.</p>
+
+      <p>The bay water is still warm enough for a paddle in late March — it holds summer's heat well into April. And the ocean-side beaches are spectacular in autumn weather: dramatic skies, powerful waves to watch (from a safe distance), and the kind of wild beauty that makes you understand why people retire down here.</p>
+
+      <p>If you've only ever visited the Peninsula in summer and came away thinking it was crowded and overrated, give it another chance this school holidays. You might find your family's new favourite day trip.</p>
+
+      <h2>📋 Quick Reference</h2>
+
+      <table>
+        <tr><th>Playground</th><th>Location</th><th>Best For</th><th>Ages</th><th>Fenced</th><th>Beach Access</th></tr>
+        <tr><td>Rosebud Foreshore</td><td>Rosebud</td><td>All-round day trip</td><td>1–10</td><td>No</td><td>Yes — calm bay</td></tr>
+        <tr><td>Rye Foreshore</td><td>Rye</td><td>Water play</td><td>1–8</td><td>No</td><td>Yes — calm bay</td></tr>
+        <tr><td>Red Hill</td><td>Red Hill</td><td>Nature play</td><td>2–7</td><td>No</td><td>No</td></tr>
+        <tr><td>Sorrento Foreshore</td><td>Sorrento</td><td>Seaside village vibe</td><td>1–6</td><td>No</td><td>Yes — calm bay</td></tr>
+        <tr><td>Mornington Park</td><td>Mornington</td><td>Adventurous climbers</td><td>1–8</td><td>No</td><td>Nearby</td></tr>
+        <tr><td>Dromana Foreshore</td><td>Dromana</td><td>Fenced + beachside</td><td>1–5</td><td>Yes</td><td>Yes — calm bay</td></tr>
+        <tr><td>Gunnamatta Reserve</td><td>Fingal</td><td>Ocean-side adventure</td><td>2–6</td><td>No</td><td>Lookout only</td></tr>
+        <tr><td>Enchanted Adventure</td><td>Arthurs Seat</td><td>Premium day out</td><td>2+</td><td>N/A (ticketed)</td><td>No</td></tr>
+      </table>
+
+      <p>The Mornington Peninsula is one of Melbourne's great family treasures — and its playgrounds are a big part of why. Whether you're chasing a seaside morning at Rosebud, a nature play session in Red Hill, or a full-blown adventure day at Arthurs Seat, there's a playground down there that'll make the drive worthwhile.</p>
+
+      <p>This school holidays, load up the car, pack the snacks, time the nap, and head south. The Peninsula is waiting — and in autumn, it's never been better.</p>
+
+      <p>Find more playgrounds near you with our <a href="/search?category=playground">playground finder</a> — and explore our other playground guides for <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside</a>, the <a href="/blog/best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham">Northern Suburbs</a>, the <a href="/blog/best-playgrounds-western-suburbs-melbourne-werribee-point-cook-altona">Western Suburbs</a>, and the <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">Inner East</a>. 🏖️</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-30T07:00:00+11:00',
+    category: 'playgrounds',
+    tags: ['best playgrounds Mornington Peninsula', 'Mornington Peninsula families', 'Rosebud playground', 'Rye foreshore playground', 'Sorrento playground', 'family day trip Melbourne', 'school holiday activities Melbourne', 'Peninsula playgrounds kids', 'autumn day trips Melbourne', 'fenced playgrounds Mornington Peninsula'],
+    seoTitle: 'Best Playgrounds on the Mornington Peninsula: Family Day-Trip Guide (2026)',
+    seoDescription: 'Discover the best family playgrounds on the Mornington Peninsula — from Rosebud foreshore to Sorrento village. 8 top picks with driving routes, packing tips, and honest parent reviews for school holiday day trips.'
+  },
+  {
     slug: 'daylight-saving-ends-april-2026-toddler-sleep-schedule-adjustment-tips',
     title: "Daylight Saving Ends April 5: How to Adjust Your Toddler's Sleep Schedule Without the Meltdowns",
     excerpt: "Clocks go back an hour next Sunday — right in the middle of Easter weekend. Here's a practical, day-by-day plan to shift your toddler's body clock smoothly, plus why Melbourne parents secretly love the end of daylight saving.",
