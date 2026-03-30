@@ -15,6 +15,91 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'melbourne-kids-activities-this-week-before-easter-long-weekend-2026',
+    title: "Melbourne Kids Activities This Week: 8 Easy Family Outings Before the Easter Long Weekend",
+    excerpt: "Need fresh ideas for the days between now and Easter? From Comedy Festival matinees to autumn leaf walks and a Good Friday freebie worth planning around, here are eight genuinely doable Melbourne family outings for toddlers and preschoolers this week.",
+    content: `
+      <p>If you're staring down the stretch between now and the Easter long weekend wondering how to fill the days without spending a fortune — or ending up in an indoor play centre by 9:17 AM out of desperation — Melbourne is actually giving families a very solid hand this week.</p>
+
+      <p>The <strong>Comedy Festival is on</strong>, autumn is properly showing off, and the city's event calendar is tipping into Easter mode without being completely overrun by chocolate just yet. Which means this is a very good week to do what Melbourne families do best: <strong>pair one simple activity with one reliable playground</strong> and call it a great day.</p>
+
+      <p>Here are <strong>eight easy Melbourne kids activities this week</strong> that work well for toddlers and preschoolers — with honest parent notes on who each outing suits, how much energy it requires, and what to pack.</p>
+
+      <h2>1. Do a Comedy Festival morning, then let them run at Birrarung Marr</h2>
+
+      <p>The <strong>Melbourne International Comedy Festival</strong> is one of the best things happening in the city right now, and you do <em>not</em> need to make a whole high-pressure day of it. Book a family-friendly matinee or a short show that suits younger kids, then head straight to <strong>Birrarung Marr playground</strong> afterwards so your child can process the excitement by climbing something.</p>
+
+      <p>This combo works because it balances sitting still with movement. Little kids can absolutely enjoy live performance — especially visual comedy, magic, puppetry, and slapstick — but they usually need a physical reset afterwards. Birrarung Marr is ideal: central, easy, and right by the river, with enough open space for a scooter if you bring one.</p>
+
+      <p><strong>Parent tip:</strong> Book the earliest session you can manage and pack snacks for the walk to the playground. A post-show hunger crash in the CBD is avoidable with one banana and a muesli bar.</p>
+
+      <h2>2. Make the most of autumn at the Royal Botanic Gardens</h2>
+
+      <p>If you need a low-cost, low-stimulation outing this week, the <strong>Royal Botanic Gardens</strong> are hard to beat. Melbourne's autumn light is soft right now, the temperature is kinder than summer, and toddlers are very happy with the simple brief of <em>walk, look, collect leaves, snack</em>.</p>
+
+      <p>This is the week for a gentle nature morning rather than a huge agenda. Bring a small bag for leaf collecting, let your child stop at every duck, and don't overcomplicate it. If you want to extend the outing, pair the gardens with a short stop at <strong>the NGV water wall</strong> or a run at Birrarung Marr.</p>
+
+      <p><strong>Best for:</strong> toddlers who get overwhelmed by big events, babies in prams, parents who need a calm outing<br>
+      <strong>Pack:</strong> layers, water, wipes, and spare shoes if your child can't resist muddy edges</p>
+
+      <h2>3. Plan ahead for Good Friday's Kids Day Out</h2>
+
+      <p>One of the most practical family activities on Melbourne's calendar this week is <strong>Kids Day Out</strong> at the Melbourne Convention and Exhibition Centre on <strong>Friday April 3</strong>. It's hosted as part of the Royal Children's Hospital Good Friday Appeal, and it's one of those rare big events that is both <strong>family-friendly and genuinely worth the effort</strong>.</p>
+
+      <p>If you're reading this on Tuesday morning, the smart move is to plan for it now. Decide how you'll get there, pack your bag the night before, and aim to arrive early. With little kids, the trick is not to do everything. Pick two or three activities, let them enjoy the atmosphere, then leave before everyone falls apart.</p>
+
+      <p><strong>Parent-friend framing:</strong> this is not a "stay all day" event unless your kids are unusually robust and you are unusually caffeinated.</p>
+
+      <h2>4. Do a museum morning while the weather's mixed</h2>
+
+      <p>If the week turns patchy or you just want something reliable, a <strong>museum morning</strong> is one of the best Melbourne toddler activities in April. <strong>Melbourne Museum</strong> is an obvious winner because the Children's Gallery is built for younger kids, and right now there's extra city energy around the museum precinct thanks to school-holiday-style programming starting to ramp up.</p>
+
+      <p>The honest winning formula is this: museum first, then outside time. Do not ask a toddler to go from car to museum to café to home without a run in between. The nearby Carlton Gardens space makes this easy, and if you need more ideas for rainy or half-rainy days, our <a href="/blog/best-indoor-play-centres-melbourne-toddlers-preschoolers-guide">indoor play centres guide</a> is full of reliable backups.</p>
+
+      <h2>5. Use Queen Vic Market or a local market as your "easy yes" outing</h2>
+
+      <p>Markets are underrated with little kids. They're busy enough to feel exciting, loose enough that nobody has to sit still, and full of snack-based bribery opportunities. This week, <strong>Queen Victoria Market</strong> is an especially good option if you want something flexible: you can browse for 30 minutes or stay for two hours, depending on naps, moods, and whether anyone spills babycino on themselves.</p>
+
+      <p>If the city feels like too much, the same logic works at your local market. The point isn't the specific stall lineup — it's that markets give toddlers motion, noise, colour, and food samples without requiring a rigid schedule.</p>
+
+      <p><strong>Make it better:</strong> pair the market with a nearby playground instead of trying to squeeze in a proper sit-down lunch. City families can head to Flagstaff Gardens; everyone else can use our <a href="/search?category=playground">playground finder</a> and choose something close to home.</p>
+
+      <h2>6. Pick one "destination playground" and make that the whole outing</h2>
+
+      <p>This sounds obvious, but it's the advice more parents need to hear this week: <strong>you do not need an event every day</strong>. One really good playground, a takeaway coffee, and enough time is often the best outing of the week.</p>
+
+      <p>If you're in the east, our <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">inner-east playground guide</a> has excellent options like Hays Paddock and Markham Reserve. Bayside families should revisit the <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside favourites</a>. If you want a proper day trip feel, the new <a href="/blog/best-playgrounds-mornington-peninsula-families-rosebud-rye-mornington">Mornington Peninsula playground guide</a> is full of school-holiday-worthy ideas.</p>
+
+      <p>At this time of year, destination playgrounds are especially good because <strong>autumn weather extends everyone's tolerance</strong>. Equipment isn't scorching, the light is lovely, and you can stay out longer without feeling flattened by heat.</p>
+
+      <h2>7. Build in one café-with-play stop for the tired day</h2>
+
+      <p>Every family week needs one low-effort outing. Not a cultural outing. Not a growth outing. Just a <strong>"we all need to get out of the house but nobody has much to give"</strong> outing. This is the week to use a kid-friendly café with a play space, or a pub garden playground if you're meeting friends for lunch.</p>
+
+      <p>Our <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly cafés guide</a> and <a href="/blog/best-kid-friendly-pubs-beer-gardens-playgrounds-melbourne">family pub guide</a> are made for exactly this moment. The best part is that these outings still feel social and pleasant for adults, which matters by the time Thursday rolls around.</p>
+
+      <p><strong>Parent tip:</strong> choose the venue before you load the car. "We'll figure it out on the way" is how you end up circling for parking with a hungry toddler yelling from the back seat.</p>
+
+      <h2>8. Save one simple Easter activity for the weekend</h2>
+
+      <p>The city is starting to lean into Easter now — markets, hunts, family programs, the lot — but you don't need to do the flashiest version to make it fun. A small Easter market, a local egg hunt, or even just a playground picnic with hot cross buns lands beautifully for little kids.</p>
+
+      <p>Fresh event listings this week include things like <strong>Lygon Street Market</strong>, family programming around the city, and Easter-focused outings rolling into Friday and the weekend. The trick is choosing something that suits your child's age and your own energy. Preschoolers often love the community atmosphere of a market more than the actual hunt. Toddlers usually just want one chocolate egg and a slide.</p>
+
+      <h2>So what should you actually do first?</h2>
+
+      <p>If your week is wide open, here's the simplest plan: <strong>one city outing, one nature outing, one guaranteed playground outing, and one low-effort café or market stop</strong>. That is more than enough. Melbourne is full of family events this week, but the best weeks with little kids are rarely the busiest ones. They're the ones where the rhythm works.</p>
+
+      <p>Start with the thing that feels easiest today. If that's a leaf walk and a coffee, great. If it's a comedy matinee and a playground, also great. If it's just finding a better local park than the one you've been defaulting to for six months, we can help with that too — browse our <a href="/search?category=playground">playground finder</a> and make this the week you find a new favourite.</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-03-31T07:00:00+11:00',
+    category: 'activities',
+    tags: ['Melbourne kids activities this week', 'Melbourne family events April 2026', 'Melbourne toddler activities', 'Easter activities Melbourne kids', 'Good Friday Kids Day Out Melbourne', 'Comedy Festival kids Melbourne', 'autumn activities Melbourne families', 'things to do with toddlers Melbourne'],
+    seoTitle: 'Melbourne Kids Activities This Week: 8 Easy Family Outings Before Easter (2026)',
+    seoDescription: 'Looking for Melbourne kids activities this week? Here are 8 easy family outings before the Easter long weekend — including Comedy Festival ideas, autumn garden walks, Good Friday Kids Day Out, markets, cafés and playground picks for toddlers and preschoolers.'
+  },
+  {
     slug: 'best-playgrounds-mornington-peninsula-families-rosebud-rye-mornington',
     title: "Best Playgrounds on the Mornington Peninsula: A School Holiday Day-Trip Guide for Families",
     excerpt: "The Mornington Peninsula isn't just wineries and hot springs — it's home to some of Victoria's best family playgrounds. From beachside climbing at Rosebud to nature play in Red Hill, here are the top picks for a school holiday day trip with toddlers and young kids.",
