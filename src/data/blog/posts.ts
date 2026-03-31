@@ -15,6 +15,81 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'whats-on-this-week-melbourne-families-april-1-5-2026-easter-school-holidays',
+    title: "What's On This Week in Melbourne for Families: Easter Weekend Starts, Free Fed Square Fun and Easy City Outings (April 1–5)",
+    excerpt: "School holidays and Easter are arriving at once, which means Melbourne families suddenly have options everywhere. From Kids Day Out and free Fed Square comedy to family museum sleepovers, markets and gentle low-stress outings, here’s what’s genuinely worth considering this week.",
+    content: `
+      <p>If this week feels like Melbourne has decided to throw <em>everything</em> at families at once, you're not imagining it. <strong>School holidays start on Friday</strong>, the <strong>Easter long weekend</strong> is here, the <strong>Comedy Festival</strong> is in full swing, and the city is packed with family-friendly events that range from “big exciting day out” to “surprisingly easy if you time it right”.</p>
+
+      <p>The trick this week is not trying to do all of it. The best family plan is usually one feature event, one reliable food stop, and one playground your child can decompress in afterwards. With little kids, that rhythm matters more than the number of things on the itinerary.</p>
+
+      <p>Here’s our practical guide to <strong>what’s on this week in Melbourne for families</strong>, with the freshest picks for <strong>April 1 to 5</strong> and honest notes on what’s likely to be worth the effort.</p>
+
+      <h2>1. Plan around Good Friday's Kids Day Out</h2>
+
+      <p>If you're choosing just one major outing this week, make it <strong>Kids Day Out</strong> on <strong>Friday April 3</strong> at the Melbourne Convention and Exhibition Centre. It's part of the Royal Children's Hospital Good Friday Appeal and it's one of the rare big family events that actually understands families: plenty of activity, lots of atmosphere, and a setup that works well if you don't try to treat it like an all-day marathon.</p>
+
+      <p>The smart move is to arrive early, pick two or three things you care about, and leave while everyone is still in a good mood. This is especially true if you have toddlers or preschoolers. You do not need to squeeze every last ride, craft table or stage show out of the day for it to feel worthwhile.</p>
+
+      <p><strong>Parent tip:</strong> pack snacks, a hat, wipes and one change of clothes. Big family event plus little kids usually equals at least one avoidable crisis, and the bag is how you stay ahead of it.</p>
+
+      <h2>2. Fed Square is your best free option this weekend</h2>
+
+      <p>If you want something festive without spending much, <strong>Fed Square</strong> is the week's easiest yes. From <strong>April 3 to 6</strong>, the big screen is running <strong>free family outdoor cinema</strong> with crowd-pleasers like <em>The Parent Trap</em>, <em>Paddington 2</em> and <em>The Mitchells vs The Machines</em>. On <strong>April 3 and 4</strong>, <strong>The (Very) Big Laugh Out</strong> brings free family comedy to the square as part of the Melbourne International Comedy Festival.</p>
+
+      <p>This is ideal for families because you can keep it loose. Watch a show, share snacks, walk around, then leave before it stops being fun. There's no pressure to build a full “event day” around it unless you want to. If your child needs a run afterwards, <strong>Birrarung Marr</strong> is right there and makes the perfect reset.</p>
+
+      <p><strong>Make it easier:</strong> do the city by train if you can. Holiday traffic, parking and road closures can drain the joy from an outing before you've even arrived.</p>
+
+      <h2>3. The city is strong on comedy for kids right now</h2>
+
+      <p>The <strong>Melbourne International Comedy Festival</strong> is properly in family mode now, and this week is when several of the most parent-friendly shows begin. <strong>The Tricky Nick Magic Show</strong> starts on April 3, <strong>The Listies</strong> begins on April 4, and <strong>Mr Snotbottom</strong> is also running through the school-holiday period.</p>
+
+      <p>For younger kids, comedy works best when you choose short, visual, slightly silly shows rather than anything too wordy. Magic, physical comedy and audience participation usually land far better with preschoolers than long stand-up style sets. If you're booking last minute, choose the earliest session you can realistically make and pair it with a nearby playground or open green space afterwards. That is the formula.</p>
+
+      <p>If you want more low-effort backup ideas once you're in town, our <a href="/blog/best-indoor-play-centres-melbourne-toddlers-preschoolers-guide">indoor play centres guide</a> is full of reliable rainy-day and overstimulated-day options.</p>
+
+      <h2>4. Melbourne Museum is especially useful this week</h2>
+
+      <p>This is a strong week for a <strong>museum morning</strong>. Melbourne Museum is already one of the easiest family venues in the city, and right now it also has extra holiday energy around it — plus the drawcard of <strong>Family Museum Sleepovers</strong> starting from <strong>April 4</strong> for families who want a more memorable school-holiday experience.</p>
+
+      <p>If a sleepover sounds like too much work — which is a completely reasonable reaction — the simple version still wins: do a regular museum visit, spend time in the children's spaces, then head outside into <strong>Carlton Gardens</strong> so your child can move. Museum first, run second is one of the most reliable Melbourne family outing formulas there is.</p>
+
+      <p><strong>Good nearby add-on:</strong> Lygon Street is close for an easy lunch, and on <strong>Easter Sunday</strong> the <strong>Lygon Street Market</strong> adds extra atmosphere without requiring a huge commitment.</p>
+
+      <h2>5. Easter Sunday doesn't need to be complicated</h2>
+
+      <p>Melbourne gets very enthusiastic about Easter, but little kids often don't need the biggest or flashiest version to have a lovely time. This week, options include the <strong>Lygon Street Market</strong> on April 5 and a wider run of city holiday activity rolling into the weekend. But if you're weighing up whether to tackle a big event or keep things local, here's your permission slip to choose simple.</p>
+
+      <p>A local playground, hot cross buns, one chocolate egg, and maybe a market or city wander is often the better call for toddlers than a packed schedule. Families in the inner east can lean on our <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">inner-east playground guide</a>; if you're heading further out, our <a href="/blog/best-playgrounds-mornington-peninsula-families-rosebud-rye-mornington">Mornington Peninsula playground guide</a> is great for a proper day-trip feel.</p>
+
+      <h2>6. A few genuinely good “if the weather or energy turns” backups</h2>
+
+      <p>Every family week like this needs fallback options. Here are the ones we’d keep handy:</p>
+
+      <ul>
+        <li><strong>ACMI's Play School: Come and Play</strong> — especially good for ages 2–5, and very handy if the city weather turns or your child needs something familiar and interactive</li>
+        <li><strong>ArtPlay</strong> — great if you want a creative city stop without committing to a giant day</li>
+        <li><strong>Queen Victoria Market</strong> — flexible, snack-friendly, and easy to pair with Flagstaff Gardens afterwards</li>
+        <li><strong>Your nearest destination playground</strong> — because not every school-holiday outing needs a ticket, a booking or a queue</li>
+      </ul>
+
+      <p>And if everyone is a bit cooked by Sunday afternoon, our <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly cafés guide</a> is the move. Sometimes a babycino, a contained play corner and a decent coffee is the exact right kind of holiday plan.</p>
+
+      <h2>So what should you actually do?</h2>
+
+      <p>If you want the easiest version of a good week, here it is: <strong>Kids Day Out on Friday if you have the stamina, Fed Square over the long weekend if you want something free, one comedy or museum outing if your kids enjoy city days, and one dependable playground outing close to home</strong>. That is enough. More than enough, honestly.</p>
+
+      <p>Melbourne is stacked with <strong>family events this week</strong>, but the best outings are the ones that still feel manageable by lunchtime. Choose the thing that suits your child's age and your own energy, not just the thing with the biggest headline. And if in doubt, find a good playground near the event and build from there with our <a href="/search?category=playground">playground finder</a>. That strategy rarely fails.</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-01T07:00:00+11:00',
+    category: 'events',
+    tags: ['what\'s on this week Melbourne families', 'Melbourne family events April 2026', 'Easter weekend Melbourne kids', 'Kids Day Out Melbourne 2026', 'Fed Square school holidays 2026', 'Melbourne Comedy Festival kids shows', 'Melbourne Museum family activities', 'Melbourne school holidays families'],
+    seoTitle: "What's On This Week in Melbourne for Families: Easter Weekend & School Holidays (April 1–5, 2026)",
+    seoDescription: 'Looking for what\'s on this week in Melbourne for families? Here are the best Easter weekend and school holiday picks for April 1–5, 2026 — including Kids Day Out, free Fed Square cinema and comedy, Melbourne Museum ideas, markets and easy playground pairings.'
+  },
+  {
     slug: 'melbourne-kids-activities-this-week-before-easter-long-weekend-2026',
     title: "Melbourne Kids Activities This Week: 8 Easy Family Outings Before the Easter Long Weekend",
     excerpt: "Need fresh ideas for the days between now and Easter? From Comedy Festival matinees to autumn leaf walks and a Good Friday freebie worth planning around, here are eight genuinely doable Melbourne family outings for toddlers and preschoolers this week.",
