@@ -15,6 +15,82 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'what-to-pack-playground-melbourne-autumn-school-holidays-parents-guide',
+    title: "What to Pack for the Playground in Melbourne This Autumn: The Park Bag That Saves School Holiday Outings",
+    excerpt: "A good playground outing with little kids is rarely about luck. It’s usually about the bag. Here’s what Melbourne parents actually need to pack this autumn — from sunscreen and spare layers to the low-key items that save a morning when school holidays, snacks and puddles collide.",
+    content: `
+      <p>There are two kinds of playground mornings in April. In the first kind, you arrive with a hat, enough snacks, a change of clothes, and the calm confidence of someone who has done this before. In the second kind, you're five minutes in when someone needs the toilet, someone else is hungry, the breeze has picked up, and you've somehow brought <em>none</em> of the things that would have made the outing easy.</p>
+
+      <p>If you're heading into the <strong>Melbourne school holidays</strong> with toddlers or preschoolers, this is your reminder that the difference between a lovely park morning and a derailed one is very often the bag. Not a giant expedition backpack. Just a practical, well-packed <strong>playground bag for Melbourne autumn weather</strong>.</p>
+
+      <p>Autumn is genuinely one of the best times of year for playgrounds here. The equipment isn't scorching, the light is softer, and kids can play for longer without everyone wilting. But Melbourne in April also loves a curveball: a cool start, warm middle of the day, surprise wind, damp slide, muddy patch, and a child who ends up wet despite nobody going near water on purpose. So here's <strong>what to pack for the playground with kids</strong> if you want the outing to feel easy.</p>
+
+      <h2>1. Start with the three non-negotiables</h2>
+
+      <p>If you pack nothing else, pack <strong>water, snacks, and wipes</strong>. That is the holy trinity of playground success.</p>
+
+      <p>Water sounds obvious, but thirsty kids unravel fast, especially when they're climbing more than usual. Snacks matter because playground hunger arrives suddenly and with dramatic energy. Wipes are for hands, benches, mystery stickiness, babycino spills, muddy knees, and the moment your child insists on eating a banana immediately after digging in bark chips.</p>
+
+      <p><strong>Parent tip:</strong> pack one snack you expect them to eat and one snack you keep in reserve for the car or tram ride home. That second snack is often the one that saves the whole day.</p>
+
+      <h2>2. Melbourne autumn still calls for sunscreen and hats</h2>
+
+      <p>This is the bit parents quietly relax on as soon as summer ends — and honestly, fair enough, because April feels gentler. But if you're out at an exposed playground from mid-morning onward, you still want <strong>sunscreen and a hat for every child</strong>. Autumn UV isn't as fierce as January, but it's absolutely enough to catch little faces, necks and shoulders during a long park session.</p>
+
+      <p>The easiest system is to keep a small sunscreen permanently in the playground bag and apply it before you leave home. Then you only need to top up if you're staying longer than expected — which, with a good playground, you often are. If your child fights hats, pick the one they'll actually wear rather than the perfect one that stays in the car.</p>
+
+      <p>If you need destination ideas for a longer morning out, our <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">inner-east playground guide</a> and <a href="/blog/best-playgrounds-mornington-peninsula-families-rosebud-rye-mornington">Mornington Peninsula guide</a> both include parks where autumn is especially lovely.</p>
+
+      <h2>3. Layers beat one big jacket every time</h2>
+
+      <p>Melbourne parents already know this in theory, but playgrounds really drive it home. A child who is freezing at 9:30 AM can be running around in a T-shirt by 11. The best approach is <strong>light layers</strong>: a T-shirt, a zip-up hoodie or jumper, and maybe a light windproof layer if the forecast is changeable.</p>
+
+      <p>For toddlers especially, bulky coats can make climbing awkward and annoying. You'll usually get more comfort from a couple of thin layers than one heavy item. And because autumn mornings can still start cool, I’d also throw in a spare pair of socks. Wet socks are wildly effective at ending an otherwise good outing.</p>
+
+      <h2>4. Always pack one full change of clothes</h2>
+
+      <p>Even if you're “just going to the local park for half an hour”, pack the spare clothes. Especially then.</p>
+
+      <p>Autumn playgrounds are peak surprise-mess season: dew on slides, puddles under swings, muddy grass, creek detours, sand stuck to damp leggings, and the classic toddler move of sitting directly in the only wet patch in the whole reserve. A spare T-shirt, pants, underwear, and socks can turn an almost-finished outing back into a very manageable one.</p>
+
+      <p>If you're heading somewhere with sand, water, or creek play — or even a foreshore stop after a playground — our <a href="/search?category=playground">playground finder</a> is handy for choosing parks with the right facilities nearby.</p>
+
+      <h2>5. The low-effort extras that make you feel weirdly competent</h2>
+
+      <p>These are not essential every time, but they're the items that make a parent feel like they have cracked the code:</p>
+
+      <ul>
+        <li><strong>A small picnic rug</strong> — for damp grass, snack breaks, or feeding a baby while older kids play</li>
+        <li><strong>A plastic bag or wet bag</strong> — for muddy clothes, rubbish, or shoes that should not go straight back in the car</li>
+        <li><strong>Hand sanitiser</strong> — useful when the toilet block is closed or soap has mysteriously vanished</li>
+        <li><strong>A mini first-aid pouch</strong> — mostly for your own peace of mind after a bark-chip faceplant</li>
+        <li><strong>One small toy vehicle or sand tool</strong> — magic for siblings waiting around or toddlers who want to potter rather than climb</li>
+      </ul>
+
+      <p>You don't need a Pinterest-level setup. You just want a few quiet backup tools for the moments when playground energy dips or wobbles.</p>
+
+      <h2>6. Pack for the parent too</h2>
+
+      <p>This sounds indulgent until the moment you realise it is absolutely not. Put something in the bag that helps <em>you</em> enjoy the outing: a keep cup of coffee, a water bottle you actually like drinking from, sunglasses, or a proper snack instead of surviving on your child's leftover crackers.</p>
+
+      <p>School holiday outings go better when adults are not running on fumes. If you're planning to pair the park with lunch or a lower-effort catch-up, our <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly cafés guide</a> and <a href="/blog/best-kid-friendly-pubs-beer-gardens-playgrounds-melbourne">family pub guide</a> are both useful to have in your back pocket.</p>
+
+      <h2>7. The simplest packing rule: reset the bag as soon as you get home</h2>
+
+      <p>This is the real secret. The best playground bag is not the fanciest one — it's the one that's ready to go next time. Refill the wipes, replace the spare clothes, restock the snacks, and put the hats back immediately. Future you will feel unusually grateful.</p>
+
+      <p>Because the truth is, Melbourne families don't need to overcomplicate school holidays. One good playground, one decent snack plan, one bag that covers the basics — that gets you surprisingly far. And on a crisp April morning, with the leaves starting to turn and the slides finally cool enough to touch, a simple playground outing is often the best plan of the week.</p>
+
+      <p>If you want to put that freshly packed bag to good use, browse our <a href="/search?category=playground">playground finder</a> or explore our area guides to find a new favourite park for autumn. 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-02T07:00:00+11:00',
+    category: 'tips',
+    tags: ['what to pack for the playground with kids', 'playground bag essentials Melbourne', 'Melbourne autumn playground tips', 'school holidays parent tips Melbourne', 'sun safety kids autumn Melbourne', 'park bag checklist toddlers', 'playground tips parents Melbourne'],
+    seoTitle: 'What to Pack for the Playground in Melbourne This Autumn: Parent Guide for School Holidays',
+    seoDescription: 'Heading to the park with toddlers or preschoolers this autumn? Here’s what Melbourne parents should actually pack for a playground outing — from sunscreen and spare layers to snacks, wipes and the small items that save school holiday mornings.'
+  },
+  {
     slug: 'whats-on-this-week-melbourne-families-april-1-5-2026-easter-school-holidays',
     title: "What's On This Week in Melbourne for Families: Easter Weekend Starts, Free Fed Square Fun and Easy City Outings (April 1–5)",
     excerpt: "School holidays and Easter are arriving at once, which means Melbourne families suddenly have options everywhere. From Kids Day Out and free Fed Square comedy to family museum sleepovers, markets and gentle low-stress outings, here’s what’s genuinely worth considering this week.",
