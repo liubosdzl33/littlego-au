@@ -15,6 +15,73 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'melbourne-museum-with-toddlers-school-holidays-family-review-2026',
+    title: "Melbourne Museum with Toddlers: Is It Worth It These School Holidays? An Honest Parent Review",
+    excerpt: "If you're wondering whether Melbourne Museum is actually a good outing for toddlers and preschoolers — especially over the Easter school holidays — the short answer is yes, if you do it the right way. Here's what genuinely works, what to skip, and how to turn it into an easy family morning.",
+    content: `
+      <p>There are family venues in Melbourne that sound good in theory and become hard work the minute you arrive with a toddler. And then there are places that actually understand the assignment. <strong>Melbourne Museum with toddlers</strong> falls into the second category — provided you go in with the right expectations.</p>
+
+      <p>If you're looking for a <strong>Melbourne Museum school holidays with kids</strong> guide, here's the honest version: this is not the kind of outing where your child will stroll quietly through every gallery while you admire the exhibits in peace. It <em>is</em> the kind of outing where you get a solid, interesting, low-stress morning out with enough variety to keep little kids engaged and enough built-in flexibility that you can pivot when energy changes. That is a parenting win.</p>
+
+      <p>Right now it's an especially useful pick because the <strong>April school holidays</strong> and Easter break bring extra family energy into the city, including <strong>Family Museum Sleepovers</strong> and other kid-focused programming. But even on a regular week, Melbourne Museum is one of the most reliable family venues in town.</p>
+
+      <h2>What makes Melbourne Museum work so well for little kids?</h2>
+
+      <p>The biggest reason is simple: <strong>space</strong>. The museum is large, calm, stroller-friendly, and designed in a way that doesn't make parents feel like they're constantly shushing their child. You can move at toddler pace. You can stop for snacks. You can follow whatever your child is suddenly obsessed with for twenty straight minutes without feeling like you're doing the venue “wrong”.</p>
+
+      <p>The <strong>Children's Gallery</strong> is the obvious hero for under-5s. It gives younger kids something tactile and scaled to them, which matters after even a short stretch of looking rather than doing. But the broader museum works well too because little kids often enjoy the experience of the building as much as the headline exhibitions: the big open halls, the dinosaur skeletons, the changing lights, the sense that they've gone somewhere exciting.</p>
+
+      <p><strong>Parent tip:</strong> don't aim to “see the museum”. Aim for <strong>two good sections and one outside reset</strong>. That is the formula.</p>
+
+      <h2>The best way to do it with toddlers or preschoolers</h2>
+
+      <p>The sweet spot is a <strong>morning visit</strong>. Arrive early, before everyone gets hungry and before the school-holiday crowds build. Do your highest-interest stop first — for most little kids that's the Children's Gallery or the dinosaur displays — and let the rest of the outing unfold from there.</p>
+
+      <p>If your child loves routine and gets overwhelmed easily, Melbourne Museum is still a good choice because it's easy to simplify. You don't need a packed itinerary. You can do one level, one snack break, one wander through a favourite section, and call it there. That still counts as a successful outing.</p>
+
+      <p>For more energetic kids, the real trick is to <strong>pair the museum with outdoor play</strong>. The museum itself is excellent, but toddlers rarely want a fully indoor day. The smart move is museum first, then a run around afterwards — either in <strong>Carlton Gardens</strong> or by using our <a href="/search?category=playground">playground finder</a> to choose a nearby park for a proper climb and reset.</p>
+
+      <h2>What parents usually underestimate</h2>
+
+      <p>The museum can feel deceptively easy, which means parents sometimes overpack the day. They add lunch on Lygon Street, another city stop, maybe a market, maybe a second museum. That's where the wheels come off.</p>
+
+      <p>If you're going with toddlers, Melbourne Museum is best treated as the <strong>main event</strong>, not the warm-up act. The building is big, there's a lot of walking, and school-holiday excitement adds up fast. A shorter, simpler plan usually lands better than trying to turn it into a marathon city day.</p>
+
+      <p><strong>What we'd actually do:</strong> museum in the morning, a snack or early lunch nearby, then outside time in Carlton Gardens before heading home. That rhythm gives you culture, movement, and a low-drama exit while everyone is still coping.</p>
+
+      <h2>Is it good in the Easter school holidays?</h2>
+
+      <p>Yes — honestly, it's one of the handiest choices. School-holiday Melbourne can tip into “too much” very quickly: crowds, queues, sugar, noise, bookings, expensive extras, and kids getting overstimulated before lunch. Melbourne Museum is a good counterbalance to that. It still feels like a special outing, but it has more breathing room than a lot of holiday events.</p>
+
+      <p>It also works beautifully as a backup when your original plan falls apart. Weather turns? Energy is lower than expected? You want something in the city that isn't all screens or all spending? The museum is a very easy yes. If you're still weighing up the week, our <a href="/blog/whats-on-this-week-melbourne-families-april-1-5-2026-easter-school-holidays">what's on this week guide</a> is helpful for comparing higher-energy events with easier options like this one.</p>
+
+      <h2>What to pack for a smoother museum morning</h2>
+
+      <ul>
+        <li><strong>Snacks and water</strong> — because museum hunger arrives suddenly</li>
+        <li><strong>One small layer</strong> — city mornings can still be cool in April</li>
+        <li><strong>A pram for younger toddlers</strong> — even if they insist they won't need it</li>
+        <li><strong>A change of pace plan</strong> — playground, garden wander, or a simple café stop afterwards</li>
+      </ul>
+
+      <p>If your child is in the stage where every outing needs a clear run-around component, it is well worth planning that outdoor reset in advance rather than hoping they'll be fine without it. They won't be. None of ours are.</p>
+
+      <h2>So, is Melbourne Museum worth it with toddlers?</h2>
+
+      <p><strong>Yes — absolutely.</strong> Not because every minute will be magical, and not because your child will suddenly become a tiny art critic. It's worth it because it is one of the rare Melbourne family venues that gives you flexibility, stimulation, weather protection, and a genuinely nice morning out without requiring military-level planning.</p>
+
+      <p>For families with toddlers and preschoolers, that's often exactly what you need during the school holidays: something interesting, manageable, and easy to pair with a playground or picnic afterwards. Melbourne Museum delivers on that beautifully.</p>
+
+      <p>If you're planning a city outing this April, we'd confidently put it near the top of the list. And if your child still has energy to burn afterwards, our <a href="/search?category=playground">playground finder</a> will help you turn one good venue into a genuinely great family day. 🦕</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-03T07:00:00+11:00',
+    category: 'reviews',
+    tags: ['Melbourne Museum with toddlers', 'Melbourne Museum school holidays with kids', 'Melbourne family venue review', 'things to do with toddlers Melbourne city', 'Melbourne Museum preschoolers', 'Easter school holidays Melbourne families', 'Carlton Gardens playground families'],
+    seoTitle: 'Melbourne Museum with Toddlers: Honest School Holiday Review for Families (2026)',
+    seoDescription: 'Wondering if Melbourne Museum is worth it with toddlers or preschoolers these school holidays? Here’s an honest parent review with practical tips, what works best, and how to pair it with outdoor play for an easy Melbourne family day out.'
+  },
+  {
     slug: 'what-to-pack-playground-melbourne-autumn-school-holidays-parents-guide',
     title: "What to Pack for the Playground in Melbourne This Autumn: The Park Bag That Saves School Holiday Outings",
     excerpt: "A good playground outing with little kids is rarely about luck. It’s usually about the bag. Here’s what Melbourne parents actually need to pack this autumn — from sunscreen and spare layers to the low-key items that save a morning when school holidays, snacks and puddles collide.",
