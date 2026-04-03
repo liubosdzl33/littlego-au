@@ -15,6 +15,62 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'easter-weekend-planner-melbourne-families-april-4-5-2026-sunny-playgrounds',
+    title: "Easter Weekend Planner for Melbourne Families: Sunny Skies, Easy City Outings and Playground Wins (April 4–5)",
+    excerpt: "Melbourne has handed families a very workable Easter weekend: a crisp, sunny Saturday and an even warmer Sunday. Here’s how to make the most of it with free Fed Square fun, market stops, playground pairings and practical parent tips that keep the long weekend feeling easy.",
+    content: `
+      <p>Melbourne has done something unusually kind for families this Easter weekend: it has kept the weather simple. <strong>Saturday is cool, clear and dry</strong>, starting brisk and climbing to around <strong>19°C</strong>. <strong>Sunday looks warmer and sunnier again</strong>, reaching about <strong>23°C</strong>. If you've been hoping for an <strong>Easter weekend planner for Melbourne families</strong> that doesn't rely on military logistics, this is it.</p>
+
+      <p>The move this weekend is not to cram in every egg hunt, market, comedy set and museum stop you can find. It's to choose <strong>one city highlight, one good food stop, and one playground reset</strong>. That rhythm works beautifully with toddlers and preschoolers, and honestly, it works beautifully for adults too.</p>
+
+      <h2>Saturday April 4: cool start, blue sky, very easy city weather</h2>
+
+      <p>Saturday morning starts chilly enough for jumpers, but by late morning it should feel lovely for walking, markets and a proper playground run. If you want the easiest headline plan, <strong>Federation Square</strong> is the standout. The free <strong>The (Very) Big Laugh Out</strong> is on again today with family-friendly comedy on the main stage, and the <strong>Outdoor Cinema: Family Comedy Faves</strong> kicks in from <strong>5pm</strong>. It is exactly the kind of long-weekend programming that works well with little kids because you can dip in and out rather than committing to one rigid timeslot.</p>
+
+      <p><strong>Best way to do it:</strong> head in for a late morning or early afternoon city wander, catch some comedy, grab a snack, then let the kids move at <strong>Birrarung Marr</strong> afterwards. If your child does better with movement before sitting, flip the order. Either way, a <a href="/search?category=playground">playground nearby</a> is the thing that turns a good city outing into a manageable one.</p>
+
+      <p>If Fed Square feels too busy, <strong>Queen Victoria Market</strong> is a very solid Saturday fallback. It's open, festive, and far less demanding than a big ticketed event. You can browse, snack, buy something for Easter lunch if you need to look organised, then walk to <strong>Flagstaff Gardens</strong> for a low-pressure play break. For many families, that is the sweet spot: enough atmosphere to feel like a proper outing, not so much structure that the day tips into hard work.</p>
+
+      <p>If you want to make Saturday feel extra special, <strong>Family Museum Sleepovers</strong> start at Melbourne Museum this weekend. And even if an overnight sounds like too much admin — a fair response — the museum precinct is still one of the easiest family zones in the city. You can do a museum morning, then head into Carlton Gardens or use our <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">inner-east playground guide</a> to plan a better run-around on the way home.</p>
+
+      <h2>Sunday April 5: warmer, sunnier, and ideal for a playground-first plan</h2>
+
+      <p>Sunday looks even friendlier for families. After a cool start, Melbourne warms quickly and stays bright, with the forecast reaching around <strong>23°C</strong>. That makes it a brilliant day for a <strong>Melbourne family weekend planner</strong> built around outdoor play first and city extras second.</p>
+
+      <p>The simplest smart plan is <strong>playground in the morning, market or lunch later</strong>. If you're heading into town, the <strong>Lygon Street Market</strong> is on for Easter Sunday and gives you a festive city option without the intensity of a giant event. Do a playground or garden walk first while everyone's fresh, then roll into Carlton for lunch, pastries, people-watching and a browse. Families who already know their child gets overwhelmed by crowds should absolutely do it in that order.</p>
+
+      <p>If you're staying local, this is the day to use one of Melbourne's destination playgrounds. Inner-east families could lean on <strong>Markham Reserve</strong> or <strong>Hays Paddock</strong>. Bayside families might prefer a foreshore park and takeaway coffee. And if you want to make a real outing of it, our <a href="/search?category=playground">playground finder</a> is the fastest way to pick something with toilets, shade and enough interest to justify the drive.</p>
+
+      <p><strong>Parent tip:</strong> because Sunday is warmer than Saturday, treat it more like a proper autumn sun day than a cool-weather one. Hats, water and sunscreen matter again, especially if you're staying out into the middle of the day.</p>
+
+      <h2>Three genuinely easy Easter weekend options</h2>
+
+      <ul>
+        <li><strong>City energy:</strong> Fed Square comedy or cinema, then Birrarung Marr playground and an early dinner nearby</li>
+        <li><strong>Low-stress Melbourne classic:</strong> Queen Victoria Market, a snack wander, then Flagstaff Gardens or a local park on the way home</li>
+        <li><strong>Outdoor-first Sunday:</strong> destination playground in the morning, then Lygon Street Market or a relaxed café lunch</li>
+      </ul>
+
+      <p>If the clocks changing overnight leaves everyone a bit ragged on Sunday, give yourself permission to downshift. Our <a href="/blog/daylight-saving-ends-april-2026-toddler-sleep-schedule-adjustment-tips">daylight saving guide</a> goes deeper, but the short version is this: don't overbook the day. Morning outdoor light, some active play, and a simple lunch plan will do more for family harmony than chasing a packed itinerary.</p>
+
+      <h2>Backup ideas if the city feels like too much</h2>
+
+      <p>Not every Easter weekend needs a marquee event. If energy is wobbly, Melbourne's best backup plans are still the classics: <strong>ACMI's Play School: Come and Play</strong> for younger kids, a museum stop, or one of the city's better <a href="/blog/best-indoor-play-centres-melbourne-toddlers-preschoolers-guide">indoor play centres</a> if your child needs to burn energy without too much walking. But with this weekend's weather looking so friendly, outdoor play is likely to be the winning move.</p>
+
+      <h2>What we'd actually do</h2>
+
+      <p>If we were planning this weekend with toddlers, we'd keep it very simple: <strong>Fed Square plus Birrarung Marr on Saturday</strong>, then <strong>a destination playground and an easy Easter lunch on Sunday</strong>. That gives you one lively city day, one sunnier outdoor day, and enough breathing room that nobody ends up melting down in a queue.</p>
+
+      <p>Melbourne is full of <strong>Easter weekend kids activities</strong> right now, but this is one of those weekends where the weather is almost the main attraction. Crisp morning air, sunny playgrounds, a few good family events, and kids who can finally run without roasting in the heat — that's a pretty lovely long weekend recipe. And if you need a park to anchor the whole plan, our <a href="/search?category=playground">playground finder</a> is still the best place to start. 🐣☀️</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-04T07:00:00+11:00',
+    category: 'activities',
+    tags: ['Easter weekend planner Melbourne families', 'Melbourne family weekend planner', 'Easter weekend kids activities Melbourne', 'Fed Square family comedy Melbourne', 'Lygon Street Market Easter Sunday', 'Melbourne playground weekend ideas', 'things to do with kids Melbourne April 2026'],
+    seoTitle: 'Easter Weekend Planner for Melbourne Families: Best Kids Activities & Playgrounds (April 4–5, 2026)',
+    seoDescription: 'Planning Easter weekend in Melbourne with kids? Here’s a practical family guide for April 4–5, 2026 with weather-aware ideas, free Fed Square comedy and cinema, Lygon Street Market, easy playground pairings and parent-friendly tips.'
+  },
+  {
     slug: 'melbourne-museum-with-toddlers-school-holidays-family-review-2026',
     title: "Melbourne Museum with Toddlers: Is It Worth It These School Holidays? An Honest Parent Review",
     excerpt: "If you're wondering whether Melbourne Museum is actually a good outing for toddlers and preschoolers — especially over the Easter school holidays — the short answer is yes, if you do it the right way. Here's what genuinely works, what to skip, and how to turn it into an easy family morning.",
