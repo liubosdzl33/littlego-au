@@ -15,6 +15,109 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'whats-on-this-week-melbourne-families-april-8-12-2026-school-holidays-week-2',
+    title: "What's On This Week in Melbourne for Families: School Holidays Week 2 — Turkish Market, Comedy Festival Finale & Free Trains (April 8–12)",
+    excerpt: "The second week of school holidays is here, and Melbourne still has plenty up its sleeve. A Turkish street market at QVM, the final stretch of the Comedy Festival, a story-world workshop for young writers, and — best of all — free public transport for everyone until April 30. Here's your practical guide to making the most of it.",
+    content: `
+      <p>Week one of school holidays had Easter, chocolate, and enough organised events to fill a calendar. Week two has something arguably better: <strong>breathing room, free trains, and the kind of low-key Melbourne magic that doesn't require a booking confirmation email</strong>.</p>
+
+      <p>If your family is a little event-fatigued after a packed long weekend, this week is your permission slip to slow down and cherry-pick. There's genuinely good stuff on — a Turkish street market at the Queen Vic, the Comedy Festival in its final days, a story-writing workshop your book-obsessed preschooler might love — but none of it requires you to be anywhere at 9 AM sharp with four bags and a strategy.</p>
+
+      <p>Here's what's actually worth considering this week for <strong>Melbourne families with little ones</strong>.</p>
+
+      <h2>🚃 The Biggest Deal This Week: Free Public Transport Until April 30</h2>
+
+      <p>Let's start with the thing that changes your whole week. <strong>Public transport in Victoria is free for everyone until April 30, 2026</strong> — trains, trams, buses, and regional services included. That means a city trip costs you nothing to get there. The tram to the museum is free. The train to the market is free. The whole school holiday transport calculation just changed.</p>
+
+      <p>For families, this is huge. A CBD morning that would have cost $20+ in Myki taps now costs zero. You can spontaneously decide to catch a train for a babycino at the NGV café without doing mental maths first. And for toddlers who consider a tram ride to be the entire activity — not just the transport to it — this week is a gift.</p>
+
+      <p><strong>Practical tip:</strong> Trams and trains are busiest 9–10 AM and 3–4 PM as families move around the city. Go earlier or later to avoid the crunch. Midday is often beautifully quiet and is a genuinely nice time to ride the free tram loop with a curious two-year-old.</p>
+
+      <h2>🇹🇷 Turkish Pazar Festival — QVM (Friday–Saturday, April 10–11)</h2>
+
+      <p>The Queen Victoria Market hosts the <strong>Turkish Pazar Festival</strong> this weekend — a free celebration of Turkish culture with a traditional street market atmosphere, food stalls, live music, and cultural performances. It's the kind of event that's low-pressure and high-reward: you wander around, try food, watch performers, and leave when the kids are done. No tickets, no schedule, no problem.</p>
+
+      <p>Markets are brilliant for toddlers. The movement, colour, smell, and noise of a market environment is genuinely stimulating without being overwhelming — and there's always a snack option when energy dips. The QVM setting means you're right in the heart of the city, with Flagstaff Gardens just five minutes away for a post-market run-around. That combination — food + play — is a solid Melbourne morning formula.</p>
+
+      <ul>
+        <li><strong>When:</strong> Friday April 10 & Saturday April 11</li>
+        <li><strong>Where:</strong> Queen Victoria Market, CBD</li>
+        <li><strong>Cost:</strong> Free entry (food at stall prices)</li>
+        <li><strong>Combine with:</strong> Walk to Flagstaff Gardens playground afterwards — it's five minutes on foot and a lovely shaded spot under the elm trees</li>
+      </ul>
+
+      <h2>📖 Build a Story World with Davina Bell — State Library (Until April 15)</h2>
+
+      <p>This one's for families with a preschooler or early school-age child who loves books and stories. <strong>Build a Story World with Davina Bell</strong> at the State Library of Victoria is a hands-on workshop where kids craft an original picture-book narrative with the author. It's running through mid-week and is exactly the kind of creative school holiday program that gives kids something to carry home beyond a cardboard craft project.</p>
+
+      <p>The State Library itself is worth a visit even without the workshop — it's completely free, the La Trobe Reading Room is architecturally stunning (toddlers look up at the dome and go quiet, which is remarkable), and the children's corner has picture books and a calm atmosphere that's a nice change from busy playgrounds. For book-loving families, this is a midweek gem.</p>
+
+      <ul>
+        <li><strong>When:</strong> Running until April 15</li>
+        <li><strong>Where:</strong> State Library of Victoria, Swanston Street</li>
+        <li><strong>Cost:</strong> Check statelibrary.vic.gov.au for pricing and bookings</li>
+        <li><strong>Best for:</strong> Kids aged 4+ who love writing and storytelling</li>
+      </ul>
+
+      <h2>🕵️ Then and Now Time Detectives — Fitzroy Gardens (Until April 19)</h2>
+
+      <p>If your child needs to get outside and explore this week, <strong>Then and Now Time Detectives</strong> is a self-guided kids' activity through the beautiful <strong>Fitzroy Gardens</strong> in East Melbourne — completely free. Kids follow clues around the gardens to discover its history and hidden gems, which is basically a treasure hunt wrapped in a history lesson wrapped in a lovely autumn walk.</p>
+
+      <p>Fitzroy Gardens in mid-April is genuinely stunning. The elm avenues are at peak autumn colour — deep gold and orange — and the paths are wide and stroller-friendly. The playground near the centre of the gardens is excellent for under-5s, and the Fairy Tree (a carved old tree stump with fairy door scenes) is a must-visit for any toddler who has opinions about magic.</p>
+
+      <ul>
+        <li><strong>When:</strong> Daily until April 19</li>
+        <li><strong>Where:</strong> Fitzroy Gardens, East Melbourne</li>
+        <li><strong>Cost:</strong> Free — pick up the activity sheet from the Fitzroy Gardens Visitor Centre</li>
+        <li><strong>Best for:</strong> Ages 3–8, adventurous walkers</li>
+        <li><strong>Combine with:</strong> The <a href="/search?category=playground">playground inside the gardens</a> for a post-detective run-around</li>
+      </ul>
+
+      <h2>🎭 Comedy Festival — Final Days (Until April 19)</h2>
+
+      <p>The Melbourne International Comedy Festival is in its final stretch, and it's genuinely worth booking a kids' show this week if you haven't already. <strong>The Listies</strong> and <strong>Signor Baffo</strong> are still running, along with other family-friendly shows that work brilliantly for preschoolers and primary-age kids. Wednesday and Thursday matinees this week tend to be quieter than the weekend sessions — easier to navigate with tired, post-Easter kids.</p>
+
+      <p>If you're in the CBD for the free tram, Festival Hub at the Town Hall area is worth a wander even without a ticket — street performers, the energy of the festival, and the opportunity to see a comedy poster that makes your child ask seventeen questions about what "hilarious" means. It's all part of the experience.</p>
+
+      <p><strong>Book at:</strong> comedyfestival.com.au — midweek matinees often have better availability than weekends at this point in the run</p>
+
+      <h2>🍕 Coming Up: Little Food Festival — April 15–16</h2>
+
+      <p>If you're planning the back half of the holidays, pencil in the <strong>Little Food Festival</strong> next weekend (April 15–16). It's described as Australia's iconic food festival created for kids, and it's completely free to attend. Perfect timing for the last weekend before school resumes — a celebration of food with kids at the centre, right in the city.</p>
+
+      <h2>📋 Your Week at a Glance</h2>
+
+      <h3>Wednesday–Thursday</h3>
+      <p><strong>Midweek slow day:</strong> Fitzroy Gardens Time Detectives activity + playground + Fairy Tree. Free, beautiful in peak autumn colour, and doesn't require you to be anywhere until 10 AM. If energy is good, add the State Library Davina Bell workshop on the way home.</p>
+
+      <h3>Friday</h3>
+      <p><strong>Turkish Pazar Festival kicks off at QVM.</strong> Head in on the free tram, browse the market, grab something delicious, and walk to Flagstaff Gardens playground. Or catch a Comedy Festival matinee if you've been meaning to book one — Friday sessions still have good availability.</p>
+
+      <h3>Saturday</h3>
+      <p><strong>Second day of the Turkish Pazar Festival</strong> — slightly busier than Friday but still manageable before midday. Or swap for a <a href="/search?category=playground">destination playground</a> morning if the family needs outdoor time more than market time. Autumn weather in mid-April should be mild (17–21°C) — lovely for a morning outside.</p>
+
+      <h2>🎒 This Week's Packing Essentials</h2>
+
+      <ul>
+        <li><strong>Myki topped up or linked to your account</strong> — it's free, but you still need to tap on and off to avoid a fine</li>
+        <li><strong>Layers</strong> — mid-April mornings in Melbourne sit around 10–13°C, warming to the high teens by midday. A zip-up hoodie for the kids is the essential item</li>
+        <li><strong>Snacks</strong> — market food is excellent but queues with a hungry toddler are not</li>
+        <li><strong>Comfortable walking shoes</strong> — Fitzroy Gardens has a lot of lovely ground to cover</li>
+        <li><strong>A bag for autumn treasures</strong> — Fitzroy Gardens in mid-April is peak leaf-collecting season, and your toddler will insist</li>
+      </ul>
+
+      <p>The second week of school holidays doesn't need to be as packed as the first. A Turkish market, a detective walk through golden autumn gardens, free trains to wherever the day takes you — that's a perfectly good week. The best outings right now are the ones that take advantage of Melbourne's extraordinary autumn light and the rare gift of free public transport that makes the city feel genuinely accessible for every family.</p>
+
+      <p>Find playgrounds near this week's events with our <a href="/search?category=playground">playground finder</a> — because every good Melbourne day eventually ends up at a park. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-08T07:00:00+10:00',
+    category: 'events',
+    tags: ['what\'s on this week Melbourne families', 'Melbourne school holiday activities week 2', 'Turkish Pazar Festival Melbourne', 'free public transport Melbourne school holidays', 'Fitzroy Gardens kids activities', 'Comedy Festival Melbourne April 2026', 'Melbourne family events April 2026', 'things to do with kids Melbourne school holidays'],
+    seoTitle: "What's On This Week Melbourne Families: School Holidays Week 2, Free Trains & Turkish Festival (April 8–12, 2026)",
+    seoDescription: "Week 2 of Melbourne school holidays guide for families — Turkish Pazar Festival at QVM, free public transport, Fitzroy Gardens Time Detectives, Comedy Festival finale and more. Practical tips for toddlers and preschoolers."
+  },
+  {
     slug: 'easter-weekend-planner-melbourne-families-april-4-5-2026-sunny-playgrounds',
     title: "Easter Weekend Planner for Melbourne Families: Sunny Skies, Easy City Outings and Playground Wins (April 4–5)",
     excerpt: "Melbourne has handed families a very workable Easter weekend: a crisp, sunny Saturday and an even warmer Sunday. Here’s how to make the most of it with free Fed Square fun, market stops, playground pairings and practical parent tips that keep the long weekend feeling easy.",
