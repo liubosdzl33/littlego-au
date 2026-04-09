@@ -15,6 +15,81 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'collingwood-childrens-farm-melbourne-family-review-cafe-animals',
+    title: "Collingwood Children's Farm: A Genuine Melbourne Family Treasure (And Why The Farm Cafe Seals the Deal)",
+    excerpt: "Cow milking, guinea pig cuddling, a genuinely excellent café, and all of it sitting quietly along the Yarra in inner-east Melbourne. Collingwood Children's Farm is one of those rare family venues that earns its reputation — here's what to know before you go.",
+    content: `
+      <p>There are Melbourne family venues that look great in photos and feel underwhelming in person. Then there's <strong>Collingwood Children's Farm</strong> — which looks exactly like the photos and somehow feels even better when you're standing in it, watching your toddler stare open-mouthed at a goat that's staring back with equal intensity.</p>
+
+      <p>This place has been a Melbourne family institution for decades, and it earns that status every single visit. The combination of real working farm, beautiful Yarra riverbanks, and one of the better café experiences in any Melbourne family venue is genuinely hard to beat. Here's the honest review — what works, what to know in advance, and why a Friday morning at the farm might be the best reset your family has all week.</p>
+
+      <h2>🐄 What Collingwood Children's Farm Actually Is</h2>
+
+      <p>It's a community-run, not-for-profit working farm in Abbotsford — right on the Yarra, about 3 km from the CBD. Across a few leafy hectares, you'll find cows, goats, sheep, pigs, chickens, ducks, guinea pigs, and rabbits. Not behind glass. Not separated by three layers of fencing. Just there, in yards and paddocks where your child can look at them closely, touch them (in the animal contact areas), and sometimes — with a little patience and luck — help feed or brush them.</p>
+
+      <p>The daily <strong>cow milking sessions</strong> are the most popular draw. Watching a real dairy cow being milked, understanding where milk actually comes from, is genuinely educational in a way that no picture book can replicate. For toddlers, it's mostly just astonishing. For preschoolers who have some context, it's one of those moments where you can visibly see them connecting dots in their head.</p>
+
+      <p>The <strong>guinea pig cuddle sessions</strong> are a separate kind of magic. Gentle, warm animals who don't mind being held, specifically introduced for children — this is where cautious toddlers who won't go near the bigger animals suddenly become tiny wildlife enthusiasts.</p>
+
+      <h2>☕ The Farm Cafe: Better Than It Needs to Be</h2>
+
+      <p>Here's where Collingwood Children's Farm outperforms almost every other family venue in Melbourne. The café does not phone it in. The coffee is genuinely good — the kind of flat white that makes you want to sit down properly rather than cup-walk-and-chase. The food is made with care: real lunches, fresh snacks, a kids' menu with options that go beyond chips and a soggy roll.</p>
+
+      <p>Critically, it's set in a <strong>beautiful heritage farm building</strong> with an outdoor area looking over the gardens and paddocks. You can sit with a coffee and watch your child watching chickens, while the older ones run across the grass. That specific combination — good coffee, beautiful setting, kids visibly occupied — is rarer in Melbourne than it should be, and the farm delivers it effortlessly.</p>
+
+      <p>The café is open every day the farm is open. For a Friday morning visit, it's particularly lovely: quieter than weekends, the light through the old elm trees is golden, and you can actually get a table without hovering.</p>
+
+      <h2>📋 The Practical Bits</h2>
+
+      <ul>
+        <li><strong>Open:</strong> Daily, 9:30 AM – 4:30 PM (check Instagram for weather-related closures)</li>
+        <li><strong>Entry:</strong> Adults $20 / Children (2–17 years) $10 / Under 2s free</li>
+        <li><strong>Getting there:</strong> A 10-minute walk from Victoria Park train station, or drive and park along St Heliers Street. The walk in via the river trail from Abbotsford is genuinely lovely if you have a pram</li>
+        <li><strong>Strollers:</strong> Manageable throughout most of the farm — some paths are uneven, but the main areas are accessible</li>
+        <li><strong>Facilities:</strong> Clean toilets, change facilities, handwashing stations near animal areas (essential)</li>
+      </ul>
+
+      <h2>🐐 Tips for Visiting with Toddlers</h2>
+
+      <h3>Go early in the morning</h3>
+      <p>The farm is at its most magical before 11 AM. Animals are active, the light is beautiful, the café is quiet, and your toddler isn't competing with 40 other children for prime guinea pig viewing. Arrive at opening (9:30 AM) and you'll have the place nearly to yourself for the first half hour.</p>
+
+      <h3>Check the milking and activity schedule when you arrive</h3>
+      <p>The farm posts its daily activity times at the entrance. Cow milking happens once or twice a day — it's worth building your visit around it if you can, because it's the moment that tends to make the visit memorable. The guinea pig cuddle sessions are also scheduled, so check those too.</p>
+
+      <h3>Budget 2 to 2.5 hours</h3>
+      <p>Longer than you'd think. The combination of animals, open space, a café stop, and a wander along the kitchen gardens reliably fills a proper morning. Don't rush it — the unhurried pace is part of what makes the visit feel restorative.</p>
+
+      <h3>Wash hands early and often</h3>
+      <p>There are handwashing stations throughout the animal areas. Use them. Your toddler will have touched approximately every surface available, and farm handwashing is both necessary and a surprisingly satisfying toddler activity in its own right.</p>
+
+      <h3>Bring a change of clothes</h3>
+      <p>Not because the farm is especially messy — it's actually well-maintained — but because toddlers in a farmyard environment find ways. Muddy puddles near the duck pond, overly enthusiastic greeting of chickens, an inexplicable encounter with wet grass. Pack the spare pants.</p>
+
+      <h2>🌿 Beyond the Animals: The Broader Farm Experience</h2>
+
+      <p>The kitchen gardens and orchard areas of the farm are genuinely lovely to wander through. In autumn, the vegetable gardens are full of colour and late-season produce, and the established trees along the Yarra create a canopy that makes the whole farm feel lush and green. For families who want to pair the farm visit with some outdoor walking, the <strong>Yarra River trail</strong> is directly accessible from the farm gates — a flat, pram-friendly path that runs toward Abbotsford and beyond.</p>
+
+      <p>The farm also operates as a genuine community hub, with regular events, workshops, and school holiday programs (check their website for what's running during the current school holiday break). The not-for-profit community ownership gives the whole place a warmth and purpose that commercial venues rarely manage.</p>
+
+      <h2>🏆 The Verdict</h2>
+
+      <p>Collingwood Children's Farm is not the cheapest family outing in Melbourne — $10 per child adds up if you have a few — but it is one of the <strong>most genuinely rewarding</strong>. The combination of real animal interaction, beautiful environment, and a café that actually cares about quality makes it a rare venue where the whole family comes home feeling good about the day.</p>
+
+      <p>For toddlers especially, there's something irreplaceable about being in a real working environment — not a petting zoo at a shopping centre, not a farm simulator, but an actual farm with animals that have names and daily routines and opinions about being stared at. It's experiential learning at its best, wrapped in one of Melbourne's most beautiful riverside settings.</p>
+
+      <p>If you're looking for a <strong>Melbourne family café experience with animals</strong> that goes well beyond a babycino and a play corner, Collingwood Children's Farm is the answer. Book it into your school holidays rotation — and go on a Friday morning when you'll have the guinea pigs almost entirely to yourselves.</p>
+
+      <p>If you want to make a full morning of the area, check our <a href="/search?category=playground">playground finder</a> for nearby parks — the Yarra trail connects to several good spots for a post-farm run-around. 🐓</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-10T07:00:00+10:00',
+    category: 'reviews',
+    tags: ['Collingwood Childrens Farm Melbourne', 'Melbourne family cafe with animals', 'family venue review Melbourne', 'farm visit kids Melbourne', 'Melbourne inner east families', 'toddler activities Melbourne autumn', 'The Farm Cafe Abbotsford', 'animal experiences kids Melbourne', 'Abbotsford family activities', 'school holidays Melbourne review'],
+    seoTitle: "Collingwood Children's Farm Melbourne: Honest Family Review — Animals, Café & Practical Tips (2026)",
+    seoDescription: "Is Collingwood Children's Farm worth it with toddlers and young kids? Honest review of the animals, The Farm Cafe, entry prices, and practical tips for a brilliant Melbourne family morning out in Abbotsford."
+  },
+  {
     slug: 'do-nothing-day-school-holidays-toddlers-unstructured-play-melbourne',
     title: "The Do-Nothing Day: Why Your Toddler Needs Unscheduled Time (And Why You Should Stop Feeling Guilty About It)",
     excerpt: "Week two of school holidays hits and suddenly every day needs a plan. But developmental research is clear: unstructured, unscheduled days aren't a parenting fail — they're some of the most valuable time your toddler can have. Here's why, and how to actually enjoy them.",
