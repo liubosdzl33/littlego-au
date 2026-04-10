@@ -15,6 +15,123 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'weekend-planner-melbourne-families-april-11-12-2026-turkish-market-fed-square',
+    title: "Weekend Planner: Turkish Market at QVM, Free Fed Square Bugs, and the Last Good Playground Days Before the Cold Comes",
+    excerpt: "This weekend is a keeper. Turkish Pazar Festival fills Queen Victoria Market with amazing food and culture, Fed Square has a free bug-themed garden day on Saturday, and the Comedy Festival is ticking down to its final week. Here's your family plan — with playground picks that make the most of the mild autumn weather.",
+    content: `
+      <p>We're in the second week of school holidays, the frenzy of Easter has settled, and Melbourne is serving up a genuinely lovely mid-April weekend. Saturday sits around <strong>18–20°C with some cloud but no serious rain forecast</strong>, and Sunday looks similar — that crisp, golden kind of autumn weather where the light is soft, the playgrounds are cool enough to touch, and being outside feels effortless rather than effortful.</p>
+
+      <p>Crucially: <strong>public transport is still free for everyone until April 30</strong>. Which means getting into the city costs nothing, the tram to the market costs nothing, and the train home with a sleeping toddler costs nothing. This is one of those rare school holiday weekends where the logistics work in your favour. Use it.</p>
+
+      <p>Here's your weekend plan — two genuinely good days, zero agenda anxiety.</p>
+
+      <h2>🇹🇷 Turkish Pazar Festival — Queen Victoria Market (Saturday & Sunday)</h2>
+
+      <p>The standout event of the weekend is right in the heart of the city. The <strong>Turkish Pazar Festival</strong> at Queen Victoria Market recreates a traditional Turkish street bazaar — food stalls, live music, cultural performances, handmade goods, and an atmosphere that makes the whole market feel festive and alive. It runs both <strong>Saturday April 11</strong> and <strong>Sunday April 12</strong>, with free entry.</p>
+
+      <p>For families, this is an easy yes. Markets are genuinely brilliant for toddlers — the movement, colour, smell, and noise create a rich sensory environment without any of the screen-pressure of indoor venues. Your child gets to look at everything, point at the chickens on the spit, ask seventeen questions about the baklava, and generally be exactly as curious as they are.</p>
+
+      <p>The food alone justifies the trip. Think fresh simit (sesame bread rings), gözleme, köfte, honey-soaked pastries, and strong çay in tiny glasses. Arrive before 11 AM to get ahead of the lunch rush, pick a couple of things to eat, and then let the kids set the pace through the stalls.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday April 11 & Sunday April 12</li>
+        <li><strong>Where:</strong> Queen Victoria Market, CBD</li>
+        <li><strong>Cost:</strong> Free entry (food at stall prices)</li>
+        <li><strong>Getting there:</strong> Free tram on any City Circle or Swanston Street tram — or free train to Melbourne Central, 10-minute walk</li>
+        <li><strong>After the market:</strong> Walk five minutes to <strong>Flagstaff Gardens playground</strong> — shaded under enormous elms, lovely for a post-market run around. The leaves are properly golden right now.</li>
+      </ul>
+
+      <h2>🐛 Test Garden Open Day — Federation Square (Saturday Only)</h2>
+
+      <p>Right in the same city trip, <strong>Fed Square is hosting its Test Garden Open Day this Saturday from 10 AM to 4:30 PM</strong> — a free, bug-themed creative activity day celebrating the incredible world of insects. There are hands-on activities, nature exploration, and the kind of slightly-disgusting-but-fascinating encounters with insects that kids absolutely love and parents are slightly less sure about.</p>
+
+      <p>For school holiday content, this is genuinely sweet — it's free, it's educational in a fun way, and it fills the gap between market and playground beautifully. Curious preschoolers who love bugs (and which ones don't?) will be in heaven.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday April 11, 10 AM – 4:30 PM</li>
+        <li><strong>Where:</strong> Federation Square</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Combine with:</strong> Walk across the river to <strong>Birrarung Marr playground</strong> for a proper run after the activities</li>
+      </ul>
+
+      <h2>🎭 Sunday at Fed Square: Polyglot Theatre</h2>
+
+      <p>If you're hitting the city on Sunday, <strong>Polyglot Theatre performs an interactive show in The Atrium at Fed Square</strong> — with sessions at 10 AM, 11 AM, 1 PM, and 2 PM. Polyglot specialises in immersive, sensory performances for young children, and their shows are the kind where the line between performer and audience blurs beautifully. Toddlers don't sit and watch — they participate. It's free, it's under 30 minutes, and it's perfect to slot between the Turkish market and a playground.</p>
+
+      <ul>
+        <li><strong>When:</strong> Sunday April 12, 10 AM / 11 AM / 1 PM / 2 PM</li>
+        <li><strong>Where:</strong> The Atrium, Federation Square</li>
+        <li><strong>Cost:</strong> Free</li>
+      </ul>
+
+      <h2>🎭 Comedy Festival: Final Stretch (Until April 19)</h2>
+
+      <p>The Melbourne International Comedy Festival has one week left, and if you booked kids' shows earlier in the holidays — enjoy! If you haven't yet, there's still time to squeeze in a midweek matinee next week before it wraps on April 19. Check comedyfestival.com.au for remaining availability on <strong>The Listies, Signor Baffo, Winni Wizard</strong>, and other family-friendly shows.</p>
+
+      <p>Even without a ticket, the Comedy Festival atmosphere around the city is worth experiencing. Street performers pop up around the CBD, and the energy around venues like Town Hall adds a festive fizz to any city outing this weekend.</p>
+
+      <h2>🌿 Then and Now Time Detectives — Fitzroy Gardens (Until April 19)</h2>
+
+      <p>Still running and still underrated: the <strong>Then and Now Time Detectives</strong> kids' activity through Fitzroy Gardens is a free, self-guided trail that doubles as an autumn walk. Kids follow clues around the gardens to discover its history — essentially a treasure hunt through one of Melbourne's most beautiful parks while it's draped in peak autumn colour.</p>
+
+      <p>The elm avenues in Fitzroy Gardens right now are extraordinary — full gold-and-amber canopy, fallen leaves crunching underfoot, that particular mid-April light that turns everything warm. If you need a reason to spend an hour outside this weekend, this is it.</p>
+
+      <ul>
+        <li><strong>When:</strong> Daily until April 19</li>
+        <li><strong>Where:</strong> Fitzroy Gardens, East Melbourne (Visitor Centre has the activity sheets)</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Playground pairing:</strong> The <a href="/search?category=playground">playground inside Fitzroy Gardens</a> is excellent for post-detective play</li>
+      </ul>
+
+      <h2>🛝 Playground Picks for This Weekend</h2>
+
+      <p>With mild temperatures and no strong sun, this is actually ideal playground weather — equipment comfortable to touch all day, kids can stay out longer without wilting, and the autumn light makes every park look spectacular. A few recommendations matched to where you might be:</p>
+
+      <h3>If you're in the city: Birrarung Marr</h3>
+      <p>Riverside, spacious, great equipment, and directly accessible after the Turkish market or Fed Square events. The walking path along the Yarra is lovely for a post-play scooter ride, and there's enough open grass for a picnic. A genuinely beautiful spot on a mid-April Saturday.</p>
+
+      <h3>If you're inner east: Fitzroy Gardens Playground</h3>
+      <p>Right inside the gardens for the Time Detectives activity, and shaded by the famous elm canopy. The combination of detective hunt and playground is a solid two-hour morning. Add the Fairy Tree for any toddler with opinions about magic.</p>
+
+      <h3>If you're local and don't want to drive: Your nearest park</h3>
+      <p>Here's the honest school holiday truth: sometimes the best weekend plan is the simplest one. Neighbourhood playground, thermos of coffee, leaves on the ground, nothing on the schedule. Find your local one with our <a href="/search?category=playground">playground finder</a> and just go. Not every day needs a destination.</p>
+
+      <h2>📋 Your Weekend at a Glance</h2>
+
+      <h3>Saturday</h3>
+      <p><strong>City day:</strong> Free tram in → Test Garden Open Day at Fed Square (10–11 AM) → walk to Turkish Pazar Festival at QVM for late morning → food and browsing → Flagstaff Gardens playground for a post-market run → free tram home.</p>
+      <p><strong>Local day:</strong> Fitzroy Gardens Time Detectives walk + playground → autumn picnic on the lawns → nothing else required.</p>
+
+      <h3>Sunday</h3>
+      <p><strong>City day:</strong> Turkish Pazar Festival at QVM → Polyglot Theatre at Fed Square (pick a session time) → Birrarung Marr playground → free train home.</p>
+      <p><strong>Quiet day:</strong> Local park, slow morning, maybe a café stop. Week two of holidays calls for some breathing room. You don't have to optimise every day.</p>
+
+      <h2>🎒 What to Pack</h2>
+
+      <ul>
+        <li><strong>Layers:</strong> Mid-April mornings start around 11°C and warm to the high teens by midday. A zip-up hoodie for the kids is the move — easy to tie around their waist when it warms up</li>
+        <li><strong>Myki card:</strong> Public transport is free until April 30, but you still need to tap on and off to avoid a fine. Keep it in your wallet</li>
+        <li><strong>Snacks and water:</strong> Market food is excellent but queue-with-hungry-toddler is a nightmare. Pack backup snacks</li>
+        <li><strong>A bag for autumn treasures:</strong> Fitzroy Gardens and Flagstaff Gardens are shedding golden leaves at peak rate. Your toddler will want to collect all of them</li>
+        <li><strong>Cash:</strong> Some Turkish market stalls are cash-preferred</li>
+      </ul>
+
+      <h2>🍂 The Bigger Picture</h2>
+
+      <p>There's something satisfying about this particular weekend in the school holiday calendar. The big Easter events are behind you, the Comedy Festival is wrapping up, and Melbourne is quietly moving into proper autumn. The city feels a little less frantic than it did last week, the parks are golden, and there's enough happening to fill a day without any pressure to fill both days.</p>
+
+      <p>Pick one thing this weekend that you genuinely want to do — probably the Turkish market, because the food alone is worth it — and let the rest be easy. A good playground, something warm to eat, and the sound of autumn leaves. That's plenty.</p>
+
+      <p>Find your perfect playground for the weekend with our <a href="/search?category=playground">playground finder</a> — filter by location and features to find somewhere new. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-11T07:00:00+10:00',
+    category: 'activities',
+    tags: ['weekend planner Melbourne families', 'Turkish Pazar Festival Melbourne', 'Fed Square school holidays 2026', 'Melbourne family weekend April 2026', 'free Melbourne family activities', 'Fitzroy Gardens kids activities', 'autumn weekend Melbourne families', 'Melbourne playground weekend', 'Turkish market QVM', 'school holidays week 2 Melbourne'],
+    seoTitle: 'Melbourne Family Weekend Planner April 11–12, 2026: Turkish Festival, Free Fed Square & Autumn Playground Picks',
+    seoDescription: 'Plan your Melbourne family weekend April 11–12 — Turkish Pazar Festival at QVM, free Test Garden Open Day at Fed Square, Polyglot Theatre, and the best autumn playgrounds. Practical guide for families with toddlers during school holidays.'
+  },
+  {
     slug: 'collingwood-childrens-farm-melbourne-family-review-cafe-animals',
     title: "Collingwood Children's Farm: A Genuine Melbourne Family Treasure (And Why The Farm Cafe Seals the Deal)",
     excerpt: "Cow milking, guinea pig cuddling, a genuinely excellent café, and all of it sitting quietly along the Yarra in inner-east Melbourne. Collingwood Children's Farm is one of those rare family venues that earns its reputation — here's what to know before you go.",
