@@ -15,6 +15,96 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'final-week-school-holidays-melbourne-april-2026-little-food-festival-comedy-festival',
+    title: "Final Week of School Holidays: The Little Food Festival, Comedy Festival Finale, and Last-Minute Ideas for April 13–19",
+    excerpt: "The last week of school holidays has a genuinely brilliant lineup. The Little Food Festival hits Fed Square on April 15–16, the Comedy Festival wraps up April 19, and Fitzroy Gardens' Time Detectives trail is running right to the end. Here's how to make the most of it without the week feeling rushed.",
+    content: `
+      <p>Week two of school holidays is almost done — and here's the thing about the final stretch: it doesn't need to be your most packed. The best last weeks of holidays have a mix of <strong>one genuinely great outing, a couple of neighbourhood days, and a bit of breathing room</strong> before the Tuesday morning alarm clock comes back.</p>
+
+      <p>That said, Melbourne has handed you a really nice hand this week. There's a major free kids' event that's worth planning around, the Comedy Festival has its final days, and the city still has plenty going on under clear autumn skies. Here's what to know.</p>
+
+      <h2>🍎 The Headline Event: Little Food Festival — Fed Square (April 15–16)</h2>
+
+      <p>This is the one to anchor your week around. The <strong>Little Food Festival</strong> returns to Federation Square on Wednesday April 15 and Thursday April 16, running from 10 AM to 4 PM both days. It's completely free — and it's designed specifically for kids.</p>
+
+      <p>What makes it different from a typical food festival is the depth of the kids' programming. Rather than just stalls and tasting, the festival is built around six interactive zones: <strong>Grow, Move, Buy, Cook, Eat, and Recycle</strong>. Kids learn where food comes from, make cordial with native ingredients, become "food detectives" at the market zone, taste test apples, explore Indigenous bush tucker, and make vegetable dyes. There's even a Quiet Zone with the Little Food Library for story time if you need to bring the energy down a notch.</p>
+
+      <p>The stage lineup includes appearances from garden guru Costa, author Fiona Gray, and "The Fruit Nerd" Thanh Truong. Face painting, live Indigenous artwork by Stan Dryden, and smoothie bikes round out the experience.</p>
+
+      <p>For families with toddlers and preschoolers, this is genuinely great. The hands-on activities are designed for little ones — making, tasting, touching, and discovering. It's the kind of event where your child comes home with sticky hands, new knowledge, and a strong opinion about which apple variety they preferred. That's a good school holiday day.</p>
+
+      <ul>
+        <li><strong>When:</strong> Wednesday April 15 & Thursday April 16, 10 AM – 4 PM</li>
+        <li><strong>Where:</strong> Federation Square, Flinders Street (corner of Swanston)</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Getting there:</strong> Public transport is still free for everyone in April — take the City Loop train to Flinders Street or any CBD tram</li>
+        <li><strong>Combine with:</strong> Walk across Princes Bridge to <a href="/search?category=playground">Birrarung Marr playground</a> for a proper post-festival run-around on the Yarra</li>
+        <li><strong>Tip:</strong> Arrive before 11 AM for calmer crowds. Bring a water bottle — it's a full morning of activities</li>
+      </ul>
+
+      <h2>🎭 Comedy Festival: Book Anything You Haven't Seen (Until April 19)</h2>
+
+      <p>The Melbourne International Comedy Festival closes on Saturday April 19, which means this is genuinely your last week. If you've been meaning to book a kids' show and haven't yet, check <strong>comedyfestival.com.au</strong> now — some sessions still have availability, particularly midweek matinees.</p>
+
+      <p>Shows still running this week include <strong>The Listies</strong>, <strong>Signor Baffo</strong> (wordless physical comedy — brilliant for toddlers), and <strong>Winni Wizard and Her Magical Smells</strong> at ACMI. The <strong>Aboriginal Comedy Allstars (Kids Edition)</strong> on Friday April 18 is a special one — First Nations comedians with a family show full of laughs, dancing, and storytelling. Worth booking if you haven't.</p>
+
+      <p>Even if you don't have tickets, the festival atmosphere around the CBD this week is lovely. Street performers pop up near Town Hall, and the whole city has that end-of-festival buzz that makes any city outing feel festive.</p>
+
+      <h2>🕵️ Still Running: Then and Now Time Detectives — Fitzroy Gardens</h2>
+
+      <p>The free kids' trail through Fitzroy Gardens runs until April 19, and it's one of those school holiday activities that's easy to overlook but genuinely wonderful when you do it. Pick up the activity sheet from the Fitzroy Gardens Visitor Centre, let your child follow clues around the gardens, and enjoy the peak autumn colour as you go.</p>
+
+      <p>The elm avenues are at their very best right now — full gold canopy, leaves beginning to carpet the paths. If you haven't made it to Fitzroy Gardens this holidays, this final week is the time. The <a href="/search?category=playground">playground inside the gardens</a> is excellent for a post-detective run-around, and the Fairy Tree is compulsory for any child with opinions about magic.</p>
+
+      <ul>
+        <li><strong>When:</strong> Daily until April 19</li>
+        <li><strong>Where:</strong> Fitzroy Gardens, East Melbourne (activity sheets from the Visitor Centre)</li>
+        <li><strong>Cost:</strong> Free</li>
+      </ul>
+
+      <h2>📋 A Loose Plan for the Final Week</h2>
+
+      <p>You don't need to fill every day, but here's a loose framework that keeps things manageable without wasting what Melbourne has on offer:</p>
+
+      <p><strong>Monday April 13:</strong> Recovery day. Local playground, slow morning. If energy allows, a neighbourhood walk or bike ride. Don't overthink it.</p>
+
+      <p><strong>Tuesday April 14:</strong> One more free-transport Tuesday — kids travel free on public transport. Good day for a city trip if you haven't used this perk yet. Fitzroy Gardens Time Detectives + playground, or a quiet museum morning at Melbourne Museum.</p>
+
+      <p><strong>Wednesday April 15:</strong> <strong>Little Food Festival at Fed Square.</strong> Arrive before 11 AM, work through a few activity zones, grab something from the festival, walk across to Birrarung Marr for a playground session after.</p>
+
+      <p><strong>Thursday April 16:</strong> <strong>Second day of the Little Food Festival</strong> if you want more, or a quieter local day. If the week has been full-on, this is a good day to stay near home.</p>
+
+      <p><strong>Friday April 17:</strong> One last big outing or a friends playground catch-up. KaBloom at Tesselaar is still running if you fancy the Dandenongs. Or save your energy for the weekend.</p>
+
+      <p><strong>Saturday April 18:</strong> Aboriginal Comedy Allstars Kids Edition if you booked — or a final autumn playground morning somewhere new. The <a href="/search?category=playground">playground finder</a> has plenty of options you might not have tried yet.</p>
+
+      <p><strong>Sunday April 19 (Last Day):</strong> Keep it simple. Local park, ice cream, gentle wrap-up. School's back Monday and everyone benefits from a calm landing.</p>
+
+      <h2>🎒 This Week's Essentials</h2>
+
+      <ul>
+        <li><strong>Layers</strong> — mid-April mornings are getting properly cool (around 10°C), warming to the mid-to-high teens by afternoon. A zip-up hoodie is still the essential toddler accessory</li>
+        <li><strong>Myki card tapped for free travel</strong> — free until April 30, but you still need to tap on and off</li>
+        <li><strong>Snacks</strong> — always. Especially for the Little Food Festival, where you might be doing activity zones for a couple of hours before stopping for food</li>
+        <li><strong>A bag for autumn leaf collections</strong> — Fitzroy Gardens this week will be extraordinary. Your toddler will want to bring home half of it</li>
+      </ul>
+
+      <h2>🍂 A Note on the Last Week</h2>
+
+      <p>The final week of school holidays tends to have a different energy than the first. The novelty has settled, everyone knows the rhythm, and there's a quiet appreciation for the remaining days that the first week's rush doesn't quite have. Lean into that.</p>
+
+      <p>One really good day this week — probably the Little Food Festival on Wednesday — is enough to make it feel like a proper last-week of holidays. The rest can be ordinary, neighbourhood-scale, and unhurried. That's not a failure. That's the balance that actually restores everyone before the Tuesday alarm.</p>
+
+      <p>Find playgrounds for the final week with our <a href="/search?category=playground">playground finder</a> — autumn's not over yet. 🍎</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-12T07:00:00+10:00',
+    category: 'activities',
+    tags: ['school holidays Melbourne final week', 'Little Food Festival Melbourne 2026', 'Fed Square family events April 2026', 'Comedy Festival Melbourne April 2026', 'Fitzroy Gardens kids activities', 'school holidays week 2 Melbourne', 'free Melbourne family events April', 'end of school holidays Melbourne', 'Melbourne family activities April 13-19'],
+    seoTitle: 'Final Week of School Holidays Melbourne: Little Food Festival, Comedy Finale & Best April 13–19 Ideas',
+    seoDescription: "Make the most of the final week of Melbourne school holidays — the Little Food Festival is free at Fed Square April 15–16, Comedy Festival wraps April 19, and Fitzroy Gardens time detective trail is golden. A practical guide for families with toddlers."
+  },
+  {
     slug: 'weekend-planner-melbourne-families-april-11-12-2026-turkish-market-fed-square',
     title: "Weekend Planner: Turkish Market at QVM, Free Fed Square Bugs, and the Last Good Playground Days Before the Cold Comes",
     excerpt: "This weekend is a keeper. Turkish Pazar Festival fills Queen Victoria Market with amazing food and culture, Fed Square has a free bug-themed garden day on Saturday, and the Comedy Festival is ticking down to its final week. Here's your family plan — with playground picks that make the most of the mild autumn weather.",
