@@ -15,6 +15,188 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-playgrounds-south-east-melbourne-knox-ringwood-doncaster-croydon',
+    title: "Best Playgrounds in Melbourne's South East: Knox, Ringwood, Doncaster and Croydon",
+    excerpt: "Melbourne's south-east suburbs are quietly home to some of the city's best playgrounds — from a dragon castle with water play in Ferntree Gully to three distinct adventure parks at Ruffey Lake. Here are the top picks for families with toddlers and young kids across Knox, Maroondah, Manningham, and beyond.",
+    content: `
+      <p>If you haven't spent much time exploring Melbourne's south-east playgrounds, you might be surprised by what's out there. While the inner suburbs get most of the Instagram attention, the outer east — Knox, Maroondah, Manningham, and Whitehorse — has been quietly building some of the most impressive family playgrounds in the city. Recent upgrades, genuinely thoughtful design, and the luxury of <em>space</em> mean these parks deliver experiences the inner suburbs can't match.</p>
+
+      <p>Whether you're a local looking to break out of your regular rotation or a family from elsewhere planning a day trip, here are the <strong>best playgrounds in Melbourne's south-east suburbs</strong> — sorted by what they do best, with honest parent notes on each.</p>
+
+      <h2>🏆 Best All-Rounder: Ruffey Lake Park, Doncaster East</h2>
+
+      <p>Put simply, Ruffey Lake Park is one of Melbourne's great family destinations — a sprawling 68-hectare reserve in Doncaster East with three distinct playgrounds, walking and cycling trails, wildlife, barbecues, and the kind of all-day-without-a-plan energy that great parks have.</p>
+
+      <p>The three playgrounds each have a different character, which is the whole point. You can tailour your visit to your child's age, energy level, and mood.</p>
+
+      <h3>Victoria Street Adventure Playground (the big one)</h3>
+
+      <p>This is the showpiece, and deservedly so. Upgraded in 2024, the Victoria Street playground has impressive tower structures with slides, a flying fox, in-built trampolines, water play with pumps and channels, a giant bird's nest swing, monkey bars, rope-climbing, and fireman poles. It's the kind of playground where a confident four-year-old can play independently for ninety minutes without running out of things to try.</p>
+
+      <p>The water play is a genuine highlight. The pumps and channels let kids move water around, dam it, redirect it, and flood their own sand constructions — which is both excellent sensory play and a quiet introduction to physics. On a warm autumn morning, it keeps children absorbed long after they've exhausted the climbing equipment.</p>
+
+      <h3>The Boulevarde Playground (best for younger kids)</h3>
+
+      <p>On the other side of the park, The Boulevarde playground is calmer and better scaled for toddlers and preschoolers. Shaded play areas, a triple slide mound, gentle paths for scooters and bikes, a track glide, cubby house, and a wobble bridge make this the pick for families with children under four. The separated location means it doesn't get overwhelmed by big kids from the Adventure Playground, so little ones have space to explore at their pace.</p>
+
+      <h3>Church Road North Playground (nature focus)</h3>
+
+      <p>The smallest of the three, but beautiful in its own right. Tucked among mature trees, it has a rock labyrinth, swings, see-saw, and cubby house — the kind of low-key, shaded play space that's perfect for a quiet second stop on a park visit or for a toddler who needs something gentler.</p>
+
+      <p><strong>Best for:</strong> A full family day out, mixed-age groups, families who want variety<br>
+      <strong>Ages:</strong> 0–10+<br>
+      <strong>Facilities:</strong> Toilets, barbecues, picnic shelters, sealed paths for bikes/scooters, off-leash dog areas<br>
+      <strong>Address:</strong> Victoria Street or Church Road North entrances, Doncaster East<br>
+      <strong>Tip:</strong> The three playgrounds are not within easy walking distance of each other — drive or bike between them. Start at The Boulevarde with younger kids to warm up, then move to Victoria Street for the main event<br>
+      <strong>Autumn bonus:</strong> The park's established deciduous trees put on a beautiful autumn colour show in April — the walking trail around the lake is spectacular right now</p>
+
+      <h2>🐉 Best Themed Playground: Tim Neville Arboretum, Ferntree Gully</h2>
+
+      <p>Ask any south-east Melbourne parent about their favourite playground and the Tim Neville Arboretum — known locally as "Dragon Park" — comes up every time. It's earned that reputation, and a significant 2024 upgrade has made it even better.</p>
+
+      <p>The theming is genuinely immersive. A castle fort with a drawbridge, a sea monster (Loch Ness-style) to climb, a dragon-themed water play area, a large rope climbing pyramid, two flying foxes, a climbing net, and a wide slide. It's the kind of playground where your child disappears into imaginative play without any prompting — the castle is obviously a castle, the dragon is obviously a dragon, and the story practically writes itself.</p>
+
+      <p>The <strong>water play area</strong> is the crown jewel. Sandpit with water play equipment, set under shade sails so you can stay out on warm days without worrying about UV. The combination of water, sand, and a dragon-themed setting produces the kind of extended, absorbed play that lets parents actually sit down for more than five minutes.</p>
+
+      <p>The playground is <strong>fully fenced with a childproof gate</strong> — a detail that's worth its weight in gold when you have a toddler who sprints. Beyond the fenced area, the arboretum itself is gorgeous: a lake with ducks, a gazebo, an amphitheatre, and tranquil gardens perfect for a post-playground picnic.</p>
+
+      <p><strong>Best for:</strong> Imaginative play, castle-obsessed kids, families who want a destination rather than just equipment<br>
+      <strong>Ages:</strong> 1–10<br>
+      <strong>Fenced:</strong> Yes — fully fenced with secure childproof gate<br>
+      <strong>Facilities:</strong> Toilets, barbecues, picnic areas, lake, walking paths<br>
+      <strong>Address:</strong> Tim Neville Arboretum, Dorset Road, Ferntree Gully<br>
+      <strong>Tip:</strong> Pack swimmers or at minimum a change of clothes — the water play is irresistible and someone will be thoroughly soaked<br>
+      <strong>Combine with:</strong> Rapture Café on Station Street, Ferntree Gully is a 5-minute drive for excellent coffee and a kids' play area — a perfect warm-up or cool-down stop</p>
+
+      <h2>🌾 Best for Toddlers: Stud Park Farm Playground, Rowville</h2>
+
+      <p>If you have young children — particularly those who aren't quite ready for big climbing structures — Stud Park Farm Playground in Rowville deserves a special trip. It's a fully fenced, farm-themed, all-abilities playspace that opened in late 2023 and has quickly become one of the best toddler playgrounds in Melbourne's south-east.</p>
+
+      <p>The farm theme runs through everything with real attention to detail. A main farm climbing frame features chickens roosting, a water tank, and rope elements. A farm-gate shop invites imaginative play — your toddler can "stock the shelves" and serve customers for twenty delightful minutes. The sandpit has a water pump for building rivers and dams. There's a bird nest swing, trampoline, monkey bars, and an accessible tractor for climbing.</p>
+
+      <p>What really distinguishes Stud Park is the <strong>all-abilities design</strong>. Wheelchair-accessible ramps throughout, a communication board for non-verbal children, soft surfaces and artificial grass for easy access, and a mammoth swing all make this genuinely inclusive in a way that goes beyond the usual token gesture. Every child can play here, fully and freely.</p>
+
+      <p>Basketball courts and a flying fox outside the main fenced area give older siblings something too — that crucial "something for everyone" quality that makes family playground visits actually work.</p>
+
+      <p><strong>Best for:</strong> Toddlers and preschoolers, all-abilities families, imaginative farm play<br>
+      <strong>Ages:</strong> 0–8 (toddler-focused, but flying fox and courts for older kids)<br>
+      <strong>Fenced:</strong> Yes — main play area fully fenced<br>
+      <strong>Facilities:</strong> Toilets, barbecues, picnic seating, water taps<br>
+      <strong>Address:</strong> Stud Park Farm Playground, Rowville<br>
+      <strong>Tip:</strong> The sandpit water pump is the toddler star — pack a spare set of clothes, accept the inevitable dampness, and enjoy watching them engineer dams for forty minutes</p>
+
+      <h2>🌊 Best for Water Play: Halliday Park, Mitcham</h2>
+
+      <p>Halliday Park in Mitcham (a short drive from Ringwood) is one of those playgrounds that consistently gets mentioned by families across the south-east, and it earns the praise. A large, partially fenced playground with a play tower, basket swing, rope climbing pyramid, two flying foxes, and — the highlight — genuinely good shade coverage from both mature trees and shade sails.</p>
+
+      <p>The scale is part of the appeal. Halliday Park is big enough to accommodate weekend crowds without feeling chaotic. Multiple zones mean different ages can all find something appropriate, and there's enough open grass surrounding the play equipment for a post-climb kick of the football without anyone getting in anyone's way.</p>
+
+      <p>The parkland setting adds quality. Established trees, a creek nearby, and the kind of quiet suburban park atmosphere that makes you want to stay for the whole morning rather than just an hour. It's not a destination playground in the Instagram sense, but it's the kind of playground that becomes a family regular — reliable, well-maintained, and enjoyable every single visit.</p>
+
+      <p><strong>Best for:</strong> Families wanting a reliable, spacious playground with great shade<br>
+      <strong>Ages:</strong> 2–10<br>
+      <strong>Facilities:</strong> Parking, open grass, creek access<br>
+      <strong>Address:</strong> Halliday Park, Halliday Road, Mitcham</p>
+
+      <h2>🏅 Best for Adventurous Kids: Wyreena Community Arts Centre Playspace, Croydon</h2>
+
+      <p>Wyreena Playspace in Croydon is an award-winning playground that combines genuine adventure play with a community arts setting — and the combination works brilliantly. The play structures are interesting and challenging, with climbing elements that reward persistence and confidence without being inaccessible for younger kids.</p>
+
+      <p>What sets Wyreena apart is the integration with the broader community arts centre and native gardens. The playground sits in beautifully landscaped grounds with walking paths through native plantings, and the whole space has a considered, creative atmosphere that most suburban playgrounds lack. It's the kind of place where you go for the playground and stay for the environment.</p>
+
+      <p>For families in Croydon and the surrounding areas, this is the destination playground worth driving to. It consistently ranks among the better community playgrounds in the Maroondah area, and the native garden setting makes an autumn visit particularly beautiful — eucalypts and wattles in full colour, birds everywhere, and a sense of being properly outside rather than just in a suburb.</p>
+
+      <p><strong>Best for:</strong> Adventure-seeking preschoolers and school-age kids, families who love beautiful surroundings<br>
+      <strong>Ages:</strong> 2–9<br>
+      <strong>Facilities:</strong> Parking, community arts centre nearby, native garden walks<br>
+      <strong>Address:</strong> Wyreena Community Arts Centre, Hull Road, Croydon</p>
+
+      <h2>🌿 Best for Nature Play: Ringwood Lake Park, Ringwood</h2>
+
+      <p>Ringwood Lake Park is one of those parks that genuinely justifies the trip from anywhere in Melbourne's east. The playground sits alongside a beautiful lake in the heart of Ringwood, with walking trails, wildlife, and the kind of open park setting that makes an afternoon here feel like a proper outdoor adventure.</p>
+
+      <p>The play equipment is solid, with structures that suit a range of ages. But the real appeal is the lakeside environment. Kids can watch waterbirds, throw (small) sticks, and follow the sealed path around the lake on bikes or scooters. In autumn, the park's established trees create a colour display that's genuinely lovely — warm golds and russets reflected in the still lake water on a still morning.</p>
+
+      <p>After a playground session, the walking trail around the lake is perfect for burning remaining energy in a more relaxed way — flat, stroller-friendly, and interesting enough to keep a curious toddler moving forward.</p>
+
+      <p><strong>Best for:</strong> Nature-loving families, combining play with lake walks<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Facilities:</strong> Toilets, parking, lake circuit trail, barbecues<br>
+      <strong>Address:</strong> Ringwood Lake Park, Ringwood<br>
+      <strong>Autumn bonus:</strong> The lake trail in April is stunning — bring a bag for autumn leaf collecting and a flask of tea for the adults</p>
+
+      <h2>🔒 Best Fenced Playground: Wally Tew Reserve, Ferntree Gully</h2>
+
+      <p>For families with toddlers who prefer the great outdoors to be fully contained, Wally Tew Reserve in Ferntree Gully delivers a solid, family-friendly playground experience in the foothills setting. The playground features a flying fox, fast slides, and climbing equipment that older kids find challenging — while the surrounding park provides open space and the comfortable, leafy atmosphere of the Dandenong foothills.</p>
+
+      <p>It's not as dramatically upgraded as the Tim Neville Arboretum or Stud Park Farm, but it's a reliable, well-loved community playground that has earned its loyal local following. On a mild autumn day with the Dandenong Ranges visible in the background and birds calling from the gums overhead, it's a genuinely lovely place to spend a morning.</p>
+
+      <p><strong>Best for:</strong> A reliable, classic playground in a beautiful setting<br>
+      <strong>Ages:</strong> 2–9<br>
+      <strong>Facilities:</strong> Parking, open grass, Dandenong Ranges proximity<br>
+      <strong>Address:</strong> Wally Tew Reserve, Ferntree Gully<br>
+      <strong>Combine with:</strong> The Tim Neville Arboretum is nearby — do both as a Ferntree Gully playground morning</p>
+
+      <h2>🎨 Hidden Gem: Marie Wallace "Train" Park, Bayswater</h2>
+
+      <p>Less famous than some of the other playgrounds on this list, but consistently recommended by local families who discover it. Marie Wallace Park in Bayswater — known as "Train Park" for its train-themed play elements — has a range of engaging equipment that keeps young children occupied long past the point where parents expected to leave. The train theme gives imaginative players a ready-made narrative, and the park is spacious with good shade.</p>
+
+      <p>It's exactly the kind of neighbourhood gem that doesn't make the big destination playground guides, but becomes a family regular once you discover it. Worth including on any Knox area playground exploration.</p>
+
+      <p><strong>Best for:</strong> Toddlers and preschoolers, imaginative play, local discovery<br>
+      <strong>Ages:</strong> 1–7<br>
+      <strong>Address:</strong> Marie Wallace Park, Bayswater<br>
+      <strong>Tip:</strong> Combine with Stud Park Farm Playground for a full Knox area playground morning</p>
+
+      <h2>📋 Planning Your South-East Playground Day</h2>
+
+      <p>The south-east covers significant ground, so clustering visits makes sense. Here are two routes we love:</p>
+
+      <h3>Route A: Knox Foothills Day (Ferntree Gully – Rowville)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Start at Stud Park Farm Playground, Rowville (fenced, toddler-perfect)</li>
+        <li><strong>11:00 AM</strong> — Coffee stop at Rapture Café, Ferntree Gully (excellent food, kids' area)</li>
+        <li><strong>11:45 AM</strong> — Tim Neville Arboretum Dragon Park for the main event</li>
+        <li><strong>1:30 PM</strong> — Picnic at the arboretum lake → head home</li>
+      </ol>
+
+      <h3>Route B: Manningham-Maroondah Circle (Doncaster – Ringwood – Croydon)</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Ruffey Lake Park, Doncaster East (start at The Boulevarde for younger kids)</li>
+        <li><strong>11:00 AM</strong> — Move to Victoria Street Adventure Playground</li>
+        <li><strong>12:30 PM</strong> — Lunch at one of the Doncaster café options</li>
+        <li><strong>2:00 PM</strong> — Drive 15 minutes to Wyreena Playspace, Croydon for an afternoon session</li>
+      </ol>
+
+      <h2>🎒 What to Pack</h2>
+
+      <ul>
+        <li><strong>Swimmers and a change of clothes</strong> — Tim Neville Arboretum and Ruffey Lake Park both have water play. Accept the soaking, plan for the change</li>
+        <li><strong>Sunscreen and hats</strong> — April UV is moderate (index 3–4) but still requires protection on clear days</li>
+        <li><strong>Layers</strong> — the Dandenong foothills are typically a few degrees cooler than central Melbourne. Morning temperatures at Ferntree Gully in April can sit around 8–10°C before warming to the mid-teens. Bring the zip-up hoodie</li>
+        <li><strong>A bag for autumn treasures</strong> — the foothills parks are extraordinary in April. Gum nuts, coloured leaves, interesting sticks — your toddler will be a diligent collector</li>
+        <li><strong>Gumboots or old shoes</strong> — especially for Ruffey Lake Park and any creek-adjacent areas. Autumn parkland gets damp underfoot and little feet will find every wet patch</li>
+        <li><strong>Scooter or balance bike</strong> — Ruffey Lake Park's sealed paths are made for scooters. This is the playground trip to bring them</li>
+      </ul>
+
+      <h2>🍂 Why Autumn Is the South East's Best Season</h2>
+
+      <p>Melbourne's south-east has a particular quality in autumn that's hard to articulate until you experience it. The Dandenong foothills backdrop, the established deciduous trees in parks like Ruffey Lake and the Tim Neville Arboretum, the cooler air carrying that particular eucalyptus-and-damp-earth scent — it all adds up to something that makes outdoor play feel genuinely special rather than merely functional.</p>
+
+      <p>Practically, autumn conditions also make south-east playgrounds more comfortable than summer. Equipment stays cool all morning, the UV is more manageable, and children can play longer before needing to retreat to shade or cool down. The flying foxes at Tim Neville and Wally Tew, the water play at Stud Park and Ruffey Lake, the open trails at Ringwood Lake — all of them are better in April's crisp 18–22°C than in January's 35°C with limited shade.</p>
+
+      <p>If you've been meaning to explore Melbourne's south-east with your family and haven't made it yet, this autumn is the time. The playgrounds are excellent, the parks are beautiful, and there's enough variety across the region to fill several completely different day trips without repeating yourself.</p>
+
+      <p>Find more playgrounds near you with our <a href="/search?category=playground">playground finder</a> — and check out our other playground guides for the <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">Inner East</a>, <a href="/blog/best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham">Northern Suburbs</a>, <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside</a>, <a href="/blog/best-playgrounds-western-suburbs-melbourne-werribee-point-cook-altona">Western Suburbs</a>, and the <a href="/blog/best-playgrounds-mornington-peninsula-families-rosebud-rye-mornington">Mornington Peninsula</a>. 🌿</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-13T07:00:00+10:00',
+    category: 'playgrounds',
+    tags: ['best playgrounds south east Melbourne', 'Knox playgrounds families', 'Ringwood playgrounds kids', 'Doncaster East playground', 'Tim Neville Arboretum dragon park', 'Stud Park Farm Playground Rowville', 'Ruffey Lake Park Doncaster', 'Wyreena playspace Croydon', 'Halliday Park Mitcham', 'Ferntree Gully playgrounds', 'Maroondah playgrounds', 'fenced playgrounds south east Melbourne', 'water play south east Melbourne'],
+    seoTitle: "Best Playgrounds in Melbourne's South East: Knox, Ringwood, Doncaster & Croydon Family Guide (2026)",
+    seoDescription: "Discover the best family playgrounds in Melbourne's south-east suburbs — from the dragon castle at Tim Neville Arboretum to Ruffey Lake's three adventure parks. 8 top picks with practical tips for families with toddlers across Knox, Maroondah, Manningham and Croydon."
+  },
+  {
     slug: 'final-week-school-holidays-melbourne-april-2026-little-food-festival-comedy-festival',
     title: "Final Week of School Holidays: The Little Food Festival, Comedy Festival Finale, and Last-Minute Ideas for April 13–19",
     excerpt: "The last week of school holidays has a genuinely brilliant lineup. The Little Food Festival hits Fed Square on April 15–16, the Comedy Festival wraps up April 19, and Fitzroy Gardens' Time Detectives trail is running right to the end. Here's how to make the most of it without the week feeling rushed.",
