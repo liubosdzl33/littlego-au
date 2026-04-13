@@ -15,6 +15,100 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'free-autumn-activities-melbourne-toddlers',
+    title: "12 Free (or Nearly Free) Autumn Activities for Melbourne Toddlers This Week",
+    excerpt: "School holidays are almost over, the budget is done, and your toddler still needs to do something. Here are 12 genuinely good free autumn activities for Melbourne families — from the Little Food Festival at Fed Square to creek play and leaf hunts in golden parks.",
+    content: `
+      <p>The final week of school holidays has a particular energy. Everyone's done the big Easter plans, the novelty has worn off, and you're looking at Tuesday morning with an active toddler and an activities budget that's seen better days. Good news: Melbourne autumn is doing you a favour right now, and most of the best things to do this week cost nothing at all.</p>
+
+      <p>Here are <strong>12 free (or nearly free) autumn activities for Melbourne toddlers</strong> — specific ideas with practical detail, not just "go to a park." Grab your leaf-collecting bag and let's go.</p>
+
+      <h2>🍎 1. Little Food Festival at Fed Square — This Week Only (Free)</h2>
+
+      <p>This is the must-do of the week. The <strong>Little Food Festival</strong> returns to Federation Square on <strong>Wednesday April 15 and Thursday April 16</strong>, running 10 AM to 4 PM both days — completely free. Six interactive zones let kids grow, cook, taste, and explore where food comes from: apple taste tests, Indigenous bush tucker, smoothie bikes, vegetable dyes, and a Quiet Zone with storytime. It's specifically designed for little kids, and it's only on for two days.</p>
+
+      <p>Arrive before 11 AM for the calmest experience. After the festival, walk across Princes Bridge to <a href="/search?category=playground">Birrarung Marr playground</a> for a proper run-around on the Yarra.</p>
+
+      <h2>🍂 2. Leaf Hunt at Fitzroy Gardens (+ Free Time Detectives Trail)</h2>
+
+      <p>The elm avenues in Fitzroy Gardens are shedding gold right now — genuinely one of Melbourne's most beautiful spots in mid-April. The <strong>Then and Now Time Detectives</strong> trail runs until Sunday April 19 (free; pick up the activity sheet from the Visitor Centre). Let your toddler follow clues through the gardens while collecting armfuls of leaves. Add the Fairy Tree and the <a href="/search?category=playground">playground inside the gardens</a> for a full two-hour free morning with zero budget and maximum crunching sounds underfoot.</p>
+
+      <p><strong>Pack:</strong> A bag for leaves. They will want to bring home approximately 400.</p>
+
+      <h2>🚃 3. Free Tram Tuesday (The Journey IS the Activity)</h2>
+
+      <p>Melbourne public transport is free for everyone until April 30. For a two-year-old, riding a tram is not the transport to the activity — it IS the activity. Catch the Route 35 City Circle heritage tram around the CBD loop, point at everything, get off at Fed Square or the Botanic Gardens, then ride home. Pack snacks, sit upstairs if you can, and let your toddler's running commentary about trams and buildings and pigeons be the entertainment.</p>
+
+      <h2>🌸 4. Royal Botanic Gardens Autumn Walk</h2>
+
+      <p>The Royal Botanic Gardens are free and currently extraordinary. Deciduous trees planted throughout are at peak autumn colour — deep golds, russets, and ambers against the lawns. Bring a picnic blanket, let your toddler crunch leaves and watch ducks on the ornamental lake, and walk at their pace. The gardens are pram-friendly throughout. This is the most beautiful free walk in Melbourne right now, and it's completely unhurried.</p>
+
+      <p><strong>Combine with:</strong> Walk along the river to Birrarung Marr — 10 minutes from the gardens.</p>
+
+      <h2>🦕 5. Melbourne Museum Children's Gallery (Free for Kids)</h2>
+
+      <p>The <strong>Pauline Gandel Children's Gallery</strong> is free for all children under 16 and purpose-built for under-5s: a train tunnel entrance, dinosaur dig, discovery garden, and sensory zones designed for hands-on exploration. Midweek mornings are significantly quieter than weekends — right now is the ideal window for a relaxed visit with space to actually use the dinosaur dig.</p>
+
+      <p><strong>Combine with:</strong> Carlton Gardens playground is directly outside. Lunch on Lygon Street is a short walk.</p>
+
+      <h2>🎨 6. ACMI Play School Exhibition (Free)</h2>
+
+      <p>Still running, still free, still genuinely excellent for toddlers who watch Play School (so, all toddlers). Step behind the famous windows at ACMI in Federation Square and explore how episodes are made. This week is a great time to visit — pair it with the Little Food Festival on Wednesday or Thursday for a double-free-activity city day.</p>
+
+      <h2>🌊 7. Creek Play at Your Local Park</h2>
+
+      <p>Find a park near you with creek access — <strong>Merri Creek</strong> in Northcote, <strong>Gardiners Creek</strong> in Glen Iris, <strong>Diamond Creek</strong> in Eltham, and dozens of others all have shallow edges perfect for toddler wading, stick throwing, and rock inspecting. Pack gumboots, accept that shoes will get wet regardless, and allow 45 minutes of completely absorbed sensory play that costs nothing. Cold water, smooth stones, leaves floating downstream — it's the best free activity this season.</p>
+
+      <p>Use our <a href="/search?category=playground">playground finder</a> to locate parks with creek access near you.</p>
+
+      <h2>🎭 8. ArtPlay at Birrarung Marr (Free/Low Cost)</h2>
+
+      <p>ArtPlay runs free and low-cost creative workshops for children alongside the Birrarung Marr playground. Check artplay.com.au for what's on this week — sessions for under-5s vary but have included clay, painting, and musical storytelling. Even without a scheduled workshop, the riverside playground is excellent and free. A post-festival or post-museum loop here is an easy school holiday win.</p>
+
+      <h2>📚 9. State Library Free Story Time</h2>
+
+      <p>The State Library of Victoria runs free storytelling sessions during school holidays — check slv.vic.gov.au for the current week's schedule. Even without a story time, the children's area has curated picture books in a calm, beautiful space. And the domed La Trobe Reading Room is genuinely awe-inspiring for any age — toddlers go quiet and look up, which is remarkable. A free cultural visit that feels nothing like the usual school holiday outing.</p>
+
+      <h2>🌿 10. Nature Art at Home</h2>
+
+      <p>Go for a morning walk specifically to collect autumn materials — leaves, gum nuts, feathers, interesting sticks, smooth rocks. Come home and make something: leaf rubbings, pressed leaf cards, a nature mandala arranged on the kitchen table, or a stick mobile. The collecting is half the activity; the creating is the other half. Zero cost, high engagement, results that genuinely go on the fridge.</p>
+
+      <p>This is the stay-home day that doesn't feel like a cop-out — especially if the morning walk takes you somewhere pretty.</p>
+
+      <h2>🧁 11. Neighbourhood Discovery Walk + Bakery Stop</h2>
+
+      <p>Pick a suburb or street you haven't explored much, find a playground there (the <a href="/search?category=playground">playground finder</a> is perfect for this), walk or drive over, do the playground, and reward yourselves with something good from a local bakery or café. The novelty of somewhere new makes this feel like a genuine outing. Melbourne has excellent neighbourhood bakeries everywhere, and a $5 pastry is well within the end-of-holidays budget.</p>
+
+      <h2>🏊 12. Splash Pad Before They Close</h2>
+
+      <p>Most Melbourne splash pads run until late April or early May — a free water play session in afternoon autumn sunshine is one of the season's underrated treats. Check your local council's website for nearest operational splash pads this week. Pack a change of clothes and a towel, and accept the wet socks with grace. Autumn-warm water plus cool autumn air is actually a perfect combination for a 30-minute play.</p>
+
+      <h2>🎒 What to Pack This Week</h2>
+
+      <ul>
+        <li><strong>A bag for autumn treasures</strong> — leaves, gum nuts, rocks, whatever your toddler deems worthy of keeping. Non-negotiable</li>
+        <li><strong>Gumboots</strong> — creek play, wet parks, and the morning dew on playground equipment. Pack them in the car at the start of the week and leave them there</li>
+        <li><strong>Layers</strong> — mid-April mornings start around 10°C and warm to the high teens. A zip-up hoodie is the toddler autumn uniform. Pack one extra layer for the toddler who runs warm</li>
+        <li><strong>Myki card</strong> — public transport is free until April 30 but you still need to tap on/off</li>
+        <li><strong>Snacks and water</strong> — the eternal constant. Pack more than you think you need</li>
+      </ul>
+
+      <h2>The Real Guide to This Week</h2>
+
+      <p>The final week of school holidays doesn't need to be your busiest. One genuinely good outing — the <strong>Little Food Festival on Wednesday or Thursday</strong> is the obvious choice — and the rest can be neighbourhood walks, creek play, leaf collecting, and slow mornings at local playgrounds. That's not a holiday failure. That's good autumn parenting.</p>
+
+      <p>Autumn in Melbourne is genuinely beautiful right now. The parks are golden, the air is crisp, the playgrounds are cool, and your toddler doesn't need a destination — they need time outside in it. These 12 activities are really just different versions of the same thing: going outside, noticing what's there, and being present for it.</p>
+
+      <p>Find the perfect playground for every idea on this list with our <a href="/search?category=playground">playground finder</a> — and enjoy the final days before Tuesday's alarm clock comes back. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-14T07:00:00+10:00',
+    category: 'activities',
+    tags: ['free autumn activities Melbourne toddlers', 'things to do toddlers Melbourne', 'free Melbourne family activities', 'school holiday activities Melbourne', 'autumn toddler activities', 'Little Food Festival Melbourne', 'free activities Melbourne school holidays', 'Melbourne toddler ideas', 'autumn Melbourne families', 'free things to do Melbourne kids'],
+    seoTitle: '12 Free Autumn Activities for Melbourne Toddlers: Final School Holiday Week Ideas (2026)',
+    seoDescription: 'Looking for free activities for Melbourne toddlers this week? Here are 12 genuinely good ideas — from the Little Food Festival at Fed Square to creek play, leaf hunts, and free museum visits. School holidays wrap April 19.'
+  },
+  {
     slug: 'best-playgrounds-south-east-melbourne-knox-ringwood-doncaster-croydon',
     title: "Best Playgrounds in Melbourne's South East: Knox, Ringwood, Doncaster and Croydon",
     excerpt: "Melbourne's south-east suburbs are quietly home to some of the city's best playgrounds — from a dragon castle with water play in Ferntree Gully to three distinct adventure parks at Ruffey Lake. Here are the top picks for families with toddlers and young kids across Knox, Maroondah, Manningham, and beyond.",
