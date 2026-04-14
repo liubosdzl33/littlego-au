@@ -15,6 +15,116 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'whats-on-this-week-melbourne-families-april-15-19-2026-little-food-festival-comedy-finale',
+    title: "What's On This Week for Melbourne Families: Little Food Festival Today, Comedy Finale & the Last Good Days of School Holidays (April 15–19)",
+    excerpt: "The Little Food Festival is at Federation Square TODAY and tomorrow — completely free, built for kids, and the best school holiday outing left this week. Plus the Comedy Festival wraps Sunday, the Makers and Shakers Market is on this weekend, and a Latin street market fills the CBD on Saturday and Sunday. Here's how to spend the final days of school holidays well.",
+    content: `
+      <p>If you've made it to Wednesday of the final school holiday week without a plan for the rest of it — good news. Melbourne has saved some genuinely great things for the final stretch. The standout is today and tomorrow: the <strong>Little Food Festival at Federation Square</strong>, completely free, purpose-built for kids, and one of those rare events that's as good as it sounds. After that, the weekend has a Latin market, the Makers and Shakers Market, and the Comedy Festival's finale. Here's how to use the remaining days well.</p>
+
+      <h2>🍎 Little Food Festival — Fed Square (TODAY and Thursday)</h2>
+
+      <p>This is the one to do. The <strong>Little Food Festival</strong> runs at Federation Square today (Wednesday April 15) and tomorrow (Thursday April 16), from 10 AM to 4 PM both days. Entry is completely free, and every element is designed for young children.</p>
+
+      <p>The festival is built around six interactive zones — <strong>Grow, Move, Buy, Cook, Eat, and Recycle</strong> — that let kids explore where food comes from through doing, not just looking. They can run a smoothie bike, taste-test different apple varieties, make cordial with native bush tucker ingredients, become a "food detective" at the market zone, explore vegetable dyes, and make things in the cooking area. There's also a Quiet Zone with a Little Food Library for story time, which is excellent if your child hits their sensory limit mid-morning.</p>
+
+      <p>Stage appearances today and tomorrow include garden enthusiast Costa, author Fiona Gray, and "The Fruit Nerd" Thanh Truong. First Nations artist Stan Dryden is creating live artwork throughout the event.</p>
+
+      <p>For families with toddlers and preschoolers specifically, the format is exactly right. Each zone takes about 10–15 minutes, so you can move through at your child's pace without anyone waiting too long or getting stuck. Kids come home sticky-handed, curious, and full of opinions about which apple they preferred. That's a school holiday win.</p>
+
+      <ul>
+        <li><strong>When:</strong> Today (Wednesday April 15) and Thursday April 16, 10 AM – 4 PM</li>
+        <li><strong>Where:</strong> Federation Square, corner of Flinders and Swanston Streets</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Getting there:</strong> Public transport is free until April 30 — train to Flinders Street or any CBD tram works perfectly</li>
+        <li><strong>Tip:</strong> Arrive between 10 and 11 AM for the calmest experience. Bring water and a snack for the walk over, not because the festival lacks food, but because hungry toddlers in queues are a specific form of chaos</li>
+        <li><strong>After the festival:</strong> Walk across Princes Bridge to <a href="/search?category=playground">Birrarung Marr playground</a> — 10 minutes on foot, excellent equipment, and a proper run-around on the Yarra bank</li>
+      </ul>
+
+      <h2>🎭 Comedy Festival Finale — Until Sunday April 19</h2>
+
+      <p>The Melbourne International Comedy Festival closes this Sunday, and if you haven't used your kids' show tickets yet, this is the week to make it happen. Still running: <strong>The Listies</strong>, <strong>Signor Baffo</strong> (wordless physical comedy — great for toddlers who don't follow dialogue), <strong>Comedy Club for Kids</strong>, and <strong>Circus The Show</strong>. Wednesday and Thursday matinees are typically your best bet for space and shorter queues.</p>
+
+      <p>If you don't have tickets, check <strong>comedyfestival.com.au</strong> now — some sessions still have availability, particularly midweek afternoon slots. Even if you're not seeing a show, the festival energy around the Town Hall precinct this week is lovely. Street performers pop up near the CBD, and the whole city has that end-of-festival buzz that makes any outing feel more festive.</p>
+
+      <p>The <strong>TGIF: Melbourne International Comedy Festival Special</strong> at the City of Melbourne (Charlie Pickering + festival comedians) runs until Friday April 17 — free, and worth checking the schedule for a drop-in session if you're in the city anyway.</p>
+
+      <h2>🌿 Discover Dandenong Creek Festival — Tomorrow (Thursday April 16)</h2>
+
+      <p>For families in the south-east, this is a lovely Thursday option. The <strong>Discover Dandenong Creek Festival</strong> at Tirhatuan Park in Dandenong North offers free activities for all ages and abilities, celebrating the creek and parkland environment. Nature-based activities, family programming, and the beautiful creek corridor itself make this a worthwhile outing for families who love outdoor, environmental themes. A nice contrast to the city bustle of the Little Food Festival if you want two different kinds of days this week.</p>
+
+      <ul>
+        <li><strong>When:</strong> Thursday April 16</li>
+        <li><strong>Where:</strong> Tirhatuan Park, Dandenong North</li>
+        <li><strong>Cost:</strong> Free</li>
+      </ul>
+
+      <h2>🪅 Cachivaches Latin Market — Saturday and Sunday (April 18–19)</h2>
+
+      <p>The weekend kicks off with the <strong>Cachivaches Latin Market</strong> — a vibrant cultural event in the CBD celebrating Latin American traditions with food, music, crafts, and atmosphere. For toddlers, a good market is hard to beat: constant movement, colour and noise, the smell of good food, and the option to leave whenever anyone starts melting down without having committed to a ticket or a sit-down meal.</p>
+
+      <p>Latin music is also, it turns out, extremely good for toddler dancing. Consider this a bonus.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday April 18 and Sunday April 19</li>
+        <li><strong>Where:</strong> CBD Melbourne</li>
+        <li><strong>Cost:</strong> Free entry</li>
+      </ul>
+
+      <h2>🛒 Makers and Shakers Market — Saturday and Sunday (April 18–19)</h2>
+
+      <p>Also running this weekend: the <strong>Makers and Shakers Market</strong>, with 185 makers of homewares, food, and fashion — plus special activities for kids. A good option if you want to combine a market browse with something for the children, rather than the purely adult-focused experience of most craft markets.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday April 18 and Sunday April 19</li>
+        <li><strong>Cost:</strong> Free entry</li>
+      </ul>
+
+      <h2>🌸 KaBloom — Final Days (Until Sunday April 19)</h2>
+
+      <p>Tesselaar KaBloom in Silvan (Dandenong Ranges) closes this Sunday — which means this weekend is genuinely your last chance. If the flower festival with circus performers, tractor train rides, and autumn blooms has been on your list all holidays, this is the week to go. Kids under 16 are typically free with a paying adult. Book at kabloom.com.au, and pack layers — the Dandenongs are always a few degrees cooler than the city.</p>
+
+      <h2>📋 Your Final-Week Game Plan</h2>
+
+      <h3>Today (Wednesday) or Tomorrow (Thursday)</h3>
+      <p><strong>Little Food Festival at Fed Square</strong> is the unambiguous right answer. Go. It's free, it's beautiful, and it's one of the best things Melbourne has offered all holidays. After, walk to Birrarung Marr for a playground session. That's a complete school holiday day with zero cost.</p>
+
+      <h3>Thursday (if you didn't go Wednesday)</h3>
+      <p>Second day of the Little Food Festival — or the Discover Dandenong Creek Festival for south-east families wanting a nature-focused day. A Comedy Festival matinee slots in nicely if your child's show hasn't happened yet.</p>
+
+      <h3>Friday</h3>
+      <p>If energy is holding, a final Comedy Festival show or a local playground morning. If the week has been big, Friday is a recovery day — pyjamas, slow morning, neighbourhood walk. The week can end without a headline event and still count as a good one.</p>
+
+      <h3>Saturday</h3>
+      <p>Cachivaches Latin Market for a festive city outing, or drive to KaBloom for the last full Saturday of the flower festival. Both work well with a <a href="/search?category=playground">playground</a> stop built around them.</p>
+
+      <h3>Sunday (Last Day)</h3>
+      <p>Keep it gentle. Local park, something warm to eat, an early and easy afternoon. School's back Monday and everyone does better with a calm landing than a packed final day. The last thing anyone needs is a Tuesday morning starting from exhausted.</p>
+
+      <h2>🍂 What to Pack This Week</h2>
+
+      <ul>
+        <li><strong>Layers</strong> — mid-April mornings are properly cool (around 10°C), warming to the mid-teens by afternoon. A zip-up hoodie for the kids is the non-negotiable piece this week</li>
+        <li><strong>Myki card</strong> — free to travel until April 30, but you still need to tap on and off</li>
+        <li><strong>Water and snacks</strong> — particularly for the Little Food Festival, where you might be working through activity zones for a couple of hours before stopping for food</li>
+        <li><strong>A bag for treasures</strong> — autumn leaves are still falling everywhere; your toddler will want to bring home a selection</li>
+      </ul>
+
+      <h2>One Last Thing</h2>
+
+      <p>The final week of school holidays tends to have a gentler energy than the first. The big plans have been executed, everyone's found their rhythm, and there's a quiet appreciation for the remaining days that the opening-week rush doesn't quite have. The Little Food Festival today is genuinely worth prioritising — it's the kind of event that's gone before you realise you missed it. After that, the rest of the week can be as easy or as busy as you want it to be.</p>
+
+      <p>One more week of "what are we doing today?" before Tuesday's alarm settles everything back into routine. Make it good, but don't overthink it. A playground, some autumn leaves, and a toddler who's had a proper run-around — that's a school holiday doing its job.</p>
+
+      <p>Find your perfect playground for the final few days with our <a href="/search?category=playground">playground finder</a>. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-15T07:00:00+10:00',
+    category: 'events',
+    tags: ['whats on this week Melbourne families', 'Little Food Festival Melbourne 2026', 'Melbourne school holiday events April 2026', 'Comedy Festival finale Melbourne', 'Cachivaches Latin Market Melbourne', 'Makers and Shakers Market Melbourne', 'Discover Dandenong Creek Festival', 'KaBloom final days 2026', 'school holidays final week Melbourne', 'free Melbourne family events April'],
+    seoTitle: "What's On Melbourne Families This Week: Little Food Festival + Comedy Finale (April 15–19, 2026)",
+    seoDescription: "The Little Food Festival is at Federation Square today and Thursday — free, built for kids, the best school holiday outing left. Plus Comedy Festival finale, a Latin market, and Makers and Shakers Market this weekend. Melbourne family events guide April 15–19, 2026."
+  },
+  {
     slug: 'free-autumn-activities-melbourne-toddlers',
     title: "12 Free (or Nearly Free) Autumn Activities for Melbourne Toddlers This Week",
     excerpt: "School holidays are almost over, the budget is done, and your toddler still needs to do something. Here are 12 genuinely good free autumn activities for Melbourne families — from the Little Food Festival at Fed Square to creek play and leaf hunts in golden parks.",
