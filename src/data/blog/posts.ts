@@ -15,6 +15,85 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'back-to-routine-after-school-holidays-toddler-tips-melbourne-2026',
+    title: "Back to Routine After School Holidays: How to Help Your Toddler Transition Without the Meltdowns",
+    excerpt: "School holidays wrap up this Sunday, and kindy and daycare restart Monday. If your toddler's sleep is off, their body clock is suspicious, and the word 'daycare' currently produces a mournful stare — here's a gentle, practical guide to easing back in without the chaos.",
+    content: `
+      <p>School holidays end this Sunday. Kindy, daycare, and the regular weekday routine resume Monday April 20. And if the last two and a half weeks have involved later bedtimes, slower mornings, more flexibility, and the general loosening of every schedule you carefully built — well, welcome to the crowd.</p>
+
+      <p>Transitioning a toddler or preschooler back to routine after two weeks off is genuinely one of the trickier parenting moments of the year. Not because it's dramatic — most kids settle back within a week — but because the timing is hard. You've just spent a fortnight in holiday mode, everyone's a bit tired, and now you need to recalibrate the whole household by Monday morning.</p>
+
+      <p>Here's what actually helps.</p>
+
+      <h2>🧠 Why Transitions Are Hard for Toddlers (The Short Version)</h2>
+
+      <p>Toddlers and preschoolers are deeply routine-dependent creatures. Their sense of safety and security is built on predictability — knowing what comes next reduces anxiety and lets them engage fully with the present moment. Holidays disrupt that predictability in ways that feel liberating to adults but genuinely unsettling to small children, even when they're having fun.</p>
+
+      <p>The other factor is their body clock. If bedtime drifted 45 minutes later over the holidays, your child's circadian rhythm has gradually shifted to match. It won't snap back because you announce "holidays are over." It needs a few days of consistent sleep cues — morning light, regular meal timing, earlier wind-down — to recalibrate. More on that in a moment.</p>
+
+      <p>The good news: toddlers are genuinely adaptable. Most children who've had holiday disruption return to their normal routine groove within three to five days. The adjustment is real, but it's temporary.</p>
+
+      <h2>📅 Start Today, Not Monday</h2>
+
+      <p>The most effective thing you can do is begin the reintroduction this weekend — not cold turkey on Monday morning when the stakes are highest. Two days of gradual preparation makes Monday dramatically easier.</p>
+
+      <p><strong>This weekend's gentle shifts:</strong></p>
+
+      <ul>
+        <li><strong>Pull bedtime forward by 20 minutes tonight</strong> — if holidays pushed bedtime to 8:00 PM and normal kindy bedtime is 7:00 PM, start with 7:40 PM Friday. Then 7:20 PM Saturday. You'll land close to 7:00 PM by Sunday without it feeling abrupt</li>
+        <li><strong>Get outside in the morning</strong> — natural morning light is the most powerful reset for your toddler's body clock. A playground visit, a walk around the block, even ten minutes in the backyard. Morning light tells their circadian system "daytime is starting earlier now." Do this both days</li>
+        <li><strong>Reinstate meal times</strong> — if lunch drifted to 1:30 PM, pull it back toward 12:00 or 12:30. Body clock resets happen faster when light, meals, and sleep are all aligned</li>
+        <li><strong>Dim the house earlier</strong> — from about 6:00 PM, reduce overhead lighting, avoid bright screens, and begin the bedtime wind-down earlier than you have been. Your child's melatonin production responds to light — a darker environment triggers the "sleep is coming" signal</li>
+      </ul>
+
+      <h2>🌅 Sunday: The Bridge Day</h2>
+
+      <p>Sunday April 19 is your bridge day — the last day of holidays and the first real day of transition. Keep it deliberately calm and a little bit familiar.</p>
+
+      <p>This is not the day for a big adventure or one final hurrah. It's the day to return to rhythms that feel like a normal week. Breakfast at a normal time, a morning playground visit or outdoor play, a quiet lunch, maybe a nap or rest time in the afternoon, and an early, easy bedtime. Think of Sunday as your body clock's reset button — the day you signal to your toddler's nervous system that tomorrow is a different kind of day.</p>
+
+      <p>If your child attends kindy or daycare, mention it on Sunday in a warm and matter-of-fact way: <em>"Tomorrow you're going to kindy — your friends will be there. Tonight we'll have an early bath and a good story."</em> No big build-up, no lengthy explanation. Just a simple, positive mention that tomorrow is a kindy day.</p>
+
+      <h2>⏰ Monday Morning: Make It Predictable</h2>
+
+      <p>The single biggest gift you can give Monday morning is <strong>enough time</strong>. Holiday mornings have been slow and unscheduled; Monday morning will feel rushed unless you've padded it.</p>
+
+      <p>Set your alarm 20 minutes earlier than you think you need. Let your toddler wake naturally if possible, or rouse them gently with lights and cheerful calm rather than urgency. Have everything packed the night before — bag, clothes, lunch if needed. Eat breakfast at the table. Don't rush.</p>
+
+      <p>Rushed Monday mornings are the #1 source of kindy drop-off tears — not because your child is sad about going, but because the chaos of the morning has activated their stress response before they've even arrived. A calm arrival leads to a much smoother goodbye.</p>
+
+      <h2>😢 On Separation Anxiety at Drop-Off</h2>
+
+      <p>After two weeks together, some clinginess at drop-off is completely normal — even from children who usually walk in happily. Their attachment system has recalibrated during the holidays, and re-establishing independence takes a few days.</p>
+
+      <p>The evidence-backed approach: <strong>a brief, warm, confident goodbye</strong>. Don't sneak out (they feel the breach of trust), but don't prolong the goodbye either. A hug, your normal leaving phrase ("I'll pick you up after lunch — I love you"), and then go. Educators are experts at settling children post-goodbye. Your child will almost certainly be fine within minutes of you leaving.</p>
+
+      <p>If you know your child finds the first day back harder, consider packing a comfort item — a small photo, a favourite toy — if the centre allows it. Familiar objects are powerful anchors during transitions.</p>
+
+      <h2>😮‍💨 For You: Managing the Guilt</h2>
+
+      <p>Here's the thing nobody says out loud: the end of school holidays is hard for parents too. Two weeks of being together — even the chaotic, exhausting parts — creates its own intimacy. Monday drop-off can feel heavier than usual because you've had more of each other.</p>
+
+      <p>That's okay. It doesn't mean your child isn't happy at kindy. It doesn't mean holidays were too long or too short. It's just the feeling of a season shifting, which is a genuinely real thing worth acknowledging rather than pushing away.</p>
+
+      <p>Give yourself the same gentle transition you're giving your toddler. A good coffee. A walk. A moment to breathe before the week starts properly.</p>
+
+      <h2>🛝 The Playground Is Your Best Tool This Week</h2>
+
+      <p>In the first week back, morning outdoor play remains one of the most powerful routine stabilisers available. Whether it's before kindy on the days they're home, after pickup to burn energy, or at the weekend — <a href="/search?category=playground">a playground in the morning</a> sets the circadian clock, releases physical energy that might otherwise express itself as evening chaos, and gives your toddler a familiar, reliable pleasure that bridges holiday mode and routine mode.</p>
+
+      <p>They can't tell you they're adjusting. But they can tell you they want to go to the park. Say yes when you can. It's doing more than you think.</p>
+
+      <p>Find your nearest Melbourne playground for the back-to-routine week with our <a href="/search?category=playground">playground finder</a> — and enjoy the last of autumn before May arrives. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-16T07:00:00+10:00',
+    category: 'tips',
+    tags: ['back to routine after school holidays toddler', 'transitioning toddler after school holidays', 'school holidays ending Melbourne 2026', 'kindy daycare back to routine', 'toddler sleep school holidays', 'Monday kindy drop-off tips', 'toddler transition routine', 'parenting tips Melbourne autumn', 'end of school holidays Melbourne April 2026', 'back to daycare toddler tips'],
+    seoTitle: 'Back to Routine After School Holidays: How to Help Your Toddler Transition (Melbourne April 2026)',
+    seoDescription: "School holidays end Sunday April 19 — kindy and daycare restart Monday. A practical Melbourne parent's guide to easing your toddler back into routine without meltdowns, including sleep tips, Sunday bridge day advice, and Monday morning strategies."
+  },
+  {
     slug: 'whats-on-this-week-melbourne-families-april-15-19-2026-little-food-festival-comedy-finale',
     title: "What's On This Week for Melbourne Families: Little Food Festival Today, Comedy Finale & the Last Good Days of School Holidays (April 15–19)",
     excerpt: "The Little Food Festival is at Federation Square TODAY and tomorrow — completely free, built for kids, and the best school holiday outing left this week. Plus the Comedy Festival wraps Sunday, the Makers and Shakers Market is on this weekend, and a Latin street market fills the CBD on Saturday and Sunday. Here's how to spend the final days of school holidays well.",
