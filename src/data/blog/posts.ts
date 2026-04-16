@@ -6214,6 +6214,93 @@ export const blogPosts: BlogPost[] = [
     tags: ['events', 'weekend', 'family', 'melbourne', 'march 2026'],
     seoTitle: 'What\'s On This Weekend in Melbourne - Family Events March 1-2, 2026',
     seoDescription: 'Discover family-friendly events this weekend in Melbourne. Free activities, markets, indoor fun and workshops perfect for families with young children.'
+  },
+  {
+    slug: 'scienceworks-melbourne-toddlers-family-review-2026',
+    title: "Scienceworks with Toddlers: An Honest Melbourne Family Review (And Why It's the Perfect Last-Day-of-Holidays Outing)",
+    excerpt: "Scienceworks in Spotswood is free for kids, genuinely brilliant for under-5s, and one of the most underrated family destinations in Melbourne. Here's the honest review — what works, what to skip, and how to make the most of a visit with little ones.",
+    content: `
+      <p>There's a particular kind of Melbourne parent guilt that arrives on the last Friday of school holidays. You've done the big things — Easter egg hunts, Comedy Festival, the playground day trips. And now you're looking at today thinking: one more good outing before Monday's alarm clock ends the adventure. What's the move?</p>
+
+      <p>Here's our answer: <strong>Scienceworks</strong>. And if you've been sleeping on it, this might be the nudge you need.</p>
+
+      <p>The science museum in Spotswood is genuinely one of the best family destinations in Melbourne — free for kids, seriously interactive, and home to one of the finest dedicated toddler spaces in any Australian museum. If your mental image is dusty exhibits behind glass, you haven't been since the upgrade. This is a place where your child gets to push, pull, pump, splash, build, and experiment their way through two hours of the best kind of chaos.</p>
+
+      <h2>🔬 What Scienceworks Actually Is (For the Uninitiated)</h2>
+
+      <p>Scienceworks is part of Museum Victoria, sitting on the western side of the Westgate Bridge in Spotswood — about 6 km from the CBD and a surprisingly easy drive from most Melbourne suburbs. It's not as famous as Melbourne Museum, which means it doesn't draw the same weekend crowds, which means you can actually move.</p>
+
+      <p>Entry is <strong>free for children under 16</strong>. Adults pay $16. You can add a Planetarium show for a few dollars more, but for families with toddlers under about three, skip it — the shows run in the dark and require sitting still, which is not a toddler's strong suit.</p>
+
+      <p>The museum has two distinct worlds: the main exhibition building with its rotating science shows and permanent interactive exhibits, and the <strong>Spotswood Pumping Station</strong> — a Victorian-era steam-driven sewage station that is, against all odds, genuinely fascinating, even to small children who have never heard of sewage infrastructure.</p>
+
+      <h2>🌱 The Ground Up Space: Why Scienceworks Is Worth It for Under-5s</h2>
+
+      <p>Here is the thing about Scienceworks and toddlers: <strong>Ground Up</strong> exists, and that alone justifies the trip.</p>
+
+      <p>Ground Up is a dedicated 0–5 science play space that feels like someone sat down with a child development expert and said "build us a space where toddlers can explore natural science without any adult direction." The result is extraordinary. There are water tables with pumps and channels, sensory gardens with living plants to touch and smell, building zones with large lightweight blocks, a light-and-shadow play area, and discovery stations where everything is at knee height, tactile, and designed to be used hard.</p>
+
+      <p>The design philosophy is pure <strong>open-ended play</strong>. There's no correct way to use any of it. Your toddler will redirect water flows, stack blocks until they fall, peer through magnifying glasses at things they choose, and generally operate as a tiny scientist following their own research agenda. It's the best 45 minutes you can give a curious under-5 in a climate-controlled, pram-friendly room.</p>
+
+      <p>A few practical notes: Ground Up has a soft, padded zone for babies who aren't yet walking — a lovely touch that means even pre-crawlers can join in. The whole space is fully accessible. And crucially, there are <strong>handwashing stations built into the water play area</strong>, which toddlers find almost as interesting as the water play itself.</p>
+
+      <h2>⚡ Beyond Ground Up: What Works for Little Kids in the Main Museum</h2>
+
+      <p>Once your toddler has exhausted Ground Up (budget about 30–45 minutes), the wider museum has plenty that works for the under-5 set — if you're selective. Here's what to prioritise:</p>
+
+      <h3>The Spotswood Pumping Station</h3>
+
+      <p>Walk through the connecting doors and you're suddenly in an enormous Victorian-era industrial building housing steam engines so large they fill two storeys. On days with demonstration runs, the engines come alive — gears turning, steam hissing, the whole building vibrating gently. For toddlers, this is basically the best special effect they've ever seen in person. The scale is awe-inspiring and the sensory experience (sound, vibration, warmth, smell of machine oil) is genuinely unlike anything else in Melbourne's family venue landscape. Even a 20-month-old will stand with their mouth open.</p>
+
+      <h3>The interactive science gallery</h3>
+
+      <p>The main exhibitions include large-scale interactive installations that suit preschoolers well — mirrors and light tables, a giant musical floor, rotating and spinning mechanisms, and push/pull physics demonstrations. These aren't designed exclusively for young children, but the tactile, cause-and-effect nature of the interactive stations means toddlers and preschoolers engage naturally. Skip the text panels and interpretive displays; your job is just to find the things with handles and buttons and let your child experiment.</p>
+
+      <h3>The outdoor courtyard</h3>
+
+      <p>There's a sheltered outdoor area with additional play elements and fresh air. In autumn, it's lovely — cool but not cold, with good shade from the building. Use it as a reset point between sections if your child needs to move freely for a few minutes.</p>
+
+      <h2>☕ The Practical Bits</h2>
+
+      <ul>
+        <li><strong>Open:</strong> Daily, 10 AM – 4:30 PM</li>
+        <li><strong>Entry:</strong> Free for under-16s / Adults $16 / Planetarium shows ~$8 additional</li>
+        <li><strong>Getting there:</strong> Drive (free parking on site), train to Spotswood station (15-minute walk), or bus from the city. Not as easy as central Melbourne venues, but very manageable</li>
+        <li><strong>Facilities:</strong> Parent room with feeding and change facilities, accessible toilets throughout, pram-friendly paths and lifts, café on site</li>
+        <li><strong>The café:</strong> Standard museum café fare — sandwiches, pies, hot drinks, kids' snacks. Not destination dining, but perfectly functional. There's outdoor courtyard seating that's pleasant in autumn</li>
+        <li><strong>Time needed:</strong> 1.5–2.5 hours is the sweet spot for families with toddlers. Longer if you catch a Pumping Station demonstration run</li>
+      </ul>
+
+      <h2>💡 Tips for Making the Most of Your Visit</h2>
+
+      <h3>Check the Pumping Station demonstration schedule first</h3>
+      <p>When you arrive, find out if a demonstration run is scheduled during your visit and build your timing around it. The demonstrations happen a few times a day and typically run for 15–20 minutes. This is the single thing that elevates a good Scienceworks visit into a great one. Ask at the entrance or check the daily schedule board.</p>
+
+      <h3>Do Ground Up while everyone is fresh</h3>
+      <p>If your toddler tends to hit a wall after about 90 minutes, use the freshest energy for Ground Up — it rewards the most active engagement. Then move to the Pumping Station and interactive galleries as a change of pace. Save the café break for when energy is flagging before the final push.</p>
+
+      <h3>Arrive when they open</h3>
+      <p>10 AM arrival means Ground Up is calm and your child has space to explore without competing for the water table pumps. By 11:30 AM on a school holiday Friday, it gets busier. The first 45 minutes at opening time are genuinely golden.</p>
+
+      <h3>Skip the Planetarium with under-3s</h3>
+      <p>Planetarium shows are genuinely wonderful — projected stars across a domed ceiling, narrated stories about space. But they're dark, seated, and run for 25–30 minutes. Under threes will last about four minutes before they want to run. Save it for when your child is four or five and ready to sit with wonder rather than protest. The experience is worth it then.</p>
+
+      <h2>🏆 The Verdict</h2>
+
+      <p>Scienceworks doesn't have the fame of Melbourne Museum or the cultural prestige of the NGV. It's in Spotswood rather than Carlton, which means many families never quite get around to it. That's their loss — and your gain, because the crowds reflect the lower profile.</p>
+
+      <p>For families with toddlers, Ground Up alone is worth the drive. Pair it with the Pumping Station demonstrations and you've got an honestly excellent two-hour outing that costs you $16 per adult, nothing for the kids, and produces the kind of wide-eyed "what WAS that?" delight that you remember school holiday visits for.</p>
+
+      <p>If you're looking for one more good thing to do before the holidays end and Monday brings the alarm clocks and the packed lunches and the return to routine — this is it. Go early, hit Ground Up, find out when the steam engines run, and let your toddler spend the morning being a scientist in a world built exactly for them.</p>
+
+      <p>After Scienceworks, the <a href="/search?category=playground">playground finder</a> can help you locate a park in Spotswood or nearby for a post-museum run-around — and Williamstown's foreshore playgrounds are just five minutes down the road if you want to end the day by the water. 🔬</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-17T07:00:00+10:00',
+    category: 'reviews',
+    tags: ['Scienceworks Melbourne toddlers', 'Scienceworks family review', 'free museums Melbourne kids', 'Scienceworks Ground Up', 'Spotswood family activities', 'Melbourne museum toddlers', 'Scienceworks school holidays', 'free kids activities Melbourne', 'science museum Melbourne family', 'last day school holidays Melbourne'],
+    seoTitle: 'Scienceworks Melbourne with Toddlers: Honest Family Review 2026 — Ground Up, Steam Engines & Tips',
+    seoDescription: "Scienceworks in Spotswood is free for kids and home to Ground Up — one of Melbourne's best toddler science play spaces. Honest family review with practical tips, what to skip, and how to make the most of a visit with under-5s."
   }
 ];
 
