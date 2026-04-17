@@ -15,6 +15,118 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'weekend-planner-melbourne-families-april-18-19-2026-last-school-holidays-kabloom',
+    title: "Weekend Planner: KaBloom's Last Weekend, Makers Market & Making the Most of the Final School Holiday Days (April 18–19)",
+    excerpt: "It's the last weekend of school holidays — and Melbourne has saved some genuinely good things for the finale. KaBloom closes tomorrow, the Makers and Shakers Market fills the Royal Exhibition Building today and Sunday, and Kidchella brings a family music festival to Sunday afternoon. Here's how to spend both days well before the school run resumes on Monday.",
+    content: `
+      <p>This is it. Sunday April 19 is the last day of school holidays, and Monday morning the alarm clock comes back. Before it does, Melbourne is offering a genuinely lovely final weekend — one where the pressure to fill every minute has eased, but there's still plenty worth doing if you want it.</p>
+
+      <p>The weather is cool but dry: today (Saturday) sits around <strong>15–16°C with some morning cloud but mostly clear spells</strong>. Sunday is similar — slightly warmer at 17–20°C but more overcast. Not the sparkling autumn days of last weekend, but perfectly comfortable for a market browse, a final KaBloom visit, or an indoor show. Layers are your friend both days.</p>
+
+      <p>Here's your family game plan for the last weekend of school holidays.</p>
+
+      <h2>🌸 KaBloom Closes Tomorrow — This Is Genuinely Your Last Chance</h2>
+
+      <p>The <strong>Tesselaar KaBloom Festival of Flowers</strong> closes tomorrow, Sunday April 19. If you've been saying "we'll get there eventually" for the last four weeks, eventually is now.</p>
+
+      <p>KaBloom at the Tesselaar flower farm in Silvan (Dandenong Ranges) is worth the drive: five acres of autumn blooms — sunflowers, salvias, marigolds, dahlias — with circus performers wandering among them, a tractor train that toddlers love unreasonably much, an obstacle course, garden games, and storytellers. It's one of those rare events where the visual spectacle alone is worth the entry price, and the children's entertainment is genuinely excellent rather than bolted-on.</p>
+
+      <p>The farm is typically a few degrees cooler than the city, so pack extra layers for the kids. Gumboots are handy if there's been any overnight moisture. And book your tickets at kabloom.com.au — kids under 16 are typically free with a paying adult.</p>
+
+      <ul>
+        <li><strong>When:</strong> Today (Saturday April 18) and tomorrow (Sunday April 19) — final days, 10 AM – 5 PM</li>
+        <li><strong>Where:</strong> Tesselaar Flower Farm, Silvan (Dandenong Ranges)</li>
+        <li><strong>Cost:</strong> Adults ~$25+, kids under 16 free with adult. Book online</li>
+        <li><strong>Combine with:</strong> The <strong>Olinda Playspace</strong> is a 10-minute drive — one of Victoria's best regional playgrounds, set among the mountain ash trees. A KaBloom morning plus Olinda playground afternoon is a spectacular way to spend the last day of school holidays</li>
+        <li><strong>Tip:</strong> Go today (Saturday) rather than Sunday if you can — Sunday is the final day and often draws bigger last-chance crowds. A Saturday morning arrival beats the rush</li>
+      </ul>
+
+      <h2>🛒 Makers and Shakers Market — Royal Exhibition Building (Both Days)</h2>
+
+      <p>For families who want something closer to home, the <strong>Makers and Shakers Market</strong> is celebrating its <strong>10th birthday</strong> this weekend at the Royal Exhibition Building in Carlton. Over 185 makers of homewares, food, drink, art, accessories, and ethical fashion fill one of Melbourne's most beautiful buildings — plus there are special activities for kids as part of the birthday celebrations.</p>
+
+      <p>The Royal Exhibition Building is an extraordinary space to walk around with a toddler. The ornate interior, the scale, and the light through the dome all produce that reliably wonderful toddler reaction: head back, mouth open, speechless for approximately four seconds before asking what that thing on the ceiling is. That's good for everyone.</p>
+
+      <p>Markets are brilliant low-pressure family outings because there's no schedule, no set path, and an immediate exit strategy if anyone melts down. Browse what interests you, let the kids lead, eat something delicious from a food stall, and leave when you're ready. No booking, no tickets, no stress.</p>
+
+      <ul>
+        <li><strong>When:</strong> Saturday April 18 and Sunday April 19</li>
+        <li><strong>Where:</strong> Royal Exhibition Building, Carlton Gardens</li>
+        <li><strong>Cost:</strong> Free entry</li>
+        <li><strong>Combine with:</strong> Carlton Gardens playground is right outside — excellent for a post-market run-around. Melbourne Museum's Children's Gallery is a 5-minute walk if you want to extend the morning. The autumn colours in Carlton Gardens right now are genuinely beautiful</li>
+        <li><strong>Tip:</strong> Go between 10 and 11 AM for the calmest experience. The market fills up through the late morning, so arriving early means more space for the pram and less navigation around other people's legs</li>
+      </ul>
+
+      <h2>🎵 Kidchella Music Festival — Sunday April 19</h2>
+
+      <p>If Sunday needs a centrepiece activity, <strong>Kidchella</strong> is worth a look. This family music festival features live performances from young artists, flower making workshops, interactive music and dance sessions, arts and crafts, and the generally festive atmosphere of a music festival pitched squarely at small children. For toddlers who love dancing, movement, and the collective energy of a crowd of people their own height, this is excellent.</p>
+
+      <p>Check little-tix.com for current ticketing and session details — some years Kidchella is ticketed, others it has free elements. Either way, the combination of live music and craft activities is well-suited to the 2–6 age group.</p>
+
+      <h2>🎭 The Gruffalo — Athenaeum Theatre (Saturday Only)</h2>
+
+      <p>If you've been meaning to catch a live children's show this school holidays and haven't yet, <strong>The Gruffalo</strong> is playing at the Athenaeum Theatre today (Saturday April 18) at 10 AM. This is the beloved Julia Donaldson story brought to life on stage — it's been touring successfully and is genuinely excellent for preschoolers and early primary school kids who know the book.</p>
+
+      <p>Running time is typically short (under an hour), which is ideal for toddlers. Book at the Athenaeum box office or online. Given it's the last weekend of school holidays, availability may be limited — check early in the morning if you're considering it.</p>
+
+      <h2>🐄 Coburg Farmers' Market — Saturday April 18</h2>
+
+      <p>For northern suburbs families, the <strong>Coburg Farmers' Market</strong> this Saturday includes fresh produce, kids' activities, and an <strong>animal farm</strong>. A morning market with farm animals is a very solid toddler outing — inexpensive, local, and the kind of simple, unhurried experience that suits the last Saturday of school holidays well. Check their event page or Facebook for the day's specific animal lineup.</p>
+
+      <h2>🐠 Australian Sand Sculpting Championships — Frankston Waterfront (Until April 26)</h2>
+
+      <p>If the weather holds and you want a longer outing this weekend, the <strong>Australian Sand Sculpting Championships</strong> at Frankston Waterfront are running until April 26. Fifteen solo sculptures plus a colossal 50-tonne group piece, all themed around <em>The Enchanted Realm</em> — castles, mythical creatures, and intricate fantasy scenes. Toddlers may not have the vocabulary to explain why they're fascinated, but they'll be fascinated. The Frankston foreshore is also excellent for a post-sculpture walk and a fish and chips lunch on the beach.</p>
+
+      <h2>🌿 The Free Option: Fitzroy Gardens + Cooks' Cottage</h2>
+
+      <p>If the week has been full-on and the budget is spent, a morning at <strong>Fitzroy Gardens</strong> costs nothing and delivers a lot. The Then and Now Time Detectives trail is in its final days (check if it's still running), but the gardens themselves are free, beautiful, and at absolute peak autumn colour right now. The playground inside the gardens is excellent for under-5s, the Fairy Tree remains compulsory for toddlers with opinions about magic, and <strong>Cooks' Cottage</strong> (a historic cottage transplanted from England) is a free walk-through that's genuinely interesting even with small children.</p>
+
+      <p>This is the gentle, unscheduled outing that suits a family at the end of a school holiday fortnight — leafy, beautiful, free, and with nowhere to be.</p>
+
+      <h2>📋 Your Weekend at a Glance</h2>
+
+      <h3>Saturday April 18 (15–16°C, dry)</h3>
+      <p><strong>Mountain option:</strong> Drive up to KaBloom for the flowers and circus performers → Olinda Playspace on the way home. A proper last-hurrah school holidays outing.</p>
+      <p><strong>City option:</strong> Makers and Shakers Market at Royal Exhibition Building (10–11 AM for calm arrival) → Carlton Gardens playground + autumn walk → Melbourne Museum Children's Gallery if energy holds.</p>
+      <p><strong>Show option:</strong> The Gruffalo at the Athenaeum (10 AM) → morning tea in the CBD → Birrarung Marr playground for a run after sitting still.</p>
+      <p><strong>Local option:</strong> Coburg Farmers' Market (northern suburbs) with kids' activities and animal farm → quiet afternoon close to home.</p>
+
+      <h3>Sunday April 19 (17–20°C, cloudy but dry — Last Day of Holidays)</h3>
+      <p><strong>Final KaBloom:</strong> Last day. Go if you haven't. It closes at 5 PM today, for another year.</p>
+      <p><strong>Kidchella:</strong> Family music festival — dancing, craft, live music. A festive send-off to the holidays.</p>
+      <p><strong>Gentle day:</strong> Fitzroy Gardens + playground + Cooks' Cottage → a quiet lunch → early afternoon home. Sometimes the best last day is the simplest one.</p>
+      <p><strong>Frankston day trip:</strong> Sand Sculpting Championships + foreshore walk + fish and chips. Still going all week, so no urgency — but it's a lovely Sunday outing if the south-east suits you.</p>
+
+      <h2>🎒 What to Pack This Weekend</h2>
+
+      <ul>
+        <li><strong>Proper warm layers</strong> — we're firmly in mid-autumn now. Morning temperatures around 10°C, warming to 15–20°C by midday but feeling cooler with cloud cover. A zip-up hoodie under a light jacket is the right call for both days. For KaBloom in the hills, add an extra layer</li>
+        <li><strong>For KaBloom:</strong> Gumboots or sturdy shoes, a jacket, and your camera. The flower fields are extraordinary</li>
+        <li><strong>For the market:</strong> A compact stroller or carrier rather than a large pram — the Royal Exhibition Building aisles are beautiful but can get busy. Your toddler will want to walk anyway</li>
+        <li><strong>Snacks and water</strong> — the eternal constant. Market food is wonderful but queues with hungry toddlers are not</li>
+        <li><strong>A bag for autumn treasures</strong> — Carlton Gardens and Fitzroy Gardens are peak leaf-season. Your toddler will need to bring some home</li>
+      </ul>
+
+      <h2>🏫 On the Last Day of School Holidays</h2>
+
+      <p>There's a particular feeling to Sunday April 19 if you're a Melbourne parent of a young child. The fortnight that felt endless on the second Monday is suddenly over, and you're standing in your kitchen realising you'll be packing the bag and setting the alarm tonight.</p>
+
+      <p>A few things worth saying: you don't need to make Sunday the biggest day of the holidays. The best last day is often the most unhurried one — a playground you love, something warm to eat, time to move at whatever pace the kids set. A gentle landing is kinder on everyone than a packed finale.</p>
+
+      <p>If there's one thing to prioritise today, it's getting outside in the morning. Autumn light, autumn air, the crunch of leaves — it's the thing your child will remember, not whether they made it to enough events. Find your nearest playground, let them run, and let that be enough.</p>
+
+      <p>For the return to routine on Monday, our <a href="/blog/back-to-routine-after-school-holidays-toddler-tips-melbourne-2026">back-to-routine guide</a> has everything you need: how to shift bedtimes, what to do Sunday afternoon, and why Monday morning is smoother than you expect.</p>
+
+      <p>It's been a good fortnight, Melbourne. Find the perfect playground for the final day with our <a href="/search?category=playground">playground finder</a> — and enjoy every last leaf-crunch of autumn. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-18T07:00:00+10:00',
+    category: 'activities',
+    tags: ['Melbourne family weekend April 2026', 'last day school holidays Melbourne', 'KaBloom final weekend 2026', 'Makers and Shakers Market Carlton', 'Kidchella Melbourne 2026', 'The Gruffalo Melbourne', 'Coburg Farmers Market kids', 'Australian Sand Sculpting Frankston', 'Melbourne weekend planner families', 'end of school holidays Melbourne April 2026'],
+    seoTitle: 'Melbourne Family Weekend Planner April 18–19, 2026: KaBloom Last Days, Makers Market & Final School Holiday Ideas',
+    seoDescription: "Last weekend of school holidays in Melbourne — KaBloom closes Sunday, Makers and Shakers Market fills Royal Exhibition Building, and Kidchella brings family music Sunday. A warm, practical guide for families with toddlers making the most of the final days."
+  },
+  {
     slug: 'back-to-routine-after-school-holidays-toddler-tips-melbourne-2026',
     title: "Back to Routine After School Holidays: How to Help Your Toddler Transition Without the Meltdowns",
     excerpt: "School holidays wrap up this Sunday, and kindy and daycare restart Monday. If your toddler's sleep is off, their body clock is suspicious, and the word 'daycare' currently produces a mournful stare — here's a gentle, practical guide to easing back in without the chaos.",
