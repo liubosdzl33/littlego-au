@@ -15,6 +15,106 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'melbourne-autumn-family-bucket-list-things-to-do-before-winter',
+    title: "Melbourne Autumn Family Bucket List: 12 Things to Do Before Winter Arrives",
+    excerpt: "Autumn in Melbourne is short, glorious, and absolutely worth squeezing dry. Before the grey winter settles in, here are 12 genuinely lovely things to do with your kids — from golden leaf walks to creek adventures and the first proper hot chocolate of the season.",
+    content: `
+      <p>Autumn in Melbourne is fleeting. One weekend it's 23°C and the parks are draped in gold and red; the next, you're pulling out the puffer jackets and watching leaves pile up in the gutter. It's one of the most beautiful seasons in this city, and it goes fast.</p>
+
+      <p>If you have little ones, autumn is actually the <em>best</em> season for getting outside. The playgrounds stay cool enough to use all morning. The UV drops to manageable levels. Kids can run without overheating. And the natural world is doing something spectacular — trees turning, air sharpening, light going golden — that costs nothing to enjoy but fills up a whole day beautifully.</p>
+
+      <p>School holidays are wrapping up today, but there's still a solid month of genuine autumn left before Melbourne turns properly cold. Here's your family bucket list for the weeks ahead.</p>
+
+      <h2>🍂 1. Do a Leaf Collection Walk in a Proper Autumn Park</h2>
+
+      <p>Not a rushed walk on the way to something else — a walk where the leaves are the point. Melbourne has some extraordinary autumn tree collections: the elm avenues in <strong>Fitzroy Gardens</strong>, the liquid ambers along quiet Kew streets, the deciduous oaks in <strong>Carlton Gardens</strong>, and the golden canopy at <strong>Hays Paddock</strong> in Kew East.</p>
+
+      <p>Bring a bag. Let your child fill it with whatever they find worthy. A single perfect red leaf, a handful of gum nuts, an interesting stick that "looks like a dragon." The walk takes twice as long as it would on your own, and that's the whole point.</p>
+
+      <p><strong>Where:</strong> Fitzroy Gardens, Carlton Gardens, or any park with established deciduous trees. Our <a href="/search?category=playground">playground finder</a> will help you find one near you.</p>
+
+      <h2>☕ 2. Have the First Proper Hot Chocolate of the Season</h2>
+
+      <p>There's a specific moment in autumn when a hot chocolate stops being optional and becomes necessary. You'll know it when it comes: a still, grey morning, the air has real bite, and your child's cheeks are pink from the cold. That's the moment.</p>
+
+      <p>Find a <a href="/blog/kid-friendly-cafes-play-areas-melbourne-guide">kid-friendly café</a> with a play area, order a babycino and a proper hot chocolate (the real kind, not the powder kind), and sit in the warm watching the leaves blow past. Small ritual, big comfort.</p>
+
+      <h2>🌊 3. Wade in a Creek in Gumboots</h2>
+
+      <p>Autumn rain means creeks are running properly. Gardiners Creek in Glen Iris, Merri Creek in Northcote, Eltham Lower Park — they all have sections where a toddler in gumboots can wade, throw sticks, watch leaves float past, and have a genuinely brilliant time for 45 minutes while you stand on the bank drinking tea from a thermos.</p>
+
+      <p>The rule is simple: gumboots that actually fit, a spare pair of socks, and zero expectations about staying dry. Accept the wet and the mud as part of the experience, and you'll have one of the better memories of the season.</p>
+
+      <h2>🍎 4. Visit a Farmers Market in Autumn Produce Season</h2>
+
+      <p>Autumn is when Melbourne's farmers markets are at their best. Pumpkins, apples, pears, fennel, chestnuts, late-season tomatoes — the stalls are beautiful and the atmosphere is warm. Let your toddler pick one thing to take home and cook for dinner. A child who chose the ingredient at the market is a child significantly more interested in eating the result.</p>
+
+      <p>The Coburg Farmers Market, Flemington Farmers Market, and Collingwood Children's Farm Market are all excellent. Many run Saturday mornings — combine with a nearby playground and you've built a solid weekend morning.</p>
+
+      <h2>🛝 5. Find One New Playground You've Never Visited</h2>
+
+      <p>By this point in the year, most families have a well-worn rotation of three or four playgrounds. This autumn, break out of it. Pick a suburb you don't usually visit, find a playground there using our <a href="/search?category=playground">playground finder</a>, and go. The novelty alone doubles the enjoyment — your child gets to orient to a new space, discover new equipment, and probably meet different children.</p>
+
+      <p>Our playground guides for the <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">inner east</a>, <a href="/blog/best-playgrounds-south-east-melbourne-knox-ringwood-doncaster-croydon">south-east</a>, <a href="/blog/best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham">northern suburbs</a>, <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside</a>, and <a href="/blog/best-playgrounds-mornington-peninsula-families-rosebud-rye-mornington">Mornington Peninsula</a> are full of starting points.</p>
+
+      <h2>🎨 6. Make Something from Autumn Finds</h2>
+
+      <p>Collect on Monday, create on Tuesday. A bag of autumn leaves, some gum nuts, a few interesting sticks, and a rainy afternoon are all you need. Leaf rubbings (colour over leaves under paper), a nature mandala on the kitchen table, pressed leaves between wax paper, or a simple collage glued onto cardboard. The collecting is the adventure; the making is the memory.</p>
+
+      <p>No Pinterest board required. What your child makes in half an hour with whatever they found at the park is the only art that matters.</p>
+
+      <h2>🚲 7. Do a Family Bike or Scooter Ride on a Creek Trail</h2>
+
+      <p>Melbourne's creek trails are genuinely stunning in autumn. The Gardiners Creek Trail, Merri Creek Trail, and Yarra Trail all run through leafy corridors of deciduous and native trees that peak in colour from late April through May. Flat, pram-friendly, and mostly car-free — these are the ideal family cycling conditions.</p>
+
+      <p>Pack snacks, set a turnaround point, and resist the urge to go too far. The best family rides are the ones where nobody is crying on the way back because their legs are tired. A 20-minute ride to a playground stop, some play, and a 20-minute ride home is a perfect autumn morning.</p>
+
+      <h2>🌅 8. Watch an Early Autumn Sunset from Somewhere Beautiful</h2>
+
+      <p>After daylight saving ends on April 5, sunset shifts to around 5:50 PM and gets earlier each week. That sounds like bad news, but it creates something lovely: a golden evening that arrives in time to actually watch it with your kids before bedtime. The Shrine of Remembrance lawn, the Westgate Bridge path, the Dandenong Ranges lookouts, or even the top of your local park hill — all of them deliver a good view of autumn's early goodnight.</p>
+
+      <p>Thermos of tea for the adult. A biscuit each. Five minutes of actual stillness and golden light. Children are surprisingly receptive to sunset watching, especially if it involves a snack.</p>
+
+      <h2>🥘 9. Bake Something Seasonal Together</h2>
+
+      <p>Banana bread, apple muffins, a pumpkin soup that your toddler stirred three times and is therefore intensely proud of — autumn cooking with kids doesn't need to be ambitious. It needs to be warm, smelly in a good way, and involve at least one moment of messy stirring or squeezing that produces genuine delight.</p>
+
+      <p>The payoff: your home smells extraordinary, the kids feel capable and included, and you have something to eat at the park tomorrow. Win, win, win.</p>
+
+      <h2>🌿 10. Spend a Morning at a Nature Play Space</h2>
+
+      <p>Melbourne has several exceptional nature play spaces — the kind with logs to balance on, boulders to climb, sand and water elements, and plantings that change with the seasons. <strong>Royal Park Nature Play</strong> in Parkville, <strong>Westerfolds Park</strong> in Templestowe, and the <strong>Eltham Lower Park</strong> creek corridor are all magnificent in autumn.</p>
+
+      <p>The point of nature play spaces is that your child sets the agenda. There's no right way to play in them. Watch what they're drawn to — the mud, the sticks, the water, the balancing — and you'll learn something about them you don't get from a structured climbing frame.</p>
+
+      <h2>🎠 11. Visit Collingwood Children's Farm Before It Gets Cold</h2>
+
+      <p>Collingwood Children's Farm is lovely year-round, but autumn is its best season. The kitchen gardens are full of late-season produce, the animals are calm and accessible, and the café is warm and welcoming without the summer crowds. Go on a weekday morning, eat something good, watch the cow milking, and let your toddler have a small but significant life experience with a goat.</p>
+
+      <p>Our <a href="/blog/collingwood-childrens-farm-melbourne-family-review-cafe-animals">full review</a> has everything you need to plan the visit.</p>
+
+      <h2>📸 12. Photograph Your Child in the Best Autumn Spot You Can Find</h2>
+
+      <p>This is the only item on this list that's just for you. Find the best autumn light you can — a golden avenue of trees, a park at 9 AM when the sun is still low, a pile of leaves your child is diving into — and take a proper photo. Not a quick phone snap. A moment where you actually stop and notice them in this season, at this age, exactly as they are.</p>
+
+      <p>They will not look like this next autumn. Autumn is short. So is this.</p>
+
+      <h2>🗓️ Making It Happen</h2>
+
+      <p>You don't need to tick all twelve off this list — this isn't a test. Pick three that sound genuinely fun for your family right now and do those. The rest will happen or they won't, and either way autumn will have been good.</p>
+
+      <p>The through-line on all of them is the same: outside, unhurried, noticing what the season is doing. That's the whole recipe. Melbourne's autumn gives you the ingredients. All you have to do is show up.</p>
+
+      <p>Find your next autumn playground with our <a href="/search?category=playground">playground finder</a> — filtered by location, equipment, and shade so you can plan the perfect golden morning. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-19T07:00:00+10:00',
+    category: 'activities',
+    tags: ['Melbourne autumn activities families', 'autumn bucket list Melbourne kids', 'autumn activities toddlers Melbourne', 'things to do Melbourne autumn', 'Melbourne autumn family', 'school holidays over Melbourne', 'autumn Melbourne families 2026', 'seasonal activities Melbourne kids', 'Melbourne April May activities families', 'autumn playgrounds Melbourne'],
+    seoTitle: 'Melbourne Autumn Family Bucket List: 12 Things to Do Before Winter (2026)',
+    seoDescription: "Autumn in Melbourne is fleeting — here are 12 genuinely lovely things to do with your kids before winter arrives. Leaf walks, creek wading, farmers markets, golden sunset watching, and the first hot chocolate of the season. A seasonal bucket list for Melbourne families."
+  },
+  {
     slug: 'weekend-planner-melbourne-families-april-18-19-2026-last-school-holidays-kabloom',
     title: "Weekend Planner: KaBloom's Last Weekend, Makers Market & Making the Most of the Final School Holiday Days (April 18–19)",
     excerpt: "It's the last weekend of school holidays — and Melbourne has saved some genuinely good things for the finale. KaBloom closes tomorrow, the Makers and Shakers Market fills the Royal Exhibition Building today and Sunday, and Kidchella brings a family music festival to Sunday afternoon. Here's how to spend both days well before the school run resumes on Monday.",
