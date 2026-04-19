@@ -15,6 +15,129 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-playgrounds-inner-west-melbourne-yarraville-footscray-seddon-newport-williamstown',
+    title: "Best Playgrounds in Melbourne's Inner West: Yarraville, Footscray, Seddon, Newport and Williamstown",
+    excerpt: "Melbourne's inner west is having a moment — and its playgrounds are keeping pace. From a giant climbable dinosaur in Yarraville to a recently upgraded adventure park in Newport, here's your guide to the best family playgrounds across the inner west.",
+    content: `
+      <p>For a long time, the inner west's playgrounds were an afterthought — functional, but not the kind of destination families drove across town for. That's changed. Investment in Maribyrnong, Hobsons Bay, and the City of Footscray has produced some genuinely excellent play spaces, and the neighbourhood-scale parks that have been here for decades are now properly appreciated. The inner west has always had the cafes, the river walks, and the village feel. Now it has the playgrounds to match.</p>
+
+      <p>If you're in Yarraville, Footscray, Seddon, Newport, or Williamstown — or making a day trip to any of them — here are the playgrounds worth your time.</p>
+
+      <h2>🦕 Best for Imaginative Play: McNish "Dinosaur Park" Reserve, Yarraville</h2>
+
+      <p>Every suburb should have a playground with a personality, and Yarraville's is unmistakable. The star of McNish Reserve is <strong>Mimi the dinosaur</strong> — a giant concrete dinosaur sculpture that kids can climb inside, clamber over, and slide down her tail. She's been here for years, she's beloved by every child in the neighbourhood, and she's the kind of playground feature that makes adults nostalgic for something they never actually experienced.</p>
+
+      <p>Around Mimi, you'll find a solid range of equipment: climbing frames, swings, and slides appropriate for toddlers through to primary school. There are <strong>dinosaur "egg" cubby structures</strong> nearby for hiding, good tree canopy for shade, clean toilets, and a newer undercover BBQ area — which makes this a genuinely complete family destination rather than just a playground. The park sits in the middle of a residential Yarraville block, giving it that tucked-away local feel that the more polished destination parks lack.</p>
+
+      <p><strong>Best for:</strong> Toddlers and preschoolers, families who love themed environments<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Facilities:</strong> Toilets, undercover BBQ area, shade, parking on surrounding streets<br>
+      <strong>Address:</strong> McNish Reserve, off Ballarat Street, Yarraville<br>
+      <strong>Tip:</strong> Go early on weekends — the dinosaur is very popular with local families and the park can fill up by mid-morning</p>
+
+      <h2>🛝 Best All-Rounder: Yarraville Gardens Playground</h2>
+
+      <p>If McNish is the neighbourhood gem, Yarraville Gardens is the suburb's flagship. This large, well-equipped playground sits within the beautiful Yarraville Gardens reserve — a formal European-style park with elm avenues, a rotunda, and a bowling green that feels slightly out of time in a genuinely lovely way.</p>
+
+      <p>The playground itself has excellent range: a high winding tunnel slide, climbing ladders, a rope climbing frame, dual wave slides, and a <strong>dedicated toddler area</strong> with a shop front, sensory panels, and gentle ground-level sculptures. The revolving rope "cage" — a large circular rope structure that spins gently — is a vestibular system workout disguised as something kids will choose over and over. The playground is well-fenced from the surrounding roads by gardens, which gives parents some breathing room.</p>
+
+      <p>The surrounding park is one of the inner west's best autumn destinations. The elm avenues are spectacular in late April — proper cathedral canopy, golden light, leaves crunching underfoot — and the wide paths are ideal for a post-playground scooter ride while you finish your coffee.</p>
+
+      <p><strong>Best for:</strong> Mixed ages, families wanting a beautiful park setting<br>
+      <strong>Ages:</strong> 1–9<br>
+      <strong>Facilities:</strong> Toilets, rotunda, open grass, mature tree shade<br>
+      <strong>Address:</strong> Yarraville Gardens, Hyde Street, Yarraville<br>
+      <strong>Combine with:</strong> Yarraville Village is a five-minute walk — excellent cafes, bakeries, and the Yarraville Sun Theatre if you want to add a movie to the outing</p>
+
+      <h2>💦 Best for Water Play: Footscray Park Play Space</h2>
+
+      <p>Footscray Park is one of Melbourne's most underrated open spaces — a stunning formal garden along the Maribyrnong River with Heritage-listed rose gardens, riverside walking paths, and a play space that deserves far more attention than it gets from families outside the suburb.</p>
+
+      <p>The <strong>all-abilities playground</strong> here is genuinely comprehensive: two flying foxes (one universally accessible), a carousel, climbing frames, slides, a nest swing, musical instruments, and a sandpit. The surrounding trees provide a calming green canopy, and the <strong>water play features</strong> are a warm-weather highlight — jets and water channels that turn the playground into a splash zone on hot days. Even in autumn, the water elements give curious toddlers something to interact with.</p>
+
+      <p>What makes Footscray Park special is how it combines the playground with everything around it. The riverfront walking trail, the rose gardens, the picnic lawns — a morning here can stretch from playground to picnic to riverside walk without anyone running out of things to enjoy. It's the inner west's most complete family outing in a single location.</p>
+
+      <p><strong>Best for:</strong> Water play, all-abilities families, a full family day out<br>
+      <strong>Ages:</strong> 0–10<br>
+      <strong>Facilities:</strong> Toilets, picnic shelters, river access, barbecues, ample parking<br>
+      <strong>Address:</strong> Footscray Park, Ballarat Road, Footscray<br>
+      <strong>Autumn bonus:</strong> The rose gardens are still colourful in early autumn, and the riverside path under the eucalypts is lovely for a pram walk after the playground</p>
+
+      <h2>🌿 Best Neighbourhood Gem: Harris Reserve, Seddon</h2>
+
+      <p>Seddon might be small, but it has one of the inner west's most lovable local parks. Harris Reserve is a <strong>mostly-fenced village green</strong> with play equipment geared toward younger children — swings, a slide, climbing options, and enough open grass for ball games. It's shady, relaxed, and has the unhurried energy of a park that belongs to the street rather than the suburb.</p>
+
+      <p>The fencing (partial, but covering the main play areas) makes it a practical choice for parents of toddlers who like to test their speed. And the location — a short walk from Seddon's increasingly excellent cafe strip on Charles Street — means a park visit and a babycino are natural partners. For local families, Harris Reserve is the Tuesday morning default. For visitors, it's a pleasant stop on a Seddon wander.</p>
+
+      <p><strong>Best for:</strong> Toddlers, local village-feel outings, combining with Seddon cafes<br>
+      <strong>Ages:</strong> 1–6<br>
+      <strong>Fenced:</strong> Mostly yes<br>
+      <strong>Facilities:</strong> Street parking, nearby cafes<br>
+      <strong>Address:</strong> Harris Reserve, Harris Street, Seddon<br>
+      <strong>Combine with:</strong> Charles Street in Seddon — small but strong cafe scene, very family-friendly vibe</p>
+
+      <h2>🏆 Best for Adventure: Leo Hoffman Reserve, Newport</h2>
+
+      <p>Newport's playground offering got a significant upgrade, and Leo Hoffman Reserve is now the standout destination in the south of the inner west. The recently rebuilt play space has quickly become one of the better playgrounds in Hobsons Bay.</p>
+
+      <p>The centrepiece is a <strong>huge sandpit</strong> with shade sails — the kind of sandpit that absorbs toddlers for long stretches while you actually get to sit down. Around it: a wooden spinner, a flying fox, basket and standard swings, slides of different sizes (including a mini version for little ones), an enclosed slide for older kids, and a rope obstacle course. Rock climbing walls and a dedicated Ninja Warrior obstacle course give active primary-aged kids a genuine workout. The full-size oval and half-court serve siblings who need space to run.</p>
+
+      <p>The reserve is large and the play equipment is spread generously — it never feels crowded even on weekends. One practical note: there are no toilets on site, so plan accordingly if you have young children. Pack accordingly, and you'll have a brilliant morning.</p>
+
+      <p><strong>Best for:</strong> Active families with mixed ages, sandpit devotees, kids who want a challenge<br>
+      <strong>Ages:</strong> 1–10<br>
+      <strong>Fenced:</strong> No — open reserve<br>
+      <strong>Facilities:</strong> Shade sails over sandpit, BBQ, oval, half-court. No toilets on site<br>
+      <strong>Address:</strong> Leo Hoffman Reserve, Newcastle Street, Newport<br>
+      <strong>Combine with:</strong> Newport Lakes Reserve is nearby — a peaceful nature walk with wildlife spotting alongside the lakes</p>
+
+      <h2>🌊 Best Coastal Playground: Williamstown Foreshore</h2>
+
+      <p>Williamstown doesn't do playgrounds quietly. The foreshore playground at <strong>Nelson Place</strong> sits right on the bay with views across to the city skyline — a backdrop that makes every visit feel like a proper occasion. The equipment is well-suited to toddlers and young children, with climbing structures, swings, and slides set on soft surfaces. The sealed foreshore path makes it ideal for scooters and balance bikes alongside the playground session.</p>
+
+      <p>But the real reason to visit Williamstown is the combination of playground, beach, heritage streetscape, and food. After the park, walk along Nelson Place for fish and chips on the waterfront, or head up Ferguson Street for cafes and bakeries. The bay beach at Williamstown is calm and shallow — perfect for a paddle on mild autumn days. The whole outing has the relaxed, slightly-out-of-time atmosphere that makes Williamstown one of Melbourne's best family day trip destinations.</p>
+
+      <p><strong>Best for:</strong> A complete day trip, combining play with waterfront and village<br>
+      <strong>Ages:</strong> 1–8<br>
+      <strong>Facilities:</strong> Toilets nearby, foreshore path, beach access, shops and cafes on Nelson Place<br>
+      <strong>Address:</strong> Williamstown Foreshore Playground, Nelson Place, Williamstown<br>
+      <strong>Getting there:</strong> Train to Williamstown Beach station (15-minute walk), or drive and park along the foreshore. Public transport is a relaxed option — the train ride across the Westgate is a view in itself<br>
+      <strong>Tip:</strong> Go midweek if you can. Williamstown on a weekday morning feels like a village; on weekend afternoons it's considerably busier</p>
+
+      <h2>📋 Inner West Playground Day: Two Routes</h2>
+
+      <h3>Route A: Yarraville Morning</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — McNish Dinosaur Park for imaginative climbing</li>
+        <li><strong>10:30 AM</strong> — Coffee at one of Yarraville Village's cafes (excellent options on Anderson Street)</li>
+        <li><strong>11:15 AM</strong> — Yarraville Gardens playground + autumn walk along the elm avenues</li>
+        <li><strong>12:30 PM</strong> — Lunch back in the village or a picnic in the gardens</li>
+      </ol>
+
+      <h3>Route B: Williamstown to Newport</h3>
+      <ol>
+        <li><strong>9:30 AM</strong> — Williamstown Foreshore playground + bay walk</li>
+        <li><strong>11:00 AM</strong> — Fish and chips or cafe on Nelson Place</li>
+        <li><strong>12:30 PM</strong> — Drive 10 minutes to Leo Hoffman Reserve for afternoon sandpit and obstacle course</li>
+        <li><strong>2:00 PM</strong> — Newport Lakes for a gentle nature walk to finish</li>
+      </ol>
+
+      <h2>🍂 The Inner West in Autumn</h2>
+
+      <p>The inner west is not the most obviously "leafy" part of Melbourne — there's more brick and terrace than the inner east's elm avenues. But it has something else in autumn: a particular warmth of light, especially near the river and the bay, that the inner suburbs' denser canopy sometimes blocks. Footscray Park's riverbank in late April morning light is genuinely beautiful. The Williamstown foreshore at low tide with the city skyline softened by autumn haze is the kind of thing you take a photo of and immediately set as your phone wallpaper.</p>
+
+      <p>The cooler temperatures also make the inner west's creek and river walks come into their own. The Maribyrnong River Trail is excellent in autumn — flat, pram-friendly, and lined with native vegetation that shifts with the season. Combine a riverside walk with a Footscray Park playground stop and you have a free, beautiful autumn morning without driving a kilometre.</p>
+
+      <p>Find more playgrounds nearby with our <a href="/search?category=playground">playground finder</a> — and explore our other guides for the <a href="/blog/best-playgrounds-inner-east-melbourne-hawthorn-camberwell-kew-balwyn">Inner East</a>, <a href="/blog/best-playgrounds-northern-suburbs-melbourne-bundoora-preston-eltham">Northern Suburbs</a>, <a href="/blog/best-playgrounds-bayside-melbourne-brighton-sandringham-hampton">Bayside</a>, <a href="/blog/best-playgrounds-south-east-melbourne-knox-ringwood-doncaster-croydon">South East</a>, and the <a href="/blog/best-playgrounds-mornington-peninsula-families-rosebud-rye-mornington">Mornington Peninsula</a>. 🌿</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-20T07:00:00+10:00',
+    category: 'playgrounds',
+    tags: ['best playgrounds inner west Melbourne', 'Yarraville playgrounds families', 'Footscray playgrounds kids', 'Seddon playground', 'Newport playground Leo Hoffman', 'Williamstown playground foreshore', 'inner west Melbourne families', 'Maribyrnong playgrounds', 'Hobsons Bay playgrounds', 'dinosaur park Yarraville', 'Footscray Park playground', 'autumn playgrounds Melbourne'],
+    seoTitle: "Best Playgrounds in Melbourne's Inner West: Yarraville, Footscray, Newport & Williamstown (2026)",
+    seoDescription: "Discover the best family playgrounds in Melbourne's inner west — from the climbable dinosaur at McNish Reserve in Yarraville to the upgraded adventure park at Leo Hoffman Reserve in Newport. 6 top picks with practical tips for families with toddlers."
+  },
+  {
     slug: 'melbourne-autumn-family-bucket-list-things-to-do-before-winter',
     title: "Melbourne Autumn Family Bucket List: 12 Things to Do Before Winter Arrives",
     excerpt: "Autumn in Melbourne is short, glorious, and absolutely worth squeezing dry. Before the grey winter settles in, here are 12 genuinely lovely things to do with your kids — from golden leaf walks to creek adventures and the first proper hot chocolate of the season.",
