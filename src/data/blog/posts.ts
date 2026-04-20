@@ -15,6 +15,101 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'anzac-day-2026-melbourne-families-kids-what-to-do-long-weekend',
+    title: "Anzac Day with Kids in Melbourne: How to Mark the Day Meaningfully (+ What's Open This Saturday)",
+    excerpt: "Anzac Day falls on a Saturday this year, giving Melbourne families a natural long weekend. Here's how to observe it meaningfully with little ones — from watching the March to an afternoon at the zoo — plus the practical stuff: what's open, what's free, and what works with toddlers.",
+    content: `
+      <p>Anzac Day is this Saturday, April 25. It falls on the weekend this year, which means Melbourne families have a natural opportunity to be somewhere meaningful in the morning, then pivot to a proper family afternoon once the commemorations wind down. Shops are shut until 1 PM, public transport is free all day, and the city has a particular atmosphere — quieter, more reflective — that's worth experiencing even with very small children in tow.</p>
+
+      <p>Here's an honest, practical guide to Anzac Day with kids in Melbourne: what little ones can actually appreciate, what fits around naps and temperaments, and what the day looks like when you're managing a toddler and trying to have a meaningful experience at the same time.</p>
+
+      <h2>🌅 The Dawn Service: Probably Not for Under-5s (But Worth Knowing About)</h2>
+
+      <p>The <strong>Dawn Service at the Shrine of Remembrance</strong> begins at 5:30 AM and is one of Melbourne's most powerful annual moments. It's genuine and moving, but the 5 AM wake-up makes it a tough call for families with young children. Most child development experts and experienced Melbourne parents would say: under-5s and predawn services are a hard combination. You'll be managing tired, restless small people during a ceremony that requires stillness and quiet, which isn't fair on them or on you.</p>
+
+      <p>The exception: if your child is the type who wakes early anyway and handles new experiences calmly, it can be memorable. Large screens ensure visibility, and the atmosphere is something that even a three-year-old can absorb on some level. But go in eyes open — it's a 5:30 AM start in late April, which means a 10–12°C morning. Pack warmly and have a clear exit plan.</p>
+
+      <p>For most families with toddlers and preschoolers, the <strong>Anzac March</strong> is the better option.</p>
+
+      <h2>🎖️ The Anzac March: Genuinely Good for Families (9 AM)</h2>
+
+      <p>The Anzac Day March starts at <strong>9:00 AM from Swanston Street</strong> and proceeds to the Shrine of Remembrance — and this is where families with little ones can really participate. Lining the march route is free, the energy is warm and community-minded, and children respond to the spectacle instinctively: the bands, the uniforms, the rhythmic footsteps, the dignified faces of veterans.</p>
+
+      <p>For a toddler or preschooler, the experience is primarily sensory — the sound of a pipe band is something small children find genuinely arresting. But even the meaning can land in simple terms: <em>"These are people who helped keep our family safe. We're saying thank you."</em> That's enough. You don't need to get into the full history at age three.</p>
+
+      <p><strong>Good spots to watch:</strong></p>
+      <ul>
+        <li><strong>Federation Square</strong> — public toilets nearby, cafes open, some seating. Good for families with young children who need facilities within reach</li>
+        <li><strong>Outside the Arts Centre</strong> — slightly fewer crowds than the Flinders Street end, and more shade as the morning warms up</li>
+        <li><strong>Along St Kilda Road</strong> — wide, tree-lined boulevard with plenty of space for prams and children to see without being crushed</li>
+      </ul>
+
+      <p><strong>Public transport is free all day</strong> — train into Flinders Street or tram up Swanston Street. Don't drive into the CBD on Anzac Day morning; road closures make it more trouble than it's worth.</p>
+
+      <h2>🏛️ Shrine of Remembrance: Open from 6:30 AM</h2>
+
+      <p>The Shrine opens its galleries at <strong>6:30 AM</strong> after the Dawn Service, and it's worth visiting with children who are old enough to handle a museum setting. The Shrine has a museum, a garden, and an extraordinary piece of architecture that communicates solemnity in a way children can feel even without fully understanding. You can place a poppy at the Stone of Remembrance.</p>
+
+      <p>The Shrine team provides <strong>wreath templates for a family art activity</strong> — a gentle way to give younger children something hands-on to connect to the day. Check the Shrine's website (shrine.org.au) for any additional family programming on April 25.</p>
+
+      <h2>🦕 Afternoon: Melbourne Zoo's Dinos at the Zoo</h2>
+
+      <p>Once morning commemorations wind down and you're ready for something lighter, <strong>Melbourne Zoo</strong> is one of the best afternoon options this Saturday. <strong>Dinos at the Zoo</strong> is running until mid-July — a trail of life-size animatronic dinosaurs winding through the zoo grounds, which is exactly the kind of experience that makes a toddler's eyes go very wide. Combine that with the animals, the Carousel, and the Children's Zoo area, and you've got a solid family afternoon.</p>
+
+      <p>The zoo typically opens at 9 AM on public holidays. Entry isn't free, but Anzac Day afternoons tend to be less crowded than a typical weekend — people often choose more solemn activities in the morning and afternoon becomes quieter. Book tickets online in advance to skip the queue.</p>
+
+      <h2>🎨 NGV: Let's Party — Free, Until May 3</h2>
+
+      <p>If the zoo isn't your thing, <strong>Let's Party: NGV Fashion for Kids</strong> at the National Gallery of Victoria is completely free and running until May 3. It's a vibrant, colour-saturated exhibition where kids can step into a world of fashion creativity — the kind of installation that's built for the phone-camera-and-toddler moment. Completely free, city centre, and a short walk from the March route.</p>
+
+      <h2>🌿 Afternoon Playground: The City Parks Are Beautiful Right Now</h2>
+
+      <p>Anzac Day afternoon in Melbourne — quiet streets, golden autumn light, warm enough for outdoor play — is one of the year's best conditions for a park visit. A few that are particularly lovely this time of year:</p>
+
+      <ul>
+        <li><strong>Shrine of Remembrance Gardens</strong> — after a visit to the Shrine, the surrounding gardens are peaceful, open, and beautiful. Wide paths, native plantings, and the kind of still atmosphere that lets children run freely</li>
+        <li><strong>Royal Botanic Gardens</strong> — free guided walks are available on Anzac Day, and the autumn colour in the gardens right now is genuinely spectacular. The lake, the ducks, and the wide lawns make it a lovely family afternoon even with no agenda</li>
+        <li><strong>Birrarung Marr playground</strong> — if you're in the city after the March, the riverside playground is a five-minute walk from Federation Square and gives kids a proper run after a morning of watching and walking</li>
+      </ul>
+
+      <p>Use our <a href="/search?category=playground">playground finder</a> to locate something near wherever your morning takes you.</p>
+
+      <h2>🌺 Making It Meaningful at Home: Poppy Activities for Toddlers</h2>
+
+      <p>Not every family wants a full city outing on Anzac Day — and that's completely reasonable. For families with very young children, or those who prefer to observe the day more quietly, some simple at-home activities make the day feel marked without requiring a trip into the city:</p>
+
+      <ul>
+        <li><strong>Red poppy finger painting</strong> — toddlers dip their thumbs or fingers in red paint to make poppies on paper. Simple, sensory, and a lovely keepsake. Black felt-tip in the centre finishes it</li>
+        <li><strong>Paper poppy making</strong> — tissue paper and pipe cleaners or paddle pop sticks. Preschoolers can manage this with minimal help</li>
+        <li><strong>Watch the dawn service together at home</strong> — the ABC broadcasts the Melbourne Dawn Service live. Watching together, even briefly, gives the day a communal quality without a 5 AM journey</li>
+        <li><strong>A simple conversation</strong> — for preschoolers, one or two sentences is enough: <em>"Today we remember people who were very brave. We say thank you for what they did."</em> Plant a red flower or lay a poppy somewhere special</li>
+      </ul>
+
+      <h2>🗓️ Coming Up: Sunday April 26</h2>
+
+      <p>If Saturday feels full, Sunday offers two excellent free family events. The <strong>South Asian Festival</strong> and <strong>Vaisakhi: Celebrating Khalsa Sajna Divas</strong> both take place in the city on April 26 — free, family-friendly, and full of music, dance, food, and atmosphere. A post-Anzac Day Sunday with a multicultural festival is a genuinely nice Melbourne long weekend combination.</p>
+
+      <h2>📋 The Practical Bits</h2>
+
+      <ul>
+        <li><strong>Public transport is free all day Saturday</strong> — trams, trains, and buses. Tap on and off as usual to avoid a fine</li>
+        <li><strong>Shops shut until 1 PM</strong> — stock up on snacks on Friday. Coffee shops and cafes in the CBD typically open earlier than retail</li>
+        <li><strong>Morning weather:</strong> Expect around 9–12°C at the March, warming to the mid-to-high teens by afternoon. Warm layers for the morning are essential — the kind of cold that sneaks up on you</li>
+        <li><strong>Poppies:</strong> Wear or carry one if you can — they're available from RSL branches before the day, or make one at home with the kids on Friday evening</li>
+      </ul>
+
+      <p>Anzac Day with young children doesn't need to be perfect or comprehensive. A few minutes watching the March, a conversation at their level, a poppy in their hand — that's more than enough. The seeds of understanding get planted early and grow over years. You're not expected to give them the full picture at three. You're just beginning the story.</p>
+
+      <p>Find your nearest playground for the afternoon with our <a href="/search?category=playground">playground finder</a> — and enjoy a meaningful, gentle Melbourne Saturday with your family. 🌺</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-21T07:00:00+10:00',
+    category: 'activities',
+    tags: ['Anzac Day Melbourne families', 'Anzac Day activities kids Melbourne', 'what to do Anzac Day Melbourne 2026', 'Anzac Day March Melbourne kids', 'Anzac Day long weekend Melbourne', 'family activities Melbourne April 25', 'Melbourne Zoo Dinos at the Zoo', 'NGV family exhibition free', 'Anzac Day toddler activities', 'Melbourne autumn long weekend families'],
+    seoTitle: 'Anzac Day with Kids in Melbourne 2026: What to Do, What\'s Open & How to Mark the Day',
+    seoDescription: "Anzac Day is Saturday April 25 this year — here's your practical Melbourne family guide: watching the Anzac March with toddlers, what's open, free public transport, afternoon zoo and gallery options, and simple at-home poppy activities for little ones."
+  },
+  {
     slug: 'best-playgrounds-inner-west-melbourne-yarraville-footscray-seddon-newport-williamstown',
     title: "Best Playgrounds in Melbourne's Inner West: Yarraville, Footscray, Seddon, Newport and Williamstown",
     excerpt: "Melbourne's inner west is having a moment — and its playgrounds are keeping pace. From a giant climbable dinosaur in Yarraville to a recently upgraded adventure park in Newport, here's your guide to the best family playgrounds across the inner west.",
