@@ -15,6 +15,164 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'whats-on-this-week-melbourne-families-april-22-26-2026-anzac-long-weekend',
+    title: "What's On This Week for Melbourne Families: ANZAC Day Long Weekend, Dinos at the Zoo & What's Still Running (April 22–26)",
+    excerpt: "It's back-to-school week, and then ANZAC Day turns Saturday into a long weekend. Melbourne has a solid lineup — from Dino Days at Melbourne Museum to kids free at the zoo on the public holiday, The Bookbinder at Arts Centre, and Australian Sand Sculpting at Frankston. Here's what's worth your time this week.",
+    content: `
+      <p>School is back — Term 2 started Monday — and the city has shifted from holiday pace back to weekday routine. But here's the thing: <strong>ANZAC Day falls on Saturday</strong> this year, giving Melbourne families an unexpected bonus long weekend after just five days of school. It's a short working week, and then you get Saturday's commemorations, a beautiful autumn day, and Sunday to do whatever you like.</p>
+
+      <p>There's also a genuinely solid run of things happening right now. Dinosaur experiences are in full swing across the city, a lovely new children's theatre show just opened, and the Australian Sand Sculpting Championships are in their final days at Frankston. Here's your guide to making the most of the week ahead.</p>
+
+      <h2>🦕 Dino Days at Melbourne Museum — Every Wednesday Until July</h2>
+
+      <p>If you have a dinosaur-obsessed child (and statistically, most of you do), <strong>Dino Days at Melbourne Museum</strong> runs every Wednesday until July 8 — which means today is a Dino Day. The programming includes hands-on activities, fossil exploration, and the museum's excellent dinosaur exhibits. Entry to the Children's Gallery is free for under-16s, and the dedicated Wednesday programming adds extra engagement for young palaeontologists.</p>
+
+      <p>Mid-week visits are the best time to go — the museum is significantly quieter on Wednesdays than on weekends, which means more access to exhibits and no queuing for the sandpit dig. If you've been meaning to do Melbourne Museum with your dinosaur-obsessed four-year-old, Wednesday mornings this term are your window.</p>
+
+      <ul>
+        <li><strong>When:</strong> Every Wednesday until July 8, during opening hours</li>
+        <li><strong>Where:</strong> Melbourne Museum, Carlton Gardens</li>
+        <li><strong>Cost:</strong> Free for under-16s (adults ~$18)</li>
+        <li><strong>Combine with:</strong> Carlton Gardens playground is right outside — excellent for a post-museum run around. Lygon Street is a short walk for lunch</li>
+        <li><strong>Tip:</strong> Aim to arrive at 10 AM when it opens and before school groups arrive. The dinosaur exhibition and Children's Gallery are both at ground level — easy pram access throughout</li>
+      </ul>
+
+      <h2>🦖 Dinos at the Zoo — Melbourne Zoo & Werribee, Until July 12</h2>
+
+      <p>The dinosaur theme extends to the zoos. <strong>Dinos at the Zoo</strong> is running at both <strong>Melbourne Zoo</strong> in Parkville and <strong>Werribee Open Range Zoo</strong> until July 12 — a trail of animatronic life-size dinosaurs winding through the zoo grounds alongside the usual animals. For a toddler or preschooler who loves both animals and dinosaurs (again — most of them), this is the double-up that makes the visit genuinely exciting.</p>
+
+      <p>Here's the important bit for this week: <strong>children 16 and under enter for free on ANZAC Day (Saturday April 25)</strong>, which is a Victorian public holiday. That makes Saturday an excellent day for a zoo visit — you pay entry for adults only, and the zoo is usually quieter in the morning before the day fills up.</p>
+
+      <ul>
+        <li><strong>When:</strong> Daily until July 12</li>
+        <li><strong>Where:</strong> Melbourne Zoo (Parkville) or Werribee Open Range Zoo</li>
+        <li><strong>Cost:</strong> Kids free on ANZAC Day (public holiday). Adult entry applies</li>
+        <li><strong>Saturday tip:</strong> Head to the zoo after the ANZAC March if you're in the city for morning commemorations. The march typically winds down by late morning, giving you a solid afternoon at the zoo. Or go early — the zoo opens at 9 AM on public holidays</li>
+        <li><strong>Combine with:</strong> The Children's Zoo and Carousel at Melbourne Zoo are excellent additions for under-5s beyond the dinosaur trail</li>
+      </ul>
+
+      <h2>🎭 The Bookbinder — Arts Centre Melbourne (Until May 1)</h2>
+
+      <p>A new family show has just opened at <strong>Arts Centre Melbourne</strong> and it's getting a warm reception. <strong>The Bookbinder</strong> is a visually rich theatre production running from April 23 to May 1 — suited to preschoolers and early primary school kids, based on what appears to be a book-and-story-world theme. For families who loved the Comedy Festival kids' shows and are looking for quality children's theatre to fill the weeks between, this is the pick.</p>
+
+      <p>Arts Centre shows are generally polished, short (30–50 minutes is typical for family shows), and designed with young attention spans in mind. The venue is pram-friendly, centrally located on St Kilda Road, and easy to combine with a park visit — Birrarung Marr is a short walk along the river.</p>
+
+      <ul>
+        <li><strong>When:</strong> April 23 – May 1</li>
+        <li><strong>Where:</strong> Arts Centre Melbourne, St Kilda Road</li>
+        <li><strong>Cost:</strong> Check artscentremelbourne.com.au for ticketing and session times</li>
+        <li><strong>Best for:</strong> Preschoolers and early primary school kids who love stories and visual theatre</li>
+        <li><strong>Combine with:</strong> <a href="/search?category=playground">Birrarung Marr playground</a> is a 10-minute walk along the river — a perfect post-show run around on the Yarra</li>
+      </ul>
+
+      <h2>🔬 Play School: Come and Play at ACMI — Until July 12</h2>
+
+      <p>This one keeps earning its place on the weekly list because it's just that good for toddlers. <strong>Play School: Come and Play</strong> at ACMI (Federation Square) is free, interactive, and perfectly pitched for under-5s who know and love the show. Kids can step inside the Play School world, explore the set, see how episodes are made, and engage with hands-on activities.</p>
+
+      <p>Midweek visits are especially calm — less weekend foot traffic means more space to explore without crowds. If your toddler has never been, Wednesday or Thursday this week is a great window. After the exhibition, walk across Princes Bridge to <a href="/search?category=playground">Birrarung Marr</a> for outdoor play and river time.</p>
+
+      <ul>
+        <li><strong>When:</strong> Daily until July 12</li>
+        <li><strong>Where:</strong> ACMI, Federation Square</li>
+        <li><strong>Cost:</strong> Free</li>
+      </ul>
+
+      <h2>🏖️ Australian Sand Sculpting Championships — Frankston (Until April 26)</h2>
+
+      <p>The <strong>Australian Sand Sculpting Championships</strong> at Frankston Waterfront close this Sunday April 26 — which means you have this week and the long weekend to make it there. Fifteen solo sculptures plus a colossal 50-tonne group piece themed around <em>The Enchanted Realm</em> — castles, mythical creatures, and intricate fantasy scenes carved entirely from sand.</p>
+
+      <p>For toddlers and preschoolers, the sculptures are simply astonishing. Even children who can't articulate why they're fascinated will stand wide-eyed at something this big and this detailed. The Frankston foreshore setting is lovely in autumn — calm bay water, a good playground nearby, and fish and chips to finish.</p>
+
+      <ul>
+        <li><strong>When:</strong> Daily until Sunday April 26</li>
+        <li><strong>Where:</strong> Frankston Waterfront</li>
+        <li><strong>Cost:</strong> Check frankstonwaterfront.com.au for current entry pricing</li>
+        <li><strong>Combine with:</strong> Frankston has a good foreshore playground — worth adding before or after the sculptures for a proper family morning</li>
+        <li><strong>ANZAC Day Saturday tip:</strong> A trip to Frankston for the sand sculptures works well as a Saturday afternoon activity after morning commemorations. Shops are shut until 1 PM, but outdoor foreshore attractions are open all day</li>
+      </ul>
+
+      <h2>🌿 Tinkertown at Scienceworks — Until June 30</h2>
+
+      <p><strong>Tinkertown</strong> at Scienceworks in Spotswood is still running through June, which means you have plenty of time — but it's a good card to have up your sleeve for rainy days this term. The interactive experience is hands-on and build-focused, giving kids the chance to tinker, construct, and problem-solve. Scienceworks' Ground Up space for under-5s is also one of Melbourne's best free early childhood sensory environments.</p>
+
+      <ul>
+        <li><strong>When:</strong> Daily until June 30</li>
+        <li><strong>Where:</strong> Scienceworks, Spotswood</li>
+        <li><strong>Cost:</strong> Check scienceworks.museum.vic.gov.au for pricing; under-16s free</li>
+        <li><strong>Best for:</strong> Rainy weekdays, western suburbs families, kids who love building and engineering play</li>
+      </ul>
+
+      <h2>🌅 ANZAC Day — Saturday April 25</h2>
+
+      <p>We published a full guide to <a href="/blog/anzac-day-2026-melbourne-families-kids-what-to-do-long-weekend">ANZAC Day with kids in Melbourne</a> earlier this week — covering the March, the Shrine, what's open, what's free, and how to make it meaningful with little ones. The short version:</p>
+
+      <ul>
+        <li><strong>The ANZAC March</strong> starts at 9 AM from Swanston Street — a genuinely moving spectacle that works well even for toddlers. Line up along St Kilda Road or near Federation Square for the best family viewing</li>
+        <li><strong>Public transport is free all day Saturday</strong> — trams, trains, buses. Tap on and off as usual</li>
+        <li><strong>Shops closed until 1 PM</strong> — stock up on snacks Friday, plan your morning around outdoor or public activities</li>
+        <li><strong>Dinos at the Zoo</strong> — kids free with adult entry on the public holiday, as noted above</li>
+        <li><strong>NGV Let's Party</strong> — completely free, still running until May 3. City-centre fashion-for-kids exhibition that's vibrant and toddler-delightful</li>
+        <li><strong>Royal Botanic Gardens</strong> — free, beautiful, and at their autumn best right now</li>
+      </ul>
+
+      <p>Autumn in Melbourne is ideal for ANZAC Day outdoor time — cool mornings warming to the mid-teens, golden light, no UV stress. Pack warm layers for the early march and you'll be comfortable all day.</p>
+
+      <h2>🍂 What to Do This Weekend Beyond the Long Weekend Events</h2>
+
+      <p>Saturday's commemorative morning naturally transitions into a relaxed autumn afternoon. A few ideas that work well on ANZAC Day:</p>
+
+      <ul>
+        <li><strong>Royal Botanic Gardens walk</strong> — free guided walks are available, and the gardens are stunning in late April. Autumn leaves, the ornamental lake, and wide pram-friendly paths make this one of Melbourne's best free afternoons</li>
+        <li><strong>Local playground</strong> — after a meaningful morning, a quiet afternoon at your nearest park is exactly the right pace. Use our <a href="/search?category=playground">playground finder</a> to find something close to wherever your morning takes you</li>
+        <li><strong>Frankston Sand Sculpting</strong> — if you're south-east and want a proper excursion, Saturday afternoon is good timing with shops opening after 1 PM</li>
+        <li><strong>NGV Let's Party</strong> — free and inner-city, perfect for an hour after morning commemorations before heading home</li>
+      </ul>
+
+      <h2>📋 Your Week at a Glance</h2>
+
+      <h3>Wednesday April 22</h3>
+      <p><strong>Dino Days at Melbourne Museum</strong> — midweek, quieter crowds, free for kids. Add Carlton Gardens playground afterwards.</p>
+      <p><strong>Or:</strong> Play School: Come and Play at ACMI (free) + Birrarung Marr playground.</p>
+
+      <h3>Thursday April 23</h3>
+      <p><strong>The Bookbinder</strong> opens at Arts Centre Melbourne — check session times and book. Or a Dinos at the Zoo visit before the weekend.</p>
+
+      <h3>Friday April 24</h3>
+      <p><strong>Last weekday before the long weekend</strong> — a good day for a relaxed local playground morning and some prep for Saturday's commemorations. If you want to see the sand sculptures without weekend crowds, Friday afternoon at Frankston works well.</p>
+
+      <h3>Saturday April 25 — ANZAC Day</h3>
+      <p><strong>Morning:</strong> ANZAC March (9 AM, Swanston Street) or Shrine of Remembrance for the Dawn Service if you're up for it. Free public transport all day.</p>
+      <p><strong>After 1 PM:</strong> Dinos at the Zoo (kids free) or NGV Let's Party (free) or Royal Botanic Gardens walk or Frankston Sand Sculpting.</p>
+
+      <h3>Sunday April 26 — Last Day of Sand Sculpting</h3>
+      <p><strong>Frankston Waterfront</strong> — final day of the Australian Sand Sculpting Championships. Head south for the sculptures, lunch, and a foreshore playground session. A proper family day trip before the week resets.</p>
+
+      <h2>🎒 Packing for This Week</h2>
+
+      <ul>
+        <li><strong>Warm layers for Saturday morning</strong> — ANZAC Day starts cold (around 8–10°C at dawn, warming to 14–16°C by afternoon). A beanie, a warm jacket, and an extra layer for the kids is essential for the March. You can always peel layers off by lunchtime</li>
+        <li><strong>Snacks and a thermos</strong> — particularly for Saturday's march viewing, when you'll be standing outside for 30–45 minutes. Warm drinks are the right call</li>
+        <li><strong>Myki card tapped on</strong> — public transport is free on Saturday but you still need to tap or risk a fine</li>
+        <li><strong>Sunscreen for Sunday</strong> — autumn UV is moderate but Sunday afternoon at the foreshore warrants protection</li>
+        <li><strong>A bag for leaves</strong> — the parks and playgrounds this week are at peak autumn colour. Your toddler will want to collect at least half of what falls</li>
+      </ul>
+
+      <h2>A Note on This Week's Rhythm</h2>
+
+      <p>The first week back at school is often its own kind of exhausting. Kids are readjusting to routine, parents are readjusting to the morning routine, and everyone's slightly more tired than the holiday week would suggest. Don't feel like you need to fill every after-school hour with activities.</p>
+
+      <p>The good news is that having a Saturday long weekend right at the start of Term 2 gives everyone a natural reset point. A meaningful ANZAC morning, a relaxed autumn afternoon, and a gentle Sunday is often exactly the right way to settle into a new term. Let it be easy where you can.</p>
+
+      <p>Find your nearest playground for any part of this week with our <a href="/search?category=playground">playground finder</a> — autumn light, cool air, and a good run around covers most of what children actually need right now. 🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-22T07:00:00+10:00',
+    category: 'events',
+    tags: ['whats on this week Melbourne families', 'ANZAC Day Melbourne families 2026', 'Dino Days Melbourne Museum', 'Dinos at the Zoo Melbourne 2026', 'The Bookbinder Arts Centre Melbourne', 'Australian Sand Sculpting Frankston', 'Play School ACMI', 'Tinkertown Scienceworks', 'Melbourne family events April 2026', 'ANZAC Day long weekend Melbourne families', 'kids free zoo ANZAC Day', 'autumn activities Melbourne toddlers'],
+    seoTitle: "What's On This Week Melbourne Families: ANZAC Day Long Weekend, Dinos at the Zoo & Sand Sculpting (April 22–26, 2026)",
+    seoDescription: "Melbourne family events guide for April 22–26 — ANZAC Day March Saturday, kids free at the zoo on the public holiday, Dino Days at Melbourne Museum, The Bookbinder at Arts Centre, and the final days of Australian Sand Sculpting at Frankston. Practical tips for families with toddlers."
+  },
+  {
     slug: 'anzac-day-2026-melbourne-families-kids-what-to-do-long-weekend',
     title: "Anzac Day with Kids in Melbourne: How to Mark the Day Meaningfully (+ What's Open This Saturday)",
     excerpt: "Anzac Day falls on a Saturday this year, giving Melbourne families a natural long weekend. Here's how to observe it meaningfully with little ones — from watching the March to an afternoon at the zoo — plus the practical stuff: what's open, what's free, and what works with toddlers.",
