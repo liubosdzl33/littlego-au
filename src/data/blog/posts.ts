@@ -15,6 +15,119 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'toddler-play-milestones-playground-development-guide-melbourne',
+    title: "What Should My Toddler Be Doing at the Playground? A Gentle Guide to Play Milestones by Age",
+    excerpt: "Is it normal that my two-year-old still won't go down the slide alone? Why does my three-year-old prefer the sandpit to the climbing frame? A parent-friendly guide to toddler play milestones — what to expect at the playground, and how to gently support the next step.",
+    content: `
+      <p>It happens at almost every playground visit. You're watching your child play — or not play, or play differently from the child next to them — and a quiet question surfaces: <em>Is this normal? Should they be doing more? Should I be doing something?</em></p>
+
+      <p>The honest answer to all three questions is usually: yes, yes, and mostly just show up. Play development in toddlers and preschoolers follows a rough sequence, but the timing varies enormously between children. A 20-month-old who won't climb might be a 28-month-old who's fearless on the tallest frame at the park. A cautious three-year-old who watches other children for weeks before joining in may have social instincts that are entirely appropriate for their temperament.</p>
+
+      <p>This guide is a gentle map, not a checklist. Here's what playground play tends to look like at different ages — and what you can do to support your child without turning a morning at the park into a developmental assessment.</p>
+
+      <h2>🌱 12–18 Months: The World is Enormous</h2>
+
+      <p>At this age, the playground is an overwhelming sensory landscape, and that's completely okay. Your baby-turning-toddler is still figuring out basic mobility — walking confidently, handling uneven surfaces, managing the transition from grass to rubber matting without tumbling. That is the developmental work happening right now.</p>
+
+      <p>What you'll typically see:</p>
+      <ul>
+        <li>Cautious exploration, often staying close to you</li>
+        <li>Fascination with texture — touching the equipment rather than climbing it</li>
+        <li>Watching other children with intense interest but not attempting to join them</li>
+        <li>The low slide used repeatedly while everything else is observed</li>
+        <li>Strong preference for sensory play: bark chips, sand, puddles</li>
+      </ul>
+
+      <p>How to support it: Follow their lead. If they want to sit in the sandpit for 40 minutes, the sandpit is doing important work. Offer your hand on the stairs; let them try without it when they seem ready. Narrate what you see: <em>"You're going up the steps. Now you're at the top."</em> Language tied to physical experience builds both confidence and vocabulary.</p>
+
+      <p><strong>What's not a concern:</strong> Not climbing. Not socialising. Not going down the slide. These come when they come.</p>
+
+      <h2>🐾 18–24 Months: I Can Do It Myself (Mostly)</h2>
+
+      <p>This is the age of independent locomotion and big feelings about both directions. Your toddler is learning that their body can DO things — climb steps, run (sort of), go down slides (with significant deliberation) — and the playground becomes a laboratory for testing what they're capable of.</p>
+
+      <p>What you'll typically see:</p>
+      <ul>
+        <li>Repeated climbing of the same structure, multiple times. This is intentional — they're practising</li>
+        <li>Parallel play: playing alongside other children without interacting with them. This is developmentally appropriate and not a social problem</li>
+        <li>Strong emotions when things don't go as planned — the slide that felt too fast, the climbing frame that was harder than expected</li>
+        <li>Possessiveness over equipment or toys ("mine" is the primary vocabulary of this stage)</li>
+        <li>Beginning to run, jump off low surfaces, and swing on swings with support</li>
+      </ul>
+
+      <p>How to support it: Stay close but let them problem-solve. The moment before you step in — when they're figuring out how to get their leg onto the step — is where developmental growth happens. Resist the urge to lift them onto things; instead, spot them as they figure it out themselves. Keep the outing shorter than you think necessary. 18–24 months is the age where leaving before the meltdown is the skill you're developing.</p>
+
+      <p>Our <a href="/search?category=playground">playground finder</a> lets you filter for fenced parks and toddler-friendly equipment — both matter a lot at this stage.</p>
+
+      <h2>🏃 2–3 Years: The Confident Explorer</h2>
+
+      <p>Two-year-olds at a good playground are often running before they've reached the gate. This is the age when physical confidence starts outpacing physical capability — which creates some exciting near-misses — and when imaginative play begins to layer onto physical play.</p>
+
+      <p>What you'll typically see:</p>
+      <ul>
+        <li>Genuine climbing: stairs, ladders, ropes, and rock walls all become interesting</li>
+        <li>Slide independence — most children this age will go down alone, though some won't until closer to three (both are fine)</li>
+        <li>Beginning of pretend play on equipment: the climbing frame becomes a boat, the slide is a waterfall</li>
+        <li>Starting to watch other children and occasionally copy what they do</li>
+        <li>Swinging independently with pumping attempts beginning around 30–36 months</li>
+        <li>Increased speed and purposefulness — running from one thing to the next</li>
+      </ul>
+
+      <p>How to support it: Give them more space than feels comfortable. Two-year-olds need to take small, managed risks — slightly-too-high climbs, the faster slide, jumping from a low platform — because that's how they calibrate their own abilities. Your job is to spot real danger (the gap that's actually too wide, the height that's genuinely risky) while stepping back from the manageable challenges.</p>
+
+      <p><strong>What's not a concern:</strong> Still playing alone most of the time. Still very cautious on some equipment. Still preferring sand and sensory play over the climbing frame. All of these are normal variants at two.</p>
+
+      <h2>🧗 3–4 Years: Social Play Begins</h2>
+
+      <p>Three is often when the social dimension of playground play really arrives. Children this age start to want to play <em>with</em> others rather than just alongside them, and the playground becomes a social stage as much as a physical one.</p>
+
+      <p>What you'll typically see:</p>
+      <ul>
+        <li>Active attempts to engage other children — "do you want to play?" and "you be the driver, I'll be the dragon"</li>
+        <li>More complex climbing: confident on most equipment, beginning to assess challenges before attempting them</li>
+        <li>Swinging independently and attempting to pump legs</li>
+        <li>Cooperative play with clear roles: the cubby house has a family, the sandpit has a building site with designated jobs</li>
+        <li>More sustained play on single items — 15 minutes in the sandpit with a purpose, not just exploration</li>
+        <li>Beginning to understand and negotiate playground rules, with varying degrees of success</li>
+      </ul>
+
+      <p>How to support it: The watching-and-waiting phase before joining a group of children is completely normal at three. Don't push your child to join — instead, stay nearby and let them observe until they're ready. If another child invites them in, great; if not, they'll find their moment. When conflicts arise over equipment, resist the urge to resolve immediately — a beat of observation first often shows you that three-year-olds can negotiate more than we expect.</p>
+
+      <h2>🌟 4–5 Years: The Physical Peak</h2>
+
+      <p>Four and five-year-olds at a good playground are often difficult to keep track of — they're faster, more confident, and more creative than any previous stage. The climbing frame is genuinely challenging to them now, not because they can't do it but because they're inventing new ways to use it.</p>
+
+      <p>What you'll typically see:</p>
+      <ul>
+        <li>Confident on almost all age-appropriate equipment</li>
+        <li>Sustained cooperative play with clear narrative: "we're building a fortress and you can't come in unless you have a password"</li>
+        <li>Independent swinging with pumping legs — most children achieve this between 4 and 5</li>
+        <li>Risk-taking that tests the equipment's limits — jumping further, climbing higher, spinning faster</li>
+        <li>Beginning to prefer playground time with specific friends over playground time with family</li>
+      </ul>
+
+      <p>How to support it: Your role at four and five is mostly logistics (getting there, managing departure) and medical (scraped knees). The developmental work happens without you directing it. Let them be, stay visible, and consider bringing a book. They don't need you on the equipment anymore — and that's a milestone to celebrate.</p>
+
+      <h2>🤝 A Note on Temperament</h2>
+
+      <p>Everything above describes typical developmental trajectories, and typical is a wide range. Some children are physically cautious by nature and will reach each physical milestone on the later end of the window — not because anything is wrong but because that's who they are. Cautious children often become very competent climbers once they've assessed and processed; they just need more time to observe before they act.</p>
+
+      <p>If your child seems significantly delayed in physical milestones across multiple areas, or if you have specific concerns about coordination, muscle tone, or sensory processing, your child health nurse or GP is the right first conversation. But the child who's still watching the slide at 22 months? They'll go down it when they're ready. The playground will still be there.</p>
+
+      <h2>📍 Finding the Right Playground for the Stage</h2>
+
+      <p>Not all playgrounds suit all ages equally. For children under two, a fully fenced playground with equipment scaled for small bodies makes a huge difference. For three-to-five-year-olds, equipment that offers genuine challenge — rope climbs, flying foxes, height — keeps them engaged longer. For all ages, a sandpit is invaluable.</p>
+
+      <p>Use our <a href="/search?category=playground">playground finder</a> to search by features and find a park that matches where your child is right now — and where they're heading next. 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-23T07:00:00+10:00',
+    category: 'tips',
+    tags: ['toddler play milestones', 'toddler development playground', 'what should my toddler be doing', 'toddler play stages', 'playground development guide', 'toddler milestones Melbourne', 'preschooler play development', 'parallel play toddlers', 'toddler physical development', 'parenting tips Melbourne'],
+    seoTitle: 'Toddler Play Milestones: What to Expect at the Playground by Age (Melbourne Parent Guide)',
+    seoDescription: "Wondering if your toddler's playground behaviour is normal? A warm, practical guide to toddler play milestones from 12 months to 5 years — what to expect at each stage, how to support development, and when to stop worrying."
+  },
+  {
     slug: 'whats-on-this-week-melbourne-families-april-22-26-2026-anzac-long-weekend',
     title: "What's On This Week for Melbourne Families: ANZAC Day Long Weekend, Dinos at the Zoo & What's Still Running (April 22–26)",
     excerpt: "It's back-to-school week, and then ANZAC Day turns Saturday into a long weekend. Melbourne has a solid lineup — from Dino Days at Melbourne Museum to kids free at the zoo on the public holiday, The Bookbinder at Arts Centre, and Australian Sand Sculpting at Frankston. Here's what's worth your time this week.",
