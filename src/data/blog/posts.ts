@@ -15,6 +15,115 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'kid-friendly-cafes-inner-north-melbourne-fitzroy-collingwood-brunswick',
+    title: "Best Kid-Friendly Cafes in Melbourne's Inner North: Fitzroy, Collingwood and Brunswick",
+    excerpt: "The inner north is one of Melbourne's most parent-friendly stretches for a reason — brilliant coffee, great food, and enough leafy courtyards and play corners to keep little ones happy while adults actually finish a meal. Here are the best cafes for families across Fitzroy, Collingwood, and Brunswick.",
+    content: `
+      <p>There's a particular kind of Melbourne morning that inner-north parents know well. You've got a toddler who has been awake since 5:45 AM, a second coffee's worth of need in your body, and the specific ambition of sitting somewhere that doesn't involve Wiggles playlists and a cheese toastie eaten standing up over the kitchen sink. You want to go somewhere nice. You want coffee that's been made by someone who cares. And you need your child to be happy for at least 40 uninterrupted minutes while you talk about something other than nap schedules.</p>
+
+      <p>The inner north delivers this better than almost anywhere else in Melbourne. Fitzroy, Collingwood, and Brunswick have built an ecosystem of cafes that genuinely understand families — not as an afterthought, not with a token toy basket in the corner, but with thoughtful design, outdoor spaces, and the kind of warm hospitality that makes you feel welcome rather than tolerated. Here are the picks that earn their place in your regular rotation.</p>
+
+      <h2>☕ KereKere Green — Fitzroy Gardens, Fitzroy</h2>
+
+      <p>This one's a secret that shouldn't be a secret. <strong>KereKere Green</strong> sits inside the heritage-listed Fitzroy Gardens, and the combination of the cafe itself and its setting is genuinely hard to beat. Light breakfasts, excellent ethically-sourced coffee, a simple and focused lunch menu — and right outside, one of Melbourne's most beautiful parks in peak autumn colour.</p>
+
+      <p>The genius of KereKere Green is the hand-off. Your toddler eats, and then the <em>entire Fitzroy Gardens</em> becomes their play space. The Fairy Tree. The fountain. The pathway through the elms. The <a href="/search?category=playground">playground inside the gardens</a> that's perfectly suited to under-5s. You can stay as long as you like, switching between coffee and conversation and catching up with whoever just went down the slide. It's the Melbourne family morning in its ideal form.</p>
+
+      <p>They also run regular community events — Storytime sessions and a Grandparents Playgroup — which adds a lovely social layer if you're looking for more than just coffee. Picnic packs are available if you want to take the food out into the gardens proper.</p>
+
+      <p><strong>Best for:</strong> Families who want to combine coffee with a proper outdoor outing<br>
+      <strong>Ages:</strong> All ages, though the surrounding park is where the magic really happens for toddlers<br>
+      <strong>Address:</strong> Inside Fitzroy Gardens, Wellington Parade, East Melbourne (enter from the Fitzroy side)<br>
+      <strong>Tip:</strong> Weekday mornings are quieter than weekends — arrive before 10 AM on a Friday and you'll often have the gardens nearly to yourself. The autumn colour right now is extraordinary</p>
+
+      <h2>🌿 The Merri Table at CERES — Brunswick East</h2>
+
+      <p>CERES Environmental Park is one of Melbourne's great family destinations, and <strong>The Merri Table</strong> is its cafe — sitting at the heart of the park, next to the community gardens, a short walk from the Merri Creek. For families with children who love digging, exploring, and being outside, this is paradise wrapped in a morning outing.</p>
+
+      <p>The cafe has a <strong>sandpit for kids</strong> and plenty of outdoor space for toddlers to run, wander, and examine things close-up. The creek is right there for stick-throwing and splash-zone proximity. The park itself has animals (chooks, ducks, a heritage farm area), gardens to explore, and that particular CERES energy — community-minded, unhurried, generous — that makes you want to stay all morning.</p>
+
+      <p>The food is what you'd expect from a place built around environmental values: fresh, local, and genuinely good. The coffee is strong and properly made. Brunch options span the crowd without trying too hard. For a Brunswick family, The Merri Table is a weekly ritual; for families coming from elsewhere, it's a revelation.</p>
+
+      <p><strong>Best for:</strong> Nature-loving families, toddlers who need space to move<br>
+      <strong>Ages:</strong> All ages — the outdoor environment makes it excellent for babies too<br>
+      <strong>Address:</strong> CERES, Lee Street, Brunswick East<br>
+      <strong>Combine with:</strong> Walk along the <a href="/search?category=playground">Merri Creek trail</a> after brunch — creek play, stone throwing, and native birds the whole way. It's one of Melbourne's best free family walks</p>
+
+      <h2>🌱 Sweet Evelyn Cafe — Brunswick</h2>
+
+      <p><strong>Sweet Evelyn</strong> is the kind of neighbourhood cafe that becomes a family anchor. Relaxed, welcoming, and with a <strong>leafy courtyard and a dedicated kids' play nook</strong> out the back — a little carved-out space with toys and books where little ones can be happily occupied while brunch happens around them. The courtyard is shaded and quiet, which makes it particularly good for babies and younger toddlers who need a calm environment.</p>
+
+      <p>The food is excellent — the kind of all-day brunch menu that covers everyone from the parent who wants eggs and sourdough to the toddler who insists on avocado on toast (as is their right). Coffee is strong and competent. The staff are genuinely warm, the pacing is unhurried, and the whole place has an atmosphere that's relaxed without being chaotic.</p>
+
+      <p>For Brunswick locals, this is the neighbourhood cafe you'd be quietly relieved other people haven't discovered yet. But it's too good not to share.</p>
+
+      <p><strong>Best for:</strong> A quiet, local-feeling brunch with small children<br>
+      <strong>Ages:</strong> Great for all ages; the play nook suits toddlers and preschoolers especially<br>
+      <strong>Address:</strong> Brunswick (check their socials for exact address and hours)<br>
+      <strong>Tip:</strong> The courtyard is first-come for the tables with the best play nook sightlines — arrive early on weekends</p>
+
+      <h2>🏭 Allpress Coffee — Collingwood</h2>
+
+      <p>If you know Allpress, you know what you're getting: exceptional coffee roasted on site, in a beautiful industrial space that manages to be both aesthetically striking and genuinely comfortable. The Collingwood roastery has a <strong>spacious, sunny outdoor courtyard</strong> with large timber and concrete benches — which is, practically speaking, ideal for families with prams and toddlers who can't quite commit to sitting down for the whole meal.</p>
+
+      <p>The menu is focused: coffee, some food, done extremely well. This isn't a child-programming venue, but the courtyard space and the unhurried pace make it work for families better than most single-minded coffee spots. Your toddler can roam the courtyard within clear sight while you drink the best flat white in a five-kilometre radius.</p>
+
+      <p><strong>Collingwood Children's Farm</strong> is just down the road — an Allpress coffee followed by farm animals and the famous <a href="/blog/collingwood-childrens-farm-melbourne-family-review-cafe-animals">Farm Cafe</a> is a classic inner-north family morning. You could also bookend an Allpress visit with a stop at <strong>Stomping Ground Brewery</strong> nearby, which has its own family play area (more on that below).</p>
+
+      <p><strong>Best for:</strong> Serious coffee lovers who also have children; combining with a broader inner-north morning<br>
+      <strong>Ages:</strong> Fine for all ages with the right expectations — come for the coffee, stay for the courtyard<br>
+      <strong>Address:</strong> 90 Abbotsford Street, Collingwood<br>
+      <strong>Tip:</strong> Weekday mornings are quieter. The outdoor courtyard gets proper autumn sun through March and April — one of the better places to sit outside right now</p>
+
+      <h2>🍺 Stomping Ground Brewery — Collingwood</h2>
+
+      <p>Already featured in our <a href="/blog/best-kid-friendly-pubs-beer-gardens-playgrounds-melbourne">family pubs guide</a>, Stomping Ground deserves another mention here because it functions equally well as a cafe destination. The <strong>fenced indoor play area with wooden toys and a cubby house</strong> is visible from the main dining area, which means you can eat a full meal at a normal pace while your toddler is genuinely and safely entertained.</p>
+
+      <p>As a brewery, the coffee is perhaps not the city's very best — but it's solid, and the food is genuinely excellent. Woodfired pizzas, smoked meats, and rotating seasonal specials. For a family Friday or Saturday lunch that works for everyone at the table, Stomping Ground is extremely hard to beat anywhere in the inner north.</p>
+
+      <p><strong>Best for:</strong> Family lunches, combining food quality with play time<br>
+      <strong>Ages:</strong> The indoor play area is best for toddlers through to about age six<br>
+      <strong>Address:</strong> 100 Gipps Street, Collingwood</p>
+
+      <h2>☀️ Lux Foundry — Brunswick</h2>
+
+      <p>Lux Foundry is a busy, buzzing warehouse cafe that earns its family credentials through pure environment. It's <strong>roomy, naturally lit, and pram-friendly</strong> in a way that smaller Brunswick cafes often aren't. But the real family advantage is geographic: it sits just around the corner from <strong>Bulleke-Bek Park Playground</strong> (also known locally as McIlwraith Street Reserve) — a solid toddler-friendly playground that makes a natural second stop.</p>
+
+      <p>The formula is simple and it works: coffee at Lux Foundry, playground at the park, everyone happy. For Brunswick families doing a Friday morning outing, this is the reliable combo. The food at Lux is good warehouse-cafe fare — eggs various ways, toast, bowls — and the coffee is properly made.</p>
+
+      <p><strong>Best for:</strong> A simple cafe-then-playground morning<br>
+      <strong>Ages:</strong> Great for all ages — the space handles prams and toddlers well<br>
+      <strong>Address:</strong> Brunswick<br>
+      <strong>Combine with:</strong> Bulleke-Bek Park playground is a few minutes' walk — a perfect post-brunch energy burn. Find more nearby options with our <a href="/search?category=playground">playground finder</a></p>
+
+      <h2>💡 Tips for Inner North Family Cafe Visits</h2>
+
+      <h3>Friday mornings are golden</h3>
+      <p>Fridays hit the sweet spot — after the midweek rush, before the weekend crowds. The inner north's cafes are calmer on Friday mornings than at any other time in the week. If you can flex your schedule, Friday at 9:30 AM is the inner-north family cafe peak condition.</p>
+
+      <h3>Always plan the escape hatch</h3>
+      <p>The inner north's greatest strength as a family cafe destination is what's around the cafes. Every option above is within a short walk of parks, playgrounds, or green space. Build your morning around the cafe AND the outdoor exit — coffee first, playground second (or first, if your toddler's energy demands it). The hand-off from indoor to outdoor is what makes these mornings actually work.</p>
+
+      <h3>Book for Sunday brunch, wing it on weekdays</h3>
+      <p>Weekend brunches at popular inner-north spots fill up fast. If you're going Saturday or Sunday with another family, book ahead. Friday mornings almost never require a booking — which is one of many reasons Friday is the inner-north family cafe day of choice.</p>
+
+      <h3>Bring the sticker book</h3>
+      <p>The gap between sitting down and food arriving is the danger zone with toddlers. A small sticker book or a few crayons in your bag bridges that gap without requiring screen time. Think of it as ten minutes of social insurance.</p>
+
+      <h2>🍂 Why This Week Is a Good Cafe Week</h2>
+
+      <p>It's the Friday of the last full week before the next round of activity — ANZAC Day is tomorrow (Saturday), which brings its own free events and public holiday energy. But for today, a relaxed inner-north cafe morning before the long weekend begins is exactly the right call. The autumn light through the inner-north streets right now is beautiful, the air is crisp, and the playgrounds near every cafe on this list are at their golden-leaf best.</p>
+
+      <p>Whether you make it to KereKere Green inside Fitzroy Gardens or find your way to the CERES courtyard by the creek, the inner north has a Friday morning waiting for you that's genuinely lovely. Find your nearest <a href="/search?category=playground">playground</a> to pair it with, and make today count before the long weekend begins. ☕🍂</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-24T07:00:00+10:00',
+    category: 'reviews',
+    tags: ['kid-friendly cafes inner north Melbourne', 'best family cafes Fitzroy Collingwood Brunswick', 'cafes with play areas Melbourne', 'toddler friendly cafes Melbourne', 'KereKere Green Fitzroy Gardens', 'CERES Melbourne families', 'Stomping Ground family Melbourne', 'Allpress Collingwood families', 'Sweet Evelyn Brunswick', 'Lux Foundry Brunswick', 'Melbourne inner north families', 'family brunch Melbourne'],
+    seoTitle: "Best Kid-Friendly Cafes in Melbourne's Inner North: Fitzroy, Collingwood & Brunswick (2026)",
+    seoDescription: "Discover the best family cafes in Melbourne's inner north — from KereKere Green inside Fitzroy Gardens to the CERES sandpit and Stomping Ground's indoor play area. 6 top picks with practical tips for families with toddlers across Fitzroy, Collingwood, and Brunswick."
+  },
+  {
     slug: 'toddler-play-milestones-playground-development-guide-melbourne',
     title: "What Should My Toddler Be Doing at the Playground? A Gentle Guide to Play Milestones by Age",
     excerpt: "Is it normal that my two-year-old still won't go down the slide alone? Why does my three-year-old prefer the sandpit to the climbing frame? A parent-friendly guide to toddler play milestones — what to expect at the playground, and how to gently support the next step.",
