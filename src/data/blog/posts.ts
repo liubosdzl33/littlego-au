@@ -15,6 +15,122 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'weekend-planner-melbourne-families-april-25-26-2026-anzac-day-lit-south-asian-festival',
+    title: "Weekend Planner: ANZAC Day Morning, LIT Lights Up Tonight, and Sunday's South Asian Festival",
+    excerpt: "ANZAC Day is here — and this weekend has more going on than just the March. LIT returns tonight with free illuminated installations across Melbourne, Sunday brings the South Asian Festival and Vaisakhi celebrations, and Dinos at the Zoo launches today with kids free. Here's your family plan for both days.",
+    content: `
+      <p>Good morning, Melbourne. It's ANZAC Day — and despite being a public holiday with closed shops and a solemn morning, this is actually one of the better family weekends of the autumn. Here's why: the <em>rest</em> of the weekend is packed.</p>
+
+      <p>We've already covered <a href="/blog/anzac-day-2026-melbourne-families-kids-what-to-do-long-weekend">ANZAC Day in detail</a> — the March, the Shrine, what's open, what's free — so this is the weekend planner for everything else. Because after the morning wraps up, Saturday afternoon is genuinely beautiful and Sunday has two free cultural festivals that deserve their own morning.</p>
+
+      <h2>🎖️ Saturday Morning: The Commemorations</h2>
+
+      <p>If you're heading to the <strong>ANZAC March</strong> (starting 9 AM from Swanston Street), line up on St Kilda Road or near Federation Square for the best family viewing. Bands, veterans, a community atmosphere that's warm and moving without being overwhelming for toddlers. Free public transport all day — tap your Myki and hop on anything.</p>
+
+      <p>The <strong>Shrine of Remembrance</strong> is open from 6:30 AM for post-service visits, and the surrounding gardens are beautiful for a quiet morning walk. More detail in our <a href="/blog/anzac-day-2026-melbourne-families-kids-what-to-do-long-weekend">full ANZAC Day guide</a>.</p>
+
+      <h2>🦕 Saturday Afternoon: Dinos at the Zoo (Kids Free Today)</h2>
+
+      <p><strong>Dinos at the Zoo launches today</strong> and runs until July 12 — a trail of life-size animatronic dinosaurs winding through Melbourne Zoo and Werribee Open Range Zoo. Today specifically, it's the ANZAC Day public holiday, which means <strong>children 16 and under enter free</strong> with a paying adult. After morning commemorations wind down, a zoo afternoon is an excellent landing spot. The zoo opens at 9 AM on public holidays.</p>
+
+      <ul>
+        <li><strong>Where:</strong> Melbourne Zoo (Parkville) or Werribee Open Range Zoo</li>
+        <li><strong>Cost:</strong> Kids free today; adult entry applies</li>
+        <li><strong>Tip:</strong> Head there after the March — arrive early afternoon for the best experience before the day fills up</li>
+      </ul>
+
+      <h2>🪩 Saturday Evening: LIT Returns (Free, April 25 – May 3)</h2>
+
+      <p>Here's the new thing starting tonight that isn't in any of the earlier guides: <strong>LIT</strong> is back. This award-winning free outdoor event fills Melbourne with illuminated installations and mesmerising projections — and it runs every evening from tonight through to May 3.</p>
+
+      <p>For families, LIT is a genuinely magical experience. The light installations are visual and immersive, which means even toddlers who can't explain what they're looking at stand with their mouths open in obvious delight. There's no fixed path and no tickets — you wander between installations at your own pace, which suits families with variable attention spans perfectly.</p>
+
+      <p>The evening format means it works best for slightly later bedtime nights (the school holidays are almost over but not quite), but even a 45-minute wander between installations while it's properly dark is enough to feel worthwhile. Check the LIT Melbourne social media for the exact locations of this year's installations.</p>
+
+      <ul>
+        <li><strong>When:</strong> Nightly, April 25 – May 3</li>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Best for:</strong> Ages 2+ — the light and colour hold young attention well</li>
+        <li><strong>Tip:</strong> Head out just after dusk (around 6:15 PM now that daylight saving has ended) for the best visual impact. Dress warmly — autumn evenings are properly cool</li>
+      </ul>
+
+      <h2>🌏 Sunday: South Asian Festival + Vaisakhi (Both Free)</h2>
+
+      <p>Sunday April 26 shifts the weekend's energy into something warmer and more celebratory. Two major free festivals hit the city:</p>
+
+      <h3>South Asian Festival</h3>
+
+      <p>The <strong>South Asian Festival</strong> is a vibrant celebration of South Asian culture with street food, music, dance, stalls, and fireworks. These community festivals are some of the best family outings Melbourne offers — food everywhere, live performances, colour and energy that toddlers respond to instinctively. No agenda required. Arrive, eat, watch the dancing, and leave when you're done.</p>
+
+      <h3>Vaisakhi: Celebrating Khalsa Sajna Divas</h3>
+
+      <p><strong>Vaisakhi</strong> is a free festival showcasing the rich traditions, music, and community values of Sikh culture. Live performances, traditional food, and the kind of generous, joyful community atmosphere that makes these events genuinely special for families. Both festivals run concurrently — a beautiful double offering for Melbourne Sunday morning.</p>
+
+      <ul>
+        <li><strong>Cost:</strong> Free</li>
+        <li><strong>Best for:</strong> All ages — toddlers love the music and the food atmosphere</li>
+        <li><strong>Tip:</strong> Sunday mornings at these festivals are calmer than afternoons. Arrive around 10:30 AM, eat well, and pair with a playground outing before the post-lunch crowds build</li>
+      </ul>
+
+      <h2>🎡 Alternative Saturday: Luna Park Autumn Holidays</h2>
+
+      <p>If the commemorative tone of ANZAC Day isn't what your family needs today, <strong>Luna Park's Autumn Holidays program</strong> runs today and tomorrow. Classic rides, carnival games, and the kind of old-school amusement park experience that Melbourne does uniquely well. For preschoolers who are into rides, the flying saucers, carousel, and kid-scaled attractions are reliably excellent. Entry to the park is free; rides are ticketed.</p>
+
+      <ul>
+        <li><strong>When:</strong> April 25–26</li>
+        <li><strong>Where:</strong> Luna Park, St Kilda</li>
+        <li><strong>Combine with:</strong> St Kilda Foreshore playground is right nearby — one of Melbourne's better beachside play spots for a post-rides afternoon</li>
+      </ul>
+
+      <h2>🎭 This Week + Beyond: 101 Ways to Annoy Your Parents (Sunday)</h2>
+
+      <p>For families who want a show on Sunday, kids' comedian Matty Grey brings <strong>101 Ways to Annoy Your Parents and Other Really Old People</strong> to Melbourne today. Multi-award-winning kids' comedy that's exactly as funny as the title suggests — check current listings for session times and venue.</p>
+
+      <h2>🛝 Playground Picks for the Long Weekend</h2>
+
+      <p>Autumn afternoons in Melbourne right now are genuinely beautiful — cool and golden, with the light at a low angle that makes every park feel like it's been professionally lit. A few playground picks matched to the weekend:</p>
+
+      <h3>After the March: Birrarung Marr</h3>
+      <p>Five minutes from Federation Square, right on the Yarra. Excellent equipment, riverside paths for a post-playground scooter ride, and a natural second stop after morning commemorations in the city.</p>
+
+      <h3>For Sunday's South Asian Festival: Flagstaff Gardens</h3>
+      <p>A five-minute walk from the CBD festival area — shaded playground under enormous elms, lovely open grass for a post-festival run. A natural pairing for the end of a festival morning.</p>
+
+      <h3>For a quiet afternoon away from the city: Your nearest local park</h3>
+      <p>Sometimes the best ANZAC Day afternoon is simply your neighbourhood playground, quiet streets, and the particular stillness that public holidays bring to suburbs. Use our <a href="/search?category=playground">playground finder</a> to find something close to home — a playground that's familiar and easy, not one that requires a drive.</p>
+
+      <h2>🌡️ Weather This Weekend</h2>
+
+      <p>Cool and dry for both days — classic Melbourne late April. Expect around <strong>14–16°C Saturday</strong> and <strong>15–17°C Sunday</strong>, with some cloud but no significant rain forecast. Warm layers for the morning (the March starts cold — 8–10°C at dawn), peeling off to a light jacket by midday. Perfect autumn conditions for being outside all day.</p>
+
+      <h2>📋 The Weekend at a Glance</h2>
+
+      <h3>Saturday (ANZAC Day, 25 April)</h3>
+      <p><strong>Morning:</strong> ANZAC March spectating (9 AM, free public transport all day) → morning tea → Dinos at the Zoo with kids free on the public holiday</p>
+      <p><strong>Afternoon:</strong> Royal Botanic Gardens walk or local playground in the golden autumn light</p>
+      <p><strong>Evening:</strong> LIT illuminated installations — wander between artworks in the dark. Free, magical, starts tonight</p>
+
+      <h3>Sunday (April 26)</h3>
+      <p><strong>Morning:</strong> South Asian Festival + Vaisakhi — pick one or wander between both. Free, festive, food everywhere</p>
+      <p><strong>Afternoon:</strong> Flagstaff Gardens playground, or head south for Luna Park's final day of autumn holidays</p>
+      <p><strong>Evening:</strong> LIT again — even more beautiful once you know what to look for. Runs every night through May 3</p>
+
+      <h2>🍂 One Last Weekend Before the Routine Returns</h2>
+
+      <p>School goes back Monday. After two weeks of holidays, ANZAC Day weekend is the last gasp of that loose, unhurried rhythm before alarms and drop-offs resume. It's a good weekend to honour the morning properly, then let the afternoon be whatever it wants to be.</p>
+
+      <p>LIT is worth remembering even after this weekend — it runs nightly until May 3, which gives you a few weeknights to catch it if the public holiday version is too crowded. Sunday's festivals are genuinely warm and welcoming, the kind of Melbourne community event that makes you feel good about this city.</p>
+
+      <p>The playground finder is ready when you need it. Make the most of the long weekend. 🌺</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-25T07:00:00+10:00',
+    category: 'activities',
+    tags: ['Melbourne weekend planner families April 2026', 'ANZAC Day Melbourne families weekend', 'LIT Melbourne 2026 families', 'South Asian Festival Melbourne', 'Vaisakhi Melbourne 2026', 'Dinos at the Zoo Melbourne', 'Luna Park Melbourne autumn', 'Melbourne weekend kids activities', 'free Melbourne events April 26 2026', 'ANZAC Day long weekend Melbourne families'],
+    seoTitle: 'Melbourne Family Weekend Planner April 25–26, 2026: ANZAC Day, LIT Light Installations & South Asian Festival',
+    seoDescription: "ANZAC Day is today — and the weekend has more to offer than the March. LIT free light installations start tonight (April 25–May 3), Sunday brings the South Asian Festival and Vaisakhi celebrations, and Dinos at the Zoo launches with kids free. Melbourne family guide for April 25–26, 2026."
+  },
+  {
     slug: 'kid-friendly-cafes-inner-north-melbourne-fitzroy-collingwood-brunswick',
     title: "Best Kid-Friendly Cafes in Melbourne's Inner North: Fitzroy, Collingwood and Brunswick",
     excerpt: "The inner north is one of Melbourne's most parent-friendly stretches for a reason — brilliant coffee, great food, and enough leafy courtyards and play corners to keep little ones happy while adults actually finish a meal. Here are the best cafes for families across Fitzroy, Collingwood, and Brunswick.",
