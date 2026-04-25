@@ -15,6 +15,90 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'mothers-day-melbourne-families-toddlers-guide-2026',
+    title: "Mother's Day in Melbourne with Little Kids: A Practical Guide for Families (May 10, 2026)",
+    excerpt: "Mother's Day is two weeks away — and if you have toddlers, the 'perfect day' looks a little different from the glossy brunch photos. Here's a warm, realistic guide to celebrating Mum in Melbourne with small children in tow, from freebie venues and homemade gifts to the one booking that's actually worth making.",
+    content: `
+      <p>Mother's Day is Sunday May 10 — exactly two weeks from today. If you have a toddler, you already know what that means: the beautiful instagram brunch where everyone is seated and composed is approximately never your reality. What you actually get is a sticky-fingered, enthusiastic small person presenting you with a drawing of a cat (possibly a dog, possibly abstract), climbing into your lap at a restaurant, and declaring loudly that this pancake is "the wrong shape".</p>
+
+      <p>And honestly? That's the real thing. That's what it actually looks like when you're in it.</p>
+
+      <p>Here's a Melbourne family guide to Mother's Day 2026 — with venues that welcome small children without apology, homemade gift ideas that take less than 30 minutes, and a few genuine luxuries if the grown-ups in your family want to do something properly special. Two weeks out is the right time to plan, so let's go.</p>
+
+      <h2>🌿 Option 1: The Botanic Gardens Morning (Free)</h2>
+
+      <p>If there's one Melbourne location purpose-built for a meaningful, calm Mother's Day morning with little ones, it's the <strong>Royal Botanic Gardens</strong>. Free entry, stunning surroundings, the ornamental lake, ducks to count, autumn colour at its absolute peak in May — and the new <strong>Observatory Restaurant</strong> opens this month, joining the existing Terrace Café for brunch or a more relaxed coffee-and-croissant stop.</p>
+
+      <p>Free guided walks are available and a BYO picnic is completely welcome. A rug on the lawn, croissants from a nearby bakery, autumn leaves, and a toddler convinced a duck is their best friend: that's a genuinely lovely Mother's Day morning. No booking, no parking garage drama, no waiting for a table. If the walk isn't your thing, the <a href="/search?category=playground">playground near the Gardens gate</a> is a natural second stop once little legs need a run.</p>
+
+      <p><strong>Cost:</strong> Free<br>
+      <strong>Tip:</strong> Arrive by 9:30 AM before the picnic crowds build. The lake circuit walk takes about 30 minutes at a toddler-led pace — budget an hour and a half for the full morning.</p>
+
+      <h2>🦘 Option 2: Gumbuya World — Mums Go Free (May 9 & 10)</h2>
+
+      <p>This is the one to look at if you want a proper day out. <strong>Gumbuya World</strong> in the Dandenong foothills is offering <strong>free entry for mothers</strong> across Mother's Day weekend — Saturday May 9 and Sunday May 10. A native wildlife park with kangaroos, wombats, koalas, and themed attractions, it's the kind of destination that absolutely delights toddlers and gives adults something genuinely interesting too.</p>
+
+      <p>The optional "Brunch with Koalas" experience can be added if you want something special — an intimate breakfast session in the wildlife area. Even without the upgrade, a day at Gumbuya with a free mum ticket is exceptional value. Book the children's tickets in advance online — the free-for-mums deal will draw crowds.</p>
+
+      <p><strong>Where:</strong> 699 Westernport Road, Tynong<br>
+      <strong>Drive:</strong> About 65 minutes from Melbourne CBD<br>
+      <strong>Tip:</strong> Go Saturday May 9 if you can — Sunday will be the busier day. Leave Melbourne by 9 AM to miss the peak hour on the Princes Freeway.</p>
+
+      <h2>☕ Option 3: A Pub Lunch That Actually Works with Kids</h2>
+
+      <p>Sometimes "the restaurant" plan falls apart with toddlers because the venue isn't designed for them — too much sitting, too little space, too long a wait for food that arrives after someone has already destroyed the bread basket. The best solution for Mother's Day lunch with small children is a <strong>family pub with a beer garden playground</strong>.</p>
+
+      <p>A few worth booking right now:</p>
+
+      <ul>
+        <li><strong>The Wharf Hotel</strong> — running a special Mother's Day roast with <strong>free kids' entertainment</strong>. Exactly the right combination. Kids are occupied, mums eat something warm, everyone wins</li>
+        <li><strong>Left Bank, Southbank</strong> — three-course lunch with sparkling wine on arrival, <strong>children under 12 eat free</strong>, and every mum gets a mini Moët. Riverfront setting, pram-accessible. Book ahead — this deal will fill up</li>
+        <li><strong>Melbourne Zoo Bistro</strong> — brunch or afternoon buffet surrounded by animals. Kids are distracted by everything around them, which means adults can actually eat. Bonus: the zoo playground is right there for after</li>
+      </ul>
+
+      <p>Whichever you choose, <strong>book this week</strong>. Mother's Day is the busiest restaurant day of the year, and venues with good family setups book out first.</p>
+
+      <h2>🎨 Option 4: Make the Gift Now (Today)</h2>
+
+      <p>Here's the thing about toddler-made gifts: they are <em>the</em> gift. A framed handprint in a colour she loves, a little pot of herbs your child "planted" and decorated, a drawing of the family described in their own words and transcribed at the bottom — these are the things that live on fridges and bedside tables for years. Not because they're beautiful (though sometimes they are), but because they're irreplaceable.</p>
+
+      <p>Three quick projects for this week:</p>
+
+      <h3>Handprint flower card (20 minutes, ages 18 months+)</h3>
+      <p>Paint your toddler's palm and fingers in any colour — then press onto card as a flower. Add a green stem and leaves with your own finger. Write what they "said" about Mum at the bottom: <em>"Mum is the best because she makes porridge and reads Gruffalo."</em> Frame it or fold it as a card. Done.</p>
+
+      <h3>Sensory herb pot (30 minutes, ages 2+)</h3>
+      <p>A terracotta pot, some acrylic paint, a small herb (rosemary, mint, or basil), and good potting mix from the nursery. Your toddler paints the pot (abstractly, in any direction they choose), it dries overnight, you plant the herb together. Mum gets a living gift that smells good. Cost: under $10 from Bunnings.</p>
+
+      <h3>Voice memo card (5 minutes, ages 2.5+)</h3>
+      <p>Ask your child three questions and write the answers on a card: <em>What's Mum's favourite thing? What does Mum look like? Why do you love Mum?</em> The answers are always perfect, often hilarious, and occasionally make grown adults cry. No art supplies required.</p>
+
+      <p>There are also a couple of organised craft events if you want a little help. <strong>Fun In Art at Newport</strong> is running a Mother's Day craft morning on May 5 for ages 1–5 (drawing, painting, sensory play — check Eventbrite for tickets), and <strong>Ecliptic Craft Club in Thornbury</strong> has a toddler craft event on May 7 with card-making, handprint flower vases, and face painting.</p>
+
+      <h2>🏃‍♀️ Option 5: The Mother's Day Classic</h2>
+
+      <p>If the mum in your life is a runner or walker and would genuinely enjoy being active on her special day, the <strong>Mother's Day Classic walk/run</strong> is a Melbourne institution. It raises funds for breast and ovarian cancer research and takes place around the Alexandra Gardens and The Tan — a beautiful, meaningful morning with a strong community atmosphere. Kids are welcome in prams and on their own two feet.</p>
+
+      <p>After the run, Alexandra Gardens is walking distance from the CBD, the Southgate restaurant strip, and Birrarung Marr. A perfect active morning followed by a relaxed lunch works beautifully here.</p>
+
+      <h2>🌸 The Most Important Bit</h2>
+
+      <p>Here's what actually makes Mother's Day good when you have small children: <strong>someone else doing the planning, and someone else managing the logistics</strong>. The venue matters less than the intention. What matters is that the other adult in the picture (whether that's a partner, a grandmother, another parent, a friend) takes the wheel and says: <em>I've planned today, you don't need to think about anything.</em></p>
+
+      <p>That means booking the thing, knowing the time to leave, packing the bag, managing the departure meltdown, and having the playground coordinates ready for when someone needs a run after lunch. Your job right now — this week — is to make sure that happens for the mothers in your life.</p>
+
+      <p>Two weeks is plenty of time. Book the lunch. Make the handprint card. Find the nearest <a href="/search?category=playground">playground</a> to wherever you're going. And show up ready to do the thing. That's the whole gift.</p>
+
+      <p>Happy planning — and happy Mother's Day to all the Melbourne mums making it work. 🌸</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-26T07:00:00+10:00',
+    category: 'activities',
+    tags: ["Mother's Day Melbourne families 2026", "Mother's Day with toddlers Melbourne", "Mother's Day activities Melbourne kids", "family friendly Mother's Day Melbourne", "Gumbuya World Mother's Day free entry", "Royal Botanic Gardens Mother's Day", "Mother's Day gift toddler handprint", "Melbourne Mother's Day brunch kids", "Mother's Day Classic Melbourne 2026", "what to do Mother's Day Melbourne"],
+    seoTitle: "Mother's Day Melbourne 2026: A Family Guide for Parents with Toddlers (May 10)",
+    seoDescription: "Mother's Day is Sunday May 10 — here's your Melbourne family planning guide: Gumbuya World with free mum entry, Botanic Gardens picnics, family-friendly venues where kids eat free, quick toddler gift ideas, and the Mother's Day Classic walk. Practical tips for families with little ones."
+  },
+  {
     slug: 'weekend-planner-melbourne-families-april-25-26-2026-anzac-day-lit-south-asian-festival',
     title: "Weekend Planner: ANZAC Day Morning, LIT Lights Up Tonight, and Sunday's South Asian Festival",
     excerpt: "ANZAC Day is here — and this weekend has more going on than just the March. LIT returns tonight with free illuminated installations across Melbourne, Sunday brings the South Asian Festival and Vaisakhi celebrations, and Dinos at the Zoo launches today with kids free. Here's your family plan for both days.",
