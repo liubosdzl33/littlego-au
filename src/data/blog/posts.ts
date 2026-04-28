@@ -15,6 +15,101 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'lit-festival-melbourne-families-toddlers-guide-2026',
+    title: "LIT Festival 2026 Melbourne: How to Take Your Toddler to a Free Night Out (Without Losing Your Mind)",
+    excerpt: "LIT is back — free illuminated installations across Melbourne until May 3. It's one of those rare events that genuinely works with little kids: no tickets, no fixed path, and light and colour that makes even a 20-month-old go quiet with wonder. Here's how to do it well.",
+    content: `
+      <p>Something magical started in Melbourne last night, and it's free, it's outdoors, and it genuinely works with toddlers in tow. <strong>LIT</strong> — Melbourne's award-winning festival of illuminated light installations — is back for 2026, running until <strong>Saturday May 3</strong>. Every evening this week, the city transforms into a trail of glowing, shimmering, projected artworks that you can wander between at your own pace, with no tickets, no booking, and no fixed schedule.</p>
+
+      <p>For parents, that combination is rare gold. Most Melbourne events require advance planning, precise nap timing, and at least one backup snack strategy. LIT doesn't. You just show up after dark, walk around, and watch your toddler's face do something extraordinary.</p>
+
+      <h2>✨ What LIT Actually Is</h2>
+
+      <p>LIT is a free public art event — part of the City of Melbourne's broader winter cultural program — that fills the CBD and surrounding areas with large-scale illuminated installations. Think: light sculptures you can walk through, projected patterns on building facades, glowing geometric structures, and immersive colour environments that shift and move. The installations are spread across multiple sites, and there's no fixed "correct" route — you wander between them at whatever pace suits you.</p>
+
+      <p>For toddlers and preschoolers, the experience hits differently than most adult art events. Children who can't yet articulate what they're seeing respond to light and colour at a deep, instinctive level. There's the head-tilt. The slightly-open mouth. The pointing at something and saying "wooooah" quietly, which is the highest form of toddler art criticism.</p>
+
+      <p>LIT runs every evening until May 3, from dusk (around <strong>6:15 PM</strong>) until late. You don't need to stay until late — even 45 minutes of wandering between two or three installations is a complete and worthwhile experience for little ones.</p>
+
+      <h2>🌙 The Evening Outing Challenge (And How to Handle It)</h2>
+
+      <p>Here's the honest part: taking a toddler to an evening event requires a slightly different approach than a morning playground visit. But it's more manageable than you might think.</p>
+
+      <h3>Nail the nap first</h3>
+
+      <p>If your toddler still naps, this week is the time to protect that nap like it's precious cargo — because it is. A well-rested child who naps until 2:30 or 3 PM will have genuine energy and good spirits for a 6–7 PM light walk. A toddler who missed or had a short nap will be a melting pool of feelings by the time you've seen the first installation. Plan your daytime accordingly.</p>
+
+      <p>If your child has dropped the nap, aim for a quieter afternoon at home — less stimulation before the evening event, and dinner slightly earlier than usual so they're not hungry at 6:30 PM in a laneway.</p>
+
+      <h3>Eat dinner before you go</h3>
+
+      <p>Feed everyone before you leave home. Navigating illuminated installations with a hungry toddler is a very specific kind of challenge that nobody needs. LIT is about wandering, not stopping to eat — so arrive fed, bring backup snacks in the bag, and let the evening be about the light rather than the food logistics.</p>
+
+      <h3>Time it right</h3>
+
+      <p>Dusk in Melbourne right now falls around <strong>5:50–6:00 PM AEST</strong> (we're now on standard time after clocks went back April 5). The installations look best once it's properly dark — around <strong>6:15–7:00 PM</strong> is the sweet spot for visual impact without pushing past most toddlers' tired threshold.</p>
+
+      <p>A 6:15 PM arrival, 45–60 minutes of wandering, and home by 7:30 PM is a realistic and excellent evening for a family with a toddler aged 18 months to four years. You'll see two or three installations properly, which is genuinely enough to make the outing feel special.</p>
+
+      <h3>Keep expectations loose</h3>
+
+      <p>The beauty of LIT is that there's no performance to be late for, no ticketed session to miss, and no right or wrong way to do it. If your toddler is transfixed by the second installation for 20 minutes and won't move, that's a good outing. If they walk between three things, point at the lights, and then announce it's time for home — also a good outing. Let the child set the pace.</p>
+
+      <h2>🧤 What to Wear and Bring</h2>
+
+      <p>Melbourne in late April after dark is properly cool — think <strong>10–12°C</strong> once the sun goes down. Layers are essential, and the toddler layer should include a warm jacket, a beanie, and something under the jacket. Cold little hands make for grumpy little people, so gloves are worth adding to your LIT packing list even if it feels like overkill.</p>
+
+      <p>The rest of the bag:</p>
+      <ul>
+        <li><strong>Carrier or lightweight stroller</strong> — LIT is best walked, and if your child gets tired or overwhelmed mid-wander, having a way to carry them makes the difference between a pleasant exit and a meltdown. A sling or carrier is ideal for the 18-month–3-year range</li>
+        <li><strong>Backup snacks</strong> — something small and easy. A rice cracker or a muesli bar. Not something that requires hands</li>
+        <li><strong>Your camera</strong> — the light installations photograph beautifully, and your toddler backlit by a glowing installation is the photo of the year</li>
+        <li><strong>A warm drink in a thermos</strong> — for you. You've earned it</li>
+      </ul>
+
+      <h2>📍 Where to Go</h2>
+
+      <p>The City of Melbourne posts the full installation locations on their website and social channels each evening. The installations change and rotate, so check <strong>whatson.melbourne.vic.gov.au</strong> or the LIT Melbourne socials on the day for that evening's confirmed sites.</p>
+
+      <p>Generally, LIT concentrates in the CBD — Federation Square, Flinders Lane, Southbank, and surrounding areas are all fair game. Federation Square itself is an easy gathering point for families: public toilets, wide open space for prams and strollers, and a natural transition point to Birrarung Marr if you want to extend the evening walk.</p>
+
+      <p>Getting there: the free public transport period has ended, but a city tram is still the easiest option. Route 35 City Circle or a Swanston Street tram gets you into the heart of the action without parking stress. Trains to Flinders Street station are equally simple.</p>
+
+      <h2>🌟 Why LIT Works Especially Well for Toddlers</h2>
+
+      <p>Most art events require a level of stillness and sustained attention that toddlers genuinely don't have. Museums ask you to walk slowly and not touch things. Theatre expects everyone to sit quietly. LIT asks for none of that — it rewards exactly the toddler skill set: pointing, moving toward interesting things, stopping unpredictably, and saying "look!" at regular intervals.</p>
+
+      <p>Light and colour are also deeply compelling to young children at a neurological level. Their visual cortex responds strongly to high-contrast, luminous stimuli — which is why toddlers are mesmerised by candles, fairy lights, and phone screens in ways that adults have long since stopped noticing. LIT is essentially a curated version of that neurological delight, scaled up to cityblock level.</p>
+
+      <p>In short: you're not taking your toddler to something you'll enjoy while they're indifferent. You're taking them to something that's genuinely designed for the way their perception works — and that's a rare thing.</p>
+
+      <h2>🗓️ This Week Around LIT</h2>
+
+      <p>LIT runs nightly until Saturday May 3, which means you have five more evenings to make it happen. Here's how the week looks for Melbourne families:</p>
+
+      <ul>
+        <li><strong>Tonight and tomorrow</strong> — the first nights of the festival. Early-week crowds are lighter, which means more space to wander and easier installation viewing. The opening nights are a great time to go</li>
+        <li><strong>Wednesday April 29</strong> — Dino Days at Melbourne Museum runs tomorrow (every Wednesday until July). A brilliant weekday morning outing before an evening LIT visit makes a complete family day</li>
+        <li><strong>Thursday and Friday</strong> — midweek LIT is the sweet spot: post-work crowds but still quieter than the weekend</li>
+        <li><strong>Weekend May 2–3</strong> — the Water Lantern Festival runs this weekend too, giving families a second free light event to explore. Melbourne is putting on a show all week</li>
+      </ul>
+
+      <h2>🛝 The Daytime Companion</h2>
+
+      <p>A perfect LIT week day pairs a morning playground session with an evening light walk. The morning outdoor play builds the physical tiredness that makes a slightly later evening manageable — and gets the energy out before you're asking for calm focus at dusk. Our <a href="/search?category=playground">playground finder</a> has options near the CBD if you want to make a full city day of it.</p>
+
+      <p>Play School: Come and Play at ACMI (Federation Square, free until July 12) is a natural daytime pairing — excellent for toddlers, centrally located, and it means you're already in the LIT zone when evening comes.</p>
+
+      <p>Melbourne is doing something genuinely lovely this week. The installations are free. The city is lit up. Your toddler's face will do the thing. Don't miss it. ✨</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-28T08:00:00+10:00',
+    category: 'activities',
+    tags: ['LIT Festival Melbourne 2026', 'LIT Festival Melbourne families', 'LIT Festival kids Melbourne', 'free Melbourne family events April 2026', 'Melbourne light festival families', 'free things to do Melbourne toddlers', 'evening activities Melbourne kids', 'Melbourne May 2026 family events', 'Melbourne light installations 2026', 'free Melbourne events this week'],
+    seoTitle: 'LIT Festival Melbourne 2026: How to Take Your Toddler (Free Light Installations Until May 3)',
+    seoDescription: "LIT Festival is back in Melbourne — free illuminated light installations every evening until May 3. A practical guide for families with toddlers: when to go, what to wear, how long to stay, and why little kids absolutely love it."
+  },
+  {
     slug: 'mothers-day-melbourne-families-toddlers-guide-2026',
     title: "Mother's Day in Melbourne with Little Kids: A Practical Guide for Families (May 10, 2026)",
     excerpt: "Mother's Day is two weeks away — and if you have toddlers, the 'perfect day' looks a little different from the glossy brunch photos. Here's a warm, realistic guide to celebrating Mum in Melbourne with small children in tow, from freebie venues and homemade gifts to the one booking that's actually worth making.",
