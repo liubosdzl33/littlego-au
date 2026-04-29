@@ -15,6 +15,80 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'sun-safety-melbourne-playgrounds-autumn-winter-guide',
+    title: "Autumn Sun Safety: Why Melbourne Playgrounds Still Require a Hat (Even When It's Cloudy)",
+    excerpt: "Don't let the drop in temperature fool you — Melbourne's UV levels can still reach the damage zone even on a crisp April morning. Here's a practical guide to playground sun safety for autumn and winter, including the best shaded parks to visit right now.",
+    content: `
+
+      <p>There's a common Melbourne myth that once the clocks go back and the mornings get misty, we can tuck the sun hats away until September. We see the grey clouds over the Dandenongs, feel that bite in the air, and figure the sun isn't "strong" enough to worry about. But here's the reality: UV radiation doesn't care about the temperature.</p>
+
+      <p>In Melbourne, particularly through April and early May, UV levels regularly climb into the 'moderate' range (3 or higher) during the middle of the day, even when it feels quite cool. For a toddler spending an hour on a slide, that's enough to cause skin damage. As parents, we're great at the 'slip, slop, slap' routine in January — but the autumn transition is where we often get caught out.</p>
+
+      <p>Here's a parent-to-parent guide on navigating sun safety during the Melbourne cooler months, and why your playground bag still needs that tube of SPF 50+.</p>
+
+      <h2>🧤 The 10 AM to 3 PM Rule</h2>
+
+      <p>The UV index is usually at its peak between <strong>10 AM and 3 PM</strong>. In summer, this is when we naturally retreat indoors or find the deepest shade. In autumn, this is often 'prime playground time' because it's the warmest part of the day. This creates a perfect storm where we are most exposed just when the UV is highest.</p>
+
+      <p>Check the UV forecast before you leave. The <strong>SunSmart app</strong> is a staple for Melbourne parents — it gives you live UV readings for your specific postcode. If it's hitting 3 or above, the hat and sunscreen are non-negotiable, regardless of whether you've got your puffer jacket on.</p>
+
+      <h2>🧢 The 'No Hat, No Play' Logic (At Home)</h2>
+
+      <p>Most Melbourne childcare centres and kindergartens enforce a 'No Hat, No Play' policy through to the end of April. It's a great habit to mirror at the local park. Toddlers are creatures of routine; if the hat is just part of the 'going to the park' ritual — like putting on shoes — they're much less likely to fight it.</p>
+
+      <p><strong>Pro-tip for autumn:</strong> Look for broad-brimmed hats made of cotton or canvas rather than heavy felt. They provide the coverage needed without making a running toddler overheat when they're already wearing layers.</p>
+
+      <h2>🧴 Sunscreen in the Cold</h2>
+
+      <p>Applying sunscreen to a child who is already wearing a long-sleeved shirt and trousers is actually much easier than the full-body summer wrestle. You only need to focus on the 'exposed zones': the face, the back of the neck, and the tops of the hands.</p>
+
+      <p>Because the air is drier in autumn, look for a sunscreen that has a moisturising base. It helps protect their skin from both the UV and the wind-chill, which can lead to that 'rosy cheek' chapping that often bothers toddlers in May.</p>
+
+      <h2>🌳 Best Shaded Playgrounds for Melbourne Autumn</h2>
+
+      <p>While the sun isn't as intense as mid-summer, finding a playground with good natural shade still makes for a more comfortable morning. Here are three of our current favourites for balanced exposure:</p>
+
+      <ul>
+        <li><strong>Hays Paddock (East Kew)</strong> — Famous for its inclusive design, it also has incredible canopy cover from mature trees that filter the autumn light beautifully.</li>
+        <li><strong>Bicentennial Park (Chelsea)</strong> — The 'Smoby' houses and main structures are well-sheltered, and the surrounding layout allows for plenty of play without direct overhead sun exposure.</li>
+        <li><strong>Victory Park (Bentleigh)</strong> — A classic for a reason. Its castle-themed structures provide plenty of built-in shade, and the surrounding oaks are stunning this time of year.</li>
+      </ul>
+
+      <p>You can find more shaded options using our <a href="/search?category=playground">playground finder</a> — just look for the 'shaded' filter to see parks near you.</p>
+
+      <h2>🍂 The Benefits of Vitamin D</h2>
+
+      <p>We don't want to hide from the sun entirely! Vitamin D is crucial for bone health and immune function, especially heading into the Melbourne flu season. In late autumn and winter, when UV levels are typically <strong>below 3</strong> all day, SunSmart actually recommends spending <em>more</em> time outdoors and often without sun protection (for short periods) to maintain healthy Vitamin D levels.</p>
+
+      <p>The key is balance. Check the app:
+        <ul>
+          <li><strong>UV 3 or above:</strong> Protect skin.</li>
+          <li><strong>UV below 3:</strong> Enjoy the sun safely for Vitamin D.</li>
+        </ul>
+      </p>
+
+      <h2>🗓️ What's On This Week?</h2>
+
+      <p>If you're looking for sun-safe activities this week, here are a few indoor and outdoor balanced options:</p>
+
+      <ul>
+        <li><strong>Melbourne Friends Plant Sale (Royal Botanic Gardens)</strong> — Running May 2–3. A great chance to wander the gardens (excellent natural shade) and pick up some autumn greenery.</li>
+        <li><strong>Boho Luxe Market (Royal Exhibition Building)</strong> — This Sunday, May 3. Completely indoors and perfect if the UV (or the rain) is looking high.</li>
+        <li><strong>Play School: Come and Play (ACMI)</strong> — Still running at Fed Square. Perfect indoor retreat if you've spent the morning at the nearby Birrarung Marr playground.</li>
+      </ul>
+
+      <p>Melbourne autumn is arguably the best time of year to be a playground-hopping family. The air is fresh, the leaves are turning, and the coffee tastes better when it's cool. Just remember to keep that hat in the bag for a few more weeks yet. 🍂🧢</p>
+
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-30T07:00:00+10:00',
+    category: 'tips',
+    tags: ['Melbourne playground sun safety', 'autumn sun protection kids', 'UV levels Melbourne April', 'shaded playgrounds Melbourne', 'parenting tips Melbourne', 'SunSmart Victoria families', 'Vitamin D kids Melbourne winter', 'best autumn playgrounds Melbourne'],
+    seoTitle: 'Autumn Sun Safety: Why Melbourne Playgrounds Still Require a Hat (Even When It's Cloudy) | LittleGo',
+    seoDescription: "Don't let the drop in temperature fool you — Melbourne's UV levels can still reach the damage zone even on a crisp April morning. Here's a practical guide to playground sun safety for autumn and winter, including the best shaded parks to visit right now."
+  },
+
+  {
     slug: 'lit-festival-melbourne-families-toddlers-guide-2026',
     title: "LIT Festival 2026 Melbourne: How to Take Your Toddler to a Free Night Out (Without Losing Your Mind)",
     excerpt: "LIT is back — free illuminated installations across Melbourne until May 3. It's one of those rare events that genuinely works with little kids: no tickets, no fixed path, and light and colour that makes even a 20-month-old go quiet with wonder. Here's how to do it well.",
@@ -7406,6 +7480,65 @@ export const blogPosts: BlogPost[] = [
     tags: ['Scienceworks Melbourne toddlers', 'Scienceworks family review', 'free museums Melbourne kids', 'Scienceworks Ground Up', 'Spotswood family activities', 'Melbourne museum toddlers', 'Scienceworks school holidays', 'free kids activities Melbourne', 'science museum Melbourne family', 'last day school holidays Melbourne'],
     seoTitle: 'Scienceworks Melbourne with Toddlers: Honest Family Review 2026 — Ground Up, Steam Engines & Tips',
     seoDescription: "Scienceworks in Spotswood is free for kids and home to Ground Up — one of Melbourne's best toddler science play spaces. Honest family review with practical tips, what to skip, and how to make the most of a visit with under-5s."
+  },
+  {
+    slug: 'melbourne-family-fun-this-week-april-29-may-5-2026',
+    title: "Melbourne Family Fun: What's On This Week (April 29 - May 5, 2026)",
+    excerpt: "Get ready for a week packed with family fun in Melbourne! From thrilling AFL action to the final dazzling nights of the LIT Festival and engaging indoor adventures, we've got your family's events calendar sorted for April 29 - May 5.",
+    content: `
+      <p>As April winds down and we step into the lovely month of May, Melbourne is buzzing with activities perfect for families with little ones. This week, we're looking at a fantastic mix of sports, dazzling light displays, and captivating indoor explorations that promise to keep everyone entertained from toddlers to primary schoolers.</p>
+
+      <h2>🏉 AFL Family Day: Western Bulldogs vs. Fremantle (May 1st)</h2>
+
+      <p>Footy fever is in the air! This Thursday, May 1st, head to Marvel Stadium to catch the Western Bulldogs take on Fremantle in what promises to be an exciting Round 8 clash. AFL games are a brilliant family outing, offering high-energy entertainment, crowd atmosphere, and plenty of space for kids to enjoy the action.</p>
+
+      <p>Marvel Stadium is easily accessible by public transport, making it a stress-free trip for families. Pack some snacks, dress in your team colours, and get ready to cheer! Even if your little ones aren't seasoned footy fans, the roar of the crowd and the spectacle of the game are sure to capture their attention.</p>
+
+      <ul>
+        <li><strong>When:</strong> Thursday, May 1st, 2026</li>
+        <li><strong>Where:</strong> Marvel Stadium</li>
+        <li><strong>Why it's great for families:</strong> Exciting atmosphere, easy public transport access, a classic Melbourne experience.</li>
+        <li><strong>Tip:</strong> Consider bringing ear defenders for sensitive little ears, and plan to arrive a bit early to soak up the pre-game atmosphere without feeling rushed.</li>
+      </ul>
+
+      <h2>✨ Last Chance! LIT Festival's Dazzling Farewell (Until May 3rd)</h2>
+
+      <p>If you haven't yet experienced the magic of the LIT Festival, this is your very last chance! Melbourne's award-winning festival of illuminated light installations wraps up this Saturday, May 3rd. It's a truly unique, free, and family-friendly event where the city's streets and landmarks transform into a canvas of light and colour.</p>
+
+      <p>LIT is perfect for families because there are no tickets, no fixed path, and you can wander at your own pace. Toddlers are often mesmerised by the glowing sculptures and projections. It's an ideal evening activity that combines art, exploration, and a touch of wonder.</p>
+
+      <ul>
+        <li><strong>When:</strong> Nightly until Saturday, May 3rd, from dusk (around 6:15 PM)</li>
+        <li><strong>Where:</strong> Various locations across Melbourne CBD (check the What's On Melbourne website for daily updates)</li>
+        <li><strong>Why it's great for families:</strong> Free, engaging visuals, flexible exploration, creates magical memories.</li>
+        <li><strong>Tip:</strong> Dress warmly, as autumn evenings can be cool. A carrier or lightweight stroller is handy for tired legs, and a warm drink for grown-ups is always a good idea!</li>
+      </ul>
+
+      <h2>🎬 Endless Discovery: The Story of the Moving Image (Ongoing)</h2>
+
+      <p>For an engaging indoor adventure that's completely free and runs all year, don't forget about <strong>The Story of the Moving Image</strong> at ACMI (Australian Centre for the Moving Image) at Federation Square. This permanent exhibition is a journey through the past, present, and future of film, television, and digital culture.</p>
+
+      <p>It's incredibly interactive and designed to captivate all ages, making it a fantastic option for a rainy day or when you need a break from outdoor activities. Kids can experiment with animation, explore iconic movie props, and even create their own moving imagery. It's a wonderful way to spark creativity and imagination.</p>
+
+      <ul>
+        <li><strong>When:</strong> Open daily, year-round (check ACMI website for opening hours)</li>
+        <li><strong>Where:</strong> ACMI, Federation Square</li>
+        <li><strong>Why it's great for families:</strong> Free, interactive, engaging for all ages, perfect for all weather.</li>
+        <li><strong>Tip:</strong> Allow plenty of time, as there's so much to see and do. Federation Square also has plenty of family-friendly food options nearby.</li>
+      </ul>
+
+      <h2>🌳 Don't Forget the Playgrounds!</h2>
+
+      <p>Melbourne's autumn weather is still perfect for outdoor play! Don't forget to combine your event adventures with a visit to one of LittleGo's many fantastic playgrounds. Our <a href="/search?category=playground">playground finder</a> can help you locate the perfect spot near your chosen activity for some essential run-around time. A balanced day of events and outdoor play is often the secret to happy little explorers!</p>
+
+      <p>No matter what you choose, this week offers plenty of opportunities for memorable family moments in Melbourne. Enjoy the fun!</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-04-29T08:00:00+10:00',
+    category: 'events',
+    tags: ['Melbourne family events this week', 'kids activities Melbourne April 2026', 'AFL Melbourne families', 'LIT Festival Melbourne families 2026', 'ACMI Story of the Moving Image kids'],
+    seoTitle: 'Melbourne Family Events & Kids Activities This Week (April 29 - May 5, 2026)',
+    seoDescription: 'Discover the best family fun in Melbourne this week: Western Bulldogs AFL game, the last few nights of the dazzling LIT Festival, and engaging indoor adventures at The Story of the Moving Image.'
   }
 ];
 
