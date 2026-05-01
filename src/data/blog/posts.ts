@@ -19,6 +19,91 @@ export const blogPosts: BlogPost[] = [
     title: "Weekend Planner: Free Comic Book Day, PomPom Art Market, and Your Last Chance for LIT",
     excerpt: "The first weekend of May is absolutely packed for Melbourne families. From Free Comic Book Day in the CBD to the 'Sweet Cottage' PomPom Market and the final nights of the magical LIT installations, here is your plan for May 2–3, 2026.",
     content: `
+      <p>Hello May! The school routine is back in full swing, the mornings are crisp, and Melbourne is serving up one of its most diverse weekends for families. If you've been putting off seeing the city lights or need a reason to brave the CBD with the kids, this is the weekend to do it.</p>
+
+      <p>We have 'last chance' triggers for two major events, a global celebration for comic fans, and a very 'aesthetic' market that will be a hit with both parents and craft-loving kids. Pull on the puffer jackets and let's get into it.</p>
+
+      <h2>🦸 Saturday May 2: Free Comic Book Day</h2>
+
+      <p>Saturday is <strong>Free Comic Book Day</strong>, an annual global event where participating comic book shops give away comic books for free to anyone who walks in. In Melbourne, this usually turns into a mini-festival across the CBD and inner suburbs.</p>
+
+      <p>For kids, it's a dream. Many shops have costumed characters (perfect for photos), special activities, and of course, the free books. It's a great way to encourage reading and explore a different side of Melbourne's culture.</p>
+
+      <ul>
+        <li><strong>Where:</strong> Major comic shops like <strong>Minotaur (Elizabeth St)</strong>, <strong>All Star Comics (Queen St)</strong>, and <strong>Readings Kids (Carlton)</strong> often join in.</li>
+        <li><strong>Tip:</strong> Shops often have lines, so arrive early. If you're at Minotaur, the <strong>Elizabeth Street terrace</strong> is a good spot for a quick snack break between shops.</li>
+        <li><strong>Pair with:</strong> A walk down to <strong>Federation Square</strong> to check out the <strong>Play School: Come and Play</strong> exhibition (free!) if you haven't seen it yet.</li>
+      </ul>
+
+      <h2>✨ Last Chance: LIT Melbourne (Ends Sunday)</h2>
+
+      <p>This is it! <strong>LIT</strong> — the festival of light and illuminated art — wraps up this <strong>Sunday May 3</strong>. If you haven't taken the kids yet, you have two nights left. As we mentioned in our <a href="/blog/lit-festival-melbourne-families-toddlers-guide-2026">toddler guide to LIT</a>, the installs are best seen from 6:15 PM.</p>
+
+      <p>The feedback from parents this week has been incredible — the installations are spaced out enough that it doesn't feel too crowded, but focused enough that little legs can make it between a few sites. Since it's the final weekend, expect slightly larger crowds on Saturday night. Sunday night might be your best bet for a quieter 'last call' visit.</p>
+
+      <h2>🎨 Saturday & Sunday: PomPom Art Market — Sweet Cottage</h2>
+
+      <p>If your kids are into stationery, stickers, or 'kawaii' aesthetics, the <strong>PomPom Art Market</strong> is the place to be this weekend. It's being held at <strong>Meat Market in North Melbourne</strong> and features over 100 artists.</p>
+
+      <p>The theme this year is 'Sweet Cottage', so expect a lot of very cute, very Melbourne-style creative wares. It's indoors (perfect if the weather turns) and has a really lovely, inclusive vibe. It's the kind of market where kids can spend $5 on a sticker and feel like they've bought a masterpiece.</p>
+
+      <ul>
+        <li><strong>When:</strong> May 2 & 3, 10 AM – 5 PM</li>
+        <li><strong>Where:</strong> Meat Market, 5 Blackwood St, North Melbourne</li>
+        <li><strong>Playground pairing:</strong> You are right near <strong>Gardiner Reserve</strong> in North Melbourne, which has a solid fenced playground that's great for an energy burn before or after the market.</li>
+      </ul>
+
+      <h2>👗 NGV Fashion for Kids: 'Let's Party' (Last Days)</h2>
+
+      <p>The NGV International's latest kids' exhibition, <strong>Let's Party: NGV Fashion for Kids</strong>, is also in its final days (ending May 3). It's a free, vibrant world of colour where kids can learn about fashion through play and interactive stations.</p>
+
+      <p>If you're in the city for Free Comic Book Day or LIT, popping into the NGV is a must. The Great Hall (with the stained glass ceiling) is always a hit for kids to lay on the carpet and look up, and the fashion exhibition specifically is designed for tactile engagement.</p>
+
+      <h2>🦒 Ongoing: Dinos at the Zoo</h2>
+
+      <p>Don't forget that <strong>Dinos at the Zoo</strong> is still running at both Melbourne Zoo and Werribee Open Range Zoo. If the CBD feels too busy this weekend, heading out to the zoo is a great alternative. The animatronic dinosaurs are impressive (and occasionally a little scary for very tiny ones, so keep that in mind!).</p>
+
+      <h2>🗞️ Sunday Activity: My Love Umbrella at NGV</h2>
+
+      <p>On Sunday, the NGV (International) also has the <strong>My Love Umbrella</strong> craft activity running. It's a free, hands-on workshop where kids can create their own hanging mobile. It's a lovely, calm way to spend a Sunday morning before the final night of LIT.</p>
+
+      <h2>🌡️ Weather & Pack List</h2>
+
+      <p>The Melbourne autumn is holding steady. Expect <strong>15–17°C</strong> both days with mostly sunny skies on Saturday and a bit more cloud on Sunday. It's perfect 'layered' weather.</p>
+
+      <ul>
+        <li><strong>The Bag:</strong> Sunscreen (the UV is still hitting 3+ mid-day!), warm beanies for evening LIT visits, and a reusable bag for those free comics!</li>
+        <li><strong>Transport:</strong> Use <strong>Free Tram Zone</strong> if you're jumping between comic shops in the CBD. If you're heading to North Melbourne for the PomPom market, the Route 19 or 57 trams are your best friends.</li>
+      </ul>
+
+      <h2>📋 The Weekend Blueprint</h2>
+
+      <h3>Saturday May 2</h3>
+      <p><strong>10:00 AM:</strong> CBD Comic Book Run (Minotaur & All Star Comics) 🦸‍♂️</p>
+      <p><strong>12:30 PM:</strong> Lunch at a <a href="/blog/kid-friendly-cafes-inner-north-melbourne-fitzroy-collingwood-brunswick">kid-friendly inner north cafe</a> or quick CBD bite</p>
+      <p><strong>2:00 PM:</strong> PomPom Art Market at Meat Market 🎨</p>
+      <p><strong>6:15 PM:</strong> Saturday night LIT wander ✨</p>
+
+      <h3>Sunday May 3</h3>
+      <p><strong>10:30 AM:</strong> NGV 'Let's Party' Fashion Expo & 'My Love Umbrella' craft 🌂</p>
+      <p><strong>1:00 PM:</strong> Picnic at Royal Botanic Gardens or Fitzroy Gardens 🧺</p>
+      <p><strong>6:30 PM:</strong> The very last chance for LIT installations ✨</p>
+
+      <p>Whatever you choose to do, have a brilliant first weekend of May. The city is full of energy this week — enjoy the lights, the comics, and the cute art! See you at the playground. 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-05-01T07:00:00+10:00',
+    category: 'activities',
+    tags: ['Melbourne weekend planner May 2026', 'Free Comic Book Day Melbourne', 'LIT Melbourne 2026 last chance', 'PomPom Art Market Melbourne', 'NGV Fashion for Kids', 'Melbourne family events this weekend', 'free things to do Melbourne kids May', 'Dinos at the Zoo Melbourne', 'Meat Market North Melbourne events'],
+    seoTitle: 'Melbourne Family Weekend Planner May 2–3, 2026: Free Comic Book Day, LIT Final & PomPom Market',
+    seoDescription: "Your guide to Melbourne's best family events this weekend: Free Comic Book Day, the final days of LIT and NGV's Fashion for Kids, plus the Sweet Cottage PomPom Art Market. Plan your May 2–3 with LittleGo."
+  },
+
+  {
+    slug: 'weekend-planner-melbourne-families-may-2-3-2026-last-chance-lit-comic-book-day-pompom-market',
+    title: "Weekend Planner: Free Comic Book Day, PomPom Art Market, and Your Last Chance for LIT",
+    excerpt: "The first weekend of May is absolutely packed for Melbourne families. From Free Comic Book Day in the CBD to the 'Sweet Cottage' PomPom Market and the final nights of the magical LIT installations, here is your plan for May 2–3, 2026.",
+    content: `
       <p>Hello May! The school routine is back in full swing, the mornings are crisp, and Melbourne is serving up one of its most diverse weekends for families. If you\\'ve been putting off seeing the city lights or need a reason to brave the CBD with the kids, this is the weekend to do it.</p>
 
       <p>We have 'last chance' triggers for two major events, a global celebration for comic fans, and a very 'aesthetic' market that will be a hit with both parents and craft-loving kids. Pull on the puffer jackets and let\\'s get into it.</p>
