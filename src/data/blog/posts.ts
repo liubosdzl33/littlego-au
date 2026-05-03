@@ -15,6 +15,67 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'best-playgrounds-melbourne-cbd-inner-city-families-guide',
+    title: "The Best Melbourne CBD Playgrounds: A Parent's Guide to Inner-City Play",
+    excerpt: "Navigating the city with kids? From the sprawling Royal Park Nature Play to the hidden maze of Carlton Gardens, here is our definitive guide to the best playgrounds in the Melbourne CBD and inner-city fringe.",
+    content: `
+      <p>Melbourne's CBD is often thought of as a place for business, high-end shopping, and late-night dining. But for parents, the 'Hoddle Grid' and its surrounding parklands are actually one of the best 'playground clusters' in Victoria. Whether you're in town for a museum visit, a doctor's appointment, or just a family day out, knowing where the best slides and swings are can turn a stressful city trip into a highlight of the week.</p>
+
+      <p>Inner-city playgrounds hit differently. They offer a mix of cutting-edge design, stunning natural landscape, and the distinct 'Melbourne vibe'—all usually within walking distance of a world-class coffee shop. Here is our parent-tested guide to the best playgrounds in the Melbourne CBD and inner city.</p>
+
+      <h2>🌳 Royal Park Nature Play (Parkville)</h2>
+
+      <p>If you only visit one playground in the inner city, make it this one. Located right next to the Royal Children's Hospital, this is widely considered one of the best playgrounds in the world. It's less about plastic slides and more about challenging, natural play. There are massive rocks to climb, water pumps and channels for dam-building (bring a change of clothes!), and a huge grassy hill that is practically mandatory for rolling down.</p>
+
+      <p><strong>Pro Tip:</strong> The playground is quite spread out. If you have a 'runner', keep a close eye as it's easy to lose sight of them between the climbing structures. <strong>Coffee call:</strong> Head across the road to <strong>Auction Rooms</strong> for some of the best brews in North Melbourne.</p>
+
+      <h2>🎨 ArtPlay Birrarung Marr (CBD)</h2>
+
+      <p>Nestled between Federation Square and the MCG, ArtPlay is the heart of city play. The playground itself is vibrant and artistic, featuring swinging hammocks, sandpits, and a massive tube slide that older kids will go down dozens of times. What makes ArtPlay special is the proximity to the Yarra River and the 'ArtPlay' building itself, which often hosts creative workshops for kids.</p>
+
+      <p><strong>Pro Tip:</strong> There is very little shade here, so it gets hot in the afternoon. It's a perfect spot for an early morning burn before the sun hits the slide. <strong>Pair with:</strong> A walk down to <strong>Federation Square</strong> to check out the latest free installations.</p>
+
+      <h2>🏰 Carlton Gardens Playground (Carlton)</h2>
+
+      <p>Bordering the Melbourne Museum and the Royal Exhibition Building, the Carlton Gardens playground is a masterpiece of 'maze-style' play. It has timber structures with hidden nooks, rope bridges, and a toddler-specific area that is fenced off from the bigger kids' flying fox. It feels like a secret garden, especially under the shade of the massive 150-year-old fig trees.</p>
+
+      <p><strong>Pro Tip:</strong> Visit on a weekday morning and you'll often have the place to yourself. On weekends, it's a popular spot for kid's birthday parties. <strong>Coffee call:</strong> <strong>Baker D Chirico</strong> or <strong>Market Lane</strong> on Faraday St are just a few minutes' walk away.</p>
+
+      <h2>🪟 Lincoln Square (Carlton)</h2>
+
+      <p>This is a relatively new addition to the city's play scene, built on the site of Melbourne's oldest playground. It’s designed around the existing Moreton Bay Fig trees, with elevated walkways that allow kids to feel like they’re playing in the canopy. It features rope bridges, play towers, and a long slide that is surprisingly fast!</p>
+
+      <p><strong>Pro Tip:</strong> The wooden structures can be slippery after rain. <strong>Treat:</strong> Take the kids to <strong>Adozen Adozen</strong> for mochi pancakes—a cult favorite for inner-city families.</p>
+
+      <h2>🐉 Fitzroy Gardens (East Melbourne)</h2>
+
+      <p>While the actual playground in Fitzroy Gardens is smaller than the others on this list (featuring a classic dragon slide), the entire park is a playground. Between the <strong>Fairies' Tree</strong> (full of intricate carvings) and the <strong>Model Tudor Village</strong>, toddlers will feel like giants in a magical world. It’s a lower-stimulation option if the hustle of the CBD is getting too much.</p>
+
+      <p><strong>Coffee call:</strong> <strong>KereKere Green</strong> is located right in the gardens—socially conscious and excellent coffee.</p>
+
+      <h2>🧗 Risk Playground (Southbank)</h2>
+
+      <p>For the 'big kids' or the adventurous toddlers, the Risk Playground on Southbank Boulevard is a unique play space. It's designed to simulate 'risk' in a safe way, using huge boulders placed on fixed trolleys and natural elements. It's a great spot for developing balance and motor skills.</p>
+
+      <p><strong>Coffee call:</strong> <strong>The Bond Store Cafe</strong> nearby does great toasties and thickshakes to refuel after a climb.</p>
+
+      <h2>📋 Managing the CBD with Kids: 3 Quick Tips</h2>
+      <ul>
+        <li><strong>Public Transport is your friend:</strong> Use the <strong>Free Tram Zone</strong> to hop between playgrounds. The Route 30 or City Circle trams are perfect for getting from Carlton Gardens to the CBD fringe.</li>
+        <li><strong>Bathroom Map:</strong> Finding a toilet in the CBD quickly can be hard. Federation Square, the Melbourne Museum, and the State Library are your 'safe zones' for clean, accessible facilities.</li>
+        <li><strong>Timing:</strong> Most city playgrounds are busiest between 11 AM and 2 PM. Arriving at 9 AM gives you the 'exclusive' feel and the pick of the nearby coffee spots.</li>
+      </ul>
+
+      <p>Melbourne’s inner city doesn’t have to be a 'grown-ups only' zone. With these playgrounds in your kit, you can navigate the city with confidence, knowing a great play break is always just a few blocks away. See you at the slide! 🛝</p>
+`,
+    author: 'LittleGo Team',
+    publishedAt: '2026-05-04T07:00:00+10:00',
+    category: 'playgrounds',
+    tags: ['Best Melbourne playgrounds', 'Melbourne CBD with kids', 'Royal Park Nature Play', 'Carlton Gardens playground', 'inner city Melbourne family guide', 'free things to do Melbourne kids', 'ArtPlay Melbourne', 'Fitzroy Gardens with kids', 'Melbourne family travel tips'],
+    seoTitle: 'The Best Melbourne CBD Playgrounds: Inner-City Parent's Guide',
+    seoDescription: "Discover the best inner-city playgrounds in Melbourne. From Royal Park to Carlton Gardens, our parent's guide covers the top spots for kids to play in the CBD."
+  },
+  {
     slug: 'weekend-planner-melbourne-families-may-2-3-2026-last-chance-lit-comic-book-day-pompom-market',
     title: "Weekend Planner: Free Comic Book Day, PomPom Art Market, and Your Last Chance for LIT",
     excerpt: "The first weekend of May is absolutely packed for Melbourne families. From Free Comic Book Day in the CBD to the 'Sweet Cottage' PomPom Market and the final nights of the magical LIT installations, here is your plan for May 2–3, 2026.",
