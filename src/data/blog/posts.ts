@@ -15,6 +15,69 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: '5-free-things-to-do-melbourne-kids-autumn-indoor-outdoor-guide',
+    title: "5 Free Things to Do with Kids in Melbourne This Autumn: The Ultimate Indoor & Outdoor Mix",
+    excerpt: "May in Melbourne can be unpredictable. One minute it's crisp and sunny, the next it's a typical rainy afternoon. Here are 5 brilliant, completely free activities for Melbourne families that work regardless of the weather, from interactive museum play to 'secret' city gardens.",
+    content: `
+      <p>Ask any Melbourne parent about May, and they'll give you the same look. It's that transition month where the morning starts at a brisk 8°C, hits a glorious 18°C by midday, and then decides to rain just as you're loading the toddler into the car. The 'playground lottery' becomes a real thing.</p>
+
+      <p>Because the weather is so variable, having a mixed bag of 'backup' activities is essential. You need the outdoor spots for when the sun breaks through, and the indoor sanctuaries for when the grey clouds settle in. Best of all? Every single one of these is completely free.</p>
+
+      <p>Here are 5 parent-tested, free things to do with kids in Melbourne this autumn.</p>
+
+      <h2>🦖 1. Dino Days & Museum Play (Carlton)</h2>
+
+      <p>If you haven't been to the <strong>Melbourne Museum</strong> lately, May is the perfect time. While the main museum has an entry fee for adults, children (under 16) are free. However, the external <strong>Museum Plaza</strong> and the surrounding <strong>Carlton Gardens</strong> are always free for everyone and offer a great pre-museum energy burn.</p>
+
+      <p><strong>Inside Tip:</strong> The Children's Gallery inside the Museum is world-class. If you have a Museum Victoria membership (which pays for itself in two visits), it's your ultimate rainy day sanctuary. The 'mini' fossil dig and the outdoor garden specifically for toddlers are highlights.</p>
+
+      <p><strong>Playground Pairing:</strong> The <a href="/blog/best-playgrounds-melbourne-cbd-inner-city-families-guide">Carlton Gardens Playground</a> is literally right next door. Use it for a 'post-museum' run if the weather holds up.</p>
+
+      <h2>🌂 2. 'Let's Party' at NGV International (CBD)</h2>
+
+      <p>Located on St Kilda Road, the <strong>NGV International</strong> isn't just for grown-ups looking at oil paintings. The <strong>NGV Kids</strong> area is consistently one of the best free indoor spaces in the city. The current exhibition, <em>Let's Party: NGV Fashion for Kids</em>, is a vibrant, hands-on world of colour that toddlers and school-aged kids adore.</p>
+
+      <p>It's completely indoors, climate-controlled, and features interactive stations where kids can engage with design and fashion through play. It's the perfect 'low stress' city outing when it's raining outside.</p>
+
+      <p><strong>Pro Tip:</strong> The 'water wall' at the entrance of the NGV is practically a Melbourne rite of passage. Budget at least 10 minutes for your toddler to touch the glass and watch the droplets.</p>
+
+      <h2>🎨 3. ArtPlay Birrarung Marr (CBD)</h2>
+
+      <p>Nestled behind Federation Square, <strong>ArtPlay</strong> is a dedicated creative space for children. While some workshops are ticketed, the surrounding playground is incredible and the building itself often has free 'drop-in' installations or activities.</p>
+
+      <p>In autumn, the <strong>Birrarung Marr</strong> area is stunning with the changing leaves along the Yarra. It's a great spot for a 'sensory walk' where kids can collect crunchy leaves before hitting the big tube slides at the playground. If it starts to drizzle, duck into the <strong>ArtPlay</strong> building or the nearby <strong>ACMI</strong> for a quick indoor break.</p>
+
+      <h2>🌳 4. Fitzroy Gardens & The Fairies' Tree (East Melbourne)</h2>
+
+      <p>When the autumn sun is out, there is nowhere better than <strong>Fitzroy Gardens</strong>. It feels like a pocket of old-world magic in the middle of the city. For little kids, the <strong>Fairies' Tree</strong> (carved with intricate animals and characters) and the <strong>Model Tudor Village</strong> are absolute winners.</p>
+
+      <p>Because the gardens are so large and well-established, they offer a lot of natural wind protection, making it feel several degrees warmer on a crisp May morning. It's a great spot for a 'nature treasure hunt'—see who can find the biggest yellow leaf or the most interesting rock.</p>
+
+      <p><strong>Coffee Call:</strong> <strong>KereKere Green</strong> is located right in the gardens and is very kid-friendly with plenty of outdoor seating.</p>
+
+      <h2>🚂 5. Polly Woodside & South Wharf (Southbank)</h2>
+
+      <p>While boarding the ship has a cost, wandering the <strong>Polly Woodside</strong> dock and the South Wharf promenade is completely free and a huge hit for 'transport-obsessed' kids. Watching the big tall ship in the middle of the Yarra is a great way to spark some pirate-themed imagination.</p>
+
+      <p>The South Wharf area is wide, flat, and perfect for toddlers who want to walk (or crawl) without the worry of cars. It's also well-covered in parts by the surrounding buildings, offering some protection if a light shower passes through.</p>
+
+      <h2>📋 Practical Tips for Melbourne in May</h2>
+      <ul>
+        <li><strong>The 'Puffer' Strategy:</strong> In Melbourne, we don't just dress; we layer. A lightweight puffer vest over a long-sleeved tee is the 'uniform' for May. It keeps the core warm but prevents overheating when they start running.</li>
+        <li><strong>The UV is sneaky:</strong> Even on cloudy days in May, the UV can hit 3+. Check our <a href="/blog/sun-safety-melbourne-playgrounds-autumn-winter-guide">autumn sun safety guide</a> for why the hat still matters.</li>
+        <li><strong>Park and Ride:</strong> If you're heading to the CBD or Carlton, use the <strong>Free Tram Zone</strong> to move between these spots. It turns a walk into an adventure for the kids and saves your legs.</li>
+      </ul>
+
+      <p>Don't let the cooler weather keep you cooped up. Melbourne in autumn is arguably the most beautiful time to explore the city with your little ones. Whether you're dodging raindrops at the NGV or chasing leaves in Fitzroy Gardens, there's always a free adventure waiting. See you at the slide! 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-05-05T07:00:00+10:00',
+    category: 'activities',
+    tags: ['free things to do Melbourne kids', 'Melbourne kids activities this week', 'rainy day activities Melbourne', 'NGV Kids Let\\'s Party', 'Melbourne Museum kids', 'Fitzroy Gardens with kids', 'ArtPlay Melbourne', 'free Melbourne family events May', 'autumn activities Melbourne families'],
+    seoTitle: '5 Free Things to Do with Kids in Melbourne This Autumn: Indoor & Outdoor Guide',
+    seoDescription: "Discover the best free family activities in Melbourne this autumn. From NGV Kids to Fitzroy Gardens, here is your guide to the best indoor and outdoor play for May."
+  },
+  {
     slug: 'best-playgrounds-melbourne-cbd-inner-city-families-guide',
     title: "The Best Melbourne CBD Playgrounds: A Parent's Guide to Inner-City Play",
     excerpt: "Navigating the city with kids? From the sprawling Royal Park Nature Play to the hidden maze of Carlton Gardens, here is our definitive guide to the best playgrounds in the Melbourne CBD and inner-city fringe.",
