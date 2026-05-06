@@ -15,6 +15,66 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'melbourne-autumn-park-packing-sun-safety-tips',
+    title: "The Autumn Park Bag: Packing for Melbourne's 'Four Seasons' and Sneaky UV",
+    excerpt: "Packing for a Melbourne park in May is an Olympic sport. From the sudden midday heat to the 'hidden' UV levels and the inevitable damp slides, here is your definitive guide to surviving an autumn playground run.",
+    content: `
+      <p>Happy Thursday, Melbourne parents! We've officially entered the 'Puffer Jacket & Iced Latte' phase of the year. It’s that beautiful but slightly chaotic window where you leave the house in a thick knit and by 11:30 AM you’re wondering why you didn’t pack a t-shirt and a literal gallon of sunscreen.</p>
+
+      <p>Melbourne’s autumn is notoriously fickle. One minute the sun is hitting the <strong>Royal Park Nature Play</strong> rocks and it feels like 22°C, and the next, a breeze rolls off the bay and everyone is shivering. Packing your park bag for this season requires a bit of local strategy. Here is the 'LittleGo Blueprint' for a successful autumn playground outing.</p>
+
+      <h2>🧢 The Sneaky UV: Why the Hat Stays</h2>
+
+      <p>The biggest mistake we make in May is assuming that cool air means safe sun. In Melbourne, the UV index still regularly hits 3 or higher during the middle of the day (10 AM - 3 PM). Because the air is crisp, we don’t 'feel' the burn, but for little skin, it’s still very much there.</p>
+
+      <p><strong>The Pro-Tip:</strong> Use the 'No Hat, No Play' rule even if there's a light drizzle. A wide-brimmed cotton hat doesn't just protect from the sun; it actually keeps their heads warm and helps with the wind-chill. Look for hats with a chin strap so they don't lose them mid-slide at <strong>Carlton Gardens</strong>!</p>
+
+      <h2>🩹 The 'Damp Slide' Survival Kit</h2>
+
+      <p>Nothing kills the vibe faster than a toddler coming down a slide into a puddle of morning dew or overnight rain. In autumn, playgrounds stay damp much longer because the sun isn't strong enough to bake them dry by 9 AM.</p>
+
+      <p>Your bag should always include:
+        <ul>
+          <li><strong>A small microfiber towel:</strong> It takes up no space and can save a whole outfit. Wipe the slide before they go down!</li>
+          <li><strong>The 'Spare-Spare' Socks:</strong> Even if they have gumboots on, water has a way of finding its way in. Wet feet in 14°C weather is a one-way ticket to a meltdown.</li>
+          <li><strong>A waterproof 'sit-upon':</strong> Many Melbourne parents use a small cut-out of an old yoga mat or a specialized foldable seat. It's perfect for when you want to enjoy your coffee while they play, but the park benches are freezing and wet.</li>
+        </ul>
+      </p>
+
+      <h2>🍱 Snacks: The Energy Burn Factor</h2>
+
+      <p>Kids burn significantly more energy playing in the cold. Their bodies are working to stay warm *and* work those climbing frames. We find that the 'standard' snack ratio needs a 20% boost in May. Think energy-dense: cheese sticks, nut-free bliss balls, or even a thermos of warm (not hot!) apple juice. It’s a huge hit when the wind starts to pick up.</p>
+
+      <h2>🧴 Sunscreen: Focus on the 'Exposed Zones'</h2>
+
+      <p>You don't need the full-body slathering of January. In May, focus on the 'exposed zones': the face, the back of the neck, and the tops of the hands. Since the air is drier, choosing a sunscreen with a moisturizing base like the <strong>SunSmart</strong> toddler ranges can help prevent that chapped, rosy-cheek look that the Melbourne wind loves to give.</p>
+
+      <h2>🌳 The Best 'Low Wind' Parks for May</h2>
+
+      <p>If the wind is biting, avoid the wide-open coastal playgrounds and head for the 'sun traps'—parks with high canopy cover or surrounding buildings that block the breeze. Our top three for May are:</p>
+      <ul>
+        <li><strong>Hays Paddock (East Kew):</strong> The mature trees provide a brilliant windbreak.</li>
+        <li><strong>Lincoln Square (Carlton):</strong> Nestled among buildings and massive figs, it stays much warmer than the open fields of Royal Park.</li>
+        <li><strong>Victory Park (Bentleigh):</strong> The castle structures provide built-in shelter from the wind.</li>
+      </ul>
+
+      <h2>🌻 Bonus: What's On This Weekend (May 9–10)</h2>
+      <p>If you're looking for somewhere to put your newly packed park bag to use, here are two low-stress options for this weekend:</p>
+      <ul>
+        <li><strong>The Mother’s Day Flower Pop-up (Various CBD Laneways):</strong> Expect beautiful blooms and great coffee. It’s a lovely, casual way to 'do' Mother's Day without a stressful brunch booking.</li>
+        <li><strong>Pre-Historic Play at Scienceworks:</strong> While <em>Dino Days</em> happened mid-week, the 'Ground Up' space is always a winner for toddlers when it's too crisp for the big slides.</li>
+      </ul>
+
+      <p>Melbourne in May is arguably the most beautiful time for a park run—the leaves are golden, the air is fresh, and the coffee tastes incredible. Just remember: wipe the slide, pack the hat, and always bring the extra socks. See you at the slide! 🛝</p>
+    `,
+    author: 'LittleGo Team',
+    publishedAt: '2026-05-07T07:00:00+10:00',
+    category: 'tips',
+    tags: ['Melbourne park packing list', 'autumn sun safety kids', 'Melbourne parenting tips', 'dealing with damp slides', 'best autumn playgrounds Melbourne', 'UV levels May Melbourne', 'packing for toddlers Melbourne'],
+    seoTitle: 'Packing the Ultimate Autumn Park Bag for Melbourne Kids | LittleGo',
+    seoDescription: "Don't get caught out by Melbourne's four seasons in one day. From damp slide survival to sneaky autumn UV, here is how to pack your park bag for May."
+  },
+  {
     slug: 'melbourne-kids-activities-this-week-may-6-12-2026-mother-day-market-dino-day',
     title: "What's On This Week: Mother's Day Planning, Market Fun, and the Best Free Kids' Events",
     excerpt: "The second week of May is here, and Melbourne is buzzing with prep for Mother's Day. From the iconic Queen Victoria Market to the last days of the Hawker 88 Night Market and free Dino Days for the little ones, here is your guide for May 6–12, 2026.",
