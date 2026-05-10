@@ -97,4 +97,56 @@ Whatever you do today, we hope you find a moment of peace and plenty of smiles. 
     imageUrl: 'https://images.unsplash.com/photo-1491234323906-4479bc131f16?q=80&w=2000&auto=format&fit=crop',
     tags: ["Mother's Day", "Melbourne Events", "Family Outings", "Autumn"]
   }
+  },
+  {
+    id: '4',
+    title: 'Top 3 Playgrounds in Melbourne’s Inner North for Families',
+    slug: 'best-playgrounds-melbourne-inner-north',
+    excerpt: 'Exploring the vibrant suburbs of Carlton, Northcote, and Fitzroy? Here are three must-visit playgrounds in the Inner North that parents love.',
+    date: '2026-05-11',
+    author: 'LittleGo Team',
+    category: 'Guides',
+    content: `
+# Top 3 Playgrounds in Melbourne’s Inner North for Families
+
+If you are a parent living in or visiting Melbourne’s Inner North, you already know the area is a treasure trove of culture, great coffee, and hidden gems. But when the kids are bouncing off the walls and you need a reliable spot for them to burn off energy, where should you head?
+
+Today, we are highlighting three of our favorite playgrounds in the Northcote, Carlton, and Fitzroy areas. These aren't just patches of grass; they are destinations that offer a bit of magic for both the kids and the adults.
+
+## 1. All Nations Park, Northcote
+Located in the heart of Northcote, [All Nations Park](https://littlego.com.au/playgrounds/all-nations-park) is a standout for modern design and inclusivity. Built on a former landfill site, this park has been beautifully transformed into a hilly sanctuary with stunning views.
+
+**Why parents love it:**
+- **Excellent Shade:** Its well-designed modern playground features robust shade sails that make it a safe bet for sunny days.
+- **Sensory Play:** Ideal for toddlers and primary-aged kids, with specific equipment designed for sensory exploration.
+- **The Vibes:** You're close to High Street, Northcote, so grabbing a premium sourdough or a flat white on the way is mandatory.
+
+## 2. Carlton Gardens Playground, Carlton
+Nestled within the World Heritage-listed [Carlton Gardens](https://littlego.com.au/playgrounds/carlton-gardens), this playground is a classic. It’s hard to beat the backdrop of the Royal Exhibition Building and the towering, historic trees.
+
+**Why parents love it:**
+- **Natural Canopy:** The magnificently established trees provide a full, natural shade that no artificial sail can match.
+- **Proximity to Culture:** It’s a stone’s throw from the Melbourne Museum and IMAX, making it the perfect "active break" during a city day trip.
+- **Facilities:** With public toilets nearby and plenty of benches, it is well-equipped for longer stays.
+
+## 3. Edinburgh Gardens, Fitzroy North
+[Edinburgh Gardens](https://littlego.com.au/playgrounds/edinburgh-gardens) is the soul of Fitzroy North. It feels like a village green, where everyone from skaters to families with double-prams congregates.
+
+**Why parents love it:**
+- **The Best of Both Worlds:** It features both fenced areas (perfect for the "bolters") and open grassy spaces for ball games.
+- **Equipment Variety:** From monkey bars to a flying fox, there is enough here to keep older primary kids engaged while the little ones play on the rubber-surfaced toddler structures.
+- **Dog-Friendly:** If the family dog is part of your weekend crew, they’ll love the off-leash areas nearby (just keep them clear of the playground fence!).
+
+### Quick Tips for Your Inner North Adventure:
+- **Parking:** Northcote and Fitzroy can be tricky. Try the side streets rather than the main drags, and always check the signs!
+- **Coffee Stops:** For Northcote, hit up *All Are Welcome*. For Carlton, *Seven Seeds* is worth the short walk.
+- **Link Up:** Check the LittleGo app to see real-time [shade levels](https://littlego.com.au/playgrounds) before you leave the house.
+
+Melbourne’s North is full of character, and these playgrounds are the perfect reflection of that. Whether you’re looking for the heritage charm of Carlton or the hilly height of Northcote, your kids are in for a great day out.
+
+Happy playing!
+    `,
+    imageUrl: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=2000&auto=format&fit=crop',
+    tags: ['Inner North', 'Northcote', 'Carlton', 'Fitzroy', 'Playground Guides']
+  }
 ];
