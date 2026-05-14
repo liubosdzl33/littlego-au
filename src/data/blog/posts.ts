@@ -96,7 +96,6 @@ Whatever you do today, we hope you find a moment of peace and plenty of smiles. 
     `,
     imageUrl: 'https://images.unsplash.com/photo-1491234323906-4479bc131f16?q=80&w=2000&auto=format&fit=crop',
     tags: ["Mother's Day", "Melbourne Events", "Family Outings", "Autumn"]
-  }
   },
   {
     id: '4',
@@ -148,5 +147,105 @@ Happy playing!
     `,
     imageUrl: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=2000&auto=format&fit=crop',
     tags: ['Inner North', 'Northcote', 'Carlton', 'Fitzroy', 'Playground Guides']
-  }
+  },
+  {
+    id: '5',
+    title: 'Packing the Perfect Playground Bag: A Melbourne Parent’s Checklist',
+    slug: 'packing-perfect-playground-bag-melbourne',
+    excerpt: 'Avoid the mid-play meltdown with our ultimate guide to packing for a Melbourne park day. From sun safety to snack strategies, we have you covered.',
+    date: '2026-05-14',
+    author: 'LittleGo Team',
+    category: 'Parenting Tips',
+    content: `
+# Packing the Perfect Playground Bag: A Melbourne Parent’s Checklist
+
+We’ve all been there. You finally get the kids in the car, find a park, and just as you reach the swings, you realize you've forgotten the one thing that will prevent a total meltdown. In Melbourne, where the weather can go from "sunscreen required" to "puffer jacket essential" in the space of a single slide trip, being prepared is more than just a motto—it’s a survival skill.
+
+Today is Thursday, and as we look toward the weekend, it’s the perfect time to audit your playground bag. Here is our genuine, parent-tested checklist for a successful outing at any of Melbourne's fantastic [playgrounds](https://littlego.com.au/playgrounds).
+
+## 1. The Melbourne 'Four Seasons' Layering Kit
+The first rule of Melbourne parenting: never trust the morning sky. Even on a clear Autumn day in May, the wind off the bay can bite.
+- **Spare Socks:** If there’s a sandpit or a morning-dew-covered slide, socks *will* get wet.
+- **Light Beanie:** Easy to pack and a lifesaver when the sun goes behind a cloud.
+- **Sunscreen (Even in Winter):** Melbourne’s UV can be sneaky. We always recommend checking the UV rating on the [LittleGo app](https://littlego.com.au/) before you head out.
+
+## 2. The Snack Strategy: 'High Reward, Low Mess'
+Snacks are the ultimate currency at the playground. They can buy you an extra 15 minutes of peace or gracefully end a 'just one more slide' standoff.
+- **Pre-cut Fruit & Veg:** Easy to eat on the go.
+- **The "Bribe" Snack:** Something special (like a small box of sultanas or a muesli bar) kept in a zipped pocket for emergencies.
+- **Water Bottles:** One for every family member. Melbourne’s tap water is world-class, and most of the playgrounds we list have refilling stations!
+
+## 3. Practical Gear You Might Forget
+- **Hand Sanitizer & Wipes:** Playgrounds are hands-on. Wipes are not just for bottoms—they are for ice-cream faces and sticky fingers after exploring.
+- **A Small Plastic Bag:** For rubbish or those inevitable wet socks we mentioned earlier.
+- **A Portable Power Bank:** If you’re using [LittleGo](https://littlego.com.au/playgrounds) to find your next destination, you don’t want your phone dying mid-search.
+
+## 4. The "Mum/Dad Friend" Pro Tip
+If you’re heading to a park with a large sandpit (like **Ron Barassi Sr Park** in Docklands), throw a small paintbrush in your bag. It is the absolute best way to get sand off little feet before putting shoes back on. It’s a game-changer!
+
+## LittleGo Quick Links for Your Next Trip:
+- [Fenced Playgrounds](https://littlego.com.au/playgrounds?filter=fenced) - For when you need maximum security.
+- [Playgrounds with Toilets](https://littlego.com.au/playgrounds?filter=toilets) - Because "I need to go" always happens at the furthest point from home.
+- [Playgrounds with Shade](https://littlego.com.au/playgrounds?filter=shade) - Protect those little faces.
+
+What’s in your "emergency" kit? We’d love to hear your tips for surviving and thriving at Melbourne's parks. Until then, happy packing and even happier playing!
+    `,
+    imageUrl: 'https://images.unsplash.com/photo-1544365558-da562cbd7517?q=80&w=2000&auto=format&fit=crop',
+    tags: ['Parenting Tips', 'Melbourne', 'Playground Prep', 'Sun Safety']
+  },
+  {
+    id: '6',
+    title: 'Melbourne’s Best Cafes Near Playgrounds: The Friday "Coffee & Climb" Guide',
+    slug: 'best-melbourne-cafes-near-playgrounds',
+    excerpt: 'Is there anything better than a hot coffee and a happy toddler? Discover our favorite kid-friendly cafes in Melbourne with incredible playgrounds just a few steps away.',
+    date: '2026-05-15',
+    author: 'LittleGo Team',
+    category: 'Venue Reviews',
+    content: `
+# Melbourne’s Best Cafes Near Playgrounds: The Friday "Coffee & Climb" Guide
+
+It’s Friday, Melbourne! The week is winds down, the weekend energy is ramping up, and if you’re a parent, you’re probably looking for one thing: a decent caffeine hit and a place where the kids won't get "the look" for being, well, kids.
+
+In the world of parenting, the "Coffee & Climb" is a sacred ritual. It’s that magical window where you get to hold a warm cup with both hands while your little ones burn off energy within eyesight. Today, we’re sharing our top picks for Melbourne cafes that are perfectly positioned next to some of our [favorite playgrounds](https://littlego.com.au/playgrounds).
+
+## 1. Caulfield Park: The Triple Threat (Caulfield North)
+[Caulfield Park](https://littlego.com.au/playgrounds/caulfield-park) is a massive green lung in the Inner South East, but the real secret is the row of cafes along Hawthorn Road and Balaclava Road.
+
+**The Cafe:** **Einstein's 251** or **Lulu & Me**. Both are welcoming to families and offer great takeaway options if you'd rather sit on a park bench.
+**The Playground:** There are actually three distinct playground areas at Caulfield Park. For younger kids, the one near the corner of Hawthorn and Balaclava Rds is fantastic.
+**Pro Tip:** Grab a "babycinno" and head to the pond after the playground to see the ducks. It's a low-cost winner every time.
+
+## 2. Murrumbeena Park: The Community Hub (Murrumbeena)
+If you haven't been to [Murrumbeena Park](https://littlego.com.au/playgrounds/murrumbeena-park) lately, you’re missing out. It’s one of the best-equipped parks in the area, and it has the snacks to match.
+
+**The Cafe:** **Daniel Son** is a local favorite just a short stroll away on Neerim Road. They understand the "distracted parent" vibe perfectly.
+**The Playground:** This is a destination playground. It’s huge, features plenty of natural shade, and is fully fenced—a must for those with "runners."
+**Pro Tip:** There is also a small kiosk-style cafe often open right near the playground entrance during peak times/weekends, making it the ultimate "zero-effort" outing.
+
+## 3. Central Park: The Elegant Outing (Malvern East)
+For a slightly more "refined" playground experience (think beautiful established trees and wide paths), [Central Park](https://littlego.com.au/playgrounds/central-park-malvern) in Malvern East is hard to beat.
+
+**The Cafe:** **Central Park Cafe** is literally across the road. It’s iconic for a reason—the outdoor seating is great for keeping an eye on the pram.
+**The Playground:** The playground is fenced and sits under a canopy of gorgeous mature trees. It’s one of the few places in Melbourne where you can find genuine full natural shade in summer.
+**Pro Tip:** If you're there on a Friday afternoon, the vibe is wonderfully relaxed. It’s a great spot to meet up with other parent friends to "debrief" on the week.
+
+## 4. All Nations Park: The Inner North Gem (Northcote)
+Heading North? [All Nations Park](https://littlego.com.au/playgrounds/all-nations-park) is a hilly, modern sanctuary that feels miles away from the hustle of High Street.
+
+**The Cafe:** **All Are Welcome** (High St) for world-class pastries, or **Peacock Inn Hotel** if you’re looking for a kid-friendly Friday lunch.
+**The Playground:** Modern, inclusive, and featuring some of the best shade sails in the business.
+**Pro Tip:** The hill at All Nations Park is one of the best spots in Melbourne for a sunset view of the city—if the kids have any energy left after the slides!
+
+### The "Coffee & Climb" Etiquette Checklist:
+- **Keep it Takeaway:** Unless the cafe specifically has a play area inside, takeaway is usually the stress-free choice for everyone.
+- **Check the Shade:** Use the [LittleGo app](https://littlego.com.au/playgrounds) to check which playgrounds have the best shade for the time of day you're visiting.
+- **Bins are Best:** Melbourne's parks are beautiful—let’s keep them that way by using the bins for those empty coffee cups!
+
+Do you have a favorite "Coffee & Climb" spot that we missed? Let us know! We’re always looking for new venues to review for the LittleGo community.
+
+Happy Friday, and may your coffee be hot and your slides be fast!
+    `,
+    imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2000&auto=format&fit=crop',
+    tags: ['Cafe Reviews', 'Kid Friendly Melbourne', 'Coffee and Climb', 'Parenting']
+  },
 ];
