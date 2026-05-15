@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getPostBySlug, getRelatedPosts, formatDate, blogPosts } from '@/data/blog/posts';
+import { BlogPost } from '@/types/blog';
 
 interface BlogPostPageProps {
   params: {
@@ -9,20 +10,28 @@ interface BlogPostPageProps {
   };
 }
 
-const categoryDisplayNames = {
+const categoryDisplayNames: Record<string, string> = {
   'playgrounds': 'Playgrounds',
   'activities': 'Activities', 
   'events': 'Events',
   'tips': 'Tips',
-  'reviews': 'Reviews'
+  'reviews': 'Reviews',
+  'Guides': 'Guides',
+  'Weekend Planner': 'Weekend Planner',
+  'Seasonal': 'Seasonal',
+  'Parenting Tips': 'Parenting Tips'
 };
 
-const categoryColors = {
+const categoryColors: Record<string, string> = {
   'playgrounds': 'var(--color-green-medium)',
   'activities': 'var(--color-coral)',
   'events': '#8b5cf6',
   'tips': '#f59e0b',
-  'reviews': '#06b6d4'
+  'reviews': '#06b6d4',
+  'Guides': 'var(--color-green-medium)',
+  'Weekend Planner': '#8b5cf6',
+  'Seasonal': 'var(--color-coral)',
+  'Parenting Tips': '#f59e0b'
 };
 
 // Generate static params for all blog posts
