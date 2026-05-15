@@ -2,6 +2,68 @@ import { BlogPost } from '../../types/blog';
 
 export const posts: BlogPost[] = [
   {
+    id: '10',
+    title: 'Melbourne Weekend Planner: Magic, Moving Images, and Autumn Fun (May 16-17)',
+    slug: 'melbourne-weekend-planner-may-16-17-2026',
+    excerpt: 'Planning your weekend in Melbourne? From the Melbourne Magic Festival to immersive exhibitions and crisp autumn park days, here is your family-friendly guide for May 16-17.',
+    date: '2026-05-16',
+    publishedAt: '2026-05-16',
+    author: 'LittleGo Team',
+    category: 'activities',
+    content: `
+# Melbourne Weekend Planner: May 16-17, 2026
+
+Is there anything better than Melbourne in autumn? The leaves are turning gold, the coffee is hot, and there is a crispness in the air that just calls for a family adventure. This weekend, May 16-17, Melbourne is putting on a show with a mix of indoor magic and outdoor beauty.
+
+Whether you are looking to escape the morning chill or soak up some afternoon sun, we have rounded up the best family-friendly activities to keep everyone (from toddlers to teens) entertained.
+
+---
+
+## 🌤️ The Weekend Weather
+**Forecast:** Expect classic Melbourne autumn days. Crisp mornings (around 8°C) leading into sunny afternoons with highs of 16-17°C. It’s perfect "layering" weather—pack the puffer vests and light jackets!
+
+---
+
+## 🏛️ Top Weekend Highlights
+
+### 1. Melbourne Magic Festival
+The spell is cast! This weekend features the **Melbourne Magic Festival**, offering workshops and performances that will leave the kids (and you) wondering "How did they do that?". It’s a fantastic way to spend a few hours indoors if the breeze gets a bit too nippy.
+
+### 2. The Story of the Moving Image @ ACMI
+If you haven't taken the kids to **ACMI at Federation Square** lately, this is your sign. Their permanent exhibition, *The Story of the Moving Image*, is free and incredibly interactive. Kids can try their hand at "foley" (sound effects), see original props from famous films, and play with light and shadow.
+*   **Cost:** Free
+*   **Location:** Fed Square
+
+### 3. Imaginator: An Immersive Journey
+For something completely different, **Imaginator** (near District Docklands) is an immersive experience where technology meets play. It’s a series of rooms with light shows, soundscapes, and textures that are sensory heaven for younger children. It’s a paid experience, but great for a special weekend treat.
+
+---
+
+## 🌳 Playground Pick of the Week: Royal Park Nature Play
+With the sun forecasted for the afternoons, we recommend heading to **Royal Park Nature Play** (next to the Royal Children's Hospital).
+
+This isn't your standard plastic slide playground. It’s built for climbing, water play (maybe wait for a warmer day for the big splashes!), and exploring the natural landscape. The slides are fast, the climbing structures are high, and there is plenty of space for a picnic rug once the sun hits the grass.
+
+**Parent Pro-Tip:** The coffee truck is usually parked nearby on weekends, or take a short tram ride into Errol St, North Melbourne for some of the city's best bakeries.
+
+---
+
+## 💡 Quick Tips for the Weekend
+*   **Trams are your friend:** If you're heading into the CBD for ACMI or Imaginator, check the [Yarra Trams app](https://yarratrams.com.au/) for any weekend track works.
+*   **Snack Attack:** Autumn air makes everyone hungry! We love packing some roasted chickpeas or homemade muffins to keep the "hangry" monsters at bay between stops.
+*   **Footy's On:** Check the AFL schedule before heading near the MCG or Marvel Stadium—public transport will be busier around game times!
+
+Whatever you choose to do, enjoy the beautiful Melbourne autumn vibes. Don't forget to tag us in your playground photos!
+
+---
+
+*Looking for a specific playground near you? Use our [LittleGo Search](/search) to find the perfect spot based on your location and kids' ages.*
+`,
+    imageUrl: 'https://images.unsplash.com/photo-1545645062-817926f743ce?q=80&w=2000&auto=format&fit=crop',
+    tags: ['Weekend Planner', 'Family Fun', 'ACMI', 'Melbourne Magic Festival', 'Autumn']
+  },
+
+  {
     id: '1',
     title: '5 Best Fenced Playgrounds in Melbourne for Toddlers',
     slug: 'best-fenced-playgrounds-melbourne-toddlers',
