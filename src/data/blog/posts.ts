@@ -2,6 +2,64 @@ import { BlogPost } from '../../types/blog';
 
 export const posts: BlogPost[] = [
   {
+    id: '11',
+    title: 'Autumn to Winter in Melbourne: 5 Cozy Family Activities (May 2026)',
+    slug: 'melbourne-autumn-winter-family-activities-may-2026',
+    excerpt: 'As Melbourne transitions from gold autumn leaves to crisp winter mornings, discover the best cozy activities to keep the family warm and entertained.',
+    date: '2026-05-17',
+    publishedAt: '2026-05-17',
+    author: 'LittleGo Team',
+    category: 'activities',
+    content: `
+# Autumn to Winter in Melbourne: 5 Cozy Family Activities (May 2026)
+
+There is a specific kind of magic in Melbourne during mid-May. One day we are kicking through crunchy gold leaves in the Fitzroy Gardens, and the next, we are reaching for the heavy coats as the Antarctic winds give us a little nudge.
+
+As we shift from the peak of autumn into the early whispers of winter, it is the perfect time to mix those glorious "blue sky" park runs with some cozy, indoor sanctuaries. Whether you are looking for a free library session for your toddler or a decadent Sunday treat, here are five ways to enjoy the season transition as a family this week.
+
+---
+
+## 🍂 1. Outdoor Adventure: Fitzroy Gardens Explorer
+Before the winter rains truly settle in, make the most of the **Fitzroy Gardens Outdoor Adventure**. It’s a free, self-guided trail designed for kids to explore one of Melbourne's most beautiful historic gardens.
+
+The gardens are currently at their peak autumn vibrance. It’s a fantastic way to get the kids moving, and once they’ve finished the trail, you are right next to the **Dragon Playground** (a classic for a reason).
+
+*   **Parent Tip:** The paths are very pram-friendly, and the "Cooks' Cottage" area makes for some adorable seasonal photos.
+
+## 🍪 2. A Sweet Sunday: Chocolate Family Adventure Day
+If you are looking for a Sunday treat that feels like a warm hug, several venues across the city are hosting **Chocolate Family Adventure Days** this month. Think interactive workshops where kids can learn about (and taste!) chocolate, paired with a stress-free environment for parents.
+
+It’s the ultimate "winter is coming" indulgence. Check the *What’s On Melbourne* portal for specific time slots at participating CBD venues.
+
+## ⛸️ 3. Winter Vibes: The Fondue Chalet at Fed Square
+Ready to embrace the chill? The **Fondue Chalet** has returned to Federation Square! While it might sound like a date-night spot, it is actually incredibly fun for older kids and teens. Sitting in a mini "mountain chalet" in the heart of the city while dipping bread into melted cheese is a memory they won’t forget.
+
+*   **Suitability:** Best for school-aged kids and teens who can handle the "fondue etiquette" (and the heat!).
+
+## 🦕 4. Rainy Day Rescue: Dino Days @ The Library
+If the Melbourne clouds decide to open up, head to **narrm ngarrgu Library** (near Queen Vic Market) for **Dino Days**. Specifically designed for the 3-5 age group, it’s a free session filled with dinosaur stories, songs, and play.
+
+The new library space is stunning, with plenty of cozy corners for parents to sit while the little ones explore. Plus, you’re just a stone's throw from the market for a hot jam donut afterwards!
+
+## 🏰 5. Early Winter Prep: Royal Park Nature Play
+Even as it gets cooler, we advocate for "layering up" and heading outside. **Royal Park Nature Play** remains our top pick for mid-May. The natural wood and stone structures don’t get as icy as metal slides, and the wide-open spaces are perfect for a family game of tag to keep the blood pumping.
+
+---
+
+## 💡 Quick Seasonal Survival Tips
+*   **The Wind Factor:** A 15°C day in Melbourne can feel like 10°C if the wind is coming off the bay. Always check the "Feels Like" temperature on your weather app before choosing a playground.
+*   **Hot Refreshments:** We’ve started packing a thermos of warm Milo or herbal tea for the kids. It’s a game-changer for extending a park session by an extra 30 minutes!
+*   **Waterproof Shoes:** The grass is getting dewier and stays damp longer. It’s officially "gumboot season"—embrace it!
+
+How are you spending this transition week? Whether you are hunting for dinosaurs in the library or fondue in the city, we hope your family stays warm and happy!
+
+*Looking for more ideas? Search our [Playground Map](/playground) to find a spot with a nearby cafe for that essential winter coffee.*
+`,
+    imageUrl: 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=2000&auto=format&fit=crop',
+    tags: ['Autumn', 'Winter Prep', 'Melbourne Events', 'Family Fun', 'Free Kids Activities']
+  },
+
+  {
     id: '10',
     title: 'Melbourne Weekend Planner: Magic, Moving Images, and Autumn Fun (May 16-17)',
     slug: 'melbourne-weekend-planner-may-16-17-2026',
