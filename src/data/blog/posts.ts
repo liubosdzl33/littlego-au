@@ -2,6 +2,150 @@ import { BlogPost } from '../../types/blog';
 
 export const posts: BlogPost[] = [
   {
+    id: '14',
+    title: "What's On This Week in Melbourne: Family Fun May 20–24, 2026",
+    slug: 'melbourne-family-events-may-20-24-2026',
+    excerpt: 'From the Big Design Market to AR treasure hunts and magic workshops, discover the best family-friendly events in Melbourne this week.',
+    date: '2026-05-20',
+    publishedAt: '2026-05-20',
+    author: 'LittleGo Team',
+    category: 'activities',
+    content: `# What's On This Week in Melbourne: Family Fun May 20–24, 2026
+
+If you've stepped outside this morning, you've probably felt it—that crisp Melbourne bite that says autumn is well and truly here. But don't let the cooler mornings keep you cooped up! This week, May 20–24, Melbourne is serving up a wonderful mix of indoor wonder and outdoor adventure that's perfect for families of all ages.
+
+From world-first augmented reality treasure hunts to the final days of immersive design installations, here are our top picks for what's on this week.
+
+---
+
+## 💎 1. The Big Design Market: Almost Winter
+**When:** Friday, May 22 – Sunday, May 24  
+**Where:** Royal Exhibition Building, Carlton  
+
+If you love supporting local makers (and maybe getting a very early start on Christmas shopping), **The Big Design Market** is back for its 'Almost Winter' edition. While it might sound like a playground for adults, it's surprisingly family-friendly.
+
+*   **Why we love it:** There are dedicated creative workshops for kids, and the space itself—the glorious Royal Exhibition Building—is high enough that it never feels too claustrophobic, even with a pram.
+*   **Parent Tip:** Go early on Friday or Saturday morning to avoid the peak crowds. The food area is excellent, so plan for a gourmet lunch on-site!
+
+## 📱 2. Hunters and Raiders: An AR Adventure
+**When:** Ongoing this week  
+**Where:** Various CBD laneways and landmarks  
+
+Turn your next city walk into a high-stakes mission. **Hunters and Raiders** is a world-first augmented reality treasure hunt that uses your smartphone to reveal hidden clues and mysteries scattered across Melbourne's iconic brick walls and laneways.
+
+*   **Why we love it:** It turns "boring walking" into a game. It's a fantastic way to engage primary school-aged kids who might otherwise complain about tired legs.
+*   **Top Tip:** Make sure your phone is fully charged before you start, and wear comfortable walking shoes—you'll be covering some ground!
+
+## 🎪 3. Melbourne Magic Festival: Preview Week
+**When:** Workshops and smaller shows starting this week  
+**Where:** Various CBD and inner-north venues  
+
+The full festival technically kicks off soon, but many workshops and "close-up magic" sessions are already appearing on the calendar this week. It's an enchanting way to escape a sudden autumn shower.
+
+*   **Kid Factor:** Specifically look for the "Family Magic" sessions which are designed to be interactive and suitable for younger attention spans.
+*   **Location:** Most venues are easily accessible via the Free Tram Zone, making it a low-stress addition to a city day out.
+
+## 🎨 4. Final Days: Melbourne Design Week Installations
+**When:** Ending Sunday, May 24  
+**Where:** NGV International and various city pop-ups  
+
+It's the final week to catch the free installations for **Melbourne Design Week**. Many of these are large-scale, tactile, and visually stunning—perfect for curious little minds.
+
+*   **Why we love it:** It's "art you can walk through." The NGV usually has a few dedicated family-friendly spaces where kids can engage with design concepts through play.
+*   **Parent Tip:** Take the kids to the NGV garden afterwards; it's one of the best "hidden" spots for a run-around in the city.
+
+---
+
+## ☕ The Playground Check-In
+After a few hours exploring festivals and exhibitions, the kids will likely need to burn off some steam. If you're in the Carlton/CBD area for the Design Market, we highly recommend a pit stop at the **Lincoln Square Playground**. 
+
+It's got fantastic climbing structures and is surrounded by great cafes for that much-needed parent caffeine boost. You can find more details on this and other nearby spots on our [Playground Map](/search).
+
+## 🌤️ Strategic Planning for the Week
+*   **Layer Up:** The forecast is showing sunny days but the "feels like" temp is dipping. Puffer vests are your best friend this week—warm core, free arms!
+*   **Transport:** Remember that most of these events are within the Free Tram Zone. Park a little further out and tram in to save on CBD parking fees and make the journey part of the adventure.
+
+**What's your top pick for the week?** Tag us in your adventures @LittleGo_AU—we love seeing the city through your eyes!`,
+    imageUrl: 'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=2000&auto=format&fit=crop',
+    tags: ["What's On", "Melbourne Family", "Design Market", "Free Events", "May 2026"]
+  },
+  {
+    id: '13',
+    title: 'Top 5 Free Family Events in Melbourne This Week (May 19-24, 2026)',
+    slug: 'free-family-events-melbourne-may-19-24-2026',
+    excerpt: 'Looking for budget-friendly fun in Melbourne this week? From cultural festivals to interactive exhibits, here are the best free family events to enjoy between May 19 and 24.',
+    date: '2026-05-19',
+    publishedAt: '2026-05-19',
+    author: 'LittleGo Team',
+    category: 'activities',
+    content: `# Top 5 Free Family Events in Melbourne This Week (May 19-24, 2026)
+
+Melbourne is buzzing this week! As the autumn leaves continue to put on a show, the city is offering a fantastic lineup of free events that prove you don't need to break the bank to have a great time with the kids. 
+
+Whether you're looking to soak up some culture, enjoy some cinema, or just find a new pocket of the city to explore, here are our top picks for free family fun in Melbourne from May 19th to the 24th.
+
+---
+
+## 🐲 1. Satay and Reog Festival (May 23)
+**When:** Saturday, May 23  
+**Where:** Check [What's On Melbourne](https://whatson.melbourne.vic.gov.au/) for central CBD location details.
+
+Get ready for a feast for the senses! The **Satay and Reog Festival** is a vibrant celebration of Indonesian culture. The highlight for kids will definitely be the *Reog Ponorogo* dance, featuring performers in incredible, massive tiger-head masks adorned with peacock feathers. 
+
+*   **Why we love it:** It’s loud, colorful, and completely different from your standard weekend fare. Plus, the smell of grilling satay is enough to tempt even the pickiest eaters.
+*   **Parent Tip:** These festivals can get crowded quickly. Aim to arrive right at the start time to snag a good spot for the performances.
+
+## 🚶 2. The Long Walk: Naarm (May 22)
+**When:** Friday, May 22  
+**Where:** Starting centrally in Naarm (Melbourne CBD) towards the MCG.
+
+Join a powerful and positive community event. **The Long Walk** celebrates First Nations culture and marks the iconic walk taken by Michael Long. Before the walk itself, there’s usually plenty of entertainment and cultural activities that provide a great opportunity for kids to learn about the history and living culture of the Wurundjeri Woi-wurrung and Bunurong peoples.
+
+*   **Why we love it:** It’s more than just an event; it’s a chance to be part of a meaningful tradition. It’s accessible, educational, and very family-friendly.
+*   **Suitability:** All ages. The atmosphere is inclusive and welcoming.
+
+## 🎬 3. Melbourne Taiwan Film Festival (May 21-23)
+**When:** Thursday, May 21 – Saturday, May 23  
+**Where:** Various CBD cinema venues (check listings for specific "G" or "PG" rated sessions).
+
+The **Melbourne Taiwan Film Festival** is back, and this year’s program includes several beautiful animations and family-oriented stories. It’s a wonderful way to introduce older children to international cinema and different perspectives through the medium of light and story.
+
+*   **Parent Tip:** Book your free tickets online in advance! These sessions often fill up, and it’s much easier than trying to join a standby queue with kids in tow.
+
+## 📖 4. Rebel Heart: Love Letters Exhibition
+**When:** Ongoing until Jan 2027 (Great for a mid-week visit!)  
+**Where:** State Library Victoria
+
+While "Love Letters" might sound a bit dry for a toddler, the **Rebel Heart** exhibition at the State Library is actually quite visually engaging. The library itself is a wonder for kids—those massive domes and secret-feeling corridors are perfect for a "quiet adventure."
+
+*   **Why we love it:** It’s an indoor sanctuary if a sudden Melbourne shower hits. You can explore the archive and then head to the dedicated children's area in the library for some play and reading time.
+*   **Top Tip:** Combine this with a visit to the nearby **Queen Victoria Market** for a hot jam donut to reward those "inside voices."
+
+## 🎡 5. Melbourne Design Week (Until May 24)
+**When:** Final days ending Sunday, May 24  
+**Where:** Various locations across the city and NGV International.
+
+It's the final week of **Melbourne Design Week**, and there are dozens of free installations scattered throughout the city. Look out for the more interactive "urban interventions"—sometimes these include temporary play structures or light installations that are designed to make people rethink the city space.
+
+*   **Parent Tip:** Check the program for "family-friendly" filters. Many exhibitions at the NGV are free and very welcoming to families.
+
+---
+
+## 🌤️ Getting Around This Week
+Melbourne's autumn weather can be unpredictable. This week's forecast suggests quite a bit of sunshine but with a sharp wind. 
+
+*   **Layer Up:** We’re in that "four seasons in one day" territory. Puffer jackets that fold down into bags are your best friend right now.
+*   **Free Tram Zone:** All of the events above are within or very close to the Free Tram Zone in the CBD. It makes hopping between the library and a festival site super easy (and free!).
+
+**Where will you be heading this week?** Tag us in your photos @LittleGo_AU—we love seeing families out and about exploring our beautiful city!
+
+---
+
+*Looking for a playground to burn off some of that energy after a festival? Search our [Playground Map](/search) to find the nearest fenced park or play area!*`,
+    imageUrl: 'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=2000&auto=format&fit=crop',
+    tags: ['What\'s On', 'Free Events', 'Melbourne Family', 'Budget Friendly', 'Autumn 2026']
+  },
+  {
     id: '12',
     title: 'The Best Playgrounds in Melbourne’s Northern Suburbs: A Local Parent’s Guide',
     slug: 'best-playgrounds-melbourne-northern-suburbs',
