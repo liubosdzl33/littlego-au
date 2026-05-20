@@ -2,6 +2,69 @@ import { BlogPost } from '../../types/blog';
 
 export const posts: BlogPost[] = [
   {
+    id: '15',
+    title: 'The Ultimate Park Bag Checklist: Essential Gear for Melbourne Parents',
+    slug: 'melbourne-park-bag-essentials-checklist',
+    excerpt: 'Forget the "four seasons in one day" stress. From "sanity snacks" to the essential first-aid kit, here is every parent’s guide to packing the perfect Melbourne park bag.',
+    date: '2026-05-21',
+    publishedAt: '2026-05-21',
+    author: 'LittleGo Team',
+    category: 'Parenting Tips',
+    content: `# The Ultimate Park Bag Checklist: Essential Gear for Melbourne Parents
+
+If you\'ve ever arrived at a playground in the Melbourne suburbs only to realize you\'ve forgotten the sunhats (on a high-UV day) or the toddler\'s favorite water bottle (the blue one, obviously—the red one is lava), you know that park bag prep is basically an Olympic sport.
+
+As we settle into the mid-May chill, packing for the park in Melbourne requires a bit of strategic thinking. You need to be prepared for the "four seasons in one day" phenomenon while keeping the bag light enough that you can still chase a runaway toddler.
+
+After years of trial and error (and many emergency trips to local supermarkets), here is the LittleGo Team’s ultimate checklist for the perfect Melbourne park bag.
+
+---
+
+## 🎒 1. The Survival Basics (The "Don\'t Leave Without These")
+
+*   **The "Sanity Snacks":** Never underestimate the power of a snack. Pack double what you think you need. Our go-tos are roasted chickpeas, apple slices, and those little cheese wheels.
+*   **Water Bottles:** It sounds obvious, but a leak-proof bottle for every family member is essential. *Pro-Tip: If it\'s a crisp morning, pack a small thermos of warm Milo or tea for yourself—it\'s a game changer.*
+*   **Wipes (And More Wipes):** Even if your kids are long past the nappy stage, wet wipes are essential for sticky faces, muddy hands, and the inevitable "I touched something gross" moment.
+*   **A Compact First-Aid Kit:** You don\'t need a full paramedic kit, but a few band-aids (the themed ones have healing powers), antiseptic wipes, and a small tube of sting-relief cream will save many afternoons.
+
+## 🌤️ 2. The Melbourne "Weather-Proof" Kit
+
+Melbourne weather is a fickle beast. Even when the forecast says sunny, the breeze off the bay can be bitingly cold.
+
+*   **The "Puffer" Layer:** Puffer vests or lightweight down jackets are the official uniform of Melbourne parents. They keep the core warm while leaving arms free for pushing swings and catching kids at the bottom of slides.
+*   **Sun Protection:** Yes, even in May! The UV in Melbourne can still hit moderate levels in the middle of the day. A small roll-on zinc and "the hat" should stay in the bag year-round.
+*   **The Spare Socks:** If your kids love nature play (like at the **Royal Park Nature Play** area), someone is going to get wet feet. A spare pair of socks takes up no room but prevents a total meltdown.
+
+## 🌲 3. The "Play Pro" Extras
+
+*   **A Lightweight Picnic Mat:** Look for one with a waterproof backing. The grass in Melbourne parks like **Fitzroy Gardens** stays damp late into the morning in autumn.
+*   **Trash Bags:** Be a park hero. Pack a couple of compostable bags for your own rubbish and to pick up any stray litter.
+*   **Ball or Frisbee:** Sometimes the playground equipment is crowded. Having a ball in the bottom of the bag ensures the "big kids" have something to do while the little ones wait for the swing.
+
+---
+
+## ☕ Parent Tip: The Coffee Strategic Map
+
+Before you even step out the door, check the [LittleGo Search](/search) to see which playgrounds have a nearby cafe. In the cooler months, knowing there is a hot latte within a 5-minute walk of the slide is often the only thing that gets us out of the house!
+
+If you\'re heading towards the inner north, we highly recommend a stop at **Lincoln Square**—it\'s surrounded by great coffee spots and the playground itself is fantastic for all ages.
+
+## 🗒️ Free Downloadable Checklist
+
+To make your mornings easier, we\'ve put together a quick list you can keep on your phone:
+
+1.  **Hydration:** Water bottles (x Number of Humans)
+2.  **Nutrition:** 2x snacks, 1x "Emergency" snack
+3.  **Hygiene:** Wipes, Hand Sani, Spare Nappy/Undies
+4.  **Weather:** Sunscreen, Hats, Puffer Vests
+5.  **First Aid:** Band-aids, Antiseptic, Tissues
+6.  **Play:** Ball/Frisbee, Waterproof Picnic Mat
+
+**What is your "can\'t live without" park bag item?** Let us know in the comments or tag us @LittleGo_AU on your next park adventure!`,
+    imageUrl: 'https://images.unsplash.com/photo-1544145945-f904253d0c7b?q=80&w=2000&auto=format&fit=crop',
+    tags: ['Parenting Tips', 'Park Bag', 'Melbourne Parents', 'Checklist', 'Autumn']
+  },
+  {
     id: '14',
     title: "What's On This Week in Melbourne: Family Fun May 20–24, 2026",
     slug: 'melbourne-family-events-may-20-24-2026',
