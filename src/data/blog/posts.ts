@@ -1,6 +1,69 @@
 import { BlogPost } from '../../types/blog';
 
-export const posts: BlogPost[] = [
+export const posts: BlogPost[] = [  {
+    id: '16',
+    title: 'Cafe Reviews: Best Kid-Friendly Coffee Spots Near Melbourne Playgrounds',
+    slug: 'kid-friendly-cafes-melbourne-playgrounds',
+    excerpt: 'Because we know the secret to a successful park trip is a great latte nearby. Here are our favorite kid-friendly cafes within walking distance of Melbournes top playgrounds.',
+    date: '2026-05-22',
+    publishedAt: '2026-05-22',
+    author: 'LittleGo Team',
+    category: 'reviews',
+    content: `# Cafe Reviews: Best Kid-Friendly Coffee Spots Near Melbourne Playgrounds
+
+If you are a parent in Melbourne, you know that the "holy grail" of weekend outings is finding a playground that is paired with a truly excellent cafe. We aren\'t just talking about a lukewarm brew in a paper cup—we mean a place where the beans are specialty-grade, the babyccinos are frothy, and the walk to the slide is less than five minutes.
+
+As we head into late May, having a warm sanctuary to grab a flat white before (or after) the park session is essential. Here are the LittleGo Team’s top kid-friendly cafe and playground pairings for your next Melbourne adventure.
+
+---
+
+## ☕ 1. The Local Folk + York Street Reserve (Pascoe Vale South)
+
+If you haven\'t visited **York Street Reserve** in Pascoe Vale South lately, you are missing out on one of the best toddler-friendly, fully fenced playgrounds in the north. But the real winner? **The Local Folk** cafe is just a stone\'s throw away.
+
+*   **The Vibe:** Exceptionally welcoming to families. They have a small internal play area for those "it\'s just started raining" moments, and the staff are masters of the "extra-sprinkles" babyccino.
+*   **The Coffee:** Solid, reliable, and served with a smile.
+*   **The Pairing:** Grab your coffee to go and walk the 100 meters to the York Street gates. Since the park is fenced, you can actually sit on a bench and SIP your coffee while it\'s still hot. Revolutionay, we know.
+
+## 🥯 2. Northside Fruit & Veg + Lincoln Square (Carlton)
+
+While not a traditional "cafe-only" spot, the area surrounding **Lincoln Square** in Carlton is a caffeine lover\'s paradise. Our favorite strategic move? Heading to the nearby cafes on Bouverie St or Rathdowne St.
+
+*   **The Vibe:** Academic meets chaotic energy. You\'ll see students with laptops and toddlers with sticky faces sharing the same sidewalk. 
+*   **The Food:** Don\'t skip the pastries. Carlton has some of the best croissants in the city.
+*   **The Pairing:** Lincoln Square is an architectural marvel of a playground. It\'s great for all ages, with plenty of timber climbing structures. The proximity to the CBD makes it a perfect pit-stop during a city day out.
+
+## 🍪 3. Inner North Staples + Royal Park Nature Play (Parkville)
+
+**Royal Park Nature Play** is a destination playground. It\'s massive, tactile, and can keep kids busy for hours. However, it\'s a big site, and you\'ll need fuel.
+
+*   **The Selection:** While there is often a coffee cart on-site on weekends, we recommend stopping in North Melbourne (Errol St) or Parkville before you arrive.
+*   **The Move:** If you are coming from the city, grab a treat from a bakery on Errol St. The walk through the park to the playground is beautiful in late autumn, with the leaves providing a golden canopy.
+*   **Parent Tip:** This playground is all about nature play (water and sand). Bring a change of clothes—if the kids don\'t get muddy, did they even play?
+
+---
+
+## 🥨 4. Gatehouse 7 + Fitzroy Gardens
+
+If you are heading to the **Fitzroy Gardens** for an autumn leaf-kicking session, **Gatehouse 7** is perfectly positioned right near the playground and the model Tudor Village.
+
+*   **The Vibe:** Classic Melbourne park pavilion. It\'s breezy, bright, and very used to prams.
+*   **The Food:** Great kid-friendly snacks and simple, fresh lunch options.
+*   **The Pairing:** Visit the **Dragon Playground** first, then head to the cafe for a sit-down lunch. It\'s a great way to break up the day.
+
+---
+
+## 🌤️ Late May Park Tips
+
+*   **Babyccino Temperatures:** Always ask for "kids\' temp" this time of year—nothing ruins a park trip faster than a burnt tongue and a spilled drink.
+*   **Reusable Cups:** Most local cafes near our favorite parks offer a discount if you bring your own cup. It\'s a small win for the planet and your wallet!
+*   **Check the Map:** Before you head out, use the [LittleGo Search](/search) to see which playgrounds near you have been tagged with "Nearby Cafe."
+
+**What is your favorite cafe-playground duo?** Tag us on Instagram @LittleGo_AU and let us know!`,
+    imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2000&auto=format&fit=crop',
+    tags: ['Cafe Reviews', 'Melbourne Cafes', 'Kid Friendly', 'Playgrounds', 'Parenting']
+  },
+
   {
     id: '15',
     title: 'The Ultimate Park Bag Checklist: Essential Gear for Melbourne Parents',
